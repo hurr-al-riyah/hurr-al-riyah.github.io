@@ -9,11 +9,20 @@
     <script src="https://d3js.org/d3.v5.min.js"></script>
 </head>
 <body>
-    <input type="file" id="fileInput" />
+    <select id="categorySelect">
+        <option value="" disabled selected>카테고리 선택</option>
+        <option value="1007_실전레이스">1007 실전레이스</option>
+        <option value="팀선발_모의레이스">팀선발 모의레이스</option>
+    </select>
+    
+    <select id="fileSelect" disabled>
+        <option value="" disabled selected>파일 선택</option>
+    </select>
 
     <div id="svg"></div>
 
-    <div id="legend-controls">
+
+    <div id="legend-controls" style="display: none;">
         <button type="button" class="once" id="selectAll">전체 선택</button>
         <button type="button" class="once"id="deselectAll">전체 해제</button>
 
@@ -22,9 +31,10 @@
     </div>
     <div id="legend"></div>
 
-    <p> Select Base Umamusume: </p>
-    <div id="baseUmaContainer"></div>
-
+    <div id="select-base-uma" style="display: none;">
+        <p> Select Base Umamusume: </p>
+        <div id="baseUmaContainer"></div>
+    </div>
     <script src="script.js"></script>
 
 </body>

@@ -38,3 +38,9 @@ button.category {
     border-color: #333;
     border-radius: 5px;
 }
+
+select {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}

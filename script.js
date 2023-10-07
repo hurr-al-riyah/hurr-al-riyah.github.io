@@ -6,7 +6,55 @@ const colors = [
     '#9edae5', '#c5b0d5', '#dbdb8d', '#g6abae', '#c49c94',
 ];
 
-document.getElementById('fileInput').addEventListener('change', handleFileSelect, false);
+const categories = {
+    "1007_실전레이스": [
+        "더트_단거리.txt",
+        "더트_장거리.txt",
+        "잔디_마일.txt",
+        "잔디_중거리.txt"
+    ],
+    "팀선발_모의레이스": [
+        "더트_단거리.txt",
+        "더트_장거리.txt",
+        "더트_중거리.txt",
+        "잔디_마일.txt",
+        "잔디_장거리.txt",
+        "잔디_중거리.txt"
+    ]
+};
+
+document.getElementById('categorySelect').addEventListener('change', function(e) {
+    const fileSelect = document.getElementById('fileSelect');
+    fileSelect.innerHTML = '<option value="" disabled selected>파일 선택</option>';
+    
+    const selectedCategory = e.target.value;
+    if (selectedCategory) {
+        fileSelect.disabled = false;
+        categories[selectedCategory].forEach(file => {
+            const option = document.createElement('option');
+            option.value = `data/${selectedCategory}/${file}`;
+            option.textContent = file.replace('.txt', '');
+            fileSelect.appendChild(option);
+        });
+    } else {
+        fileSelect.disabled = true;
+    }
+});
+
+document.getElementById('fileSelect').addEventListener('change', function(e) {
+    const filePath = e.target.value;
+    fetch(filePath)
+        .then(response => response.text())
+        .then(contents => {
+            const filePath = e.target.value;
+            handleSelectedFile(filePath);
+
+            document.getElementById('legend-controls').style.display = 'block';
+            document.getElementById('select-base-uma').style.display = 'block';
+        })
+        .catch(error => console.error('Error:', error));
+});
+
 
 let showDistance = true;
 let showSpeed = true;
@@ -15,55 +63,51 @@ function is_valid_data_line(line) {
     return line.startsWith("◎Turn") || line.trim().match(/^\d+\s:/);
 }
 
-function handleFileSelect(event) {
-    const file = event.target.files[0];
-    if (!file) {
-        return;
-    }
+function handleSelectedFile(filePath) {
+    fetch(filePath)
+        .then(response => response.text())
+        .then(contents => {
+            const lines = contents.split('\n').filter(is_valid_data_line);
+            const umaData = {};
+            let turns = [];
 
-    const reader = new FileReader();
-    reader.onload = function(fileEvent) {
-        const contents = fileEvent.target.result;
-        const lines = contents.split('\n').filter(is_valid_data_line);
-        const umaData = {};
-        let turns = [];
+            lines.forEach(line => {
+                if (line.startsWith("◎Turn")) {
+                    turns.push(parseInt(line.split(" ")[1]));
+                    return;
+                }
 
-        lines.forEach(line => {
-            if (line.startsWith("◎Turn")) {
-                turns.push(parseInt(line.split(" ")[1]));
-                return;
-            }
+                const parts = line.split('/');
+                const name = line.split(':')[1].split(':')[0].trim();
+                const distance = parseFloat(line.split(':')[2].split('/')[0].trim().slice(0, -1));
+                const speed = parseFloat(line.split(':')[3].trim().slice(0, -4));
 
-            const parts = line.split('/');
-            const name = line.split(':')[1].split(':')[0].trim();
-            const distance = parseFloat(line.split(':')[2].split('/')[0].trim().slice(0, -1));
-            const speed = parseFloat(line.split(':')[3].trim().slice(0, -4));
+                if (!(name in umaData)) {
+                    umaData[name] = {distance: [], speed: []};
+                }
 
+                umaData[name].distance.push(distance);
+                umaData[name].speed.push(speed);
+            });
 
-            if (!(name in umaData)) {
-                umaData[name] = {distance: [], speed: []};
-            }
+            const labels = Object.keys(umaData);
+            populateBaseUmaSelect(labels); // 드롭다운 메뉴에 옵션 추가
 
-            umaData[name].distance.push(distance);
-            umaData[name].speed.push(speed);
-        });
+            globalData = labels.map(label => ({  // globalData에 그래프 데이터 저장
+                name: label,
+                distance: umaData[label].distance,
+                speed: umaData[label].speed,
+                turns: turns,
+                active: true
+            }));
 
-        const labels = Object.keys(umaData);
-        populateBaseUmaSelect(labels); // 드롭다운 메뉴에 옵션 추가
-
-        globalData = labels.map(label => ({  // globalData에 그래프 데이터 저장
-            name: label,
-            distance: umaData[label].distance,
-            speed: umaData[label].speed,
-            turns: turns,
-            active: true
-        }));
-
-        drawGraph(globalData);
-        drawLegend(globalData);
-    };
-    reader.readAsText(file);
+            console.log('globalData before drawGraph:', globalData);
+            drawLegend(globalData);
+            drawGraph(globalData);
+        })
+        .catch(error => console.error('Error:', error));
 }
+
 
 function populateBaseUmaSelect(labels) {
     const baseUmaContainer = document.getElementById('baseUmaContainer');
@@ -149,6 +193,8 @@ function toggleData(name) {
 
 
 function drawGraph(data) {
+    console.log('Drawing graph with data:', data);
+    
     const baseUmaSelect = document.querySelector('#baseUmaContainer .base-item.selected');
     let baseUmaName;
     if (baseUmaSelect == null) {
@@ -165,19 +211,17 @@ function drawGraph(data) {
     const height = 400 - margin.top - margin.bottom;
     
     // SVG를 선택하거나 없으면 새로 만듭니다.
-    const svg = d3.select("#svg").selectAll("svg")
-    .data([data])
-    .join(
-        enter => enter.append("svg")
+    let svg = d3.select("#svg").select("svg");
+    if (svg.empty()) {
+        svg = d3.select("#svg")
+            .append("svg")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
-            .attr("transform", `translate(${margin.left},${margin.top})`),
-        update => update
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
-    )
-    .select("g");
+            .attr("transform", `translate(${margin.left},${margin.top})`);
+    } else {
+        svg = svg.select("g");
+    }
         
     const minY = Math.min(0, d3.min(data, uma => d3.min(uma.distance, (d, i) => d - baseUma.distance[i])));
     const maxY = Math.max(0, d3.max(data, uma => d3.max(uma.distance, (d, i) => d - baseUma.distance[i])));
