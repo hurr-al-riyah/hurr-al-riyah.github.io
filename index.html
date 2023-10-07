@@ -9,6 +9,11 @@
     <script src="https://d3js.org/d3.v5.min.js"></script>
 </head>
 <body>
+
+    <header>
+        <h1 class="center-header">경주 결과 가시화 도구</h1>
+    </header>
+
     <select id="categorySelect">
         <option value="" disabled selected>카테고리 선택</option>
         <option value="1007_실전레이스">1007 실전레이스</option>
@@ -20,7 +25,6 @@
     </select>
 
     <div id="svg"></div>
-
 
     <div id="legend-controls" style="display: none;">
         <button type="button" class="once" id="selectAll">전체 선택</button>
@@ -35,6 +39,17 @@
         <p> Select Base Umamusume: </p>
         <div id="baseUmaContainer"></div>
     </div>
+
+    <footer>
+        <p class="footer-text">제작: 리야흐 오일 인더스트리 | 총괄책임: 사아마 알-리야흐</p>
+        <p class="footer-text">
+            코드 깃허브 라이브러리: 
+            <a href="https://github.com/hurr-al-riyah/hurr-al-riyah.github.io" target="_blank" rel="noopener noreferrer" class="github-link">
+                https://github.com/hurr-al-riyah/hurr-al-riyah.github.io
+            </a>
+        </p>
+    </footer>
+
     <script src="script.js"></script>
 
 </body>
