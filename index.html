@@ -4,12 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umamusume race result</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
 </head>
 <body>
     <input type="file" id="fileInput" />
-    <div id="graph"></div>
+
+    <div id="svg"></div>
+
+    <div id="legend-controls">
+        <button type="button" class="once" id="selectAll">전체 선택</button>
+        <button type="button" class="once"id="deselectAll">전체 해제</button>
+
+        <button type="button" class="category" id="distance">거리차</button>
+        <button type="button" class="category" id="speed">속도</button>
+    </div>
+    <div id="legend"></div>
+
+    <p> Select Base Umamusume: </p>
+    <div id="baseUmaContainer"></div>
 
     <script src="script.js"></script>
+
 </body>
 </html>
