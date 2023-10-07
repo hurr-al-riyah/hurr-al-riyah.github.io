@@ -37,10 +37,10 @@ function drawGraph(data) {
 
     Plotly.newPlot('graph', traces, {
         xaxis: {
-            title: '거리'
+            title: 'Distance'
         },
         yaxis: {
-            title: '속도'
+            title: 'Speed'
         }
     });
 }
