@@ -11,7 +11,7 @@
 <body>
 
     <header>
-        <h1 class="center-header">경주 결과 가시화 도구 v1.1</h1>
+        <h1 class="center-header">경주 결과 가시화 도구 v1.2</h1>
     </header>
 
     <select id="categorySelect">
@@ -33,17 +33,24 @@
         <button type="button" class="category category-on" id="distance">거리차</button>
         <button type="button" class="category category-on" id="speed">속도</button>
     </div>
-    <div id="legend"></div>
+    
+    <div id="select-uma" style="display: none;">
+        <div id="select-legend">
+            <p> 표시할 우마무스메: </p>
+            <div id="legend"></div>
+        </div>
 
-    <div id="select-base-uma" style="display: none;">
-        <p> 거리차 계산용 기준 우마무스메: </p>
-        <div id="baseUmaContainer"></div>
+        <div id="select-base-uma">
+            <p> 거리차 계산용 기준 우마무스메: </p>
+            <div id="baseUmaContainer"></div>
+        </div>
     </div>
+
 
     <footer>
         <div id="version-info" class="footer-left">
             <p class="footer-text">
-                <a href="version-history.html" target="_blank" rel="noopener noreferrer" class="footer-link" id="version">version 1.1</a>
+                <a href="version-history.html" target="_blank" rel="noopener noreferrer" class="footer-link" id="version">version 1.2</a>
             </p>
         </div>
     

@@ -52,13 +52,6 @@ footer {
     text-decoration: underline;
 }
 
-
-#legend {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 button.once {
     margin: 5px;
     padding: 10px 20px;
@@ -87,6 +80,16 @@ button.category {
 .category-off {
     text-decoration: line-through;
     background-color: #eee;
+}
+
+#select-uma {
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#select-legend, #select-base-uma {
+    flex: 1;
 }
 
 .base-item, .legend-item {

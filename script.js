@@ -49,8 +49,8 @@ document.getElementById('fileSelect').addEventListener('change', function(e) {
             const filePath = e.target.value;
             handleSelectedFile(filePath);
 
+            document.getElementById('select-uma').style.display = 'flex';
             document.getElementById('legend-controls').style.display = 'block';
-            document.getElementById('select-base-uma').style.display = 'block';
         })
         .catch(error => console.error('Error:', error));
 });
@@ -321,10 +321,14 @@ function drawGraph(data) {
             left = 850;
             top = svgRect.top + window.scrollY;
         } 
-        else {
+        else if (screenWidth > 820) {
             const selectBaseUmaRect = document.getElementById('select-base-uma').getBoundingClientRect();
-            left = 300;
+            left = 500;
             top = selectBaseUmaRect.top + window.scrollY;
+        }else{
+            const selectBaseUmaRect = document.getElementById('select-uma').getBoundingClientRect();
+            left = selectBaseUmaRect.left;
+            top = selectBaseUmaRect.bottom + 20 + window.scrollY;
         }
 
         if (turnIndex < 0 || turnIndex >= turns.length) {
