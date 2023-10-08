@@ -11,7 +11,11 @@ const categories = {
         {display: "더트 단거리 - 불비넬라 컵", file: "더트_단거리.txt"},
         {display: "더트 장거리 - 요렐리아 컵", file: "더트_장거리.txt"},
         {display: "잔디 중거리 - 쿠쿠라타 컵", file: "잔디_중거리.txt"},
-        {display: "잔디 마일 - 나탄스 컵", file: "잔디_마일.txt"}
+        {display: "잔디 마일 - 나탄스 컵", file: "잔디_마일.txt"},
+        {display: "잔디 단거리 - 미니마 컵", file: "잔디_단거리.txt"},
+        {display: "더트 중거리 - 니포피아 컵", file: "더트_중거리.txt"},
+        {display: "더트 마일 - 하월시아 컵", file: "더트_마일.txt"},
+        {display: "잔디 장거리 - 몰레스타 컵", file: "잔디_장거리.txt"}
     ],
     "팀선발_모의레이스": [
         {display: "더트 단거리", file: "더트_단거리.txt"},
