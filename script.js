@@ -1,4 +1,4 @@
-let globalData = null;  // 그래프를 그릴 때 사용할 데이터를 저장할 전역 변수
+let globalData = null;  // graph data
 
 const colors = [
     '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
@@ -8,32 +8,32 @@ const colors = [
 
 const categories = {
     "1007_실전레이스": [
-        "더트_단거리.txt",
-        "더트_장거리.txt",
-        "잔디_마일.txt",
-        "잔디_중거리.txt"
+        {display: "더트 단거리 - 불비넬라 컵", file: "더트_단거리.txt"},
+        {display: "더트 장거리 - 요렐리아 컵", file: "더트_장거리.txt"},
+        {display: "잔디 중거리 - 쿠쿠라타 컵", file: "잔디_중거리.txt"},
+        {display: "잔디 마일 - 나탄스 컵", file: "잔디_마일.txt"}
     ],
     "팀선발_모의레이스": [
-        "더트_단거리.txt",
-        "더트_장거리.txt",
-        "더트_중거리.txt",
-        "잔디_마일.txt",
-        "잔디_장거리.txt",
-        "잔디_중거리.txt"
+        {display: "더트 단거리", file: "더트_단거리.txt"},
+        {display: "더트 장거리", file: "더트_장거리.txt"},
+        {display: "더트 중거리", file: "더트_중거리.txt"},
+        {display: "잔디 마일", file: "잔디_마일.txt"},
+        {display: "잔디 장거리", file: "잔디_장거리.txt"},
+        {display: "잔디 중거리", file: "잔디_중거리.txt"}
     ]
 };
 
 document.getElementById('categorySelect').addEventListener('change', function(e) {
     const fileSelect = document.getElementById('fileSelect');
-    fileSelect.innerHTML = '<option value="" disabled selected>파일 선택</option>';
+    fileSelect.innerHTML = '<option value="" disabled selected>경주 종목 선택</option>';
     
     const selectedCategory = e.target.value;
     if (selectedCategory) {
         fileSelect.disabled = false;
-        categories[selectedCategory].forEach(file => {
+        categories[selectedCategory].forEach(item => {
             const option = document.createElement('option');
-            option.value = `data/${selectedCategory}/${file}`;
-            option.textContent = file.replace('.txt', '');
+            option.value = `data/${selectedCategory}/${item.file}`;
+            option.textContent = item.display;
             fileSelect.appendChild(option);
         });
     } else {
@@ -115,16 +115,16 @@ function populateBaseUmaSelect(labels) {
 
     labels.forEach((label, index) => {
         const baseUmaItem = document.createElement('div');
-        baseUmaItem.classList.add('base-item');  // 레전드 스타일을 사용
+        baseUmaItem.classList.add('base-item');
         baseUmaItem.textContent = label;
-        baseUmaItem.style.color = colors[index];  // colors는 그래프의 색상 배열
+        baseUmaItem.style.color = colors[index];
 
         baseUmaItem.onclick = () => {
             document.querySelectorAll('#baseUmaContainer .base-item').forEach(item => {
-                item.classList.remove('selected');  // 다른 항목의 선택을 제거
+                item.classList.remove('selected'); 
             });
-            baseUmaItem.classList.add('selected');  // 클릭된 항목을 선택
-            drawGraph(globalData);  // 그래프를 업데이트
+            baseUmaItem.classList.add('selected');
+            drawGraph(globalData);
         };
 
         baseUmaContainer.appendChild(baseUmaItem);
@@ -132,25 +132,42 @@ function populateBaseUmaSelect(labels) {
 }
 
 document.getElementById('selectAll').addEventListener('click', () => {
-    globalData.forEach(item => item.active = true);  // 모든 데이터를 활성 상태로 설정
-    drawGraph(globalData);  // 그래프를 다시 그림
-    updateLegendStyles();  // 레전드의 스타일을 업데이트
+    globalData.forEach(item => item.active = true);
+    drawGraph(globalData);
+    updateLegendStyles();
 });
 
 document.getElementById('deselectAll').addEventListener('click', () => {
-    globalData.forEach(item => item.active = false);  // 모든 데이터를 비활성 상태로 설정
-    drawGraph(globalData);  // 그래프를 다시 그림
-    updateLegendStyles();  // 레전드의 스타일을 업데이트
+    globalData.forEach(item => item.active = false); 
+    drawGraph(globalData);
+    updateLegendStyles();
 });
 
 document.getElementById('distance').addEventListener('click', () => {
     showDistance = !showDistance;
-    drawGraph(globalData);  // 그래프를 다시 그림
+    drawGraph(globalData);
+
+    const distanceBtn = document.getElementById('distance');
+    if(showDistance) {
+        distanceBtn.classList.remove('category-off');
+        distanceBtn.classList.add('category-on');
+    } else {
+        distanceBtn.classList.remove('category-on');
+        distanceBtn.classList.add('category-off');
+    }
 });
 
 document.getElementById('speed').addEventListener('click', () => {
     showSpeed = !showSpeed;
-    drawGraph(globalData);  // 그래프를 다시 그림
+    drawGraph(globalData);
+    const speedBtn = document.getElementById('speed');
+    if(showSpeed) {
+        speedBtn.classList.remove('category-off');
+        speedBtn.classList.add('category-on');
+    } else {
+        speedBtn.classList.remove('category-on');
+        speedBtn.classList.add('category-off');
+    }
 });
 
 function updateLegendStyles() {
@@ -159,9 +176,9 @@ function updateLegendStyles() {
         const itemName = item.textContent.trim();
         const isActive = globalData.find(data => data.name === itemName).active;
         if (isActive) {
-            item.classList.add('selected');
-        } else {
             item.classList.remove('selected');
+        } else {
+            item.classList.add('selected');
         }
     });
 }
@@ -174,11 +191,11 @@ function drawLegend(data) {
         const legendItem = document.createElement('div');
         legendItem.classList.add('legend-item');
         legendItem.textContent = item.name;
-        legendItem.style.color = colors[index];  // colors는 그래프의 색상 배열
+        legendItem.style.color = colors[index];
 
         legendItem.onclick = () => {
             legendItem.classList.toggle('selected');
-            toggleData(item.name);  // toggleData는 데이터를 표시/숨기는 함수
+            toggleData(item.name);
         };
 
         legendContainer.appendChild(legendItem);
@@ -187,8 +204,8 @@ function drawLegend(data) {
 
 function toggleData(name) {
     const target = globalData.find(d => d.name === name);
-    target.active = !target.active;  // active 상태 토글
-    drawGraph(globalData);  // 그래프 다시 그리기
+    target.active = !target.active;
+    drawGraph(globalData);
 }
 
 
@@ -209,8 +226,13 @@ function drawGraph(data) {
     const margin = {top: 20, right: 30, bottom: 40, left: 50};
     const width = 800 - margin.left - margin.right;
     const height = 400 - margin.top - margin.bottom;
+
+    const uma_index = {};
+    data.forEach((uma, index) => {
+        uma_index[uma.name] = index;
+    });
     
-    // SVG를 선택하거나 없으면 새로 만듭니다.
+    // svg 선택 (없으면 새로 생성)
     let svg = d3.select("#svg").select("svg");
     if (svg.empty()) {
         svg = d3.select("#svg")
@@ -248,12 +270,12 @@ function drawGraph(data) {
             .attr("d", line)
             .attr("fill", "none")
             .attr("stroke", (d, i) => colors[i])
-            .attr("stroke-opacity", (d, i) => showDistance? (data[i].active ? 1 : 0) : 0),  // 활성 상태에 따라 투명도 설정
+            .attr("stroke-opacity", (d, i) => showDistance? (data[i].active ? 1 : 0) : 0),
         update => update
             .transition()
             .duration(300)
             .attr("d", line)
-            .attr("stroke-opacity", (d, i) => showDistance? (data[i].active ? 1 : 0) : 0),  // 활성 상태에 따라 투명도 설정
+            .attr("stroke-opacity", (d, i) => showDistance? (data[i].active ? 1 : 0) : 0),
         exit => exit.remove()
     );
 
@@ -269,33 +291,100 @@ function drawGraph(data) {
             .attr("d", speedLine)
             .attr("fill", "none")
             .attr("stroke", (d, i) => colors[i])
-            .attr("stroke-dasharray", ("3, 3"))  // 점선 스타일로 만듭니다.
-            .attr("stroke-opacity", (d, i) => showSpeed? (data[i].active ? 1 : 0) : 0),  // 활성 상태에 따라 투명도 설정
+            .attr("stroke-dasharray", ("3, 3"))
+            .attr("stroke-opacity", (d, i) => showSpeed? (data[i].active ? 1 : 0) : 0),
         update => update
             .transition()
             .duration(300)
             .attr("d", speedLine)
-            .attr("stroke-opacity", (d, i) => showSpeed ? (data[i].active ? 1 : 0) : 0),  // 활성 상태에 따라 투명도 설정
+            .attr("stroke-opacity", (d, i) => showSpeed ? (data[i].active ? 1 : 0) : 0),
         exit => exit.remove()
     );
+
+    // 토글
+    let tooltip = d3.select("body").select(".tooltip");
+    if (tooltip.empty()) {
+        tooltip = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
+    }
+
+    d3.select("#svg").select("svg").on("mousemove", (event) => {
+        const [x, y] = d3.pointer(event);
+        const xValue = xScale.invert(x - margin.left); // margin.left를 빼서 그래프의 x 좌표를 정확하게 매핑합니다.
+        const turnIndex = d3.bisect(turns, xValue); 
+        const turn = turns[turnIndex]; 
+    
+        if (turnIndex < 0 || turnIndex >= turns.length) {
+            tooltip.style("opacity", 0);
+            return;
+        }
+    
+        const values = data
+            .filter(uma => uma.active)  
+            .map(uma => {
+                const distance = uma.distance[turnIndex];
+                const speed = uma.speed[turnIndex];
+                return {
+                    name: uma.name,
+                    speed,
+                    distance,
+                    isBase: uma.name === baseUmaName
+                };
+            })
+            .sort((a, b) => b.distance - a.distance);
+    
+        const tableRows = values.map(uma => {
+            let umaName = uma.name;
+            if (uma.name === baseUmaName) {
+                umaName = `<strong>${umaName}</strong>`;
+            }
+            return `<tr style="${uma.isBase ? 'background-color: rgba(0,0,0,0.1);' : ''}">
+                        <td><span style="color: ${colors[uma_index[uma.name]]}">${umaName}</span></td>
+                        <td>${uma.speed.toFixed(2)}</td>
+                        <td>${uma.distance.toFixed(2)}</td>
+                    </tr>`;
+        }).join('');
+    
+        tooltip.html(`<div>Turn: ${turn}</div>
+                      <table>
+                          <thead>
+                              <tr>
+                                  <th>Name</th>
+                                  <th>Speed</th>
+                                  <th>Position</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              ${tableRows}
+                          </tbody>
+                      </table>`)
+                //.style("left", (d3.pointer(event)[0] + 5) + "px")
+                //.style("top", (d3.pointer(event)[1] - 28) + "px")
+                .style("opacity", 1);
+    });
+    
+
+
+    // x축, y축, y보조축
         
-    svg.selectAll("g.axis").remove();  // 기존 축을 삭제
+    svg.selectAll("g.axis").remove();  // 기존 축 삭제 (없으면 새로 불러올때 축 겹침)
         
     const tickValues = turns.filter((_, i, arr) => i % Math.ceil(arr.length / 20) === 0);
     // X축 추가
     svg.append("g")
         .attr("class", "axis")
-        .attr("transform", "translate(0,360)")  // X축의 위치 조정
+        .attr("transform", "translate(0,360)")
         .call(d3.axisBottom(xScale).tickValues(tickValues));
 
     // Y축 추가
     svg.append("g")
         .attr("class", "axis")
-        .attr("transform", "translate(0,0)")  // Y축의 위치 조정
+        .attr("transform", "translate(0,0)")
         .call(d3.axisLeft(yScale));
 
     svg.append("g")
     .attr("class", "y2 axis")
     .attr("transform", `translate(${width},0)`) 
-    .call(d3.axisRight(y2Scale));  // 우측에 위치한 Y축을 그립니다.
+    .call(d3.axisRight(y2Scale));
 }

@@ -7,7 +7,6 @@
     margin-bottom: 20px;
 }
 
-/* Footer 스타일 */
 footer {
     background-color: #333;
     color: white;
@@ -22,14 +21,35 @@ footer {
     margin: 0;
 }
 
-.github-link {
-    color: #ffa500; /* 링크의 색상을 오렌지색으로 설정, 원하는 색상으로 변경 가능 */
-    text-decoration: none; /* 밑줄 제거 */
+.footer-left {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    padding: 10px;
+    left: 10px;
 }
 
-.github-link:hover {
-    text-decoration: underline; /* 마우스 오버시 밑줄 추가 */
-    color: #ff4500; /* 마우스 오버시 색상 변경 */
+.footer-right {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    padding: 10px;
+    right: 40px;
+}
+
+.clickable {
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-link {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
 }
 
 
@@ -53,12 +73,20 @@ button.once {
 button.category {
     margin: 5px;
     padding: 10px 20px;
-    background-color: #ccc;
-    color: #000;
     font-size: 14px;
     cursor: pointer;
     border-color: #333;
     border-radius: 5px;
+}
+
+.category-on {
+    background-color: #ccc;
+    color: #000;
+}
+
+.category-off {
+    text-decoration: line-through;
+    background-color: #eee;
 }
 
 .base-item, .legend-item {
@@ -78,4 +106,26 @@ select {
     width: 300px;
     padding: 10px;
     margin: 10px;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: left;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background: #eee;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
 }

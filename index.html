@@ -6,22 +6,22 @@
     <title>Umamusume race result</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
 
     <header>
-        <h1 class="center-header">경주 결과 가시화 도구 v1.0</h1>
+        <h1 class="center-header">경주 결과 가시화 도구 v1.1</h1>
     </header>
 
     <select id="categorySelect">
-        <option value="" disabled selected>카테고리 선택</option>
-        <option value="1007_실전레이스">1007 실전레이스</option>
+        <option value="" disabled selected>경주 일자 선택</option>
+        <option value="1007_실전레이스">1007 실전레이스 (GIII)</option>
         <option value="팀선발_모의레이스">팀선발 모의레이스</option>
     </select>
     
     <select id="fileSelect" disabled>
-        <option value="" disabled selected>파일 선택</option>
+        <option value="" disabled selected>경주 종목 선택</option>
     </select>
 
     <div id="svg"></div>
@@ -30,25 +30,36 @@
         <button type="button" class="once" id="selectAll">전체 선택</button>
         <button type="button" class="once"id="deselectAll">전체 해제</button>
 
-        <button type="button" class="category" id="distance">거리차</button>
-        <button type="button" class="category" id="speed">속도</button>
+        <button type="button" class="category category-on" id="distance">거리차</button>
+        <button type="button" class="category category-on" id="speed">속도</button>
     </div>
     <div id="legend"></div>
 
     <div id="select-base-uma" style="display: none;">
-        <p> Select Base Umamusume: </p>
+        <p> 거리차 계산용 기준 우마무스메: </p>
         <div id="baseUmaContainer"></div>
     </div>
 
     <footer>
-        <p class="footer-text">제작: 리야흐 오일 인더스트리 | 총괄책임: 사아마 알-리야흐</p>
-        <p class="footer-text">
-            코드 깃허브 라이브러리: 
-            <a href="https://github.com/hurr-al-riyah/hurr-al-riyah.github.io" target="_blank" rel="noopener noreferrer" class="github-link">
-                https://github.com/hurr-al-riyah/hurr-al-riyah.github.io
-            </a>
-        </p>
+        <div id="version-info" class="footer-left">
+            <p class="footer-text">
+                <a href="version-history.html" target="_blank" rel="noopener noreferrer" class="footer-link" id="version">version 1.1</a>
+            </p>
+        </div>
+    
+        <div class="footer-center">
+            <p class="footer-text">제작: 리야흐 오일 인더스트리 | 총괄책임: 사아마 알-리야흐</p>
+        </div>
+    
+        <div class="footer-right">
+            <p class="footer-text">
+                <a href="https://github.com/hurr-al-riyah/hurr-al-riyah.github.io" target="_blank" rel="noopener noreferrer" class="footer-link">
+                    Source code
+                </a>
+            </p>
+        </div>
     </footer>
+    
 
     <script src="script.js"></script>
 
