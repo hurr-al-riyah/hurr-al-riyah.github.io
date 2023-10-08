@@ -101,7 +101,6 @@ function handleSelectedFile(filePath) {
                 active: true
             }));
 
-            console.log('globalData before drawGraph:', globalData);
             drawLegend(globalData);
             drawGraph(globalData);
         })
@@ -210,8 +209,6 @@ function toggleData(name) {
 
 
 function drawGraph(data) {
-    console.log('Drawing graph with data:', data);
-    
     const baseUmaSelect = document.querySelector('#baseUmaContainer .base-item.selected');
     let baseUmaName;
     if (baseUmaSelect == null) {
@@ -310,11 +307,26 @@ function drawGraph(data) {
     }
 
     d3.select("#svg").select("svg").on("mousemove", (event) => {
+        const screenWidth = window.innerWidth;
         const [x, y] = d3.pointer(event);
         const xValue = xScale.invert(x - margin.left); // margin.left를 빼서 그래프의 x 좌표를 정확하게 매핑합니다.
         const turnIndex = d3.bisect(turns, xValue); 
         const turn = turns[turnIndex]; 
+        let left;
+        let top;
     
+        if (screenWidth > 1150) {
+            // select-base-uma div 우측에 툴팁을 표시
+            const svgRect = d3.select("#svg").node().getBoundingClientRect();
+            left = 850;
+            top = svgRect.top + window.scrollY;
+        } 
+        else {
+            const selectBaseUmaRect = document.getElementById('select-base-uma').getBoundingClientRect();
+            left = 300;
+            top = selectBaseUmaRect.top + window.scrollY;
+        }
+
         if (turnIndex < 0 || turnIndex >= turns.length) {
             tooltip.style("opacity", 0);
             return;
@@ -359,8 +371,8 @@ function drawGraph(data) {
                               ${tableRows}
                           </tbody>
                       </table>`)
-                //.style("left", (d3.pointer(event)[0] + 5) + "px")
-                //.style("top", (d3.pointer(event)[1] - 28) + "px")
+                .style("left", left + "px")
+                .style("top", top + "px")
                 .style("opacity", 1);
     });
     

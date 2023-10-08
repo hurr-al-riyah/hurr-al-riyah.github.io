@@ -94,6 +94,7 @@ button.category {
     padding: 5px;
     border: 1px solid #ccc;
     cursor: pointer;
+    width: 150px;
 }
 
 .base-item.selected, .legend-item.selected {
