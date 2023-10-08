@@ -1,4 +1,6 @@
 let globalData = null;  // graph data
+let raceCategory = "";   // ex) 1007_실전레이스
+let raceDetail = "";    // ex) 더트-단거리.txt
 
 const colors = [
     '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
@@ -27,11 +29,44 @@ const categories = {
     ]
 };
 
+const umaOrder = [
+    '후르 알-리야흐',
+    '마운틴스 섀플리',
+    '블랙 팁 마블',
+    '미티어 더스트',
+    '포츈 투유',
+    '더 라스트 일루전',
+    '박 섬광석화',
+    '유피아 데저트로즈',
+    '치쿠모 코토리',
+    '온 세마치',
+    '굿나잇 스이밍',
+    '이터니티 블랙홀',
+    '페니 레인',
+    '트윈 페르소나',
+    '데네브 네오스',
+    '페트리코어 선샤워'
+];
+
+function getUmaOrder(name) {
+    const index = umaOrder.indexOf(name);
+    return index === -1 ? 999 : index;
+}
+
+async function loadUmaStats() {
+    const response = await fetch('umaStats.json');
+    const data = await response.json();
+    return data;
+}
+
+
 document.getElementById('categorySelect').addEventListener('change', function(e) {
     const fileSelect = document.getElementById('fileSelect');
     fileSelect.innerHTML = '<option value="" disabled selected>경주 종목 선택</option>';
     
     const selectedCategory = e.target.value;
+    raceCategory = selectedCategory;
+
     if (selectedCategory) {
         fileSelect.disabled = false;
         categories[selectedCategory].forEach(item => {
@@ -47,6 +82,8 @@ document.getElementById('categorySelect').addEventListener('change', function(e)
 
 document.getElementById('fileSelect').addEventListener('change', function(e) {
     const filePath = e.target.value;
+    raceDetail = filePath.split('/').pop().replace('.txt', '').replace(/_/g, ' ');
+
     fetch(filePath)
         .then(response => response.text())
         .then(contents => {
@@ -93,10 +130,9 @@ function handleSelectedFile(filePath) {
                 umaData[name].distance.push(distance);
                 umaData[name].speed.push(speed);
             });
-
+            
             const labels = Object.keys(umaData);
-            populateBaseUmaSelect(labels); // 드롭다운 메뉴에 옵션 추가
-
+            
             globalData = labels.map(label => ({  // globalData에 그래프 데이터 저장
                 name: label,
                 distance: umaData[label].distance,
@@ -104,22 +140,26 @@ function handleSelectedFile(filePath) {
                 turns: turns,
                 active: true
             }));
-
+            
+            globalData.sort((a, b) => getUmaOrder(a.name) - getUmaOrder(b.name));
+            
+            populateBaseUmaSelect(globalData);
             drawLegend(globalData);
+            drawStat(globalData);
             drawGraph(globalData);
         })
         .catch(error => console.error('Error:', error));
 }
 
 
-function populateBaseUmaSelect(labels) {
+function populateBaseUmaSelect(data) {
     const baseUmaContainer = document.getElementById('baseUmaContainer');
     baseUmaContainer.innerHTML = '';
 
-    labels.forEach((label, index) => {
+    data.forEach((item, index) => {
         const baseUmaItem = document.createElement('div');
         baseUmaItem.classList.add('base-item');
-        baseUmaItem.textContent = label;
+        baseUmaItem.textContent = item.name;
         baseUmaItem.style.color = colors[index];
 
         baseUmaItem.onclick = () => {
@@ -209,6 +249,45 @@ function toggleData(name) {
     const target = globalData.find(d => d.name === name);
     target.active = !target.active;
     drawGraph(globalData);
+}
+
+async function drawStat(data) {
+    const umaStats = await loadUmaStats();
+    const raceStats = umaStats[raceCategory];
+
+    let tableHtml = `
+        <table border="1">
+            <tr>
+                <th>우마무스메 이름</th>
+                <th>속도</th>
+                <th>스태</th>
+                <th>파워</th>
+                <th>근성</th>
+                <th>지능</th>
+                <th>각질</th>
+            </tr>
+    `;
+
+    data.forEach(uma => {
+        const umaName = uma.name;
+        const stats = raceStats[umaName]?.stat;
+        if (stats) {
+            tableHtml += `
+                <tr>
+                    <td>${umaName}</td>
+                    <td>${stats.speed}</td>
+                    <td>${stats.stamina}</td>
+                    <td>${stats.power}</td>
+                    <td>${stats.tough}</td>
+                    <td>${stats.intel}</td>
+                    <td>${raceStats[umaName]["running_style"][raceDetail]}</td>
+                </tr>
+            `;
+        }
+    });
+
+    tableHtml += '</table>';
+    document.getElementById('uma-stats').innerHTML = tableHtml;
 }
 
 
@@ -313,7 +392,7 @@ function drawGraph(data) {
     d3.select("#svg").select("svg").on("mousemove", (event) => {
         const screenWidth = window.innerWidth;
         const [x, y] = d3.pointer(event);
-        const xValue = xScale.invert(x - margin.left); // margin.left를 빼서 그래프의 x 좌표를 정확하게 매핑합니다.
+        const xValue = xScale.invert(x - margin.left);
         const turnIndex = d3.bisect(turns, xValue); 
         const turn = turns[turnIndex]; 
         let left;
@@ -330,9 +409,9 @@ function drawGraph(data) {
             left = 500;
             top = selectBaseUmaRect.top + window.scrollY;
         }else{
-            const selectBaseUmaRect = document.getElementById('select-uma').getBoundingClientRect();
-            left = selectBaseUmaRect.left;
-            top = selectBaseUmaRect.bottom + 20 + window.scrollY;
+            const selectUmaStatsRect = document.getElementById('uma-stats').getBoundingClientRect();
+            left = selectUmaStatsRect.left;
+            top = selectUmaStatsRect.bottom + 20 + window.scrollY;
         }
 
         if (turnIndex < 0 || turnIndex >= turns.length) {
