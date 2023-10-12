@@ -1,6 +1,6 @@
 let globalData = null;  // graph data
 let raceCategory = "";   // ex) 1007_실전레이스
-let raceDetail = "";    // ex) 더트-단거리.txt
+let raceDetail = "";    // ex) 더트-단거리.txt -> 더트 단거리
 
 const colors = [
     '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
@@ -92,6 +92,7 @@ document.getElementById('fileSelect').addEventListener('change', function(e) {
 
             document.getElementById('select-uma').style.display = 'flex';
             document.getElementById('legend-controls').style.display = 'block';
+            videoInit();
         })
         .catch(error => console.error('Error:', error));
 });
@@ -486,4 +487,211 @@ function drawGraph(data) {
     .attr("class", "y2 axis")
     .attr("transform", `translate(${width},0)`) 
     .call(d3.axisRight(y2Scale));
+}
+
+
+// race video start
+let globalVideoData = [];
+let maxVideoTurn = 100000;
+let currentTurn = 0;
+let animationInterval = null;
+let videoSpeed = 50;
+
+const videoSlider = document.getElementById("video-turn-slider");
+videoSlider.addEventListener('input', (e) => {
+    currentTurn = parseInt(e.target.value, 10); 
+    drawVideo(currentTurn);
+});
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const videoSpeedInput = document.getElementById('video-speed-input');
+
+    videoSpeedInput.addEventListener('input', (e) => {
+        const value = parseInt(e.target.value, 10);
+
+        if (value >= 1 && value <= 200) {
+            videoSpeed = value;
+            if (animationInterval != null) {
+                videoStop();
+                videoStart();
+            }
+        } else {
+            e.target.value = videoSpeed;
+        }
+    });
+});
+
+
+function videoInit()
+{
+    fetch('raceDataPath.json')
+    .then(response => response.json())
+    .then(data => {
+        // 값 초기화
+        globalVideoData = [];
+        maxVideoTurn = 100000;
+        currentTurn = 0;
+        clearInterval(animationInterval);
+        animationInterval = null;
+        videoSpeed = 50;
+
+        let files = data[raceCategory][raceDetail];
+        const promises = files.map(file => {
+            return fetch("data/" + raceCategory + "/" + raceDetail + "/" + file)
+                .then(response => response.text())
+                .then(contents => {
+                    const umaName = file.split('_').pop().replace('.csv', '')
+                    const umaVideoData = handleVideoDataSingleUma(contents);
+            
+                    const labels = Object.keys(umaVideoData);
+
+                    const posX = labels.map(label => umaVideoData[label].posX);
+                    const posY = labels.map(label => umaVideoData[label].posY);
+
+                    globalVideoData.push({
+                        name: umaName,
+                        posX,
+                        posY,
+                        laneNo: umaVideoData.laneNo
+                    });
+                })
+                .catch(error => console.error('Error:', error));
+        });
+        Promise.all(promises).then(() => {
+            document.getElementById('race-video').style.display = 'block';
+
+            globalVideoData.sort((a, b) => a.laneNo - b.laneNo);
+
+            videoSlider.max = maxVideoTurn;
+            videoSlider.value = 0;
+            drawVideo(0);
+        });
+    })
+    .catch(error => console.error('Error:', error));
+}
+
+function handleVideoDataSingleUma(data)
+{
+    const lines = data.split('\n');
+    const umaData = {};
+    let laneNo = 0;
+
+    // 첫 번째 line은 skip. 두 번째 line부터 시작 (두 번째 line이 turn 1이므로)
+    umaData[0] = {};
+    umaData[0].posX = 0;
+    umaData[0].posY = parseFloat(lines[1].split(',')[5]);
+    for (let i = 1; i < lines.length; i++) {
+        const parts = lines[i].split(',');
+        const posX = parseFloat(parts[4]);
+        const posY = parseFloat(parts[5]);
+
+        if (i === 1) {
+            laneNo = posY;
+        }else{
+            if (umaData[i-1].posX == posX) {
+                if (maxVideoTurn > i) {
+                    maxVideoTurn = i;
+                }
+            }
+        }
+        umaData[i] = {};
+        umaData[i].posX = posX;
+        umaData[i].posY = posY;
+    };
+    umaData.laneNo = laneNo;
+
+    return umaData;
+}
+
+function drawVideo(turn)
+{
+    const svg = d3.select("#video-svg");
+    svg.selectAll("*").remove();
+
+    const uma_index = {};
+    globalVideoData.forEach((uma) => {
+        uma_index[uma.name] = getUmaOrder(uma.name);
+    });
+    const orderedUmas = Object.keys(uma_index)
+    .filter(name => uma_index[name] !== 999)
+    .sort((a, b) => uma_index[a] - uma_index[b]);
+    orderedUmas.forEach((name, index) => {
+        uma_index[name] = index;
+    });
+
+    const allPosX = globalVideoData.map(uma => uma.posX[turn]);
+    const allPosY = globalVideoData.map(uma => uma.posY[turn]);
+
+    const diffPosX = Math.max(...allPosX) - Math.min(...allPosX);
+    const rangeXMin = 400 - diffPosX * 10 > 100 ? 400 - diffPosX * 10 : 100;
+
+    const xScale = d3.scaleLinear()
+        .domain([Math.min(...allPosX), Math.max(...allPosX)])
+        .range([rangeXMin, 800-rangeXMin]);
+
+    const yScale = d3.scaleLinear()
+        .domain([Math.min(...allPosY), Math.max(...allPosY)])
+        .range([80, 20]);  
+
+    const circles = svg.selectAll("circle")
+        .data(globalVideoData)
+        .join("circle")
+        .attr("cx", d => xScale(d.posX[turn]))
+        .attr("cy", d => yScale(d.posY[turn]))
+        .attr("r", 8)
+        .attr("fill", d => colors[uma_index[d.name]])
+
+    circles.selectAll("title")
+        .data(d => [d])
+        .join("title")
+        .text(d => d.name);
+
+    const texts = svg.selectAll("text")
+        .data(globalVideoData)
+        .join("text")
+        .attr("x", d => xScale(d.posX[turn]))
+        .attr("y", d => yScale(d.posY[turn]))
+        .attr("dy", "0.3em")
+        .attr("text-anchor", "middle")
+        .attr("font-size", "10px")
+        .attr("fill", "white")
+        .text(d => d.laneNo);
+
+    const xAxis = d3.axisBottom(xScale);
+    const yAxis = d3.axisLeft(yScale);
+
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", `translate(0,100)`)
+        .call(xAxis);
+
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis);
+    
+    document.getElementById('current-turn').innerText = `Turn: ${turn}`;
+    videoSlider.value = turn;
+}
+
+function videoStart(){
+    if (animationInterval == null) {
+        animationInterval  = setInterval(() => {
+            drawVideo(currentTurn);
+            currentTurn += 1;
+            if (currentTurn >= maxVideoTurn) {
+                clearInterval(animationInterval);
+                currentTurn = maxVideoTurn;
+            }
+        }, videoSpeed);
+    }
+};
+
+function videoStop() {
+    clearInterval(animationInterval);
+    animationInterval = null;
+}
+
+function videoToFirst() {
+    currentTurn = 0;
+    drawVideo(0);
 }
