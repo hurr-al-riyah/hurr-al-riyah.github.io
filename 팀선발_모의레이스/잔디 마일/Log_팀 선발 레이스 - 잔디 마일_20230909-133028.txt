@@ -1,0 +1,632 @@
+◎Turn 20
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.43 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 22.21 / currPosition : <12.47, 4.00> / Stamina : 99.71% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 22.29 / currPosition : <12.47, 5.00> / Stamina : 99.71% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 19.53 / defaultTarget(m/s) : 19.53 / spurtTarget(m/s) : 21.40 / currPosition : <12.31, 1.00> / Stamina : 99.55% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 19.42 / defaultTarget(m/s) : 19.42 / spurtTarget(m/s) : 21.09 / currPosition : <12.30, 3.00> / Stamina : 99.55% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.86 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 21.85 / currPosition : <12.29, 5.90> / Stamina : 99.55% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 19.27 / defaultTarget(m/s) : 19.27 / spurtTarget(m/s) : 20.99 / currPosition : <12.28, 1.95> / Stamina : 99.55% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+
+◎Turn 40
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.46 / defaultTarget(m/s) : 20.63 / spurtTarget(m/s) : 22.21 / currPosition : <33.87, 4.00> / Stamina : 98.91% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.42 / defaultTarget(m/s) : 20.60 / spurtTarget(m/s) : 22.29 / currPosition : <33.86, 5.00> / Stamina : 98.92% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.20 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 21.85 / currPosition : <32.49, 5.70> / Stamina : 98.45% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 19.57 / defaultTarget(m/s) : 19.57 / spurtTarget(m/s) : 21.40 / currPosition : <32.26, 0.55> / Stamina : 98.49% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 19.37 / defaultTarget(m/s) : 19.37 / spurtTarget(m/s) : 20.99 / currPosition : <32.20, 1.75> / Stamina : 98.50% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         블랙 팁 마블 - targetSpeed(m/s) : 20.03 / defaultTarget(m/s) : 19.36 / spurtTarget(m/s) : 21.09 / currPosition : <32.09, 2.75> / Stamina : 98.52% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 60
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 22.29 / currPosition : <55.27, 5.00> / Stamina : 98.12% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 22.21 / currPosition : <55.27, 4.00> / Stamina : 98.12% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.12 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.85 / currPosition : <52.61, 5.70> / Stamina : 97.36% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 19.58 / defaultTarget(m/s) : 19.58 / spurtTarget(m/s) : 21.40 / currPosition : <51.78, 0.55> / Stamina : 97.51% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 19.42 / defaultTarget(m/s) : 19.42 / spurtTarget(m/s) : 21.09 / currPosition : <51.51, 2.25> / Stamina : 97.55% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 20.49 / defaultTarget(m/s) : 19.31 / spurtTarget(m/s) : 20.99 / currPosition : <51.48, 1.25> / Stamina : 97.55% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 80
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 20.62 / spurtTarget(m/s) : 22.21 / currPosition : <76.66, 4.00> / Stamina : 97.32% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 20.56 / spurtTarget(m/s) : 22.29 / currPosition : <76.64, 5.00> / Stamina : 97.32% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.20 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 21.85 / currPosition : <72.73, 5.70> / Stamina : 96.28% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 19.56 / defaultTarget(m/s) : 19.56 / spurtTarget(m/s) : 21.40 / currPosition : <71.29, 0.55> / Stamina : 96.54% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 19.42 / defaultTarget(m/s) : 19.42 / spurtTarget(m/s) : 21.09 / currPosition : <70.82, 2.05> / Stamina : 96.61% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 20.95 / defaultTarget(m/s) : 19.32 / spurtTarget(m/s) : 20.99 / currPosition : <70.80, 0.45> / Stamina : 96.60% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 100
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 20.63 / spurtTarget(m/s) : 22.21 / currPosition : <98.04, 4.00> / Stamina : 96.52% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 20.58 / spurtTarget(m/s) : 22.29 / currPosition : <98.03, 5.00> / Stamina : 96.52% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.13 / defaultTarget(m/s) : 20.13 / spurtTarget(m/s) : 21.85 / currPosition : <92.85, 5.70> / Stamina : 95.19% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 19.54 / defaultTarget(m/s) : 19.54 / spurtTarget(m/s) : 21.40 / currPosition : <90.81, 0.55> / Stamina : 95.56% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 20.00 / defaultTarget(m/s) : 19.42 / spurtTarget(m/s) : 21.09 / currPosition : <90.11, 1.70> / Stamina : 95.66% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 19.26 / defaultTarget(m/s) : 19.26 / spurtTarget(m/s) : 20.99 / currPosition : <90.11, 0.45> / Stamina : 95.90% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+
+◎Turn 120
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 22.21 / currPosition : <120.94, 4.00> / Stamina : 95.73% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.42 / defaultTarget(m/s) : 20.59 / spurtTarget(m/s) : 22.29 / currPosition : <120.82, 5.00> / Stamina : 95.72% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.24 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 21.85 / currPosition : <113.79, 5.70> / Stamina : 94.10% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 19.52 / defaultTarget(m/s) : 19.52 / spurtTarget(m/s) : 21.40 / currPosition : <111.37, 0.55> / Stamina : 94.58% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 19.34 / defaultTarget(m/s) : 19.34 / spurtTarget(m/s) : 20.99 / currPosition : <110.33, 0.45> / Stamina : 95.26% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         블랙 팁 마블 - targetSpeed(m/s) : 19.86 / defaultTarget(m/s) : 19.39 / spurtTarget(m/s) : 21.09 / currPosition : <110.28, 1.50> / Stamina : 94.71% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 140
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 20.58 / spurtTarget(m/s) : 22.21 / currPosition : <144.01, 4.00> / Stamina : 94.93% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 20.63 / spurtTarget(m/s) : 22.29 / currPosition : <143.73, 5.00> / Stamina : 94.93% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.14 / defaultTarget(m/s) : 20.14 / spurtTarget(m/s) : 21.85 / currPosition : <135.23, 5.70> / Stamina : 93.01% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 19.59 / defaultTarget(m/s) : 19.59 / spurtTarget(m/s) : 21.40 / currPosition : <132.96, 0.55> / Stamina : 93.60% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 19.31 / defaultTarget(m/s) : 19.31 / spurtTarget(m/s) : 21.09 / currPosition : <131.68, 0.55> / Stamina : 93.75% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 20.35 / defaultTarget(m/s) : 19.38 / spurtTarget(m/s) : 20.99 / currPosition : <131.67, 0.45> / Stamina : 94.34% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 160
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 20.62 / spurtTarget(m/s) : 22.21 / currPosition : <167.08, 4.00> / Stamina : 94.13% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.42 / defaultTarget(m/s) : 20.60 / spurtTarget(m/s) : 22.29 / currPosition : <166.67, 5.00> / Stamina : 94.13% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.22 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 21.85 / currPosition : <156.68, 5.70> / Stamina : 91.93% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 19.52 / defaultTarget(m/s) : 19.52 / spurtTarget(m/s) : 21.40 / currPosition : <154.55, 0.55> / Stamina : 92.62% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 19.41 / defaultTarget(m/s) : 19.41 / spurtTarget(m/s) : 21.09 / currPosition : <153.04, 0.45> / Stamina : 92.88% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 20.29 / defaultTarget(m/s) : 19.32 / spurtTarget(m/s) : 20.99 / currPosition : <153.02, 0.45> / Stamina : 93.66% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 180
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 22.21 / currPosition : <190.17, 4.00> / Stamina : 93.34% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.43 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 22.29 / currPosition : <189.58, 5.00> / Stamina : 93.33% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.13 / defaultTarget(m/s) : 20.13 / spurtTarget(m/s) : 21.85 / currPosition : <178.13, 5.70> / Stamina : 90.84% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 19.58 / defaultTarget(m/s) : 19.58 / spurtTarget(m/s) : 21.40 / currPosition : <176.16, 0.55> / Stamina : 91.64% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 19.37 / defaultTarget(m/s) : 19.37 / spurtTarget(m/s) : 21.09 / currPosition : <174.41, 0.45> / Stamina : 92.03% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 20.29 / defaultTarget(m/s) : 19.33 / spurtTarget(m/s) : 20.99 / currPosition : <174.41, 0.45> / Stamina : 93.00% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 200
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 22.21 / currPosition : <213.26, 4.00> / Stamina : 92.54% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.43 / defaultTarget(m/s) : 20.60 / spurtTarget(m/s) : 22.29 / currPosition : <212.47, 5.00> / Stamina : 92.54% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.22 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 21.85 / currPosition : <199.58, 5.70> / Stamina : 89.75% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 19.58 / defaultTarget(m/s) : 19.58 / spurtTarget(m/s) : 21.40 / currPosition : <197.78, 0.55> / Stamina : 90.66% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 20.31 / defaultTarget(m/s) : 19.34 / spurtTarget(m/s) : 21.09 / currPosition : <195.82, 0.45> / Stamina : 91.19% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 19.33 / defaultTarget(m/s) : 19.33 / spurtTarget(m/s) : 20.99 / currPosition : <195.82, 0.45> / Stamina : 92.32% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+
+◎Turn 220
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.52 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 22.21 / currPosition : <236.33, 4.00> / Stamina : 91.74% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.48 / defaultTarget(m/s) : 20.65 / spurtTarget(m/s) : 22.29 / currPosition : <235.38, 5.00> / Stamina : 91.74% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.18 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 21.85 / currPosition : <221.04, 5.70> / Stamina : 88.67% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 19.55 / defaultTarget(m/s) : 19.55 / spurtTarget(m/s) : 21.40 / currPosition : <219.40, 0.55> / Stamina : 89.68% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 19.32 / defaultTarget(m/s) : 19.32 / spurtTarget(m/s) : 21.09 / currPosition : <217.19, 0.45> / Stamina : 90.31% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 20.34 / defaultTarget(m/s) : 19.37 / spurtTarget(m/s) : 20.99 / currPosition : <217.18, 0.45> / Stamina : 91.69% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 240
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 20.56 / spurtTarget(m/s) : 22.21 / currPosition : <259.42, 4.00> / Stamina : 90.95% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 20.57 / spurtTarget(m/s) : 22.29 / currPosition : <258.29, 5.00> / Stamina : 90.94% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.15 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.85 / currPosition : <242.51, 5.70> / Stamina : 87.58% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 19.55 / defaultTarget(m/s) : 19.55 / spurtTarget(m/s) : 21.40 / currPosition : <240.99, 0.55> / Stamina : 88.70% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 19.32 / defaultTarget(m/s) : 19.32 / spurtTarget(m/s) : 21.09 / currPosition : <238.59, 0.45> / Stamina : 89.53% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 20.34 / defaultTarget(m/s) : 19.37 / spurtTarget(m/s) : 20.99 / currPosition : <238.58, 0.45> / Stamina : 90.95% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 260
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 22.21 / currPosition : <282.50, 4.00> / Stamina : 90.15% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 22.29 / currPosition : <281.21, 5.00> / Stamina : 90.15% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.25 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 21.85 / currPosition : <263.97, 5.70> / Stamina : 86.49% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 19.62 / defaultTarget(m/s) : 19.62 / spurtTarget(m/s) : 21.40 / currPosition : <262.60, 0.55> / Stamina : 87.72% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 19.39 / defaultTarget(m/s) : 19.39 / spurtTarget(m/s) : 21.09 / currPosition : <259.95, 0.45> / Stamina : 88.70% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 20.34 / defaultTarget(m/s) : 19.37 / spurtTarget(m/s) : 20.99 / currPosition : <259.95, 0.45> / Stamina : 90.28% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 280
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 22.30 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 22.21 / currPosition : <305.12, 3.05> / Stamina : 88.88% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.95 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 22.29 / currPosition : <303.83, 4.10> / Stamina : 88.89% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.79 / defaultTarget(m/s) : 20.05 / spurtTarget(m/s) : 21.85 / currPosition : <285.40, 5.60> / Stamina : 85.40% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 22.57 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 21.40 / currPosition : <284.21, 0.50> / Stamina : 86.73% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 19.36 / defaultTarget(m/s) : 19.36 / spurtTarget(m/s) : 21.09 / currPosition : <281.33, 0.45> / Stamina : 87.90% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 20.35 / defaultTarget(m/s) : 19.38 / spurtTarget(m/s) : 20.99 / currPosition : <281.32, 0.45> / Stamina : 89.56% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 300
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.21 / currPosition : <326.14, 2.05> / Stamina : 87.61% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 22.06 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.29 / currPosition : <324.88, 3.10> / Stamina : 87.62% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.30 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.85 / currPosition : <306.54, 4.60> / Stamina : 84.31% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 21.40 / currPosition : <305.44, 0.50> / Stamina : 86.13% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 21.09 / currPosition : <302.56, 0.45> / Stamina : 87.29% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 20.99 / currPosition : <302.51, 0.45> / Stamina : 88.99% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 320
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.57 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 22.21 / currPosition : <346.97, 1.05> / Stamina : 86.39% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.21 / spurtTarget(m/s) : 22.29 / currPosition : <345.85, 2.10> / Stamina : 86.38% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 21.32 / defaultTarget(m/s) : 20.14 / spurtTarget(m/s) : 21.85 / currPosition : <326.81, 3.60> / Stamina : 83.19% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 21.85 / defaultTarget(m/s) : 20.81 / spurtTarget(m/s) : 21.40 / currPosition : <325.27, 0.50> / Stamina : 85.51% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 21.09 / currPosition : <322.08, 0.45> / Stamina : 86.71% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 20.99 / currPosition : <321.99, 0.45> / Stamina : 88.40% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 340
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 22.21 / currPosition : <367.73, 0.45> / Stamina : 85.38% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 22.29 / currPosition : <366.67, 1.10> / Stamina : 85.16% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.55 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.85 / currPosition : <347.19, 2.60> / Stamina : 82.05% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 21.83 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 21.40 / currPosition : <345.27, 0.50> / Stamina : 84.87% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 21.09 / currPosition : <341.75, 0.45> / Stamina : 86.10% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.78 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 20.99 / currPosition : <341.61, 0.45> / Stamina : 87.80% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 360
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.06 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.21 / currPosition : <388.63, 0.45> / Stamina : 84.64% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.25 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 22.29 / currPosition : <387.43, 0.50> / Stamina : 84.14% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.85 / currPosition : <367.67, 1.60> / Stamina : 80.89% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 21.87 / defaultTarget(m/s) : 20.83 / spurtTarget(m/s) : 21.40 / currPosition : <365.45, 0.50> / Stamina : 84.21% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 21.09 / currPosition : <361.59, 0.45> / Stamina : 85.48% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.83 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 20.99 / currPosition : <361.37, 0.45> / Stamina : 87.19% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 380
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.02 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.21 / currPosition : <409.61, 0.45> / Stamina : 83.89% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.18 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 22.29 / currPosition : <408.30, 0.50> / Stamina : 83.41% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 21.65 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.85 / currPosition : <388.17, 0.60> / Stamina : 79.72% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 21.89 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 21.40 / currPosition : <385.80, 0.50> / Stamina : 83.54% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 21.09 / currPosition : <381.58, 0.45> / Stamina : 84.84% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 20.99 / currPosition : <381.28, 0.45> / Stamina : 86.56% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 400
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.98 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 22.21 / currPosition : <430.58, 0.45> / Stamina : 83.15% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.25 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 22.29 / currPosition : <429.29, 0.50> / Stamina : 82.66% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 21.09 / defaultTarget(m/s) : 20.08 / spurtTarget(m/s) : 21.85 / currPosition : <408.75, 0.50> / Stamina : 78.97% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 21.82 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 21.40 / currPosition : <406.32, 0.50> / Stamina : 82.84% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 21.09 / currPosition : <401.74, 0.45> / Stamina : 84.18% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 20.99 / currPosition : <401.34, 0.45> / Stamina : 85.91% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 420
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.10 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 22.21 / currPosition : <451.56, 0.45> / Stamina : 82.40% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.29 / currPosition : <450.40, 0.50> / Stamina : 81.90% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 21.15 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.85 / currPosition : <429.44, 0.50> / Stamina : 78.26% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 21.40 / currPosition : <427.02, 0.50> / Stamina : 82.12% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.86 / defaultTarget(m/s) : 20.82 / spurtTarget(m/s) : 21.09 / currPosition : <422.05, 0.45> / Stamina : 83.50% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 20.99 / currPosition : <421.54, 0.45> / Stamina : 85.24% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 440
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.02 / defaultTarget(m/s) : 20.21 / spurtTarget(m/s) : 22.21 / currPosition : <472.52, 0.45> / Stamina : 81.65% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.29 / currPosition : <471.59, 0.50> / Stamina : 81.12% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 21.12 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.85 / currPosition : <450.26, 0.50> / Stamina : 77.53% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 21.89 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 21.40 / currPosition : <447.90, 0.50> / Stamina : 81.38% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 21.09 / currPosition : <442.53, 0.45> / Stamina : 82.81% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 20.99 / currPosition : <441.89, 0.45> / Stamina : 84.56% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 460
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.06 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.21 / currPosition : <493.49, 0.45> / Stamina : 80.91% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.28 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.29 / currPosition : <492.78, 0.50> / Stamina : 80.35% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 21.08 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.85 / currPosition : <471.19, 0.50> / Stamina : 76.78% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 21.78 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 21.40 / currPosition : <468.94, 0.50> / Stamina : 80.62% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.82 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 21.09 / currPosition : <463.16, 0.45> / Stamina : 82.10% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.83 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 20.99 / currPosition : <462.38, 0.45> / Stamina : 83.87% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 480
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.03 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.21 / currPosition : <514.45, 0.45> / Stamina : 80.16% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 22.29 / currPosition : <513.96, 0.50> / Stamina : 79.58% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 21.12 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.85 / currPosition : <492.24, 0.50> / Stamina : 76.02% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 21.83 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 21.40 / currPosition : <490.17, 0.50> / Stamina : 79.84% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 21.09 / currPosition : <483.96, 0.45> / Stamina : 81.36% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 20.99 / currPosition : <483.02, 0.45> / Stamina : 83.15% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 500
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.01 / defaultTarget(m/s) : 20.21 / spurtTarget(m/s) : 22.21 / currPosition : <535.42, 0.45> / Stamina : 79.41% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.29 / currPosition : <535.15, 0.50> / Stamina : 78.80% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 21.08 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.85 / currPosition : <513.32, 0.50> / Stamina : 75.26% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 21.40 / currPosition : <511.56, 0.50> / Stamina : 79.04% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.84 / defaultTarget(m/s) : 20.80 / spurtTarget(m/s) : 21.09 / currPosition : <504.91, 0.45> / Stamina : 80.61% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 20.99 / currPosition : <503.80, 0.45> / Stamina : 82.42% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 520
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.05 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.21 / currPosition : <556.39, 0.45> / Stamina : 78.67% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 22.29 / currPosition : <556.35, 0.50> / Stamina : 78.03% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 21.09 / defaultTarget(m/s) : 20.09 / spurtTarget(m/s) : 21.85 / currPosition : <534.41, 0.50> / Stamina : 74.50% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 21.86 / defaultTarget(m/s) : 20.82 / spurtTarget(m/s) : 21.40 / currPosition : <533.13, 0.50> / Stamina : 78.22% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 21.09 / currPosition : <526.02, 0.45> / Stamina : 79.85% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 20.99 / currPosition : <524.73, 0.45> / Stamina : 81.68% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 540
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.04 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.29 / currPosition : <577.40, 0.50> / Stamina : 77.27% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.21 / currPosition : <577.38, 0.45> / Stamina : 77.92% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 21.06 / defaultTarget(m/s) : 20.06 / spurtTarget(m/s) : 21.85 / currPosition : <555.47, 0.50> / Stamina : 73.74% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :           온 세마치 - targetSpeed(m/s) : 21.86 / defaultTarget(m/s) : 20.82 / spurtTarget(m/s) : 21.40 / currPosition : <554.88, 0.50> / Stamina : 77.38% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.82 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 21.09 / currPosition : <547.30, 0.45> / Stamina : 79.06% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 20.99 / currPosition : <545.81, 0.45> / Stamina : 80.91% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 560
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.03 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.29 / currPosition : <598.41, 0.50> / Stamina : 76.52% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.21 / currPosition : <598.40, 0.45> / Stamina : 77.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 21.40 / currPosition : <576.68, 0.50> / Stamina : 76.53% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.85 / currPosition : <576.52, 0.50> / Stamina : 72.98% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 21.09 / currPosition : <568.73, 0.45> / Stamina : 78.25% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 20.99 / currPosition : <567.03, 0.45> / Stamina : 80.13% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 580
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.03 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.21 / currPosition : <619.41, 0.45> / Stamina : 76.41% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 22.29 / currPosition : <619.41, 0.50> / Stamina : 75.77% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 21.40 / currPosition : <598.47, 0.50> / Stamina : 75.68% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.92 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.85 / currPosition : <597.40, 0.50> / Stamina : 72.24% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 21.09 / currPosition : <590.33, 0.45> / Stamina : 77.42% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.76 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 20.99 / currPosition : <588.40, 0.45> / Stamina : 79.33% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 600
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.00 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 22.29 / currPosition : <640.40, 0.50> / Stamina : 75.02% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.29 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.21 / currPosition : <640.39, 0.45> / Stamina : 75.67% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.88 / defaultTarget(m/s) : 20.84 / spurtTarget(m/s) : 21.40 / currPosition : <620.27, 0.50> / Stamina : 74.83% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.90 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.85 / currPosition : <618.29, 0.50> / Stamina : 71.50% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.84 / defaultTarget(m/s) : 20.80 / spurtTarget(m/s) : 21.09 / currPosition : <612.06, 0.45> / Stamina : 76.58% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.76 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 20.99 / currPosition : <609.91, 0.45> / Stamina : 78.51% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 620
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.96 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 22.29 / currPosition : <661.38, 0.50> / Stamina : 74.27% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.29 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.21 / currPosition : <661.38, 0.45> / Stamina : 74.92% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.82 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 21.40 / currPosition : <642.04, 0.50> / Stamina : 73.98% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.88 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.85 / currPosition : <639.16, 0.50> / Stamina : 70.76% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 21.09 / currPosition : <633.80, 0.45> / Stamina : 75.73% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 20.99 / currPosition : <631.57, 0.45> / Stamina : 77.68% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 640
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.03 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.21 / currPosition : <682.37, 0.45> / Stamina : 74.17% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 22.29 / currPosition : <682.37, 0.50> / Stamina : 73.53% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.85 / defaultTarget(m/s) : 20.81 / spurtTarget(m/s) : 21.40 / currPosition : <663.84, 0.50> / Stamina : 73.13% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.98 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 21.85 / currPosition : <660.03, 0.50> / Stamina : 70.03% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.78 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 21.09 / currPosition : <655.55, 0.45> / Stamina : 74.88% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.78 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 20.99 / currPosition : <653.30, 0.45> / Stamina : 76.83% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 660
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.01 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 22.29 / currPosition : <703.69, 0.50> / Stamina : 72.78% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.29 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.21 / currPosition : <703.69, 0.45> / Stamina : 73.42% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.85 / defaultTarget(m/s) : 20.81 / spurtTarget(m/s) : 21.40 / currPosition : <685.62, 0.50> / Stamina : 72.28% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.88 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.85 / currPosition : <680.92, 0.50> / Stamina : 69.29% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 21.09 / currPosition : <677.29, 0.45> / Stamina : 74.04% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 20.99 / currPosition : <675.01, 0.45> / Stamina : 75.99% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 680
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.05 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.21 / currPosition : <726.94, 0.45> / Stamina : 72.67% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.29 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.29 / currPosition : <726.92, 0.50> / Stamina : 72.03% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.83 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 21.40 / currPosition : <708.11, 0.50> / Stamina : 71.43% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.93 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.85 / currPosition : <701.91, 0.50> / Stamina : 68.55% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.83 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 21.09 / currPosition : <699.04, 0.45> / Stamina : 73.19% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 20.99 / currPosition : <696.72, 0.45> / Stamina : 75.15% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 700
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.08 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 22.21 / currPosition : <750.19, 0.45> / Stamina : 71.92% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 22.29 / currPosition : <750.17, 0.50> / Stamina : 71.28% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 21.40 / currPosition : <732.22, 0.50> / Stamina : 70.58% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.94 / defaultTarget(m/s) : 20.13 / spurtTarget(m/s) : 21.85 / currPosition : <725.00, 0.50> / Stamina : 67.81% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 21.09 / currPosition : <723.05, 0.45> / Stamina : 72.34% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.82 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 20.99 / currPosition : <720.29, 0.45> / Stamina : 74.30% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 720
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.01 / defaultTarget(m/s) : 20.21 / spurtTarget(m/s) : 22.29 / currPosition : <773.44, 0.50> / Stamina : 70.53% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 22.21 / currPosition : <773.44, 0.45> / Stamina : 71.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.84 / defaultTarget(m/s) : 20.80 / spurtTarget(m/s) : 21.40 / currPosition : <756.36, 0.50> / Stamina : 69.73% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.94 / defaultTarget(m/s) : 20.14 / spurtTarget(m/s) : 21.85 / currPosition : <748.08, 0.50> / Stamina : 67.08% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 5 :         블랙 팁 마블 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 21.09 / currPosition : <747.14, 0.45> / Stamina : 71.49% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 20.99 / currPosition : <744.35, 0.45> / Stamina : 73.46% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 740
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.10 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 22.29 / currPosition : <796.70, 0.50> / Stamina : 69.77% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 22.21 / currPosition : <796.68, 0.45> / Stamina : 70.42% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 21.40 / currPosition : <780.49, 0.50> / Stamina : 68.88% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.85 / defaultTarget(m/s) : 20.81 / spurtTarget(m/s) : 21.09 / currPosition : <771.20, 0.45> / Stamina : 70.65% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 20.89 / defaultTarget(m/s) : 20.09 / spurtTarget(m/s) : 21.85 / currPosition : <771.17, 0.50> / Stamina : 66.34% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.72 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 20.99 / currPosition : <768.38, 0.45> / Stamina : 72.62% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 760
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 22.21 / currPosition : <819.93, 0.45> / Stamina : 69.67% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 22.29 / currPosition : <819.92, 0.50> / Stamina : 69.03% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.78 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 21.40 / currPosition : <804.62, 0.50> / Stamina : 68.03% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 21.09 / currPosition : <795.29, 0.45> / Stamina : 69.80% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 20.99 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 21.85 / currPosition : <794.27, 0.50> / Stamina : 65.60% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 20.99 / currPosition : <792.42, 0.45> / Stamina : 71.78% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 780
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.09 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.21 / currPosition : <843.17, 0.45> / Stamina : 68.92% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 22.29 / currPosition : <843.16, 0.50> / Stamina : 68.28% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 21.40 / currPosition : <828.75, 0.50> / Stamina : 67.18% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.86 / defaultTarget(m/s) : 20.82 / spurtTarget(m/s) : 21.09 / currPosition : <819.37, 0.45> / Stamina : 68.95% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 20.90 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.85 / currPosition : <817.37, 0.50> / Stamina : 64.87% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 20.99 / currPosition : <816.46, 0.45> / Stamina : 70.93% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 800
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.06 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.29 / currPosition : <866.42, 0.50> / Stamina : 67.52% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 22.21 / currPosition : <866.41, 0.45> / Stamina : 68.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.82 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 21.40 / currPosition : <852.86, 0.50> / Stamina : 66.33% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.84 / defaultTarget(m/s) : 20.80 / spurtTarget(m/s) : 21.09 / currPosition : <843.46, 0.45> / Stamina : 68.11% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 20.99 / currPosition : <840.49, 0.45> / Stamina : 70.09% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.92 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.85 / currPosition : <840.47, 0.50> / Stamina : 64.13% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 820
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.08 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.21 / currPosition : <889.66, 0.45> / Stamina : 67.42% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.29 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.29 / currPosition : <889.66, 0.50> / Stamina : 66.77% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.90 / defaultTarget(m/s) : 20.86 / spurtTarget(m/s) : 21.40 / currPosition : <876.98, 0.50> / Stamina : 65.48% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 21.09 / currPosition : <867.56, 0.45> / Stamina : 67.26% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 20.99 / currPosition : <864.54, 0.45> / Stamina : 69.25% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.89 / defaultTarget(m/s) : 20.08 / spurtTarget(m/s) : 21.85 / currPosition : <863.58, 0.50> / Stamina : 63.39% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 840
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.03 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.21 / currPosition : <912.90, 0.45> / Stamina : 66.68% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.18 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 22.29 / currPosition : <912.89, 0.50> / Stamina : 66.03% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.89 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 21.40 / currPosition : <901.10, 0.50> / Stamina : 64.63% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.76 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 21.09 / currPosition : <891.62, 0.45> / Stamina : 66.41% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 20.99 / currPosition : <888.59, 0.45> / Stamina : 68.41% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.92 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.85 / currPosition : <886.67, 0.50> / Stamina : 62.65% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 860
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.05 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.21 / currPosition : <936.14, 0.45> / Stamina : 65.93% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.28 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.29 / currPosition : <936.14, 0.50> / Stamina : 65.28% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.89 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 21.40 / currPosition : <925.21, 0.50> / Stamina : 63.78% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 21.09 / currPosition : <915.70, 0.45> / Stamina : 65.57% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 20.99 / currPosition : <912.64, 0.45> / Stamina : 67.56% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.99 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 21.85 / currPosition : <909.79, 0.50> / Stamina : 61.91% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 880
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.98 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 22.29 / currPosition : <959.39, 0.50> / Stamina : 64.53% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 22.21 / currPosition : <959.39, 0.45> / Stamina : 65.18% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.87 / defaultTarget(m/s) : 20.83 / spurtTarget(m/s) : 21.40 / currPosition : <949.31, 0.50> / Stamina : 62.93% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 21.09 / currPosition : <939.77, 0.45> / Stamina : 64.72% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.72 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 20.99 / currPosition : <936.70, 0.45> / Stamina : 66.72% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.98 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 21.85 / currPosition : <932.89, 0.50> / Stamina : 61.18% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 900
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.28 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.21 / currPosition : <982.62, 0.45> / Stamina : 64.43% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.99 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 22.29 / currPosition : <982.62, 0.50> / Stamina : 63.78% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.86 / defaultTarget(m/s) : 20.82 / spurtTarget(m/s) : 21.40 / currPosition : <973.42, 0.50> / Stamina : 62.09% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 21.09 / currPosition : <963.84, 0.45> / Stamina : 63.88% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 20.99 / currPosition : <960.72, 0.45> / Stamina : 65.88% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.92 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.85 / currPosition : <956.00, 0.50> / Stamina : 60.44% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 920
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.07 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 22.29 / currPosition : <1005.88, 0.50> / Stamina : 63.02% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 22.21 / currPosition : <1005.87, 0.45> / Stamina : 63.68% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.89 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 21.40 / currPosition : <997.53, 0.50> / Stamina : 61.24% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 21.09 / currPosition : <987.93, 0.45> / Stamina : 63.03% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 20.99 / currPosition : <984.75, 0.45> / Stamina : 65.04% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.85 / currPosition : <979.10, 0.50> / Stamina : 59.70% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 940
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 21.03 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.21 / currPosition : <1029.15, 0.45> / Stamina : 62.93% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.18 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 22.29 / currPosition : <1029.14, 0.50> / Stamina : 62.27% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.89 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 21.40 / currPosition : <1021.64, 0.50> / Stamina : 60.39% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.84 / defaultTarget(m/s) : 20.80 / spurtTarget(m/s) : 21.09 / currPosition : <1012.03, 0.45> / Stamina : 62.18% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 20.99 / currPosition : <1008.78, 0.45> / Stamina : 64.20% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.85 / currPosition : <1002.20, 0.50> / Stamina : 58.97% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 960
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.29 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.29 / currPosition : <1052.40, 0.50> / Stamina : 61.52% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.02 / defaultTarget(m/s) : 20.21 / spurtTarget(m/s) : 22.21 / currPosition : <1052.40, 0.45> / Stamina : 62.18% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.90 / defaultTarget(m/s) : 20.86 / spurtTarget(m/s) : 21.40 / currPosition : <1045.75, 0.50> / Stamina : 59.54% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 21.09 / currPosition : <1036.13, 0.45> / Stamina : 61.33% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 20.99 / currPosition : <1032.81, 0.45> / Stamina : 63.36% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.95 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.85 / currPosition : <1025.31, 0.50> / Stamina : 58.23% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 980
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.10 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.29 / currPosition : <1075.64, 0.50> / Stamina : 60.77% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.29 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.21 / currPosition : <1075.64, 0.45> / Stamina : 61.43% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 21.40 / currPosition : <1069.87, 0.50> / Stamina : 58.69% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.85 / defaultTarget(m/s) : 20.81 / spurtTarget(m/s) : 21.09 / currPosition : <1060.21, 0.45> / Stamina : 60.48% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 20.99 / currPosition : <1056.84, 0.45> / Stamina : 62.51% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.98 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 21.85 / currPosition : <1048.43, 0.50> / Stamina : 57.49% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 1000
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.02 / defaultTarget(m/s) : 20.21 / spurtTarget(m/s) : 22.29 / currPosition : <1098.89, 0.50> / Stamina : 60.02% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 22.21 / currPosition : <1098.88, 0.45> / Stamina : 60.68% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 21.40 / currPosition : <1093.98, 0.50> / Stamina : 57.84% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 21.09 / currPosition : <1084.30, 0.45> / Stamina : 59.64% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.78 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 20.99 / currPosition : <1080.89, 0.45> / Stamina : 61.67% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.86 / defaultTarget(m/s) : 20.06 / spurtTarget(m/s) : 21.85 / currPosition : <1071.55, 0.50> / Stamina : 56.75% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 1020
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 22.21 / currPosition : <1120.00, 0.45> / Stamina : 59.93% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.28 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 22.29 / currPosition : <1119.99, 0.50> / Stamina : 59.27% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :           온 세마치 - targetSpeed(m/s) : 21.88 / defaultTarget(m/s) : 20.84 / spurtTarget(m/s) : 21.40 / currPosition : <1116.44, 0.50> / Stamina : 57.00% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 21.09 / currPosition : <1107.67, 0.45> / Stamina : 58.79% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.83 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 20.99 / currPosition : <1104.46, 0.45> / Stamina : 60.83% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.90 / defaultTarget(m/s) : 20.09 / spurtTarget(m/s) : 21.85 / currPosition : <1094.66, 0.50> / Stamina : 56.01% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 1040
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.41 / defaultTarget(m/s) : 19.82 / spurtTarget(m/s) : 21.41 / currPosition : <1141.01, 0.50> / Stamina : 58.21% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.43 / defaultTarget(m/s) : 19.84 / spurtTarget(m/s) : 21.43 / currPosition : <1140.98, 0.45> / Stamina : 58.88% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :           온 세마치 - targetSpeed(m/s) : 22.57 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 22.57 / currPosition : <1138.23, 0.50> / Stamina : 56.00% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 21.09 / currPosition : <1129.41, 0.45> / Stamina : 57.95% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 20.99 / currPosition : <1126.17, 0.45> / Stamina : 59.99% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.85 / currPosition : <1116.07, 0.50> / Stamina : 55.27% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 1060
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 19.90 / spurtTarget(m/s) : 21.49 / currPosition : <1162.12, 0.50> / Stamina : 56.57% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 19.85 / spurtTarget(m/s) : 21.44 / currPosition : <1162.05, 0.45> / Stamina : 57.25% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :           온 세마치 - targetSpeed(m/s) : 22.60 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 22.60 / currPosition : <1160.12, 0.50> / Stamina : 54.40% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 22.56 / defaultTarget(m/s) : 20.81 / spurtTarget(m/s) : 22.56 / currPosition : <1151.24, 0.45> / Stamina : 56.51% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 22.44 / currPosition : <1147.93, 0.45> / Stamina : 58.72% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.76 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.76 / currPosition : <1136.95, 0.50> / Stamina : 54.41% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1080
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 19.92 / spurtTarget(m/s) : 21.51 / currPosition : <1183.34, 0.50> / Stamina : 54.90% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 19.90 / spurtTarget(m/s) : 21.49 / currPosition : <1183.22, 0.45> / Stamina : 55.58% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :           온 세마치 - targetSpeed(m/s) : 22.55 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 22.55 / currPosition : <1182.19, 0.50> / Stamina : 52.75% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 22.47 / currPosition : <1173.23, 0.45> / Stamina : 54.89% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.46 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 22.46 / currPosition : <1169.82, 0.45> / Stamina : 57.20% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.14 / spurtTarget(m/s) : 21.75 / currPosition : <1157.91, 0.50> / Stamina : 52.80% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1100
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 19.86 / spurtTarget(m/s) : 21.44 / currPosition : <1204.68, 0.50> / Stamina : 53.19% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 19.85 / spurtTarget(m/s) : 21.44 / currPosition : <1204.52, 0.45> / Stamina : 53.89% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :           온 세마치 - targetSpeed(m/s) : 22.57 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 22.57 / currPosition : <1204.44, 0.50> / Stamina : 51.06% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 22.55 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 22.55 / currPosition : <1195.38, 0.45> / Stamina : 53.24% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.45 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 22.45 / currPosition : <1191.85, 0.45> / Stamina : 55.64% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.70 / currPosition : <1178.98, 0.50> / Stamina : 51.16% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1120
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.56 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 22.56 / currPosition : <1226.86, 0.50> / Stamina : 49.33% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 19.90 / spurtTarget(m/s) : 21.49 / currPosition : <1226.07, 0.50> / Stamina : 51.47% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.42 / defaultTarget(m/s) : 19.83 / spurtTarget(m/s) : 21.42 / currPosition : <1225.89, 0.45> / Stamina : 52.18% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 22.51 / currPosition : <1217.69, 0.45> / Stamina : 51.55% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.42 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 22.42 / currPosition : <1214.03, 0.45> / Stamina : 54.06% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.66 / defaultTarget(m/s) : 20.06 / spurtTarget(m/s) : 21.66 / currPosition : <1200.16, 0.50> / Stamina : 49.49% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1140
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 22.51 / currPosition : <1249.37, 0.50> / Stamina : 47.57% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 19.90 / spurtTarget(m/s) : 21.49 / currPosition : <1247.44, 0.50> / Stamina : 49.76% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 19.81 / spurtTarget(m/s) : 21.40 / currPosition : <1247.30, 0.45> / Stamina : 50.45% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 22.54 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 22.54 / currPosition : <1240.14, 0.45> / Stamina : 49.82% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.47 / currPosition : <1236.36, 0.45> / Stamina : 52.44% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.67 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.67 / currPosition : <1221.47, 0.50> / Stamina : 47.79% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1160
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.61 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 22.61 / currPosition : <1271.86, 0.50> / Stamina : 45.82% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 19.80 / spurtTarget(m/s) : 21.38 / currPosition : <1268.83, 0.50> / Stamina : 48.04% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.41 / defaultTarget(m/s) : 19.83 / spurtTarget(m/s) : 21.41 / currPosition : <1268.68, 0.45> / Stamina : 48.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 22.54 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 22.54 / currPosition : <1262.59, 0.45> / Stamina : 48.09% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.43 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 22.43 / currPosition : <1258.76, 0.45> / Stamina : 50.80% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.71 / currPosition : <1242.89, 0.50> / Stamina : 46.06% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1180
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.53 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 22.53 / currPosition : <1294.37, 0.50> / Stamina : 44.07% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 19.92 / spurtTarget(m/s) : 21.51 / currPosition : <1290.20, 0.50> / Stamina : 46.33% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 19.90 / spurtTarget(m/s) : 21.49 / currPosition : <1290.05, 0.45> / Stamina : 47.03% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 22.57 / defaultTarget(m/s) : 20.81 / spurtTarget(m/s) : 22.57 / currPosition : <1285.05, 0.45> / Stamina : 46.36% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.47 / currPosition : <1281.17, 0.45> / Stamina : 49.16% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.09 / spurtTarget(m/s) : 21.69 / currPosition : <1264.42, 0.50> / Stamina : 44.29% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1200
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.62 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 22.62 / currPosition : <1316.88, 0.50> / Stamina : 42.31% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.46 / defaultTarget(m/s) : 19.87 / spurtTarget(m/s) : 21.46 / currPosition : <1311.59, 0.50> / Stamina : 44.61% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 19.90 / spurtTarget(m/s) : 21.49 / currPosition : <1311.43, 0.45> / Stamina : 45.31% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 22.48 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 22.48 / currPosition : <1307.51, 0.45> / Stamina : 44.63% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 22.44 / currPosition : <1303.56, 0.45> / Stamina : 47.52% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.13 / spurtTarget(m/s) : 21.74 / currPosition : <1286.05, 0.50> / Stamina : 42.51% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1220
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.55 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 22.55 / currPosition : <1339.39, 0.50> / Stamina : 40.56% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 19.85 / spurtTarget(m/s) : 21.44 / currPosition : <1332.98, 0.50> / Stamina : 42.89% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.39 / defaultTarget(m/s) : 19.80 / spurtTarget(m/s) : 21.39 / currPosition : <1332.80, 0.45> / Stamina : 43.60% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 22.50 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 22.50 / currPosition : <1329.97, 0.45> / Stamina : 42.90% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 22.41 / currPosition : <1325.95, 0.45> / Stamina : 45.89% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.14 / spurtTarget(m/s) : 21.74 / currPosition : <1307.71, 0.50> / Stamina : 40.71% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1240
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 22.51 / currPosition : <1361.87, 0.50> / Stamina : 38.81% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 19.85 / spurtTarget(m/s) : 21.44 / currPosition : <1354.39, 0.50> / Stamina : 41.17% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 19.86 / spurtTarget(m/s) : 21.45 / currPosition : <1354.18, 0.45> / Stamina : 41.88% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 22.49 / currPosition : <1352.42, 0.45> / Stamina : 41.18% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.45 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 22.45 / currPosition : <1348.33, 0.45> / Stamina : 44.26% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.69 / currPosition : <1329.38, 0.50> / Stamina : 38.92% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1260
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.56 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 22.56 / currPosition : <1384.37, 0.50> / Stamina : 37.06% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.39 / defaultTarget(m/s) : 19.81 / spurtTarget(m/s) : 21.39 / currPosition : <1375.77, 0.50> / Stamina : 39.46% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.41 / defaultTarget(m/s) : 19.82 / spurtTarget(m/s) : 21.41 / currPosition : <1375.57, 0.45> / Stamina : 40.17% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         블랙 팁 마블 - targetSpeed(m/s) : 22.53 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 22.53 / currPosition : <1374.89, 0.45> / Stamina : 39.44% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.43 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 22.43 / currPosition : <1370.72, 0.45> / Stamina : 42.62% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 21.77 / currPosition : <1351.05, 0.50> / Stamina : 37.12% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1280
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.54 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 22.54 / currPosition : <1406.89, 0.50> / Stamina : 35.30% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.45 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 22.45 / currPosition : <1397.33, 0.45> / Stamina : 37.72% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 19.90 / spurtTarget(m/s) : 21.49 / currPosition : <1397.16, 0.50> / Stamina : 37.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 19.91 / spurtTarget(m/s) : 21.50 / currPosition : <1396.97, 0.45> / Stamina : 38.45% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 22.40 / currPosition : <1393.11, 0.45> / Stamina : 40.99% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.67 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.67 / currPosition : <1372.71, 0.50> / Stamina : 35.32% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1300
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.53 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 22.53 / currPosition : <1429.40, 0.50> / Stamina : 33.55% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 22.47 / currPosition : <1419.78, 0.45> / Stamina : 35.99% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.48 / defaultTarget(m/s) : 19.89 / spurtTarget(m/s) : 21.48 / currPosition : <1418.55, 0.50> / Stamina : 36.02% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 21.46 / defaultTarget(m/s) : 19.87 / spurtTarget(m/s) : 21.46 / currPosition : <1418.36, 0.45> / Stamina : 36.73% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 22.40 / currPosition : <1415.50, 0.45> / Stamina : 39.35% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.70 / currPosition : <1394.37, 0.50> / Stamina : 33.53% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1320
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 22.51 / currPosition : <1451.90, 0.50> / Stamina : 31.80% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 22.49 / currPosition : <1442.23, 0.45> / Stamina : 34.27% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 19.79 / spurtTarget(m/s) : 21.38 / currPosition : <1439.94, 0.50> / Stamina : 34.31% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 19.80 / spurtTarget(m/s) : 21.38 / currPosition : <1439.73, 0.45> / Stamina : 35.02% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.39 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 22.39 / currPosition : <1437.89, 0.45> / Stamina : 37.72% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.14 / spurtTarget(m/s) : 21.75 / currPosition : <1416.03, 0.50> / Stamina : 31.73% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1340
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.59 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.59 / currPosition : <1474.39, 0.50> / Stamina : 30.05% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.58 / defaultTarget(m/s) : 20.82 / spurtTarget(m/s) : 22.58 / currPosition : <1464.69, 0.45> / Stamina : 32.54% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.41 / defaultTarget(m/s) : 19.82 / spurtTarget(m/s) : 21.41 / currPosition : <1461.30, 0.50> / Stamina : 32.59% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 19.86 / spurtTarget(m/s) : 21.45 / currPosition : <1461.10, 0.45> / Stamina : 33.30% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 22.40 / currPosition : <1460.28, 0.45> / Stamina : 36.08% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 21.79 / currPosition : <1437.68, 0.50> / Stamina : 29.94% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1360
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.53 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 22.53 / currPosition : <1496.89, 0.50> / Stamina : 28.30% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 22.51 / currPosition : <1487.15, 0.45> / Stamina : 30.80% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.46 / defaultTarget(m/s) : 19.87 / spurtTarget(m/s) : 21.46 / currPosition : <1482.68, 0.50> / Stamina : 30.88% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 22.41 / currPosition : <1482.65, 0.45> / Stamina : 34.45% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 19.91 / spurtTarget(m/s) : 21.50 / currPosition : <1482.49, 0.45> / Stamina : 31.59% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.66 / defaultTarget(m/s) : 20.06 / spurtTarget(m/s) : 21.66 / currPosition : <1459.32, 0.50> / Stamina : 28.15% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1380
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.55 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 22.55 / currPosition : <1519.41, 0.50> / Stamina : 26.54% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.56 / defaultTarget(m/s) : 20.80 / spurtTarget(m/s) : 22.56 / currPosition : <1509.61, 0.45> / Stamina : 29.08% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.39 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 22.39 / currPosition : <1505.04, 0.45> / Stamina : 32.82% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         리코리스 블랙 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 19.81 / spurtTarget(m/s) : 21.40 / currPosition : <1504.05, 0.50> / Stamina : 29.17% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.43 / defaultTarget(m/s) : 19.84 / spurtTarget(m/s) : 21.43 / currPosition : <1503.87, 0.45> / Stamina : 29.87% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.71 / currPosition : <1480.99, 0.50> / Stamina : 26.35% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1400
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 22.51 / currPosition : <1541.90, 0.50> / Stamina : 24.79% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 22.47 / currPosition : <1532.07, 0.45> / Stamina : 27.35% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 22.44 / currPosition : <1527.43, 0.45> / Stamina : 31.18% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         리코리스 블랙 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 19.91 / spurtTarget(m/s) : 21.50 / currPosition : <1525.44, 0.50> / Stamina : 27.45% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.48 / defaultTarget(m/s) : 19.89 / spurtTarget(m/s) : 21.48 / currPosition : <1525.24, 0.45> / Stamina : 28.16% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.67 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.67 / currPosition : <1502.66, 0.50> / Stamina : 24.55% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1420
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.62 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 22.62 / currPosition : <1564.39, 0.50> / Stamina : 23.04% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.55 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 22.55 / currPosition : <1554.52, 0.45> / Stamina : 25.62% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 22.41 / currPosition : <1549.81, 0.45> / Stamina : 29.55% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         리코리스 블랙 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 19.86 / spurtTarget(m/s) : 21.45 / currPosition : <1546.82, 0.50> / Stamina : 25.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.46 / defaultTarget(m/s) : 19.87 / spurtTarget(m/s) : 21.46 / currPosition : <1546.64, 0.45> / Stamina : 26.44% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 21.77 / currPosition : <1524.34, 0.50> / Stamina : 22.75% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1440
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.54 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 22.54 / currPosition : <1586.90, 0.50> / Stamina : 21.29% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 22.47 / currPosition : <1576.98, 0.45> / Stamina : 23.89% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 22.40 / currPosition : <1572.19, 0.45> / Stamina : 27.92% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         리코리스 블랙 - targetSpeed(m/s) : 21.46 / defaultTarget(m/s) : 19.87 / spurtTarget(m/s) : 21.46 / currPosition : <1568.20, 0.50> / Stamina : 24.02% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.48 / defaultTarget(m/s) : 19.89 / spurtTarget(m/s) : 21.48 / currPosition : <1568.04, 0.45> / Stamina : 24.72% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.72 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.72 / currPosition : <1546.01, 0.50> / Stamina : 20.96% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1460
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.55 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 22.55 / currPosition : <1609.42, 0.50> / Stamina : 19.53% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.55 / defaultTarget(m/s) : 20.80 / spurtTarget(m/s) : 22.55 / currPosition : <1599.43, 0.45> / Stamina : 22.16% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 22.44 / currPosition : <1594.57, 0.45> / Stamina : 26.28% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         리코리스 블랙 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 19.82 / spurtTarget(m/s) : 21.40 / currPosition : <1589.57, 0.50> / Stamina : 22.31% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.46 / defaultTarget(m/s) : 19.87 / spurtTarget(m/s) : 21.46 / currPosition : <1589.46, 0.45> / Stamina : 22.99% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.70 / currPosition : <1567.69, 0.50> / Stamina : 19.16% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1480
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.50 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 22.50 / currPosition : <1631.91, 0.50> / Stamina : 17.78% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.56 / defaultTarget(m/s) : 20.80 / spurtTarget(m/s) : 22.56 / currPosition : <1621.88, 0.45> / Stamina : 20.44% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.47 / currPosition : <1616.97, 0.45> / Stamina : 24.64% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         리코리스 블랙 - targetSpeed(m/s) : 21.42 / defaultTarget(m/s) : 19.83 / spurtTarget(m/s) : 21.42 / currPosition : <1610.95, 0.50> / Stamina : 20.59% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.47 / defaultTarget(m/s) : 19.88 / spurtTarget(m/s) : 21.47 / currPosition : <1610.85, 0.45> / Stamina : 21.28% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.66 / defaultTarget(m/s) : 20.06 / spurtTarget(m/s) : 21.66 / currPosition : <1589.35, 0.50> / Stamina : 17.36% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1500
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.55 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 22.55 / currPosition : <1654.40, 0.50> / Stamina : 16.03% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.51 / currPosition : <1644.32, 0.45> / Stamina : 18.71% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.48 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.48 / currPosition : <1639.38, 0.45> / Stamina : 23.01% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         리코리스 블랙 - targetSpeed(m/s) : 21.39 / defaultTarget(m/s) : 19.81 / spurtTarget(m/s) : 21.39 / currPosition : <1632.31, 0.50> / Stamina : 18.88% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 19.91 / spurtTarget(m/s) : 21.50 / currPosition : <1632.25, 0.45> / Stamina : 19.55% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.09 / spurtTarget(m/s) : 21.69 / currPosition : <1611.01, 0.50> / Stamina : 15.57% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1520
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.53 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 22.53 / currPosition : <1676.91, 0.50> / Stamina : 14.28% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.45 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 22.45 / currPosition : <1666.76, 0.45> / Stamina : 16.99% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.46 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 22.46 / currPosition : <1661.78, 0.45> / Stamina : 21.37% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         리코리스 블랙 - targetSpeed(m/s) : 21.47 / defaultTarget(m/s) : 19.88 / spurtTarget(m/s) : 21.47 / currPosition : <1653.69, 0.50> / Stamina : 17.17% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.48 / defaultTarget(m/s) : 19.89 / spurtTarget(m/s) : 21.48 / currPosition : <1653.64, 0.45> / Stamina : 17.84% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.68 / defaultTarget(m/s) : 20.08 / spurtTarget(m/s) : 21.68 / currPosition : <1632.71, 0.50> / Stamina : 13.76% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1540
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 22.51 / currPosition : <1699.40, 0.50> / Stamina : 12.53% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.54 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 22.54 / currPosition : <1689.22, 0.45> / Stamina : 15.26% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 22.41 / currPosition : <1684.17, 0.45> / Stamina : 19.73% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         리코리스 블랙 - targetSpeed(m/s) : 21.48 / defaultTarget(m/s) : 19.89 / spurtTarget(m/s) : 21.48 / currPosition : <1675.08, 0.50> / Stamina : 15.45% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 19.80 / spurtTarget(m/s) : 21.38 / currPosition : <1675.02, 0.45> / Stamina : 16.12% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.68 / defaultTarget(m/s) : 20.08 / spurtTarget(m/s) : 21.68 / currPosition : <1654.38, 0.50> / Stamina : 11.96% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1560
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.60 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.60 / currPosition : <1700.53, 0.50> / Stamina : 12.44% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.50 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 22.50 / currPosition : <1700.45, 0.45> / Stamina : 14.39% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 22.40 / currPosition : <1700.97, 0.45> / Stamina : 18.50% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         리코리스 블랙 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 19.81 / spurtTarget(m/s) : 21.40 / currPosition : <1696.47, 0.50> / Stamina : 13.73% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 19.91 / spurtTarget(m/s) : 21.50 / currPosition : <1696.40, 0.45> / Stamina : 14.41% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.66 / defaultTarget(m/s) : 20.06 / spurtTarget(m/s) : 21.66 / currPosition : <1676.02, 0.50> / Stamina : 10.17% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1580
+ 1 :           온 세마치 - targetSpeed(m/s) : 22.60 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.60 / currPosition : <1700.53, 0.50> / Stamina : 12.44% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         블랙 팁 마블 - targetSpeed(m/s) : 22.50 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 22.50 / currPosition : <1700.45, 0.45> / Stamina : 14.39% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         굿나잇 스이밍 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 22.40 / currPosition : <1700.97, 0.45> / Stamina : 18.50% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         리코리스 블랙 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 19.85 / spurtTarget(m/s) : 21.44 / currPosition : <1700.75, 0.50> / Stamina : 13.39% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.42 / defaultTarget(m/s) : 19.83 / spurtTarget(m/s) : 21.42 / currPosition : <1700.69, 0.45> / Stamina : 14.06% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.71 / currPosition : <1697.68, 0.50> / Stamina : 8.38% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
