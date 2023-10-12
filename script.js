@@ -630,6 +630,7 @@ function drawVideo(turn)
         .range([rangeXMin, 800-rangeXMin]);
 
     const yScale = d3.scaleLinear()
+        // .domain([Math.min(...allPosY), globalVideoData.length])
         .domain([Math.min(...allPosY), Math.max(...allPosY)])
         .range([80, 20]);  
 
@@ -659,6 +660,26 @@ function drawVideo(turn)
 
     const xAxis = d3.axisBottom(xScale);
     const yAxis = d3.axisLeft(yScale);
+
+    svg.append("text")
+        .attr("x", 40)
+        .attr("y", 95)
+        .text(`${Math.min(...allPosX).toFixed(1)}m`);
+
+    svg.append("text")
+        .attr("x", 700)
+        .attr("y", 95)
+        .text(`${Math.max(...allPosX).toFixed(1)}m`);
+
+    svg.append("text")
+        .attr("x", 40)
+        .attr("y", 75)
+        .text(`${Math.min(...allPosY).toFixed(2)}`);
+
+    svg.append("text")
+        .attr("x", 40)
+        .attr("y", 25)
+        .text(`${Math.max(...allPosY).toFixed(2)}`);
 
     svg.append("g")
         .attr("class", "x axis")
