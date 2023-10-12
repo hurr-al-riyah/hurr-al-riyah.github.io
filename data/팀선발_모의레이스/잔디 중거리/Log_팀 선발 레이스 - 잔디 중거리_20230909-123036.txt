@@ -1,0 +1,832 @@
+◎Turn 20
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.89 / defaultTarget(m/s) : 20.09 / spurtTarget(m/s) : 21.71 / currPosition : <12.47, 3.00> / Stamina : 99.76% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.99 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 21.77 / currPosition : <12.47, 4.00> / Stamina : 99.76% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 19.70 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.32 / currPosition : <12.28, 5.00> / Stamina : 99.63% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.09 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.24 / currPosition : <12.23, 5.05> / Stamina : 99.63% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 20.13 / defaultTarget(m/s) : 18.94 / spurtTarget(m/s) : 20.65 / currPosition : <12.05, 1.80> / Stamina : 99.66% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 18.83 / defaultTarget(m/s) : 18.83 / spurtTarget(m/s) : 20.57 / currPosition : <12.04, 1.00> / Stamina : 99.66% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+
+◎Turn 40
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.96 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.77 / currPosition : <33.56, 4.00> / Stamina : 99.12% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.96 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.71 / currPosition : <33.53, 3.00> / Stamina : 99.12% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 19.73 / defaultTarget(m/s) : 19.73 / spurtTarget(m/s) : 21.32 / currPosition : <32.26, 4.40> / Stamina : 98.72% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.13 / defaultTarget(m/s) : 19.73 / spurtTarget(m/s) : 21.24 / currPosition : <32.23, 4.65> / Stamina : 98.72% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.96 / defaultTarget(m/s) : 18.96 / spurtTarget(m/s) : 20.65 / currPosition : <31.02, 1.45> / Stamina : 98.90% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.77 / defaultTarget(m/s) : 18.83 / spurtTarget(m/s) : 20.57 / currPosition : <30.96, 0.50> / Stamina : 98.96% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 60
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.95 / defaultTarget(m/s) : 20.14 / spurtTarget(m/s) : 21.77 / currPosition : <54.42, 4.00> / Stamina : 98.50% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.94 / defaultTarget(m/s) : 20.13 / spurtTarget(m/s) : 21.71 / currPosition : <54.40, 3.00> / Stamina : 98.50% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        넘버 리프라이즈 - targetSpeed(m/s) : 19.74 / defaultTarget(m/s) : 19.74 / spurtTarget(m/s) : 21.24 / currPosition : <51.93, 4.00> / Stamina : 97.86% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 21.03 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.32 / currPosition : <51.90, 4.05> / Stamina : 97.87% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.90 / defaultTarget(m/s) : 18.90 / spurtTarget(m/s) : 20.65 / currPosition : <49.91, 1.45> / Stamina : 98.15% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.85 / defaultTarget(m/s) : 18.90 / spurtTarget(m/s) : 20.57 / currPosition : <49.85, 0.50> / Stamina : 98.51% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 80
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.77 / currPosition : <75.29, 4.00> / Stamina : 97.87% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 21.71 / currPosition : <75.25, 3.00> / Stamina : 97.88% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 19.71 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.32 / currPosition : <71.57, 3.10> / Stamina : 97.01% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.63 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.24 / currPosition : <71.56, 3.95> / Stamina : 97.01% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.96 / defaultTarget(m/s) : 18.96 / spurtTarget(m/s) : 20.65 / currPosition : <68.79, 1.15> / Stamina : 97.41% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.88 / defaultTarget(m/s) : 18.93 / spurtTarget(m/s) : 20.57 / currPosition : <68.77, 0.50> / Stamina : 97.97% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 100
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.98 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 21.77 / currPosition : <96.16, 4.00> / Stamina : 97.25% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.98 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 21.71 / currPosition : <96.10, 3.00> / Stamina : 97.26% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        넘버 리프라이즈 - targetSpeed(m/s) : 19.71 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.24 / currPosition : <91.21, 3.05> / Stamina : 96.15% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.32 / currPosition : <91.20, 3.00> / Stamina : 96.16% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.90 / defaultTarget(m/s) : 18.90 / spurtTarget(m/s) : 20.65 / currPosition : <87.69, 1.15> / Stamina : 96.66% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.78 / defaultTarget(m/s) : 18.83 / spurtTarget(m/s) : 20.57 / currPosition : <87.67, 0.50> / Stamina : 97.52% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 120
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.89 / defaultTarget(m/s) : 20.09 / spurtTarget(m/s) : 21.77 / currPosition : <117.01, 4.00> / Stamina : 96.63% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.87 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.71 / currPosition : <116.97, 3.00> / Stamina : 96.64% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        넘버 리프라이즈 - targetSpeed(m/s) : 19.71 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.24 / currPosition : <110.85, 2.50> / Stamina : 95.30% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.51 / defaultTarget(m/s) : 19.76 / spurtTarget(m/s) : 21.32 / currPosition : <110.84, 2.55> / Stamina : 95.31% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.98 / defaultTarget(m/s) : 18.98 / spurtTarget(m/s) : 20.65 / currPosition : <106.55, 0.80> / Stamina : 95.92% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.78 / defaultTarget(m/s) : 18.84 / spurtTarget(m/s) : 20.57 / currPosition : <106.52, 0.50> / Stamina : 96.98% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 140
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.77 / currPosition : <137.90, 4.00> / Stamina : 96.01% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.90 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.71 / currPosition : <137.84, 3.00> / Stamina : 96.02% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 19.67 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.32 / currPosition : <130.48, 2.25> / Stamina : 94.45% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.09 / defaultTarget(m/s) : 19.72 / spurtTarget(m/s) : 21.24 / currPosition : <130.48, 1.80> / Stamina : 94.44% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 19.01 / defaultTarget(m/s) : 19.01 / spurtTarget(m/s) : 20.65 / currPosition : <125.45, 0.80> / Stamina : 95.17% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.81 / defaultTarget(m/s) : 18.87 / spurtTarget(m/s) : 20.57 / currPosition : <125.44, 0.50> / Stamina : 96.53% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 160
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.99 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 21.77 / currPosition : <158.75, 4.00> / Stamina : 95.39% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.93 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.71 / currPosition : <158.70, 3.00> / Stamina : 95.40% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 19.72 / defaultTarget(m/s) : 19.72 / spurtTarget(m/s) : 21.32 / currPosition : <150.13, 2.05> / Stamina : 93.60% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.12 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.24 / currPosition : <150.11, 1.00> / Stamina : 93.59% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.98 / defaultTarget(m/s) : 18.98 / spurtTarget(m/s) : 20.65 / currPosition : <144.34, 0.50> / Stamina : 94.42% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.79 / defaultTarget(m/s) : 18.84 / spurtTarget(m/s) : 20.57 / currPosition : <144.33, 0.50> / Stamina : 95.99% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 180
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.77 / currPosition : <179.62, 4.00> / Stamina : 94.77% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.95 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.71 / currPosition : <179.58, 3.00> / Stamina : 94.77% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        넘버 리프라이즈 - targetSpeed(m/s) : 19.70 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.24 / currPosition : <169.77, 0.55> / Stamina : 92.73% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.92 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.32 / currPosition : <169.75, 1.50> / Stamina : 92.75% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.99 / defaultTarget(m/s) : 18.99 / spurtTarget(m/s) : 20.65 / currPosition : <163.21, 0.45> / Stamina : 93.69% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.82 / defaultTarget(m/s) : 18.88 / spurtTarget(m/s) : 20.57 / currPosition : <163.20, 0.50> / Stamina : 95.52% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 200
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.92 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.77 / currPosition : <200.50, 4.00> / Stamina : 94.15% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.96 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.71 / currPosition : <200.45, 3.00> / Stamina : 94.15% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 19.67 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.32 / currPosition : <189.42, 0.90> / Stamina : 91.89% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.69 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.24 / currPosition : <189.41, 0.50> / Stamina : 92.00% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.89 / defaultTarget(m/s) : 18.89 / spurtTarget(m/s) : 20.65 / currPosition : <182.11, 0.45> / Stamina : 93.02% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.79 / defaultTarget(m/s) : 18.85 / spurtTarget(m/s) : 20.57 / currPosition : <182.08, 0.50> / Stamina : 94.99% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 220
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.99 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 21.77 / currPosition : <221.38, 4.00> / Stamina : 93.53% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.87 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.71 / currPosition : <221.32, 3.00> / Stamina : 93.53% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 19.73 / defaultTarget(m/s) : 19.73 / spurtTarget(m/s) : 21.32 / currPosition : <209.06, 0.50> / Stamina : 91.11% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.68 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.24 / currPosition : <209.04, 0.50> / Stamina : 91.29% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.99 / defaultTarget(m/s) : 18.99 / spurtTarget(m/s) : 20.65 / currPosition : <201.00, 0.45> / Stamina : 92.27% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.78 / defaultTarget(m/s) : 18.84 / spurtTarget(m/s) : 20.57 / currPosition : <200.97, 0.50> / Stamina : 94.55% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 240
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.96 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.77 / currPosition : <242.26, 4.00> / Stamina : 92.90% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.87 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.71 / currPosition : <242.19, 3.00> / Stamina : 92.91% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.65 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.32 / currPosition : <228.71, 0.50> / Stamina : 90.37% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 19.72 / defaultTarget(m/s) : 19.72 / spurtTarget(m/s) : 21.24 / currPosition : <228.70, 0.50> / Stamina : 90.65% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.91 / defaultTarget(m/s) : 18.91 / spurtTarget(m/s) : 20.65 / currPosition : <219.89, 0.45> / Stamina : 91.58% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.75 / defaultTarget(m/s) : 18.81 / spurtTarget(m/s) : 20.57 / currPosition : <219.87, 0.50> / Stamina : 94.04% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 260
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.90 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.77 / currPosition : <263.14, 4.00> / Stamina : 92.28% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.96 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.71 / currPosition : <263.06, 3.00> / Stamina : 92.29% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        넘버 리프라이즈 - targetSpeed(m/s) : 19.68 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.24 / currPosition : <248.36, 0.50> / Stamina : 90.02% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.68 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.32 / currPosition : <248.36, 0.50> / Stamina : 89.64% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 18.87 / defaultTarget(m/s) : 18.87 / spurtTarget(m/s) : 20.57 / currPosition : <238.78, 0.50> / Stamina : 93.50% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 19.83 / defaultTarget(m/s) : 18.89 / spurtTarget(m/s) : 20.65 / currPosition : <238.78, 0.45> / Stamina : 90.93% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 280
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.88 / defaultTarget(m/s) : 20.08 / spurtTarget(m/s) : 21.77 / currPosition : <284.02, 4.00> / Stamina : 91.66% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.94 / defaultTarget(m/s) : 20.14 / spurtTarget(m/s) : 21.71 / currPosition : <283.94, 3.00> / Stamina : 91.67% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        넘버 리프라이즈 - targetSpeed(m/s) : 19.71 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.24 / currPosition : <268.00, 0.50> / Stamina : 89.27% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.62 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.32 / currPosition : <268.00, 0.50> / Stamina : 89.02% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.92 / defaultTarget(m/s) : 18.92 / spurtTarget(m/s) : 20.65 / currPosition : <257.67, 0.45> / Stamina : 90.22% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.83 / defaultTarget(m/s) : 18.89 / spurtTarget(m/s) : 20.57 / currPosition : <257.67, 0.50> / Stamina : 93.01% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 300
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.88 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.77 / currPosition : <304.88, 4.00> / Stamina : 91.04% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.71 / currPosition : <304.81, 3.00> / Stamina : 91.05% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        넘버 리프라이즈 - targetSpeed(m/s) : 19.66 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.24 / currPosition : <287.65, 0.50> / Stamina : 88.71% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.70 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.32 / currPosition : <287.65, 0.50> / Stamina : 88.22% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.93 / defaultTarget(m/s) : 18.93 / spurtTarget(m/s) : 20.65 / currPosition : <276.56, 0.45> / Stamina : 89.52% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.87 / defaultTarget(m/s) : 18.92 / spurtTarget(m/s) : 20.57 / currPosition : <276.56, 0.50> / Stamina : 92.52% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 320
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.96 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.77 / currPosition : <325.74, 4.00> / Stamina : 90.42% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.71 / currPosition : <325.67, 3.00> / Stamina : 90.42% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        넘버 리프라이즈 - targetSpeed(m/s) : 19.73 / defaultTarget(m/s) : 19.73 / spurtTarget(m/s) : 21.24 / currPosition : <307.29, 0.50> / Stamina : 88.04% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.66 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.32 / currPosition : <307.28, 0.50> / Stamina : 87.52% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.95 / defaultTarget(m/s) : 18.95 / spurtTarget(m/s) : 20.65 / currPosition : <295.48, 0.45> / Stamina : 88.77% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.82 / defaultTarget(m/s) : 18.87 / spurtTarget(m/s) : 20.57 / currPosition : <295.48, 0.50> / Stamina : 92.07% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 340
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.92 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.77 / currPosition : <346.62, 4.00> / Stamina : 89.80% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.88 / defaultTarget(m/s) : 20.08 / spurtTarget(m/s) : 21.71 / currPosition : <346.53, 3.00> / Stamina : 89.80% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        넘버 리프라이즈 - targetSpeed(m/s) : 19.75 / defaultTarget(m/s) : 19.75 / spurtTarget(m/s) : 21.24 / currPosition : <326.94, 0.50> / Stamina : 87.24% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.68 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.32 / currPosition : <326.92, 0.50> / Stamina : 86.96% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 19.00 / defaultTarget(m/s) : 19.00 / spurtTarget(m/s) : 20.65 / currPosition : <314.38, 0.45> / Stamina : 88.10% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.76 / defaultTarget(m/s) : 18.82 / spurtTarget(m/s) : 20.57 / currPosition : <314.37, 0.50> / Stamina : 91.55% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 360
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.94 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.77 / currPosition : <367.49, 3.95> / Stamina : 89.15% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.86 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.71 / currPosition : <367.38, 2.95> / Stamina : 89.16% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 3 :        넘버 리프라이즈 - targetSpeed(m/s) : 19.71 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.24 / currPosition : <346.56, 0.50> / Stamina : 86.51% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.70 / defaultTarget(m/s) : 19.72 / spurtTarget(m/s) : 21.32 / currPosition : <346.55, 0.50> / Stamina : 86.33% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.89 / defaultTarget(m/s) : 18.89 / spurtTarget(m/s) : 20.65 / currPosition : <333.26, 0.45> / Stamina : 87.38% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.81 / defaultTarget(m/s) : 18.87 / spurtTarget(m/s) : 20.57 / currPosition : <333.23, 0.50> / Stamina : 91.07% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 380
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.12 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.77 / currPosition : <388.23, 2.95> / Stamina : 88.13% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.18 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.71 / currPosition : <388.00, 1.95> / Stamina : 88.16% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 19.70 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.32 / currPosition : <366.19, 0.50> / Stamina : 85.75% / Phase : Middle / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.65 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.24 / currPosition : <366.19, 0.50> / Stamina : 85.73% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 18.90 / defaultTarget(m/s) : 18.90 / spurtTarget(m/s) : 20.65 / currPosition : <352.14, 0.45> / Stamina : 86.67% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 19.82 / defaultTarget(m/s) : 18.88 / spurtTarget(m/s) : 20.57 / currPosition : <352.13, 0.50> / Stamina : 90.60% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 400
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 19.72 / spurtTarget(m/s) : 21.77 / currPosition : <409.50, 1.95> / Stamina : 87.15% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.14 / defaultTarget(m/s) : 19.72 / spurtTarget(m/s) : 21.71 / currPosition : <409.25, 0.95> / Stamina : 87.19% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.65 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.32 / currPosition : <385.89, 0.50> / Stamina : 85.24% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.57 / defaultTarget(m/s) : 19.59 / spurtTarget(m/s) : 21.24 / currPosition : <385.89, 0.50> / Stamina : 85.21% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 20.37 / spurtTarget(m/s) : 20.65 / currPosition : <371.04, 0.45> / Stamina : 86.02% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 20.57 / currPosition : <371.03, 0.50> / Stamina : 90.12% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 420
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.56 / defaultTarget(m/s) : 19.79 / spurtTarget(m/s) : 21.77 / currPosition : <431.90, 0.95> / Stamina : 86.19% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.69 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.71 / currPosition : <431.78, 0.45> / Stamina : 86.43% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.55 / defaultTarget(m/s) : 19.57 / spurtTarget(m/s) : 21.32 / currPosition : <406.24, 0.50> / Stamina : 84.71% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.67 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.24 / currPosition : <406.24, 0.50> / Stamina : 84.69% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.34 / defaultTarget(m/s) : 20.32 / spurtTarget(m/s) : 20.65 / currPosition : <390.06, 0.45> / Stamina : 85.57% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 20.57 / currPosition : <390.06, 0.50> / Stamina : 89.66% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 440
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.59 / defaultTarget(m/s) : 19.79 / spurtTarget(m/s) : 21.71 / currPosition : <454.44, 0.45> / Stamina : 85.85% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.69 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.77 / currPosition : <454.41, 0.45> / Stamina : 85.43% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.63 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.32 / currPosition : <428.31, 0.50> / Stamina : 84.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.58 / defaultTarget(m/s) : 19.60 / spurtTarget(m/s) : 21.24 / currPosition : <428.31, 0.50> / Stamina : 84.15% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 20.57 / currPosition : <410.16, 0.50> / Stamina : 89.19% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 20.38 / spurtTarget(m/s) : 20.65 / currPosition : <410.15, 0.45> / Stamina : 85.10% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 460
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.57 / defaultTarget(m/s) : 19.78 / spurtTarget(m/s) : 21.71 / currPosition : <477.10, 0.45> / Stamina : 85.26% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.67 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.77 / currPosition : <477.05, 0.45> / Stamina : 84.84% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.58 / defaultTarget(m/s) : 19.60 / spurtTarget(m/s) : 21.32 / currPosition : <450.51, 0.50> / Stamina : 83.63% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.61 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.24 / currPosition : <450.51, 0.50> / Stamina : 83.60% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 20.57 / currPosition : <431.56, 0.50> / Stamina : 88.71% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.36 / defaultTarget(m/s) : 20.34 / spurtTarget(m/s) : 20.65 / currPosition : <431.55, 0.45> / Stamina : 84.61% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 480
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.53 / defaultTarget(m/s) : 19.74 / spurtTarget(m/s) : 21.77 / currPosition : <499.76, 0.45> / Stamina : 84.26% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.66 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.71 / currPosition : <499.76, 0.45> / Stamina : 84.68% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.64 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.32 / currPosition : <472.84, 0.50> / Stamina : 83.07% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.59 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.24 / currPosition : <472.84, 0.50> / Stamina : 83.04% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.25 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 20.57 / currPosition : <453.12, 0.50> / Stamina : 88.21% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.29 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 20.65 / currPosition : <453.11, 0.45> / Stamina : 84.12% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 500
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.46 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.71 / currPosition : <522.44, 0.45> / Stamina : 84.09% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.69 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.77 / currPosition : <522.43, 0.45> / Stamina : 83.67% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.61 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.32 / currPosition : <495.31, 0.50> / Stamina : 82.50% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.60 / defaultTarget(m/s) : 19.62 / spurtTarget(m/s) : 21.24 / currPosition : <495.30, 0.50> / Stamina : 82.48% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 20.57 / currPosition : <474.86, 0.50> / Stamina : 87.70% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.35 / defaultTarget(m/s) : 20.34 / spurtTarget(m/s) : 20.65 / currPosition : <474.83, 0.45> / Stamina : 83.61% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 520
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.46 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.71 / currPosition : <545.11, 0.45> / Stamina : 83.51% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.74 / defaultTarget(m/s) : 19.75 / spurtTarget(m/s) : 21.77 / currPosition : <545.11, 0.45> / Stamina : 83.09% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.60 / defaultTarget(m/s) : 19.62 / spurtTarget(m/s) : 21.32 / currPosition : <517.90, 0.50> / Stamina : 81.92% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.61 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.24 / currPosition : <517.89, 0.50> / Stamina : 81.90% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.28 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 20.57 / currPosition : <496.75, 0.50> / Stamina : 87.18% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.37 / defaultTarget(m/s) : 20.35 / spurtTarget(m/s) : 20.65 / currPosition : <496.72, 0.45> / Stamina : 83.09% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 540
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.48 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.77 / currPosition : <567.77, 0.45> / Stamina : 82.51% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.76 / defaultTarget(m/s) : 19.77 / spurtTarget(m/s) : 21.71 / currPosition : <567.77, 0.45> / Stamina : 82.93% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.58 / defaultTarget(m/s) : 19.60 / spurtTarget(m/s) : 21.32 / currPosition : <540.62, 0.50> / Stamina : 81.33% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.59 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.24 / currPosition : <540.61, 0.50> / Stamina : 81.31% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.28 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 20.57 / currPosition : <518.81, 0.50> / Stamina : 86.65% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.37 / defaultTarget(m/s) : 20.35 / spurtTarget(m/s) : 20.65 / currPosition : <518.78, 0.45> / Stamina : 82.55% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 560
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.47 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.77 / currPosition : <590.46, 0.45> / Stamina : 81.92% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.72 / defaultTarget(m/s) : 19.73 / spurtTarget(m/s) : 21.71 / currPosition : <590.45, 0.45> / Stamina : 82.34% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.68 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.32 / currPosition : <563.39, 0.50> / Stamina : 80.73% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.59 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.24 / currPosition : <563.37, 0.50> / Stamina : 80.71% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 20.57 / currPosition : <541.04, 0.50> / Stamina : 86.10% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.26 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 20.65 / currPosition : <541.00, 0.45> / Stamina : 82.00% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 580
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.55 / defaultTarget(m/s) : 19.76 / spurtTarget(m/s) : 21.71 / currPosition : <611.95, 0.45> / Stamina : 81.76% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.73 / defaultTarget(m/s) : 19.74 / spurtTarget(m/s) : 21.77 / currPosition : <611.93, 0.45> / Stamina : 81.34% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.64 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.32 / currPosition : <586.15, 0.50> / Stamina : 80.14% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.56 / defaultTarget(m/s) : 19.58 / spurtTarget(m/s) : 21.24 / currPosition : <586.13, 0.50> / Stamina : 80.12% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 20.57 / currPosition : <563.44, 0.50> / Stamina : 85.54% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.35 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 20.65 / currPosition : <563.38, 0.45> / Stamina : 81.44% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 600
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.69 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.71 / currPosition : <632.43, 0.45> / Stamina : 81.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.56 / defaultTarget(m/s) : 19.76 / spurtTarget(m/s) : 21.77 / currPosition : <632.42, 0.45> / Stamina : 80.75% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.57 / defaultTarget(m/s) : 19.59 / spurtTarget(m/s) : 21.32 / currPosition : <608.14, 0.50> / Stamina : 79.55% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.65 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.24 / currPosition : <608.10, 0.50> / Stamina : 79.53% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 20.57 / currPosition : <586.00, 0.50> / Stamina : 84.96% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.36 / defaultTarget(m/s) : 20.34 / spurtTarget(m/s) : 20.65 / currPosition : <585.93, 0.45> / Stamina : 80.87% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 620
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.50 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.71 / currPosition : <652.90, 0.45> / Stamina : 80.59% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.76 / defaultTarget(m/s) : 19.77 / spurtTarget(m/s) : 21.77 / currPosition : <652.89, 0.45> / Stamina : 80.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.57 / defaultTarget(m/s) : 19.59 / spurtTarget(m/s) : 21.32 / currPosition : <628.70, 0.50> / Stamina : 78.95% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.63 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.24 / currPosition : <628.67, 0.50> / Stamina : 78.93% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.26 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 20.57 / currPosition : <607.95, 0.50> / Stamina : 84.37% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.32 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 20.65 / currPosition : <607.88, 0.45> / Stamina : 80.28% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 640
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.59 / defaultTarget(m/s) : 19.80 / spurtTarget(m/s) : 21.77 / currPosition : <673.38, 0.45> / Stamina : 79.58% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.72 / defaultTarget(m/s) : 19.73 / spurtTarget(m/s) : 21.71 / currPosition : <673.37, 0.45> / Stamina : 80.00% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.60 / defaultTarget(m/s) : 19.62 / spurtTarget(m/s) : 21.32 / currPosition : <649.26, 0.50> / Stamina : 78.36% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.65 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.24 / currPosition : <649.23, 0.50> / Stamina : 78.34% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 20.57 / currPosition : <628.63, 0.50> / Stamina : 83.77% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.31 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 20.65 / currPosition : <628.54, 0.45> / Stamina : 79.67% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 660
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.53 / defaultTarget(m/s) : 19.74 / spurtTarget(m/s) : 21.77 / currPosition : <693.85, 0.45> / Stamina : 79.00% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.67 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.71 / currPosition : <693.85, 0.45> / Stamina : 79.42% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.64 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.32 / currPosition : <669.82, 0.50> / Stamina : 77.77% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.62 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.24 / currPosition : <669.80, 0.50> / Stamina : 77.74% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.30 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 20.57 / currPosition : <649.46, 0.50> / Stamina : 83.15% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.32 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 20.65 / currPosition : <649.35, 0.45> / Stamina : 79.06% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 680
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.69 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.71 / currPosition : <714.35, 0.45> / Stamina : 78.83% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.51 / defaultTarget(m/s) : 19.72 / spurtTarget(m/s) : 21.77 / currPosition : <714.35, 0.45> / Stamina : 78.41% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.67 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.32 / currPosition : <690.40, 0.50> / Stamina : 77.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.62 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.24 / currPosition : <690.36, 0.50> / Stamina : 77.15% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 20.57 / currPosition : <670.44, 0.50> / Stamina : 82.52% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.32 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 20.65 / currPosition : <670.31, 0.45> / Stamina : 78.43% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 700
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.49 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.71 / currPosition : <734.83, 0.45> / Stamina : 78.25% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.69 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.77 / currPosition : <734.82, 0.45> / Stamina : 77.83% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.65 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.32 / currPosition : <710.98, 0.50> / Stamina : 76.58% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.57 / defaultTarget(m/s) : 19.59 / spurtTarget(m/s) : 21.24 / currPosition : <710.95, 0.50> / Stamina : 76.55% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 20.57 / currPosition : <691.57, 0.50> / Stamina : 81.87% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.29 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 20.65 / currPosition : <691.43, 0.45> / Stamina : 77.78% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 720
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.50 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.77 / currPosition : <755.31, 0.45> / Stamina : 77.24% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.71 / defaultTarget(m/s) : 19.73 / spurtTarget(m/s) : 21.71 / currPosition : <755.31, 0.45> / Stamina : 77.66% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.65 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.32 / currPosition : <731.55, 0.50> / Stamina : 75.98% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.67 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.24 / currPosition : <731.53, 0.50> / Stamina : 75.96% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.26 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 20.57 / currPosition : <712.77, 0.50> / Stamina : 81.22% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.33 / defaultTarget(m/s) : 20.32 / spurtTarget(m/s) : 20.65 / currPosition : <712.67, 0.45> / Stamina : 77.12% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 740
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.72 / defaultTarget(m/s) : 19.74 / spurtTarget(m/s) : 21.71 / currPosition : <775.79, 0.45> / Stamina : 77.08% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.48 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.77 / currPosition : <775.79, 0.45> / Stamina : 76.66% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.56 / defaultTarget(m/s) : 19.58 / spurtTarget(m/s) : 21.32 / currPosition : <752.11, 0.50> / Stamina : 75.39% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.55 / defaultTarget(m/s) : 19.57 / spurtTarget(m/s) : 21.24 / currPosition : <752.07, 0.50> / Stamina : 75.37% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         트윈 페르소나 - targetSpeed(m/s) : 21.25 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 20.57 / currPosition : <733.98, 0.50> / Stamina : 80.57% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         데네브 네오스 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 20.36 / spurtTarget(m/s) : 20.65 / currPosition : <733.95, 0.45> / Stamina : 76.46% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 760
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.49 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.77 / currPosition : <796.28, 0.45> / Stamina : 76.07% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.77 / defaultTarget(m/s) : 19.78 / spurtTarget(m/s) : 21.71 / currPosition : <796.28, 0.45> / Stamina : 76.49% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.63 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.32 / currPosition : <772.68, 0.50> / Stamina : 74.79% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.59 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.24 / currPosition : <772.62, 0.50> / Stamina : 74.77% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 20.65 / currPosition : <755.21, 0.45> / Stamina : 75.80% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 20.57 / currPosition : <755.19, 0.50> / Stamina : 79.91% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 780
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.56 / defaultTarget(m/s) : 19.77 / spurtTarget(m/s) : 21.77 / currPosition : <816.76, 0.45> / Stamina : 75.49% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.72 / defaultTarget(m/s) : 19.73 / spurtTarget(m/s) : 21.71 / currPosition : <816.75, 0.45> / Stamina : 75.91% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.62 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.32 / currPosition : <793.23, 0.50> / Stamina : 74.20% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.66 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.24 / currPosition : <793.19, 0.50> / Stamina : 74.18% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.32 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 20.65 / currPosition : <776.52, 0.45> / Stamina : 75.14% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 20.57 / currPosition : <776.40, 0.50> / Stamina : 79.26% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 800
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.46 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.77 / currPosition : <837.26, 0.45> / Stamina : 74.90% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.76 / defaultTarget(m/s) : 19.77 / spurtTarget(m/s) : 21.71 / currPosition : <837.25, 0.45> / Stamina : 75.32% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.66 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.32 / currPosition : <813.79, 0.50> / Stamina : 73.61% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.62 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.24 / currPosition : <813.76, 0.50> / Stamina : 73.58% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.35 / defaultTarget(m/s) : 20.34 / spurtTarget(m/s) : 20.65 / currPosition : <797.80, 0.45> / Stamina : 74.47% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 20.57 / currPosition : <797.59, 0.50> / Stamina : 78.61% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 820
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.54 / defaultTarget(m/s) : 19.75 / spurtTarget(m/s) : 21.71 / currPosition : <857.75, 0.45> / Stamina : 74.73% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.70 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.77 / currPosition : <857.74, 0.45> / Stamina : 74.31% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.64 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.32 / currPosition : <834.35, 0.50> / Stamina : 73.01% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.64 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.24 / currPosition : <834.30, 0.50> / Stamina : 72.99% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 20.65 / currPosition : <819.09, 0.45> / Stamina : 73.81% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 20.57 / currPosition : <818.79, 0.50> / Stamina : 77.96% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 840
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.54 / defaultTarget(m/s) : 19.75 / spurtTarget(m/s) : 21.77 / currPosition : <878.24, 0.45> / Stamina : 73.73% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.74 / defaultTarget(m/s) : 19.75 / spurtTarget(m/s) : 21.71 / currPosition : <878.23, 0.45> / Stamina : 74.15% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.63 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.32 / currPosition : <854.91, 0.50> / Stamina : 72.42% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.65 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.24 / currPosition : <854.85, 0.50> / Stamina : 72.40% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.29 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 20.65 / currPosition : <840.39, 0.45> / Stamina : 73.15% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 20.57 / currPosition : <840.00, 0.50> / Stamina : 77.30% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 860
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.55 / defaultTarget(m/s) : 19.76 / spurtTarget(m/s) : 21.71 / currPosition : <898.72, 0.45> / Stamina : 73.56% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.76 / defaultTarget(m/s) : 19.77 / spurtTarget(m/s) : 21.77 / currPosition : <898.71, 0.45> / Stamina : 73.14% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.55 / defaultTarget(m/s) : 19.57 / spurtTarget(m/s) : 21.32 / currPosition : <875.47, 0.50> / Stamina : 71.82% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.61 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.24 / currPosition : <875.42, 0.50> / Stamina : 71.80% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.37 / defaultTarget(m/s) : 20.35 / spurtTarget(m/s) : 20.65 / currPosition : <861.68, 0.45> / Stamina : 72.48% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 20.57 / currPosition : <861.21, 0.50> / Stamina : 76.65% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 880
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.57 / defaultTarget(m/s) : 19.78 / spurtTarget(m/s) : 21.77 / currPosition : <919.18, 0.45> / Stamina : 72.56% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.71 / defaultTarget(m/s) : 19.73 / spurtTarget(m/s) : 21.71 / currPosition : <919.18, 0.45> / Stamina : 72.98% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.59 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.32 / currPosition : <896.04, 0.50> / Stamina : 71.23% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.59 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.24 / currPosition : <895.98, 0.50> / Stamina : 71.21% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.33 / defaultTarget(m/s) : 20.32 / spurtTarget(m/s) : 20.65 / currPosition : <882.96, 0.45> / Stamina : 71.82% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 20.57 / currPosition : <882.40, 0.50> / Stamina : 76.00% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 900
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.48 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.77 / currPosition : <939.66, 0.45> / Stamina : 71.97% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.66 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.71 / currPosition : <939.66, 0.45> / Stamina : 72.40% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.59 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.32 / currPosition : <916.60, 0.50> / Stamina : 70.64% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.62 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.24 / currPosition : <916.52, 0.50> / Stamina : 70.62% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.30 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 20.65 / currPosition : <904.24, 0.45> / Stamina : 71.16% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 20.57 / currPosition : <903.60, 0.50> / Stamina : 75.34% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 920
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.51 / defaultTarget(m/s) : 19.72 / spurtTarget(m/s) : 21.71 / currPosition : <960.14, 0.45> / Stamina : 71.81% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.69 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.77 / currPosition : <960.14, 0.45> / Stamina : 71.39% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.66 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.32 / currPosition : <937.17, 0.50> / Stamina : 70.04% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.65 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.24 / currPosition : <937.08, 0.50> / Stamina : 70.03% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.28 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 20.65 / currPosition : <925.52, 0.45> / Stamina : 70.50% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 20.57 / currPosition : <924.80, 0.50> / Stamina : 74.69% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 940
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.56 / defaultTarget(m/s) : 19.77 / spurtTarget(m/s) : 21.71 / currPosition : <980.62, 0.45> / Stamina : 71.23% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.76 / defaultTarget(m/s) : 19.78 / spurtTarget(m/s) : 21.77 / currPosition : <980.62, 0.45> / Stamina : 70.81% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.58 / defaultTarget(m/s) : 19.60 / spurtTarget(m/s) : 21.32 / currPosition : <957.75, 0.50> / Stamina : 69.45% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.64 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.24 / currPosition : <957.65, 0.50> / Stamina : 69.43% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 20.65 / currPosition : <946.79, 0.45> / Stamina : 69.84% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.32 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 20.57 / currPosition : <946.01, 0.50> / Stamina : 74.04% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 960
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.52 / defaultTarget(m/s) : 19.73 / spurtTarget(m/s) : 21.71 / currPosition : <1001.09, 0.45> / Stamina : 70.64% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.74 / defaultTarget(m/s) : 19.75 / spurtTarget(m/s) : 21.77 / currPosition : <1001.09, 0.45> / Stamina : 70.22% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.57 / defaultTarget(m/s) : 19.59 / spurtTarget(m/s) : 21.32 / currPosition : <978.32, 0.50> / Stamina : 68.85% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.62 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.24 / currPosition : <978.21, 0.50> / Stamina : 68.84% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.36 / defaultTarget(m/s) : 20.34 / spurtTarget(m/s) : 20.65 / currPosition : <968.07, 0.45> / Stamina : 69.18% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.32 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 20.57 / currPosition : <967.21, 0.50> / Stamina : 73.38% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 980
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.54 / defaultTarget(m/s) : 19.75 / spurtTarget(m/s) : 21.77 / currPosition : <1021.59, 0.45> / Stamina : 69.63% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.73 / defaultTarget(m/s) : 19.74 / spurtTarget(m/s) : 21.71 / currPosition : <1021.59, 0.45> / Stamina : 70.06% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.61 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.32 / currPosition : <998.88, 0.50> / Stamina : 68.26% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.58 / defaultTarget(m/s) : 19.60 / spurtTarget(m/s) : 21.24 / currPosition : <998.77, 0.50> / Stamina : 68.24% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.34 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 20.65 / currPosition : <989.36, 0.45> / Stamina : 68.51% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 20.57 / currPosition : <988.40, 0.50> / Stamina : 72.73% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1000
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.48 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.71 / currPosition : <1042.06, 0.45> / Stamina : 69.47% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.69 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.77 / currPosition : <1042.05, 0.45> / Stamina : 69.05% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.64 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.32 / currPosition : <1019.45, 0.50> / Stamina : 67.66% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.68 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.24 / currPosition : <1019.33, 0.50> / Stamina : 67.65% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.31 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 20.65 / currPosition : <1010.64, 0.45> / Stamina : 67.85% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.30 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 20.57 / currPosition : <1009.63, 0.50> / Stamina : 72.08% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1020
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.50 / defaultTarget(m/s) : 19.72 / spurtTarget(m/s) : 21.77 / currPosition : <1062.54, 0.45> / Stamina : 68.47% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.66 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.71 / currPosition : <1062.53, 0.45> / Stamina : 68.89% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.67 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.32 / currPosition : <1040.03, 0.50> / Stamina : 67.07% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.56 / defaultTarget(m/s) : 19.58 / spurtTarget(m/s) : 21.24 / currPosition : <1039.89, 0.50> / Stamina : 67.06% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.30 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 20.65 / currPosition : <1031.92, 0.45> / Stamina : 67.19% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 20.57 / currPosition : <1030.82, 0.50> / Stamina : 71.43% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1040
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.50 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.71 / currPosition : <1083.03, 0.45> / Stamina : 68.30% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.72 / defaultTarget(m/s) : 19.74 / spurtTarget(m/s) : 21.77 / currPosition : <1083.03, 0.45> / Stamina : 67.88% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.67 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.32 / currPosition : <1060.60, 0.50> / Stamina : 66.47% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.63 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.24 / currPosition : <1060.44, 0.50> / Stamina : 66.46% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.34 / defaultTarget(m/s) : 20.32 / spurtTarget(m/s) : 20.65 / currPosition : <1053.22, 0.45> / Stamina : 66.52% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 20.57 / currPosition : <1052.07, 0.50> / Stamina : 70.77% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1060
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.50 / defaultTarget(m/s) : 19.72 / spurtTarget(m/s) : 21.71 / currPosition : <1103.51, 0.45> / Stamina : 67.72% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.67 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.77 / currPosition : <1103.51, 0.45> / Stamina : 67.30% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.59 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.32 / currPosition : <1081.16, 0.50> / Stamina : 65.88% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.57 / defaultTarget(m/s) : 19.59 / spurtTarget(m/s) : 21.24 / currPosition : <1081.00, 0.50> / Stamina : 65.87% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.33 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 20.65 / currPosition : <1074.50, 0.45> / Stamina : 65.86% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 20.57 / currPosition : <1073.29, 0.50> / Stamina : 70.11% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1080
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.56 / defaultTarget(m/s) : 19.76 / spurtTarget(m/s) : 21.77 / currPosition : <1124.00, 0.45> / Stamina : 66.71% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.69 / defaultTarget(m/s) : 19.71 / spurtTarget(m/s) : 21.71 / currPosition : <1124.00, 0.45> / Stamina : 67.13% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.58 / defaultTarget(m/s) : 19.60 / spurtTarget(m/s) : 21.32 / currPosition : <1101.71, 0.50> / Stamina : 65.29% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.55 / defaultTarget(m/s) : 19.58 / spurtTarget(m/s) : 21.24 / currPosition : <1101.56, 0.50> / Stamina : 65.28% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 20.36 / spurtTarget(m/s) : 20.65 / currPosition : <1095.78, 0.45> / Stamina : 65.20% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 20.57 / currPosition : <1094.50, 0.50> / Stamina : 69.46% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1100
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.48 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.71 / currPosition : <1144.49, 0.45> / Stamina : 66.55% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.69 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.77 / currPosition : <1144.49, 0.45> / Stamina : 66.12% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.66 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.32 / currPosition : <1122.27, 0.50> / Stamina : 64.69% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.56 / defaultTarget(m/s) : 19.58 / spurtTarget(m/s) : 21.24 / currPosition : <1122.11, 0.50> / Stamina : 64.68% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.28 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 20.65 / currPosition : <1117.04, 0.45> / Stamina : 64.54% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.28 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 20.57 / currPosition : <1115.69, 0.50> / Stamina : 68.81% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1120
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.52 / defaultTarget(m/s) : 19.73 / spurtTarget(m/s) : 21.71 / currPosition : <1164.98, 0.45> / Stamina : 65.96% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.68 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.77 / currPosition : <1164.97, 0.45> / Stamina : 65.54% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.60 / defaultTarget(m/s) : 19.62 / spurtTarget(m/s) : 21.32 / currPosition : <1142.84, 0.50> / Stamina : 64.10% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.56 / defaultTarget(m/s) : 19.58 / spurtTarget(m/s) : 21.24 / currPosition : <1142.66, 0.50> / Stamina : 64.09% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 20.36 / spurtTarget(m/s) : 20.65 / currPosition : <1138.32, 0.45> / Stamina : 63.88% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 20.57 / currPosition : <1136.90, 0.50> / Stamina : 68.15% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1140
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.53 / defaultTarget(m/s) : 19.74 / spurtTarget(m/s) : 21.71 / currPosition : <1185.48, 0.45> / Stamina : 65.37% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.77 / defaultTarget(m/s) : 19.78 / spurtTarget(m/s) : 21.77 / currPosition : <1185.46, 0.45> / Stamina : 64.95% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.65 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.32 / currPosition : <1163.42, 0.50> / Stamina : 63.50% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.64 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.24 / currPosition : <1163.24, 0.50> / Stamina : 63.50% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.33 / defaultTarget(m/s) : 20.32 / spurtTarget(m/s) : 20.65 / currPosition : <1159.61, 0.45> / Stamina : 63.22% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 20.57 / currPosition : <1158.12, 0.50> / Stamina : 67.50% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1160
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.53 / defaultTarget(m/s) : 19.74 / spurtTarget(m/s) : 21.71 / currPosition : <1206.50, 0.45> / Stamina : 64.79% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.73 / defaultTarget(m/s) : 19.74 / spurtTarget(m/s) : 21.77 / currPosition : <1206.50, 0.45> / Stamina : 64.37% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.64 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.32 / currPosition : <1183.98, 0.50> / Stamina : 62.91% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.64 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.24 / currPosition : <1183.79, 0.50> / Stamina : 62.90% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.35 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 20.65 / currPosition : <1180.87, 0.45> / Stamina : 62.56% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.28 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 20.57 / currPosition : <1179.33, 0.50> / Stamina : 66.85% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1180
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.48 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.77 / currPosition : <1229.17, 0.45> / Stamina : 63.78% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.78 / defaultTarget(m/s) : 19.79 / spurtTarget(m/s) : 21.71 / currPosition : <1229.17, 0.45> / Stamina : 64.21% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.60 / defaultTarget(m/s) : 19.62 / spurtTarget(m/s) : 21.32 / currPosition : <1204.99, 0.50> / Stamina : 62.31% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.68 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.24 / currPosition : <1204.80, 0.50> / Stamina : 62.31% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.33 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 20.65 / currPosition : <1202.38, 0.45> / Stamina : 61.89% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.32 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 20.57 / currPosition : <1200.53, 0.50> / Stamina : 66.19% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1200
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.48 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.71 / currPosition : <1251.85, 0.45> / Stamina : 63.62% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.78 / defaultTarget(m/s) : 19.79 / spurtTarget(m/s) : 21.77 / currPosition : <1251.85, 0.45> / Stamina : 63.20% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.65 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.32 / currPosition : <1227.75, 0.50> / Stamina : 61.72% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.62 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.24 / currPosition : <1227.56, 0.50> / Stamina : 61.71% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.29 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 20.65 / currPosition : <1225.93, 0.45> / Stamina : 61.23% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 20.57 / currPosition : <1224.01, 0.50> / Stamina : 65.54% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1220
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.70 / defaultTarget(m/s) : 19.72 / spurtTarget(m/s) : 21.77 / currPosition : <1274.51, 0.45> / Stamina : 62.62% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.47 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.71 / currPosition : <1274.51, 0.45> / Stamina : 63.04% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.66 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.32 / currPosition : <1250.51, 0.50> / Stamina : 61.13% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.59 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.24 / currPosition : <1250.31, 0.50> / Stamina : 61.12% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :         데네브 네오스 - targetSpeed(m/s) : 21.36 / defaultTarget(m/s) : 20.34 / spurtTarget(m/s) : 20.65 / currPosition : <1249.52, 0.45> / Stamina : 60.57% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 20.57 / currPosition : <1247.50, 0.50> / Stamina : 64.88% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1240
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.49 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.71 / currPosition : <1297.20, 0.45> / Stamina : 62.45% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.77 / defaultTarget(m/s) : 19.78 / spurtTarget(m/s) : 21.77 / currPosition : <1297.19, 0.45> / Stamina : 62.03% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          래피드 스텝 - targetSpeed(m/s) : 20.66 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.32 / currPosition : <1273.26, 0.50> / Stamina : 60.53% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         데네브 네오스 - targetSpeed(m/s) : 21.39 / defaultTarget(m/s) : 20.38 / spurtTarget(m/s) : 20.65 / currPosition : <1273.11, 0.45> / Stamina : 59.91% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.41 / defaultTarget(m/s) : 19.62 / spurtTarget(m/s) : 21.24 / currPosition : <1273.05, 0.50> / Stamina : 60.53% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.25 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 20.57 / currPosition : <1270.98, 0.50> / Stamina : 64.23% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1260
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.52 / defaultTarget(m/s) : 19.73 / spurtTarget(m/s) : 21.71 / currPosition : <1319.87, 0.45> / Stamina : 61.87% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.71 / defaultTarget(m/s) : 19.72 / spurtTarget(m/s) : 21.77 / currPosition : <1319.86, 0.45> / Stamina : 61.45% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 20.36 / spurtTarget(m/s) : 20.65 / currPosition : <1296.69, 0.45> / Stamina : 59.24% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.47 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.32 / currPosition : <1295.88, 0.50> / Stamina : 59.95% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.67 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.24 / currPosition : <1295.69, 0.50> / Stamina : 59.95% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 20.57 / currPosition : <1294.46, 0.50> / Stamina : 63.58% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1280
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.56 / defaultTarget(m/s) : 19.77 / spurtTarget(m/s) : 21.71 / currPosition : <1342.56, 0.45> / Stamina : 61.28% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.66 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.77 / currPosition : <1342.56, 0.45> / Stamina : 60.86% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 21.34 / defaultTarget(m/s) : 20.32 / spurtTarget(m/s) : 20.65 / currPosition : <1320.25, 0.45> / Stamina : 58.58% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.41 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.32 / currPosition : <1318.45, 0.50> / Stamina : 59.37% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.55 / defaultTarget(m/s) : 19.58 / spurtTarget(m/s) : 21.24 / currPosition : <1318.44, 0.50> / Stamina : 59.35% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         트윈 페르소나 - targetSpeed(m/s) : 21.22 / defaultTarget(m/s) : 20.21 / spurtTarget(m/s) : 20.57 / currPosition : <1317.94, 0.50> / Stamina : 62.92% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1300
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.52 / defaultTarget(m/s) : 19.73 / spurtTarget(m/s) : 21.77 / currPosition : <1365.26, 0.45> / Stamina : 60.27% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.78 / defaultTarget(m/s) : 19.79 / spurtTarget(m/s) : 21.71 / currPosition : <1365.26, 0.45> / Stamina : 60.70% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 21.31 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 20.65 / currPosition : <1343.82, 0.45> / Stamina : 57.92% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.25 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 20.57 / currPosition : <1341.42, 0.50> / Stamina : 62.27% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 20.66 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.32 / currPosition : <1341.04, 0.50> / Stamina : 58.80% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.40 / defaultTarget(m/s) : 19.62 / spurtTarget(m/s) : 21.24 / currPosition : <1341.04, 0.50> / Stamina : 58.77% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 1320
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.53 / defaultTarget(m/s) : 19.74 / spurtTarget(m/s) : 21.77 / currPosition : <1387.96, 0.45> / Stamina : 59.69% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.72 / defaultTarget(m/s) : 19.73 / spurtTarget(m/s) : 21.71 / currPosition : <1387.96, 0.45> / Stamina : 60.11% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 20.36 / spurtTarget(m/s) : 20.65 / currPosition : <1367.37, 0.45> / Stamina : 57.26% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 20.57 / currPosition : <1364.90, 0.50> / Stamina : 61.62% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 20.38 / defaultTarget(m/s) : 19.60 / spurtTarget(m/s) : 21.32 / currPosition : <1363.61, 0.50> / Stamina : 58.22% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.61 / defaultTarget(m/s) : 19.62 / spurtTarget(m/s) : 21.24 / currPosition : <1363.61, 0.50> / Stamina : 58.20% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1340
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.54 / defaultTarget(m/s) : 19.75 / spurtTarget(m/s) : 21.71 / currPosition : <1410.64, 0.45> / Stamina : 59.52% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.67 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.77 / currPosition : <1410.64, 0.45> / Stamina : 59.10% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 21.32 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 20.65 / currPosition : <1390.92, 0.45> / Stamina : 56.60% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.30 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 20.57 / currPosition : <1388.35, 0.50> / Stamina : 60.96% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.41 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.24 / currPosition : <1386.17, 0.50> / Stamina : 57.62% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.64 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.32 / currPosition : <1386.16, 0.50> / Stamina : 57.64% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1360
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.55 / defaultTarget(m/s) : 19.76 / spurtTarget(m/s) : 21.71 / currPosition : <1433.35, 0.45> / Stamina : 58.94% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.73 / defaultTarget(m/s) : 19.74 / spurtTarget(m/s) : 21.77 / currPosition : <1433.35, 0.45> / Stamina : 58.52% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 21.30 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 20.65 / currPosition : <1414.48, 0.45> / Stamina : 55.94% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 20.57 / currPosition : <1411.82, 0.50> / Stamina : 60.31% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.47 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.24 / currPosition : <1408.72, 0.50> / Stamina : 57.04% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.60 / defaultTarget(m/s) : 19.62 / spurtTarget(m/s) : 21.32 / currPosition : <1408.72, 0.50> / Stamina : 57.06% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1380
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 20.55 / defaultTarget(m/s) : 19.76 / spurtTarget(m/s) : 21.71 / currPosition : <1456.05, 0.45> / Stamina : 58.35% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.76 / defaultTarget(m/s) : 19.77 / spurtTarget(m/s) : 21.77 / currPosition : <1456.04, 0.45> / Stamina : 57.93% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 21.32 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 20.65 / currPosition : <1438.03, 0.45> / Stamina : 55.28% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 20.57 / currPosition : <1435.28, 0.50> / Stamina : 59.66% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 20.39 / defaultTarget(m/s) : 19.60 / spurtTarget(m/s) : 21.32 / currPosition : <1431.28, 0.50> / Stamina : 56.49% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.64 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.24 / currPosition : <1431.26, 0.50> / Stamina : 56.47% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1400
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.98 / defaultTarget(m/s) : 19.42 / spurtTarget(m/s) : 20.98 / currPosition : <1478.77, 0.45> / Stamina : 56.97% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 19.35 / spurtTarget(m/s) : 20.91 / currPosition : <1478.73, 0.45> / Stamina : 57.39% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 21.39 / defaultTarget(m/s) : 20.37 / spurtTarget(m/s) : 20.65 / currPosition : <1461.62, 0.45> / Stamina : 54.61% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 20.57 / currPosition : <1458.77, 0.50> / Stamina : 59.00% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 20.48 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.24 / currPosition : <1453.84, 0.50> / Stamina : 55.89% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 20.65 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.32 / currPosition : <1453.84, 0.50> / Stamina : 55.91% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1420
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.94 / defaultTarget(m/s) : 19.38 / spurtTarget(m/s) : 20.94 / currPosition : <1501.62, 0.45> / Stamina : 55.67% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 19.36 / spurtTarget(m/s) : 20.91 / currPosition : <1501.54, 0.45> / Stamina : 56.11% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 22.09 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.09 / currPosition : <1485.27, 0.45> / Stamina : 53.46% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.95 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 21.95 / currPosition : <1482.30, 0.50> / Stamina : 58.01% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.22 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.22 / currPosition : <1476.41, 0.50> / Stamina : 55.01% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.24 / currPosition : <1476.38, 0.50> / Stamina : 55.04% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1440
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.98 / defaultTarget(m/s) : 19.42 / spurtTarget(m/s) : 20.98 / currPosition : <1524.60, 0.45> / Stamina : 54.36% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.87 / defaultTarget(m/s) : 19.31 / spurtTarget(m/s) : 20.87 / currPosition : <1524.47, 0.45> / Stamina : 54.81% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 22.07 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.07 / currPosition : <1509.10, 0.45> / Stamina : 52.17% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.95 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 21.95 / currPosition : <1506.00, 0.50> / Stamina : 56.82% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 19.62 / spurtTarget(m/s) : 21.20 / currPosition : <1499.10, 0.50> / Stamina : 53.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.26 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.26 / currPosition : <1499.02, 0.50> / Stamina : 53.78% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1460
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.89 / defaultTarget(m/s) : 19.34 / spurtTarget(m/s) : 20.89 / currPosition : <1547.69, 0.45> / Stamina : 53.02% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.96 / defaultTarget(m/s) : 19.40 / spurtTarget(m/s) : 20.96 / currPosition : <1547.53, 0.45> / Stamina : 53.48% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 22.13 / defaultTarget(m/s) : 20.34 / spurtTarget(m/s) : 22.13 / currPosition : <1533.08, 0.45> / Stamina : 50.84% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.97 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 21.97 / currPosition : <1529.86, 0.50> / Stamina : 55.60% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.21 / currPosition : <1521.91, 0.50> / Stamina : 52.45% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.20 / currPosition : <1521.78, 0.50> / Stamina : 52.50% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1480
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 19.35 / spurtTarget(m/s) : 20.91 / currPosition : <1570.81, 0.45> / Stamina : 51.69% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.89 / defaultTarget(m/s) : 19.33 / spurtTarget(m/s) : 20.89 / currPosition : <1570.64, 0.45> / Stamina : 52.14% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 22.15 / defaultTarget(m/s) : 20.36 / spurtTarget(m/s) : 22.15 / currPosition : <1557.24, 0.45> / Stamina : 49.49% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.97 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 21.97 / currPosition : <1553.89, 0.50> / Stamina : 54.36% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.14 / defaultTarget(m/s) : 19.57 / spurtTarget(m/s) : 21.14 / currPosition : <1544.86, 0.50> / Stamina : 51.14% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.23 / currPosition : <1544.68, 0.50> / Stamina : 51.20% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1500
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 19.35 / spurtTarget(m/s) : 20.91 / currPosition : <1593.94, 0.45> / Stamina : 50.34% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.88 / defaultTarget(m/s) : 19.33 / spurtTarget(m/s) : 20.88 / currPosition : <1593.77, 0.45> / Stamina : 50.80% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 22.12 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.12 / currPosition : <1581.55, 0.45> / Stamina : 48.11% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.95 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 21.95 / currPosition : <1578.09, 0.50> / Stamina : 53.09% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.25 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.25 / currPosition : <1567.93, 0.50> / Stamina : 49.80% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.18 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.18 / currPosition : <1567.70, 0.50> / Stamina : 49.87% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1520
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 19.41 / spurtTarget(m/s) : 20.97 / currPosition : <1615.50, 0.45> / Stamina : 49.00% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.00 / defaultTarget(m/s) : 19.44 / spurtTarget(m/s) : 21.00 / currPosition : <1615.31, 0.45> / Stamina : 49.46% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 22.09 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.09 / currPosition : <1605.48, 0.45> / Stamina : 46.72% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.94 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 21.94 / currPosition : <1602.21, 0.50> / Stamina : 51.81% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 19.60 / spurtTarget(m/s) : 21.17 / currPosition : <1591.14, 0.50> / Stamina : 48.44% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.27 / currPosition : <1590.86, 0.50> / Stamina : 48.52% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1540
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.88 / defaultTarget(m/s) : 19.32 / spurtTarget(m/s) : 20.88 / currPosition : <1636.38, 0.45> / Stamina : 47.66% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.98 / defaultTarget(m/s) : 19.41 / spurtTarget(m/s) : 20.98 / currPosition : <1636.20, 0.45> / Stamina : 48.11% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 22.14 / defaultTarget(m/s) : 20.36 / spurtTarget(m/s) : 22.14 / currPosition : <1627.53, 0.45> / Stamina : 45.32% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.94 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 21.94 / currPosition : <1624.11, 0.50> / Stamina : 50.53% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.21 / currPosition : <1613.12, 0.50> / Stamina : 47.06% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.21 / currPosition : <1612.79, 0.50> / Stamina : 47.14% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1560
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.87 / defaultTarget(m/s) : 19.32 / spurtTarget(m/s) : 20.87 / currPosition : <1657.26, 0.45> / Stamina : 46.32% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 19.35 / spurtTarget(m/s) : 20.91 / currPosition : <1657.06, 0.45> / Stamina : 46.78% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 22.14 / defaultTarget(m/s) : 20.35 / spurtTarget(m/s) : 22.14 / currPosition : <1649.57, 0.45> / Stamina : 43.92% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.94 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 21.94 / currPosition : <1646.04, 0.50> / Stamina : 49.24% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.26 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.26 / currPosition : <1634.26, 0.50> / Stamina : 45.66% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.26 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.26 / currPosition : <1633.91, 0.50> / Stamina : 45.75% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1580
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.99 / defaultTarget(m/s) : 19.43 / spurtTarget(m/s) : 20.99 / currPosition : <1678.14, 0.45> / Stamina : 44.98% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 19.35 / spurtTarget(m/s) : 20.91 / currPosition : <1677.93, 0.45> / Stamina : 45.44% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 22.12 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.12 / currPosition : <1671.60, 0.45> / Stamina : 42.52% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.91 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 21.91 / currPosition : <1667.94, 0.50> / Stamina : 47.96% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.23 / currPosition : <1655.41, 0.50> / Stamina : 44.26% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.15 / defaultTarget(m/s) : 19.58 / spurtTarget(m/s) : 21.15 / currPosition : <1655.06, 0.50> / Stamina : 44.35% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1600
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 19.41 / spurtTarget(m/s) : 20.97 / currPosition : <1699.01, 0.45> / Stamina : 43.64% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.87 / defaultTarget(m/s) : 19.31 / spurtTarget(m/s) : 20.87 / currPosition : <1698.81, 0.45> / Stamina : 44.10% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 22.05 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.05 / currPosition : <1693.65, 0.45> / Stamina : 41.13% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.92 / defaultTarget(m/s) : 20.21 / spurtTarget(m/s) : 21.92 / currPosition : <1689.85, 0.50> / Stamina : 46.68% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.21 / currPosition : <1676.55, 0.50> / Stamina : 42.86% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 19.60 / spurtTarget(m/s) : 21.17 / currPosition : <1676.20, 0.50> / Stamina : 42.95% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1620
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 19.41 / spurtTarget(m/s) : 20.97 / currPosition : <1719.90, 0.45> / Stamina : 42.30% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.88 / defaultTarget(m/s) : 19.32 / spurtTarget(m/s) : 20.88 / currPosition : <1719.67, 0.45> / Stamina : 42.76% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 22.09 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.09 / currPosition : <1715.70, 0.45> / Stamina : 39.73% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 22.00 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 22.00 / currPosition : <1711.74, 0.50> / Stamina : 45.40% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.21 / currPosition : <1697.72, 0.50> / Stamina : 41.46% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.24 / currPosition : <1697.36, 0.50> / Stamina : 41.55% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1640
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.92 / defaultTarget(m/s) : 19.36 / spurtTarget(m/s) : 20.92 / currPosition : <1740.77, 0.45> / Stamina : 40.96% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.93 / defaultTarget(m/s) : 19.37 / spurtTarget(m/s) : 20.93 / currPosition : <1740.56, 0.45> / Stamina : 41.42% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 22.07 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.07 / currPosition : <1737.75, 0.45> / Stamina : 38.33% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 22.02 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.02 / currPosition : <1733.63, 0.50> / Stamina : 44.12% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.18 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.18 / currPosition : <1718.85, 0.50> / Stamina : 40.06% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.27 / currPosition : <1718.51, 0.50> / Stamina : 40.15% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1660
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 20.89 / defaultTarget(m/s) : 19.33 / spurtTarget(m/s) : 20.89 / currPosition : <1761.64, 0.45> / Stamina : 39.62% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.98 / defaultTarget(m/s) : 19.42 / spurtTarget(m/s) : 20.98 / currPosition : <1761.44, 0.45> / Stamina : 40.08% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 22.07 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.07 / currPosition : <1759.79, 0.45> / Stamina : 36.93% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.99 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 21.99 / currPosition : <1755.52, 0.50> / Stamina : 42.84% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.25 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.25 / currPosition : <1740.01, 0.50> / Stamina : 38.66% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.18 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.18 / currPosition : <1739.68, 0.50> / Stamina : 38.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1680
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 21.00 / defaultTarget(m/s) : 19.44 / spurtTarget(m/s) : 21.00 / currPosition : <1782.53, 0.45> / Stamina : 38.28% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 20.96 / defaultTarget(m/s) : 19.40 / spurtTarget(m/s) : 20.96 / currPosition : <1782.31, 0.45> / Stamina : 38.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         데네브 네오스 - targetSpeed(m/s) : 22.15 / defaultTarget(m/s) : 20.36 / spurtTarget(m/s) : 22.15 / currPosition : <1781.86, 0.45> / Stamina : 35.53% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.94 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 21.94 / currPosition : <1777.43, 0.50> / Stamina : 41.56% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 19.60 / spurtTarget(m/s) : 21.17 / currPosition : <1761.16, 0.50> / Stamina : 37.26% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 19.62 / spurtTarget(m/s) : 21.19 / currPosition : <1760.83, 0.50> / Stamina : 37.34% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1700
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.09 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.09 / currPosition : <1803.90, 0.45> / Stamina : 34.13% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.92 / defaultTarget(m/s) : 19.36 / spurtTarget(m/s) : 20.92 / currPosition : <1803.41, 0.45> / Stamina : 36.94% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 20.89 / defaultTarget(m/s) : 19.33 / spurtTarget(m/s) : 20.89 / currPosition : <1803.17, 0.45> / Stamina : 37.40% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 22.00 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 22.00 / currPosition : <1799.34, 0.50> / Stamina : 40.28% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.21 / currPosition : <1782.32, 0.50> / Stamina : 35.86% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.21 / currPosition : <1781.96, 0.50> / Stamina : 35.94% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1720
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.07 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.07 / currPosition : <1825.95, 0.45> / Stamina : 32.73% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 19.41 / spurtTarget(m/s) : 20.97 / currPosition : <1824.27, 0.45> / Stamina : 35.60% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 20.93 / defaultTarget(m/s) : 19.37 / spurtTarget(m/s) : 20.93 / currPosition : <1824.05, 0.45> / Stamina : 36.06% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.99 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 21.99 / currPosition : <1821.25, 0.50> / Stamina : 38.99% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.22 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.22 / currPosition : <1803.47, 0.50> / Stamina : 34.45% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.21 / currPosition : <1803.14, 0.50> / Stamina : 34.54% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1740
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.13 / defaultTarget(m/s) : 20.34 / spurtTarget(m/s) : 22.13 / currPosition : <1848.00, 0.45> / Stamina : 31.34% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.90 / defaultTarget(m/s) : 19.35 / spurtTarget(m/s) : 20.90 / currPosition : <1845.14, 0.45> / Stamina : 34.26% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.00 / defaultTarget(m/s) : 19.44 / spurtTarget(m/s) : 21.00 / currPosition : <1844.93, 0.45> / Stamina : 34.72% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.94 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 21.94 / currPosition : <1843.16, 0.50> / Stamina : 37.71% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.27 / currPosition : <1824.62, 0.50> / Stamina : 33.05% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.18 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.18 / currPosition : <1824.28, 0.50> / Stamina : 33.14% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1760
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.09 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.09 / currPosition : <1870.04, 0.45> / Stamina : 29.94% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 19.36 / spurtTarget(m/s) : 20.91 / currPosition : <1866.02, 0.45> / Stamina : 32.92% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 20.90 / defaultTarget(m/s) : 19.34 / spurtTarget(m/s) : 20.90 / currPosition : <1865.81, 0.45> / Stamina : 33.38% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :         트윈 페르소나 - targetSpeed(m/s) : 21.97 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 21.97 / currPosition : <1865.07, 0.50> / Stamina : 36.43% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.20 / currPosition : <1845.80, 0.50> / Stamina : 31.65% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.27 / currPosition : <1845.42, 0.50> / Stamina : 31.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1780
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.05 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 22.05 / currPosition : <1892.12, 0.45> / Stamina : 28.54% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.97 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 21.97 / currPosition : <1886.96, 0.50> / Stamina : 35.15% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.94 / defaultTarget(m/s) : 19.38 / spurtTarget(m/s) : 20.94 / currPosition : <1886.89, 0.45> / Stamina : 31.58% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.88 / defaultTarget(m/s) : 19.32 / spurtTarget(m/s) : 20.88 / currPosition : <1886.69, 0.45> / Stamina : 32.04% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 19.60 / spurtTarget(m/s) : 21.17 / currPosition : <1866.94, 0.50> / Stamina : 30.25% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.25 / defaultTarget(m/s) : 19.67 / spurtTarget(m/s) : 21.25 / currPosition : <1866.55, 0.50> / Stamina : 30.35% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1800
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.12 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.12 / currPosition : <1914.15, 0.45> / Stamina : 27.14% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.93 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 21.93 / currPosition : <1908.85, 0.50> / Stamina : 33.87% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 19.41 / spurtTarget(m/s) : 20.97 / currPosition : <1907.77, 0.45> / Stamina : 30.24% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.93 / defaultTarget(m/s) : 19.38 / spurtTarget(m/s) : 20.93 / currPosition : <1907.56, 0.45> / Stamina : 30.70% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.14 / defaultTarget(m/s) : 19.57 / spurtTarget(m/s) : 21.14 / currPosition : <1888.08, 0.50> / Stamina : 28.85% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.27 / currPosition : <1887.70, 0.50> / Stamina : 28.94% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1820
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.07 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 22.07 / currPosition : <1936.18, 0.45> / Stamina : 25.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.89 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 21.89 / currPosition : <1930.74, 0.50> / Stamina : 32.60% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.89 / defaultTarget(m/s) : 19.33 / spurtTarget(m/s) : 20.89 / currPosition : <1928.64, 0.45> / Stamina : 28.90% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.94 / defaultTarget(m/s) : 19.38 / spurtTarget(m/s) : 20.94 / currPosition : <1928.42, 0.45> / Stamina : 29.36% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.26 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.26 / currPosition : <1909.24, 0.50> / Stamina : 27.45% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.24 / currPosition : <1908.85, 0.50> / Stamina : 27.54% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1840
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.15 / defaultTarget(m/s) : 20.36 / spurtTarget(m/s) : 22.15 / currPosition : <1958.25, 0.45> / Stamina : 24.34% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.91 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 21.91 / currPosition : <1952.63, 0.50> / Stamina : 31.32% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.96 / defaultTarget(m/s) : 19.40 / spurtTarget(m/s) : 20.96 / currPosition : <1949.52, 0.45> / Stamina : 27.56% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 19.35 / spurtTarget(m/s) : 20.91 / currPosition : <1949.30, 0.45> / Stamina : 28.02% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 19.62 / spurtTarget(m/s) : 21.19 / currPosition : <1930.38, 0.50> / Stamina : 26.05% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.23 / currPosition : <1930.00, 0.50> / Stamina : 26.14% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1860
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.07 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 22.07 / currPosition : <1980.33, 0.45> / Stamina : 22.94% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.92 / defaultTarget(m/s) : 20.21 / spurtTarget(m/s) : 21.92 / currPosition : <1974.52, 0.50> / Stamina : 30.04% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 19.41 / spurtTarget(m/s) : 20.97 / currPosition : <1970.40, 0.45> / Stamina : 26.22% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.95 / defaultTarget(m/s) : 19.39 / spurtTarget(m/s) : 20.95 / currPosition : <1970.16, 0.45> / Stamina : 26.69% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.15 / defaultTarget(m/s) : 19.58 / spurtTarget(m/s) : 21.15 / currPosition : <1951.53, 0.50> / Stamina : 24.65% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 19.60 / spurtTarget(m/s) : 21.17 / currPosition : <1951.15, 0.50> / Stamina : 24.75% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1880
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.14 / defaultTarget(m/s) : 20.35 / spurtTarget(m/s) : 22.14 / currPosition : <2002.39, 0.45> / Stamina : 21.54% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.91 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 21.91 / currPosition : <1996.41, 0.50> / Stamina : 28.76% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 19.35 / spurtTarget(m/s) : 20.91 / currPosition : <1991.27, 0.45> / Stamina : 24.88% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.96 / defaultTarget(m/s) : 19.40 / spurtTarget(m/s) : 20.96 / currPosition : <1991.05, 0.45> / Stamina : 25.34% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.21 / currPosition : <1972.67, 0.50> / Stamina : 23.25% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 19.60 / spurtTarget(m/s) : 21.17 / currPosition : <1972.29, 0.50> / Stamina : 23.35% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1900
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.10 / defaultTarget(m/s) : 20.32 / spurtTarget(m/s) : 22.10 / currPosition : <2024.45, 0.45> / Stamina : 20.14% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.96 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 21.96 / currPosition : <2018.30, 0.50> / Stamina : 27.48% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 19.36 / spurtTarget(m/s) : 20.91 / currPosition : <2012.14, 0.45> / Stamina : 23.54% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 19.41 / spurtTarget(m/s) : 20.97 / currPosition : <2011.92, 0.45> / Stamina : 24.00% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.20 / currPosition : <1993.82, 0.50> / Stamina : 21.85% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.14 / defaultTarget(m/s) : 19.57 / spurtTarget(m/s) : 21.14 / currPosition : <1993.43, 0.50> / Stamina : 21.95% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1920
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.14 / defaultTarget(m/s) : 20.35 / spurtTarget(m/s) : 22.14 / currPosition : <2046.53, 0.45> / Stamina : 18.73% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.91 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 21.91 / currPosition : <2040.18, 0.50> / Stamina : 26.20% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.95 / defaultTarget(m/s) : 19.39 / spurtTarget(m/s) : 20.95 / currPosition : <2033.02, 0.45> / Stamina : 22.20% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.95 / defaultTarget(m/s) : 19.39 / spurtTarget(m/s) : 20.95 / currPosition : <2032.81, 0.45> / Stamina : 22.66% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 19.63 / spurtTarget(m/s) : 21.20 / currPosition : <2014.98, 0.50> / Stamina : 20.45% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 19.70 / spurtTarget(m/s) : 21.27 / currPosition : <2014.56, 0.50> / Stamina : 20.55% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1940
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.14 / defaultTarget(m/s) : 20.35 / spurtTarget(m/s) : 22.14 / currPosition : <2068.58, 0.45> / Stamina : 17.33% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.93 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 21.93 / currPosition : <2062.08, 0.50> / Stamina : 24.92% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.87 / defaultTarget(m/s) : 19.32 / spurtTarget(m/s) : 20.87 / currPosition : <2053.89, 0.45> / Stamina : 20.86% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.92 / defaultTarget(m/s) : 19.36 / spurtTarget(m/s) : 20.92 / currPosition : <2053.70, 0.45> / Stamina : 21.32% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.16 / defaultTarget(m/s) : 19.59 / spurtTarget(m/s) : 21.16 / currPosition : <2036.13, 0.50> / Stamina : 19.05% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.26 / defaultTarget(m/s) : 19.68 / spurtTarget(m/s) : 21.26 / currPosition : <2035.71, 0.50> / Stamina : 19.15% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1960
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.04 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.04 / currPosition : <2090.61, 0.45> / Stamina : 15.94% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.97 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 21.97 / currPosition : <2083.99, 0.50> / Stamina : 23.64% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 19.41 / spurtTarget(m/s) : 20.97 / currPosition : <2074.76, 0.45> / Stamina : 19.52% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.94 / defaultTarget(m/s) : 19.39 / spurtTarget(m/s) : 20.94 / currPosition : <2074.55, 0.45> / Stamina : 19.98% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.15 / defaultTarget(m/s) : 19.58 / spurtTarget(m/s) : 21.15 / currPosition : <2057.28, 0.50> / Stamina : 17.65% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.26 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.26 / currPosition : <2056.89, 0.50> / Stamina : 17.75% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1980
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.09 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.09 / currPosition : <2112.67, 0.45> / Stamina : 14.54% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.92 / defaultTarget(m/s) : 20.21 / spurtTarget(m/s) : 21.92 / currPosition : <2105.89, 0.50> / Stamina : 22.36% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.93 / defaultTarget(m/s) : 19.37 / spurtTarget(m/s) : 20.93 / currPosition : <2095.63, 0.45> / Stamina : 18.19% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.96 / defaultTarget(m/s) : 19.40 / spurtTarget(m/s) : 20.96 / currPosition : <2095.42, 0.45> / Stamina : 18.64% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.21 / currPosition : <2078.41, 0.50> / Stamina : 16.25% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 19.62 / spurtTarget(m/s) : 21.20 / currPosition : <2078.05, 0.50> / Stamina : 16.34% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 2000
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.15 / defaultTarget(m/s) : 20.36 / spurtTarget(m/s) : 22.15 / currPosition : <2134.72, 0.45> / Stamina : 13.14% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.97 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 21.97 / currPosition : <2127.79, 0.50> / Stamina : 21.08% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.92 / defaultTarget(m/s) : 19.36 / spurtTarget(m/s) : 20.92 / currPosition : <2116.51, 0.45> / Stamina : 16.85% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.99 / defaultTarget(m/s) : 19.43 / spurtTarget(m/s) : 20.99 / currPosition : <2116.28, 0.45> / Stamina : 17.31% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.18 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.18 / currPosition : <2099.54, 0.50> / Stamina : 14.86% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.26 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.26 / currPosition : <2099.20, 0.50> / Stamina : 14.94% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 2020
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.11 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.11 / currPosition : <2156.77, 0.45> / Stamina : 11.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.96 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 21.96 / currPosition : <2149.70, 0.50> / Stamina : 19.80% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.00 / defaultTarget(m/s) : 19.44 / spurtTarget(m/s) : 21.00 / currPosition : <2137.39, 0.45> / Stamina : 15.50% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.88 / defaultTarget(m/s) : 19.33 / spurtTarget(m/s) : 20.88 / currPosition : <2137.16, 0.45> / Stamina : 15.97% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.23 / currPosition : <2120.69, 0.50> / Stamina : 13.46% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.18 / defaultTarget(m/s) : 19.61 / spurtTarget(m/s) : 21.18 / currPosition : <2120.35, 0.50> / Stamina : 13.54% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 2040
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.04 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.04 / currPosition : <2178.83, 0.45> / Stamina : 10.34% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.98 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 21.98 / currPosition : <2171.63, 0.50> / Stamina : 18.51% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.92 / defaultTarget(m/s) : 19.36 / spurtTarget(m/s) : 20.92 / currPosition : <2158.26, 0.45> / Stamina : 14.16% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.98 / defaultTarget(m/s) : 19.42 / spurtTarget(m/s) : 20.98 / currPosition : <2158.03, 0.45> / Stamina : 14.63% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 19.66 / spurtTarget(m/s) : 21.23 / currPosition : <2141.86, 0.50> / Stamina : 12.05% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 19.64 / spurtTarget(m/s) : 21.21 / currPosition : <2141.49, 0.50> / Stamina : 12.14% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 2060
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.12 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.12 / currPosition : <2200.85, 0.45> / Stamina : 8.95% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.99 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 21.99 / currPosition : <2193.53, 0.50> / Stamina : 17.23% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.94 / defaultTarget(m/s) : 19.38 / spurtTarget(m/s) : 20.94 / currPosition : <2179.15, 0.45> / Stamina : 12.82% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 19.41 / spurtTarget(m/s) : 20.97 / currPosition : <2178.90, 0.45> / Stamina : 13.29% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.23 / currPosition : <2162.99, 0.50> / Stamina : 10.66% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.15 / defaultTarget(m/s) : 19.58 / spurtTarget(m/s) : 21.15 / currPosition : <2162.64, 0.50> / Stamina : 10.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 2080
+ 1 :         데네브 네오스 - targetSpeed(m/s) : 22.12 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.12 / currPosition : <2200.85, 0.45> / Stamina : 8.95% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         트윈 페르소나 - targetSpeed(m/s) : 21.97 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 21.97 / currPosition : <2200.09, 0.50> / Stamina : 16.85% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 19.41 / spurtTarget(m/s) : 20.97 / currPosition : <2200.01, 0.45> / Stamina : 11.49% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          시나몬 룰렛 - targetSpeed(m/s) : 20.91 / defaultTarget(m/s) : 19.35 / spurtTarget(m/s) : 20.91 / currPosition : <2199.79, 0.45> / Stamina : 11.95% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.22 / defaultTarget(m/s) : 19.65 / spurtTarget(m/s) : 21.22 / currPosition : <2184.13, 0.50> / Stamina : 9.26% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 19.69 / spurtTarget(m/s) : 21.27 / currPosition : <2183.78, 0.50> / Stamina : 9.35% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
