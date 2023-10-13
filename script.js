@@ -521,6 +521,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 });
 
+const videoTooltip = d3.select("body").append("div")
+    .attr("id", "video-tooltip")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
 
 function videoInit()
 {
@@ -547,11 +551,13 @@ function videoInit()
 
                     const posX = labels.map(label => umaVideoData[label].posX);
                     const posY = labels.map(label => umaVideoData[label].posY);
+                    const stamina = labels.map(label => umaVideoData[label].stamina);
 
                     globalVideoData.push({
                         name: umaName,
                         posX,
                         posY,
+                        stamina,
                         laneNo: umaVideoData.laneNo
                     });
                 })
@@ -580,10 +586,12 @@ function handleVideoDataSingleUma(data)
     umaData[0] = {};
     umaData[0].posX = 0;
     umaData[0].posY = parseFloat(lines[1].split(',')[5]);
+    umaData[0].stamina = 100;
     for (let i = 1; i < lines.length; i++) {
         const parts = lines[i].split(',');
         const posX = parseFloat(parts[4]);
         const posY = parseFloat(parts[5]);
+        const stamina = parseFloat(parts[6]);
 
         if (i === 1) {
             laneNo = posY;
@@ -597,6 +605,7 @@ function handleVideoDataSingleUma(data)
         umaData[i] = {};
         umaData[i].posX = posX;
         umaData[i].posY = posY;
+        umaData[i].stamina = stamina;
     };
     umaData.laneNo = laneNo;
 
@@ -633,7 +642,24 @@ function drawVideo(turn)
         // .domain([Math.min(...allPosY), globalVideoData.length])
         .domain([Math.min(...allPosY), Math.max(...allPosY)])
         .range([80, 20]);  
-
+    
+    function onMouseOver(event, d) {
+        videoTooltip.transition()
+            .duration(0)
+            .style("opacity", .9);      
+        videoTooltip.html(d.laneNo + ": " + d.name + "<br/>"  
+                + "PosX: " + d.posX[turn].toFixed(2) + " m<br/>"
+                + "PosY: " + d.posY[turn].toFixed(2) + "<br/>"
+                + "Stamina: " + d.stamina[turn].toFixed(2) + "%")
+            .style("left", (event.pageX) + "px")
+            .style("top", (event.pageY - 28) + "px");
+    }
+    function onMouseOut(d) {
+        videoTooltip.transition()        
+            .duration(0)
+            .style("opacity", 0);
+    }
+        
     const circles = svg.selectAll("circle")
         .data(globalVideoData)
         .join("circle")
@@ -641,11 +667,9 @@ function drawVideo(turn)
         .attr("cy", d => yScale(d.posY[turn]))
         .attr("r", 8)
         .attr("fill", d => colors[uma_index[d.name]])
-
-    circles.selectAll("title")
-        .data(d => [d])
-        .join("title")
-        .text(d => d.name);
+        .on("mouseover", onMouseOver)
+        .on("mouseout", onMouseOut);
+        
 
     const texts = svg.selectAll("text")
         .data(globalVideoData)
@@ -656,28 +680,52 @@ function drawVideo(turn)
         .attr("text-anchor", "middle")
         .attr("font-size", "10px")
         .attr("fill", "white")
-        .text(d => d.laneNo);
+        .text(d => d.laneNo)
+        .on("mouseover", onMouseOver)
+        .on("mouseout", onMouseOut);
+
+    const staminaBarBackground = svg.selectAll("rect.bar-background")
+        .data(globalVideoData)
+        .join("rect")
+        .attr("class", "bar-background")
+        .attr("x", d => xScale(d.posX[turn]) - 20)
+        .attr("y", d => yScale(d.posY[turn]) + 10)
+        .attr("width", 40)
+        .attr("height", 2)
+        .attr("fill", "white")
+        .attr("stroke", "black")
+        .attr("stroke-width", 0.2);
+
+    const staminaBarFilled = svg.selectAll("rect.bar-filled")
+        .data(globalVideoData)
+        .join("rect")
+        .attr("class", "bar-filled")
+        .attr("x", d => xScale(d.posX[turn]) - 20)
+        .attr("y", d => yScale(d.posY[turn]) + 10)
+        .attr("width", d => d.stamina[turn] > 0 ? d.stamina[turn] * 0.4 : 40)
+        .attr("height", 2)
+        .attr("fill", d => d.stamina[turn] > 0 ? colors[uma_index[d.name]] : "pink");
 
     const xAxis = d3.axisBottom(xScale);
     const yAxis = d3.axisLeft(yScale);
 
     svg.append("text")
-        .attr("x", 40)
+        .attr("x", 20)
         .attr("y", 95)
         .text(`${Math.min(...allPosX).toFixed(1)}m`);
 
     svg.append("text")
-        .attr("x", 700)
+        .attr("x", 720)
         .attr("y", 95)
         .text(`${Math.max(...allPosX).toFixed(1)}m`);
 
     svg.append("text")
-        .attr("x", 40)
+        .attr("x", 20)
         .attr("y", 75)
         .text(`${Math.min(...allPosY).toFixed(2)}`);
 
     svg.append("text")
-        .attr("x", 40)
+        .attr("x", 20)
         .attr("y", 25)
         .text(`${Math.max(...allPosY).toFixed(2)}`);
 
