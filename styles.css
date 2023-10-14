@@ -7,6 +7,15 @@
     margin-bottom: 20px;
 }
 
+.header-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+}
+
 footer {
     background-color: #333;
     color: white;
