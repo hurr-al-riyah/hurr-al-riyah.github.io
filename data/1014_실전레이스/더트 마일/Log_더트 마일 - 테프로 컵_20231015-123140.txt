@@ -1,0 +1,780 @@
+◎Turn 20
+ 1 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.85 / defaultTarget(m/s) : 21.01 / spurtTarget(m/s) : 23.16 / currPosition : <12.64, 3.00> / Stamina : 99.69% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :           포츈 투유 - targetSpeed(m/s) : 21.97 / defaultTarget(m/s) : 21.13 / spurtTarget(m/s) : 23.28 / currPosition : <12.63, 1.00> / Stamina : 99.69% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.97 / defaultTarget(m/s) : 21.12 / spurtTarget(m/s) : 23.21 / currPosition : <12.61, 5.00> / Stamina : 99.69% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.94 / defaultTarget(m/s) : 21.09 / spurtTarget(m/s) : 23.26 / currPosition : <12.55, 4.00> / Stamina : 99.70% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 22.20 / currPosition : <12.46, 6.00> / Stamina : 99.71% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 22.22 / currPosition : <12.46, 7.00> / Stamina : 99.71% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 20.54 / defaultTarget(m/s) : 20.54 / spurtTarget(m/s) : 22.59 / currPosition : <12.33, 2.00> / Stamina : 99.55% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.82 / currPosition : <12.28, 7.95> / Stamina : 99.56% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 40
+ 1 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.83 / defaultTarget(m/s) : 20.99 / spurtTarget(m/s) : 23.16 / currPosition : <34.94, 3.00> / Stamina : 98.78% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :           포츈 투유 - targetSpeed(m/s) : 22.00 / defaultTarget(m/s) : 21.15 / spurtTarget(m/s) : 23.28 / currPosition : <34.93, 1.00> / Stamina : 98.76% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 22.00 / defaultTarget(m/s) : 21.15 / spurtTarget(m/s) : 23.21 / currPosition : <34.88, 5.00> / Stamina : 98.78% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.00 / defaultTarget(m/s) : 21.15 / spurtTarget(m/s) : 23.26 / currPosition : <34.72, 4.00> / Stamina : 98.81% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.48 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 22.20 / currPosition : <33.88, 6.00> / Stamina : 98.91% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 22.22 / currPosition : <33.86, 7.00> / Stamina : 98.91% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 20.56 / defaultTarget(m/s) : 20.56 / spurtTarget(m/s) : 22.59 / currPosition : <32.81, 2.00> / Stamina : 98.41% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 20.87 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 21.82 / currPosition : <32.68, 6.95> / Stamina : 98.41% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 60
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.96 / defaultTarget(m/s) : 21.12 / spurtTarget(m/s) : 23.28 / currPosition : <56.85, 1.00> / Stamina : 97.89% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.84 / defaultTarget(m/s) : 21.00 / spurtTarget(m/s) : 23.16 / currPosition : <56.76, 3.00> / Stamina : 97.93% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.99 / defaultTarget(m/s) : 21.14 / spurtTarget(m/s) : 23.21 / currPosition : <56.76, 5.00> / Stamina : 97.91% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.95 / defaultTarget(m/s) : 21.10 / spurtTarget(m/s) : 23.26 / currPosition : <56.59, 4.00> / Stamina : 97.95% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.39 / defaultTarget(m/s) : 20.56 / spurtTarget(m/s) : 22.20 / currPosition : <55.27, 6.00> / Stamina : 98.11% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 22.22 / currPosition : <55.25, 7.00> / Stamina : 98.12% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 20.51 / defaultTarget(m/s) : 20.51 / spurtTarget(m/s) : 22.59 / currPosition : <53.30, 2.00> / Stamina : 97.26% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 20.47 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.82 / currPosition : <53.15, 5.95> / Stamina : 97.25% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 80
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.94 / defaultTarget(m/s) : 21.09 / spurtTarget(m/s) : 23.28 / currPosition : <78.76, 1.00> / Stamina : 97.02% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.02 / defaultTarget(m/s) : 21.17 / spurtTarget(m/s) : 23.21 / currPosition : <78.63, 5.00> / Stamina : 97.05% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.88 / defaultTarget(m/s) : 21.04 / spurtTarget(m/s) : 23.16 / currPosition : <78.58, 3.00> / Stamina : 97.08% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.01 / defaultTarget(m/s) : 21.16 / spurtTarget(m/s) : 23.26 / currPosition : <78.44, 4.00> / Stamina : 97.10% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 20.62 / spurtTarget(m/s) : 22.20 / currPosition : <76.66, 6.00> / Stamina : 97.32% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 20.62 / spurtTarget(m/s) : 22.22 / currPosition : <76.63, 7.00> / Stamina : 97.32% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 20.61 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 22.59 / currPosition : <73.81, 2.00> / Stamina : 96.12% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.76 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 21.82 / currPosition : <73.59, 4.95> / Stamina : 96.10% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 100
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.01 / defaultTarget(m/s) : 21.17 / spurtTarget(m/s) : 23.28 / currPosition : <100.70, 1.00> / Stamina : 96.14% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 21.92 / defaultTarget(m/s) : 21.08 / spurtTarget(m/s) : 23.21 / currPosition : <100.54, 5.00> / Stamina : 96.18% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.86 / defaultTarget(m/s) : 21.02 / spurtTarget(m/s) : 23.16 / currPosition : <100.41, 3.00> / Stamina : 96.22% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.99 / defaultTarget(m/s) : 21.14 / spurtTarget(m/s) : 23.26 / currPosition : <100.29, 4.00> / Stamina : 96.25% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 20.58 / spurtTarget(m/s) : 22.20 / currPosition : <98.05, 6.00> / Stamina : 96.52% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 20.58 / spurtTarget(m/s) : 22.22 / currPosition : <98.01, 7.00> / Stamina : 96.53% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 20.57 / defaultTarget(m/s) : 20.57 / spurtTarget(m/s) : 22.59 / currPosition : <94.33, 2.00> / Stamina : 94.96% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.78 / defaultTarget(m/s) : 20.13 / spurtTarget(m/s) : 21.82 / currPosition : <94.02, 3.95> / Stamina : 94.95% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 120
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.96 / defaultTarget(m/s) : 21.11 / spurtTarget(m/s) : 23.28 / currPosition : <124.87, 1.00> / Stamina : 95.27% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.92 / defaultTarget(m/s) : 21.07 / spurtTarget(m/s) : 23.16 / currPosition : <124.12, 3.00> / Stamina : 95.37% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.95 / defaultTarget(m/s) : 21.11 / spurtTarget(m/s) : 23.21 / currPosition : <124.01, 5.00> / Stamina : 95.31% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.90 / defaultTarget(m/s) : 21.06 / spurtTarget(m/s) : 23.26 / currPosition : <123.89, 4.00> / Stamina : 95.39% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 22.20 / currPosition : <120.67, 6.00> / Stamina : 95.72% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 20.56 / spurtTarget(m/s) : 22.22 / currPosition : <120.48, 7.00> / Stamina : 95.73% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 20.57 / defaultTarget(m/s) : 20.57 / spurtTarget(m/s) : 22.59 / currPosition : <116.23, 2.00> / Stamina : 93.81% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 22.16 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.82 / currPosition : <115.72, 2.95> / Stamina : 93.80% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 140
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.96 / defaultTarget(m/s) : 21.11 / spurtTarget(m/s) : 23.28 / currPosition : <149.07, 1.00> / Stamina : 94.39% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.87 / defaultTarget(m/s) : 21.03 / spurtTarget(m/s) : 23.16 / currPosition : <147.85, 3.00> / Stamina : 94.52% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          박 섬광석화 - targetSpeed(m/s) : 21.93 / defaultTarget(m/s) : 21.09 / spurtTarget(m/s) : 23.26 / currPosition : <147.47, 4.00> / Stamina : 94.54% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :         치쿠모 코토리 - targetSpeed(m/s) : 21.99 / defaultTarget(m/s) : 21.14 / spurtTarget(m/s) : 23.21 / currPosition : <147.47, 5.00> / Stamina : 94.45% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.46 / defaultTarget(m/s) : 20.64 / spurtTarget(m/s) : 22.20 / currPosition : <143.43, 6.00> / Stamina : 94.93% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.47 / defaultTarget(m/s) : 20.64 / spurtTarget(m/s) : 22.22 / currPosition : <143.08, 7.00> / Stamina : 94.93% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 20.57 / defaultTarget(m/s) : 20.57 / spurtTarget(m/s) : 22.59 / currPosition : <138.68, 2.00> / Stamina : 92.66% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 20.77 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 21.82 / currPosition : <138.12, 1.95> / Stamina : 92.63% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 160
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.95 / defaultTarget(m/s) : 21.11 / spurtTarget(m/s) : 23.28 / currPosition : <173.27, 1.00> / Stamina : 93.51% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.94 / defaultTarget(m/s) : 21.10 / spurtTarget(m/s) : 23.16 / currPosition : <171.57, 3.00> / Stamina : 93.67% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          박 섬광석화 - targetSpeed(m/s) : 22.00 / defaultTarget(m/s) : 21.15 / spurtTarget(m/s) : 23.26 / currPosition : <171.05, 4.00> / Stamina : 93.69% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :         치쿠모 코토리 - targetSpeed(m/s) : 22.02 / defaultTarget(m/s) : 21.18 / spurtTarget(m/s) : 23.21 / currPosition : <170.93, 5.00> / Stamina : 93.58% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 22.20 / currPosition : <166.17, 6.00> / Stamina : 94.13% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 20.63 / spurtTarget(m/s) : 22.22 / currPosition : <165.69, 7.00> / Stamina : 94.13% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 20.57 / defaultTarget(m/s) : 20.57 / spurtTarget(m/s) : 22.59 / currPosition : <161.14, 2.00> / Stamina : 91.51% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 20.86 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 21.82 / currPosition : <160.65, 0.95> / Stamina : 91.47% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 180
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.05 / defaultTarget(m/s) : 21.20 / spurtTarget(m/s) : 23.28 / currPosition : <197.47, 1.00> / Stamina : 92.64% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.94 / defaultTarget(m/s) : 21.09 / spurtTarget(m/s) : 23.16 / currPosition : <195.28, 3.00> / Stamina : 92.82% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          박 섬광석화 - targetSpeed(m/s) : 21.88 / defaultTarget(m/s) : 21.04 / spurtTarget(m/s) : 23.26 / currPosition : <194.64, 4.00> / Stamina : 92.83% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :         치쿠모 코토리 - targetSpeed(m/s) : 21.90 / defaultTarget(m/s) : 21.05 / spurtTarget(m/s) : 23.21 / currPosition : <194.41, 5.00> / Stamina : 92.71% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.43 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 22.20 / currPosition : <188.93, 6.00> / Stamina : 93.33% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 20.63 / spurtTarget(m/s) : 22.22 / currPosition : <188.30, 7.00> / Stamina : 93.33% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 20.53 / defaultTarget(m/s) : 20.53 / spurtTarget(m/s) : 22.59 / currPosition : <183.60, 2.00> / Stamina : 90.36% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.12 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.82 / currPosition : <183.44, 0.50> / Stamina : 90.55% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 200
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.95 / defaultTarget(m/s) : 21.11 / spurtTarget(m/s) : 23.28 / currPosition : <221.67, 1.00> / Stamina : 91.76% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.86 / defaultTarget(m/s) : 21.02 / spurtTarget(m/s) : 23.16 / currPosition : <219.01, 3.00> / Stamina : 91.97% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          박 섬광석화 - targetSpeed(m/s) : 22.00 / defaultTarget(m/s) : 21.15 / spurtTarget(m/s) : 23.26 / currPosition : <218.23, 4.00> / Stamina : 91.98% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :         치쿠모 코토리 - targetSpeed(m/s) : 22.03 / defaultTarget(m/s) : 21.18 / spurtTarget(m/s) : 23.21 / currPosition : <217.89, 5.00> / Stamina : 91.84% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 22.20 / currPosition : <211.68, 6.00> / Stamina : 92.54% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.43 / defaultTarget(m/s) : 20.60 / spurtTarget(m/s) : 22.22 / currPosition : <210.89, 7.00> / Stamina : 92.54% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 20.62 / defaultTarget(m/s) : 20.62 / spurtTarget(m/s) : 22.59 / currPosition : <206.09, 1.40> / Stamina : 89.21% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.26 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 21.82 / currPosition : <206.07, 0.50> / Stamina : 89.59% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 220
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.00 / defaultTarget(m/s) : 21.15 / spurtTarget(m/s) : 23.28 / currPosition : <245.85, 1.00> / Stamina : 90.88% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.83 / defaultTarget(m/s) : 20.99 / spurtTarget(m/s) : 23.16 / currPosition : <242.73, 3.00> / Stamina : 91.12% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          박 섬광석화 - targetSpeed(m/s) : 21.91 / defaultTarget(m/s) : 21.07 / spurtTarget(m/s) : 23.26 / currPosition : <241.80, 4.00> / Stamina : 91.13% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :         치쿠모 코토리 - targetSpeed(m/s) : 21.92 / defaultTarget(m/s) : 21.08 / spurtTarget(m/s) : 23.21 / currPosition : <241.37, 5.00> / Stamina : 90.97% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 20.58 / spurtTarget(m/s) : 22.20 / currPosition : <234.44, 6.00> / Stamina : 91.74% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.42 / defaultTarget(m/s) : 20.60 / spurtTarget(m/s) : 22.22 / currPosition : <233.50, 7.00> / Stamina : 91.74% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 20.62 / defaultTarget(m/s) : 20.62 / spurtTarget(m/s) : 22.59 / currPosition : <228.64, 1.40> / Stamina : 88.06% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.82 / currPosition : <228.40, 0.50> / Stamina : 88.93% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 240
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.92 / defaultTarget(m/s) : 21.07 / spurtTarget(m/s) : 23.28 / currPosition : <270.05, 1.00> / Stamina : 90.01% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.93 / defaultTarget(m/s) : 21.08 / spurtTarget(m/s) : 23.16 / currPosition : <266.43, 3.00> / Stamina : 90.27% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :          박 섬광석화 - targetSpeed(m/s) : 21.89 / defaultTarget(m/s) : 21.05 / spurtTarget(m/s) : 23.26 / currPosition : <265.38, 4.00> / Stamina : 90.27% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :         치쿠모 코토리 - targetSpeed(m/s) : 21.98 / defaultTarget(m/s) : 21.13 / spurtTarget(m/s) : 23.21 / currPosition : <264.82, 5.00> / Stamina : 90.11% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.39 / defaultTarget(m/s) : 20.56 / spurtTarget(m/s) : 22.20 / currPosition : <257.18, 6.00> / Stamina : 90.94% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 22.22 / currPosition : <256.08, 7.00> / Stamina : 90.94% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 20.51 / defaultTarget(m/s) : 20.51 / spurtTarget(m/s) : 22.59 / currPosition : <251.18, 1.40> / Stamina : 86.92% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.12 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.82 / currPosition : <250.83, 0.50> / Stamina : 88.26% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 260
+ 1 :           포츈 투유 - targetSpeed(m/s) : 23.02 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 23.28 / currPosition : <294.20, 0.55> / Stamina : 88.88% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.16 / defaultTarget(m/s) : 20.63 / spurtTarget(m/s) : 23.16 / currPosition : <290.11, 2.70> / Stamina : 89.25% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 3 :          박 섬광석화 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 23.26 / currPosition : <288.98, 3.75> / Stamina : 89.28% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 4 :         치쿠모 코토리 - targetSpeed(m/s) : 22.36 / defaultTarget(m/s) : 20.65 / spurtTarget(m/s) : 23.21 / currPosition : <288.25, 4.80> / Stamina : 89.13% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 20.58 / spurtTarget(m/s) : 22.20 / currPosition : <279.93, 6.00> / Stamina : 90.15% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.41 / defaultTarget(m/s) : 20.59 / spurtTarget(m/s) : 22.22 / currPosition : <278.66, 7.00> / Stamina : 90.15% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 20.58 / defaultTarget(m/s) : 20.58 / spurtTarget(m/s) : 22.59 / currPosition : <273.75, 1.40> / Stamina : 85.76% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 21.82 / currPosition : <273.38, 0.50> / Stamina : 87.59% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 280
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.55 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 23.28 / currPosition : <316.37, 0.50> / Stamina : 88.02% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.02 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 23.16 / currPosition : <312.47, 1.70> / Stamina : 87.90% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 3 :          박 섬광석화 - targetSpeed(m/s) : 21.52 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 23.26 / currPosition : <311.42, 2.75> / Stamina : 87.92% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 4 :         치쿠모 코토리 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 23.21 / currPosition : <310.85, 3.80> / Stamina : 87.72% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 20.72 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.20 / currPosition : <302.49, 5.15> / Stamina : 88.91% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.22 / currPosition : <301.07, 6.20> / Stamina : 88.95% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.76 / defaultTarget(m/s) : 20.54 / spurtTarget(m/s) : 22.59 / currPosition : <296.34, 0.85> / Stamina : 84.61% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.18 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 21.82 / currPosition : <296.04, 0.50> / Stamina : 86.89% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 300
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.57 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 23.28 / currPosition : <337.88, 0.50> / Stamina : 87.19% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 20.58 / spurtTarget(m/s) : 23.16 / currPosition : <333.78, 0.70> / Stamina : 86.58% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 3 :          박 섬광석화 - targetSpeed(m/s) : 22.84 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 23.26 / currPosition : <332.68, 1.75> / Stamina : 86.61% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 4 :         치쿠모 코토리 - targetSpeed(m/s) : 21.86 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 23.21 / currPosition : <332.35, 2.80> / Stamina : 86.36% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 22.00 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 22.20 / currPosition : <323.57, 4.15> / Stamina : 87.64% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 22.09 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.22 / currPosition : <322.10, 5.20> / Stamina : 87.69% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 20.48 / spurtTarget(m/s) : 22.59 / currPosition : <317.47, 0.45> / Stamina : 83.71% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 21.82 / currPosition : <317.05, 0.50> / Stamina : 86.19% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 320
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.60 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 23.28 / currPosition : <359.37, 0.50> / Stamina : 86.37% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.64 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 23.16 / currPosition : <355.14, 0.45> / Stamina : 85.66% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :          박 섬광석화 - targetSpeed(m/s) : 22.36 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 23.26 / currPosition : <353.84, 0.75> / Stamina : 85.33% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 4 :         치쿠모 코토리 - targetSpeed(m/s) : 22.14 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 23.21 / currPosition : <353.78, 1.80> / Stamina : 85.00% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.11 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 22.20 / currPosition : <344.50, 3.15> / Stamina : 86.40% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 22.05 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.22 / currPosition : <343.10, 4.20> / Stamina : 86.44% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 20.47 / spurtTarget(m/s) : 22.59 / currPosition : <338.37, 0.45> / Stamina : 82.98% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.10 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.82 / currPosition : <337.73, 0.50> / Stamina : 85.48% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 340
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.28 / currPosition : <380.89, 0.50> / Stamina : 85.55% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 23.16 / currPosition : <376.70, 0.45> / Stamina : 84.84% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 22.10 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.21 / currPosition : <375.05, 0.80> / Stamina : 83.68% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 23.26 / currPosition : <374.97, 0.45> / Stamina : 84.41% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.47 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 22.20 / currPosition : <365.31, 2.15> / Stamina : 85.18% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 22.07 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.22 / currPosition : <363.97, 3.20> / Stamina : 85.21% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.58 / defaultTarget(m/s) : 20.55 / spurtTarget(m/s) : 22.59 / currPosition : <359.46, 0.45> / Stamina : 82.22% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.10 / defaultTarget(m/s) : 20.09 / spurtTarget(m/s) : 21.82 / currPosition : <358.50, 0.50> / Stamina : 84.75% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 360
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.61 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 23.28 / currPosition : <402.41, 0.50> / Stamina : 84.73% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.65 / defaultTarget(m/s) : 20.62 / spurtTarget(m/s) : 23.16 / currPosition : <398.31, 0.45> / Stamina : 84.01% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 23.21 / currPosition : <396.27, 0.50> / Stamina : 82.75% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.78 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 23.26 / currPosition : <396.12, 0.45> / Stamina : 83.64% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 22.06 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 22.20 / currPosition : <386.14, 1.15> / Stamina : 83.96% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.22 / currPosition : <384.76, 2.20> / Stamina : 83.99% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.56 / defaultTarget(m/s) : 20.53 / spurtTarget(m/s) : 22.59 / currPosition : <380.75, 0.45> / Stamina : 81.44% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.18 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 21.82 / currPosition : <379.38, 0.50> / Stamina : 84.01% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 380
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.53 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 23.28 / currPosition : <423.93, 0.50> / Stamina : 83.90% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.65 / defaultTarget(m/s) : 20.62 / spurtTarget(m/s) : 23.16 / currPosition : <419.94, 0.45> / Stamina : 83.19% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 23.21 / currPosition : <417.63, 0.50> / Stamina : 81.95% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 23.26 / currPosition : <417.29, 0.45> / Stamina : 82.87% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 22.20 / currPosition : <406.98, 0.50> / Stamina : 82.91% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 22.34 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.22 / currPosition : <405.46, 1.20> / Stamina : 82.80% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 20.47 / spurtTarget(m/s) : 22.59 / currPosition : <402.19, 0.45> / Stamina : 80.64% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.13 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.82 / currPosition : <400.37, 0.50> / Stamina : 83.26% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 400
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.59 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 23.28 / currPosition : <445.44, 0.50> / Stamina : 83.08% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.64 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 23.16 / currPosition : <441.56, 0.45> / Stamina : 82.36% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.78 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 23.21 / currPosition : <439.13, 0.50> / Stamina : 81.13% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 23.26 / currPosition : <438.48, 0.45> / Stamina : 82.10% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 22.20 / currPosition : <427.90, 0.50> / Stamina : 82.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 22.22 / currPosition : <426.13, 0.50> / Stamina : 81.75% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.52 / defaultTarget(m/s) : 20.50 / spurtTarget(m/s) : 22.59 / currPosition : <423.67, 0.45> / Stamina : 79.84% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.08 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.82 / currPosition : <421.44, 0.50> / Stamina : 82.50% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 420
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.56 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 23.28 / currPosition : <466.94, 0.50> / Stamina : 82.26% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.65 / spurtTarget(m/s) : 23.16 / currPosition : <463.18, 0.45> / Stamina : 81.53% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 23.21 / currPosition : <460.77, 0.50> / Stamina : 80.30% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.67 / defaultTarget(m/s) : 20.64 / spurtTarget(m/s) : 23.26 / currPosition : <459.69, 0.45> / Stamina : 81.33% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 22.20 / currPosition : <448.92, 0.50> / Stamina : 81.42% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.25 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.22 / currPosition : <446.87, 0.50> / Stamina : 81.03% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 20.48 / spurtTarget(m/s) : 22.59 / currPosition : <445.15, 0.45> / Stamina : 79.03% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.06 / defaultTarget(m/s) : 20.06 / spurtTarget(m/s) : 21.82 / currPosition : <442.52, 0.50> / Stamina : 81.74% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 440
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.55 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 23.28 / currPosition : <488.45, 0.50> / Stamina : 81.44% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 23.16 / currPosition : <484.78, 0.45> / Stamina : 80.71% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.21 / currPosition : <482.46, 0.50> / Stamina : 79.45% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.72 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 23.26 / currPosition : <480.92, 0.45> / Stamina : 80.55% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.20 / currPosition : <470.04, 0.50> / Stamina : 80.65% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.30 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.22 / currPosition : <467.73, 0.50> / Stamina : 80.30% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.46 / defaultTarget(m/s) : 20.44 / spurtTarget(m/s) : 22.59 / currPosition : <466.63, 0.45> / Stamina : 78.23% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.13 / defaultTarget(m/s) : 20.13 / spurtTarget(m/s) : 21.82 / currPosition : <463.61, 0.50> / Stamina : 80.97% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 460
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.55 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 23.28 / currPosition : <509.96, 0.50> / Stamina : 80.62% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.65 / defaultTarget(m/s) : 20.62 / spurtTarget(m/s) : 23.16 / currPosition : <506.39, 0.45> / Stamina : 79.88% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 23.21 / currPosition : <504.17, 0.50> / Stamina : 78.61% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 23.26 / currPosition : <502.17, 0.45> / Stamina : 79.78% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.25 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.20 / currPosition : <491.22, 0.50> / Stamina : 79.88% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.28 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.22 / currPosition : <488.68, 0.50> / Stamina : 79.55% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.54 / defaultTarget(m/s) : 20.51 / spurtTarget(m/s) : 22.59 / currPosition : <488.10, 0.45> / Stamina : 77.43% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.16 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.82 / currPosition : <484.68, 0.50> / Stamina : 80.21% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 480
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.61 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 23.28 / currPosition : <531.48, 0.50> / Stamina : 79.79% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 23.16 / currPosition : <528.03, 0.45> / Stamina : 79.06% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 23.21 / currPosition : <525.85, 0.50> / Stamina : 77.77% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 23.26 / currPosition : <523.43, 0.45> / Stamina : 79.00% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.29 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.20 / currPosition : <512.39, 0.50> / Stamina : 79.11% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         리코리스 블랙 - targetSpeed(m/s) : 21.18 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 22.22 / currPosition : <509.74, 0.50> / Stamina : 78.79% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.56 / defaultTarget(m/s) : 20.53 / spurtTarget(m/s) : 22.59 / currPosition : <509.58, 0.45> / Stamina : 76.63% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.12 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.82 / currPosition : <505.74, 0.50> / Stamina : 79.45% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 500
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.28 / currPosition : <552.99, 0.50> / Stamina : 78.97% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.64 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 23.16 / currPosition : <549.66, 0.45> / Stamina : 78.23% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 23.21 / currPosition : <547.52, 0.50> / Stamina : 76.93% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 23.26 / currPosition : <544.72, 0.45> / Stamina : 78.21% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.16 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 22.20 / currPosition : <533.57, 0.50> / Stamina : 78.34% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.54 / defaultTarget(m/s) : 20.51 / spurtTarget(m/s) : 22.59 / currPosition : <531.06, 0.45> / Stamina : 75.82% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.07 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 22.22 / currPosition : <530.83, 0.50> / Stamina : 78.03% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.82 / currPosition : <526.82, 0.50> / Stamina : 78.69% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 520
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.57 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 23.28 / currPosition : <574.49, 0.50> / Stamina : 78.15% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.16 / currPosition : <571.29, 0.45> / Stamina : 77.40% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 23.21 / currPosition : <569.22, 0.50> / Stamina : 76.09% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.76 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 23.26 / currPosition : <566.02, 0.45> / Stamina : 77.43% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 22.20 / currPosition : <554.74, 0.50> / Stamina : 77.57% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 20.49 / spurtTarget(m/s) : 22.59 / currPosition : <552.55, 0.45> / Stamina : 75.02% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 20.98 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 22.22 / currPosition : <551.78, 0.50> / Stamina : 77.29% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.15 / defaultTarget(m/s) : 20.14 / spurtTarget(m/s) : 21.82 / currPosition : <547.89, 0.50> / Stamina : 77.93% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 540
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.54 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 23.28 / currPosition : <596.02, 0.50> / Stamina : 77.32% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.62 / defaultTarget(m/s) : 20.60 / spurtTarget(m/s) : 23.16 / currPosition : <592.90, 0.45> / Stamina : 76.58% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 23.21 / currPosition : <590.90, 0.50> / Stamina : 75.25% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 23.26 / currPosition : <587.34, 0.45> / Stamina : 76.64% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 22.20 / currPosition : <575.92, 0.50> / Stamina : 76.79% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.52 / defaultTarget(m/s) : 20.49 / spurtTarget(m/s) : 22.59 / currPosition : <574.04, 0.45> / Stamina : 74.21% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.02 / defaultTarget(m/s) : 20.21 / spurtTarget(m/s) : 22.22 / currPosition : <572.75, 0.50> / Stamina : 76.54% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 21.82 / currPosition : <568.99, 0.50> / Stamina : 77.16% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 560
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.61 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 23.28 / currPosition : <617.57, 0.50> / Stamina : 76.50% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.16 / currPosition : <614.54, 0.45> / Stamina : 75.75% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 23.21 / currPosition : <612.59, 0.50> / Stamina : 74.41% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 23.26 / currPosition : <608.68, 0.45> / Stamina : 75.85% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.30 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.20 / currPosition : <597.09, 0.50> / Stamina : 76.02% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.46 / defaultTarget(m/s) : 20.44 / spurtTarget(m/s) : 22.59 / currPosition : <595.54, 0.45> / Stamina : 73.41% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.09 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.22 / currPosition : <593.73, 0.50> / Stamina : 75.79% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.06 / defaultTarget(m/s) : 20.06 / spurtTarget(m/s) : 21.82 / currPosition : <590.07, 0.50> / Stamina : 76.40% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 580
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.58 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 23.28 / currPosition : <639.08, 0.50> / Stamina : 75.67% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.16 / currPosition : <636.17, 0.45> / Stamina : 74.92% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 23.21 / currPosition : <634.28, 0.50> / Stamina : 73.57% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.72 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 23.26 / currPosition : <630.04, 0.45> / Stamina : 75.06% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.25 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.20 / currPosition : <618.24, 0.50> / Stamina : 75.26% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 20.47 / spurtTarget(m/s) : 22.59 / currPosition : <617.00, 0.45> / Stamina : 72.61% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.09 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.22 / currPosition : <614.71, 0.50> / Stamina : 75.04% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.15 / defaultTarget(m/s) : 20.14 / spurtTarget(m/s) : 21.82 / currPosition : <611.15, 0.50> / Stamina : 75.64% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 600
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.52 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 23.28 / currPosition : <660.60, 0.50> / Stamina : 74.85% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 23.16 / currPosition : <657.78, 0.45> / Stamina : 74.10% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 23.21 / currPosition : <655.97, 0.50> / Stamina : 72.73% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 23.26 / currPosition : <651.42, 0.45> / Stamina : 74.27% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 22.20 / currPosition : <639.42, 0.50> / Stamina : 74.48% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 20.47 / spurtTarget(m/s) : 22.59 / currPosition : <638.45, 0.45> / Stamina : 71.81% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.06 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.22 / currPosition : <635.68, 0.50> / Stamina : 74.30% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.82 / currPosition : <632.23, 0.50> / Stamina : 74.88% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 620
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.53 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 23.28 / currPosition : <682.10, 0.50> / Stamina : 74.03% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.64 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 23.16 / currPosition : <679.40, 0.45> / Stamina : 73.27% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 23.21 / currPosition : <677.64, 0.50> / Stamina : 71.89% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 23.26 / currPosition : <672.82, 0.45> / Stamina : 73.47% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.25 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.20 / currPosition : <660.59, 0.50> / Stamina : 73.71% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.53 / defaultTarget(m/s) : 20.51 / spurtTarget(m/s) : 22.59 / currPosition : <659.93, 0.45> / Stamina : 71.00% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.03 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.22 / currPosition : <656.65, 0.50> / Stamina : 73.55% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.10 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.82 / currPosition : <653.31, 0.50> / Stamina : 74.11% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 640
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.60 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 23.28 / currPosition : <703.60, 0.50> / Stamina : 73.21% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 23.16 / currPosition : <701.03, 0.45> / Stamina : 72.44% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 23.21 / currPosition : <699.33, 0.50> / Stamina : 71.05% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 23.26 / currPosition : <694.23, 0.45> / Stamina : 72.67% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 22.20 / currPosition : <681.78, 0.50> / Stamina : 72.94% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.59 / defaultTarget(m/s) : 20.56 / spurtTarget(m/s) : 22.59 / currPosition : <681.42, 0.45> / Stamina : 70.20% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.06 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.22 / currPosition : <677.63, 0.50> / Stamina : 72.80% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.82 / currPosition : <674.38, 0.50> / Stamina : 73.35% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 660
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.58 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 23.28 / currPosition : <725.11, 0.50> / Stamina : 72.39% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.67 / defaultTarget(m/s) : 20.64 / spurtTarget(m/s) : 23.16 / currPosition : <722.65, 0.45> / Stamina : 71.62% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.21 / currPosition : <721.04, 0.50> / Stamina : 70.21% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 23.26 / currPosition : <715.67, 0.45> / Stamina : 71.87% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          시나몬 룰렛 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 22.20 / currPosition : <702.95, 0.50> / Stamina : 72.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 20.43 / spurtTarget(m/s) : 22.59 / currPosition : <702.90, 0.45> / Stamina : 69.40% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.01 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 22.22 / currPosition : <698.59, 0.50> / Stamina : 72.06% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.08 / defaultTarget(m/s) : 20.08 / spurtTarget(m/s) : 21.82 / currPosition : <695.46, 0.50> / Stamina : 72.59% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 680
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.58 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 23.28 / currPosition : <746.63, 0.50> / Stamina : 71.56% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.16 / currPosition : <744.30, 0.45> / Stamina : 70.79% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 23.21 / currPosition : <742.73, 0.50> / Stamina : 69.37% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 23.26 / currPosition : <737.12, 0.45> / Stamina : 71.07% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.59 / defaultTarget(m/s) : 20.56 / spurtTarget(m/s) : 22.59 / currPosition : <724.38, 0.45> / Stamina : 68.59% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.00 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 22.20 / currPosition : <723.98, 0.50> / Stamina : 71.41% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 22.22 / currPosition : <719.60, 0.50> / Stamina : 71.31% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.13 / defaultTarget(m/s) : 20.13 / spurtTarget(m/s) : 21.82 / currPosition : <716.53, 0.50> / Stamina : 71.83% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 700
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.59 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 23.28 / currPosition : <768.14, 0.50> / Stamina : 70.74% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.64 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 23.16 / currPosition : <765.92, 0.45> / Stamina : 69.96% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 23.21 / currPosition : <764.40, 0.50> / Stamina : 68.53% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 23.26 / currPosition : <758.59, 0.45> / Stamina : 70.26% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.48 / defaultTarget(m/s) : 20.45 / spurtTarget(m/s) : 22.59 / currPosition : <745.84, 0.45> / Stamina : 67.79% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.09 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.20 / currPosition : <744.95, 0.50> / Stamina : 70.67% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 22.22 / currPosition : <740.71, 0.50> / Stamina : 70.54% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.82 / currPosition : <737.59, 0.50> / Stamina : 71.07% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 720
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.57 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 23.28 / currPosition : <789.66, 0.50> / Stamina : 69.92% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.61 / defaultTarget(m/s) : 20.58 / spurtTarget(m/s) : 23.16 / currPosition : <787.54, 0.45> / Stamina : 69.13% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 23.21 / currPosition : <786.11, 0.50> / Stamina : 67.69% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.68 / defaultTarget(m/s) : 20.65 / spurtTarget(m/s) : 23.26 / currPosition : <780.08, 0.45> / Stamina : 69.45% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.57 / defaultTarget(m/s) : 20.54 / spurtTarget(m/s) : 22.59 / currPosition : <767.31, 0.45> / Stamina : 66.99% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.06 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.20 / currPosition : <765.93, 0.50> / Stamina : 69.92% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.28 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.22 / currPosition : <761.88, 0.50> / Stamina : 69.77% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.07 / defaultTarget(m/s) : 20.06 / spurtTarget(m/s) : 21.82 / currPosition : <758.69, 0.50> / Stamina : 70.30% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 740
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.59 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 23.28 / currPosition : <811.17, 0.50> / Stamina : 69.09% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.65 / defaultTarget(m/s) : 20.62 / spurtTarget(m/s) : 23.16 / currPosition : <809.14, 0.45> / Stamina : 68.31% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.68 / defaultTarget(m/s) : 20.65 / spurtTarget(m/s) : 23.21 / currPosition : <807.79, 0.50> / Stamina : 66.85% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 23.26 / currPosition : <801.59, 0.45> / Stamina : 68.64% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.56 / defaultTarget(m/s) : 20.53 / spurtTarget(m/s) : 22.59 / currPosition : <788.77, 0.45> / Stamina : 66.19% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.01 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 22.20 / currPosition : <786.90, 0.50> / Stamina : 69.17% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.29 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.22 / currPosition : <783.04, 0.50> / Stamina : 69.00% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.08 / defaultTarget(m/s) : 20.08 / spurtTarget(m/s) : 21.82 / currPosition : <779.75, 0.50> / Stamina : 69.55% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 760
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.60 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 23.28 / currPosition : <832.68, 0.50> / Stamina : 68.27% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.67 / defaultTarget(m/s) : 20.64 / spurtTarget(m/s) : 23.16 / currPosition : <830.77, 0.45> / Stamina : 67.48% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 23.21 / currPosition : <829.48, 0.50> / Stamina : 66.01% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.67 / defaultTarget(m/s) : 20.63 / spurtTarget(m/s) : 23.26 / currPosition : <823.12, 0.45> / Stamina : 67.83% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.55 / defaultTarget(m/s) : 20.53 / spurtTarget(m/s) : 22.59 / currPosition : <810.23, 0.45> / Stamina : 65.39% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 22.20 / currPosition : <807.87, 0.50> / Stamina : 68.43% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.25 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.22 / currPosition : <804.23, 0.50> / Stamina : 68.23% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.09 / defaultTarget(m/s) : 20.09 / spurtTarget(m/s) : 21.82 / currPosition : <800.85, 0.50> / Stamina : 68.78% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 780
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.52 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 23.28 / currPosition : <854.19, 0.50> / Stamina : 67.45% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.16 / currPosition : <852.42, 0.45> / Stamina : 66.65% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.68 / spurtTarget(m/s) : 23.21 / currPosition : <851.17, 0.50> / Stamina : 65.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 23.26 / currPosition : <844.67, 0.45> / Stamina : 67.02% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.56 / defaultTarget(m/s) : 20.54 / spurtTarget(m/s) : 22.59 / currPosition : <831.69, 0.45> / Stamina : 64.58% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.04 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 22.20 / currPosition : <828.83, 0.50> / Stamina : 67.68% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.26 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.22 / currPosition : <825.41, 0.50> / Stamina : 67.46% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.08 / defaultTarget(m/s) : 20.08 / spurtTarget(m/s) : 21.82 / currPosition : <821.90, 0.50> / Stamina : 68.02% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 800
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.55 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 23.28 / currPosition : <875.69, 0.50> / Stamina : 66.63% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 23.16 / currPosition : <874.06, 0.45> / Stamina : 65.82% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 23.21 / currPosition : <872.86, 0.50> / Stamina : 64.33% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.26 / currPosition : <866.23, 0.45> / Stamina : 66.20% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 20.48 / spurtTarget(m/s) : 22.59 / currPosition : <853.16, 0.45> / Stamina : 63.78% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 22.20 / currPosition : <849.80, 0.50> / Stamina : 66.93% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.24 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 22.22 / currPosition : <846.58, 0.50> / Stamina : 66.69% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.12 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.82 / currPosition : <842.96, 0.50> / Stamina : 67.26% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 820
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.61 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 23.28 / currPosition : <897.22, 0.50> / Stamina : 65.80% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.16 / currPosition : <895.68, 0.45> / Stamina : 65.00% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.68 / defaultTarget(m/s) : 20.64 / spurtTarget(m/s) : 23.21 / currPosition : <894.56, 0.50> / Stamina : 63.49% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 23.26 / currPosition : <887.82, 0.45> / Stamina : 65.38% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 20.49 / spurtTarget(m/s) : 22.59 / currPosition : <874.62, 0.45> / Stamina : 62.98% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.00 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 22.20 / currPosition : <870.78, 0.50> / Stamina : 66.19% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.22 / currPosition : <867.76, 0.50> / Stamina : 65.91% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.09 / defaultTarget(m/s) : 20.08 / spurtTarget(m/s) : 21.82 / currPosition : <864.03, 0.50> / Stamina : 66.50% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 840
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.57 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 23.28 / currPosition : <920.71, 0.50> / Stamina : 64.98% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.64 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 23.16 / currPosition : <919.19, 0.45> / Stamina : 64.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 23.21 / currPosition : <917.88, 0.50> / Stamina : 62.64% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 23.26 / currPosition : <910.35, 0.45> / Stamina : 64.56% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.53 / defaultTarget(m/s) : 20.50 / spurtTarget(m/s) : 22.59 / currPosition : <896.08, 0.45> / Stamina : 62.18% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.00 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 22.20 / currPosition : <891.75, 0.50> / Stamina : 65.44% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.22 / defaultTarget(m/s) : 20.21 / spurtTarget(m/s) : 22.22 / currPosition : <888.95, 0.50> / Stamina : 65.14% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.06 / defaultTarget(m/s) : 20.06 / spurtTarget(m/s) : 21.82 / currPosition : <885.10, 0.50> / Stamina : 65.74% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 860
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.54 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 23.28 / currPosition : <944.52, 0.50> / Stamina : 64.16% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.68 / defaultTarget(m/s) : 20.65 / spurtTarget(m/s) : 23.16 / currPosition : <943.14, 0.45> / Stamina : 63.34% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 23.21 / currPosition : <941.89, 0.50> / Stamina : 61.80% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 23.26 / currPosition : <934.29, 0.45> / Stamina : 63.73% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 20.46 / spurtTarget(m/s) : 22.59 / currPosition : <919.39, 0.45> / Stamina : 61.38% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 20.97 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 22.20 / currPosition : <914.07, 0.50> / Stamina : 64.69% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.21 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 22.22 / currPosition : <911.14, 0.50> / Stamina : 64.37% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.13 / defaultTarget(m/s) : 20.13 / spurtTarget(m/s) : 21.82 / currPosition : <906.72, 0.50> / Stamina : 64.98% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 880
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.59 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 23.28 / currPosition : <968.33, 0.50> / Stamina : 63.33% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.61 / defaultTarget(m/s) : 20.59 / spurtTarget(m/s) : 23.16 / currPosition : <967.07, 0.45> / Stamina : 62.52% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 23.21 / currPosition : <965.91, 0.50> / Stamina : 60.96% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 23.26 / currPosition : <958.26, 0.45> / Stamina : 62.91% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.53 / defaultTarget(m/s) : 20.50 / spurtTarget(m/s) : 22.59 / currPosition : <943.15, 0.45> / Stamina : 60.58% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 20.96 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 22.20 / currPosition : <937.29, 0.50> / Stamina : 63.95% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.22 / currPosition : <934.58, 0.50> / Stamina : 63.60% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.82 / currPosition : <930.02, 0.50> / Stamina : 64.22% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 900
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.62 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 23.28 / currPosition : <992.14, 0.50> / Stamina : 62.51% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 23.16 / currPosition : <991.02, 0.45> / Stamina : 61.69% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 23.21 / currPosition : <989.91, 0.50> / Stamina : 60.12% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.26 / currPosition : <982.24, 0.45> / Stamina : 62.08% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 20.47 / spurtTarget(m/s) : 22.59 / currPosition : <966.93, 0.45> / Stamina : 59.78% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.00 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 22.20 / currPosition : <960.51, 0.50> / Stamina : 63.20% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.27 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.22 / currPosition : <958.03, 0.50> / Stamina : 62.83% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.07 / defaultTarget(m/s) : 20.06 / spurtTarget(m/s) : 21.82 / currPosition : <953.36, 0.50> / Stamina : 63.46% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 920
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.62 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 23.28 / currPosition : <1015.93, 0.50> / Stamina : 61.69% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 23.16 / currPosition : <1014.96, 0.45> / Stamina : 60.86% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.76 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 23.21 / currPosition : <1013.95, 0.50> / Stamina : 59.28% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 23.26 / currPosition : <1006.23, 0.45> / Stamina : 61.25% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.54 / defaultTarget(m/s) : 20.51 / spurtTarget(m/s) : 22.59 / currPosition : <990.71, 0.45> / Stamina : 58.97% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.04 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 22.20 / currPosition : <983.74, 0.50> / Stamina : 62.45% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.29 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.22 / currPosition : <981.47, 0.50> / Stamina : 62.06% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.12 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.82 / currPosition : <976.68, 0.50> / Stamina : 62.70% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 940
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.28 / currPosition : <1039.74, 0.50> / Stamina : 60.87% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.60 / defaultTarget(m/s) : 20.57 / spurtTarget(m/s) : 23.16 / currPosition : <1038.91, 0.45> / Stamina : 60.04% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.21 / currPosition : <1037.97, 0.50> / Stamina : 58.44% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.71 / spurtTarget(m/s) : 23.26 / currPosition : <1030.21, 0.45> / Stamina : 60.42% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 20.47 / spurtTarget(m/s) : 22.59 / currPosition : <1014.47, 0.45> / Stamina : 58.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.08 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.20 / currPosition : <1006.95, 0.50> / Stamina : 61.70% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.20 / defaultTarget(m/s) : 20.19 / spurtTarget(m/s) : 22.22 / currPosition : <1004.93, 0.50> / Stamina : 61.28% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.14 / defaultTarget(m/s) : 20.13 / spurtTarget(m/s) : 21.82 / currPosition : <999.99, 0.50> / Stamina : 61.94% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 960
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.52 / defaultTarget(m/s) : 20.69 / spurtTarget(m/s) : 23.28 / currPosition : <1063.54, 0.50> / Stamina : 60.05% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.61 / defaultTarget(m/s) : 20.58 / spurtTarget(m/s) : 23.16 / currPosition : <1062.84, 0.45> / Stamina : 59.21% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.66 / spurtTarget(m/s) : 23.21 / currPosition : <1061.97, 0.50> / Stamina : 57.60% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.70 / spurtTarget(m/s) : 23.26 / currPosition : <1054.21, 0.45> / Stamina : 59.59% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.47 / defaultTarget(m/s) : 20.45 / spurtTarget(m/s) : 22.59 / currPosition : <1038.24, 0.45> / Stamina : 57.37% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.01 / defaultTarget(m/s) : 20.20 / spurtTarget(m/s) : 22.20 / currPosition : <1030.15, 0.50> / Stamina : 60.96% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.23 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.22 / currPosition : <1028.36, 0.50> / Stamina : 60.51% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.09 / defaultTarget(m/s) : 20.08 / spurtTarget(m/s) : 21.82 / currPosition : <1023.32, 0.50> / Stamina : 61.18% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 980
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.62 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 23.28 / currPosition : <1087.33, 0.50> / Stamina : 59.23% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.68 / defaultTarget(m/s) : 20.64 / spurtTarget(m/s) : 23.16 / currPosition : <1086.79, 0.45> / Stamina : 58.39% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.76 / defaultTarget(m/s) : 20.72 / spurtTarget(m/s) : 23.21 / currPosition : <1086.00, 0.50> / Stamina : 56.75% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.76 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 23.26 / currPosition : <1078.21, 0.45> / Stamina : 58.76% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.57 / defaultTarget(m/s) : 20.54 / spurtTarget(m/s) : 22.59 / currPosition : <1061.99, 0.45> / Stamina : 56.57% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.09 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.20 / currPosition : <1053.36, 0.50> / Stamina : 60.21% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 22.22 / currPosition : <1051.79, 0.50> / Stamina : 59.74% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.18 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 21.82 / currPosition : <1046.65, 0.50> / Stamina : 60.41% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1000
+ 1 :           포츈 투유 - targetSpeed(m/s) : 21.61 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 23.28 / currPosition : <1111.14, 0.50> / Stamina : 58.41% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 21.64 / defaultTarget(m/s) : 20.61 / spurtTarget(m/s) : 23.16 / currPosition : <1110.74, 0.45> / Stamina : 57.56% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 23.21 / currPosition : <1110.03, 0.50> / Stamina : 55.91% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.67 / spurtTarget(m/s) : 23.26 / currPosition : <1102.21, 0.45> / Stamina : 57.93% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 20.49 / spurtTarget(m/s) : 22.59 / currPosition : <1085.79, 0.45> / Stamina : 55.77% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 20.99 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 22.20 / currPosition : <1076.56, 0.50> / Stamina : 59.46% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 22.22 / currPosition : <1075.24, 0.50> / Stamina : 58.97% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.16 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.82 / currPosition : <1069.97, 0.50> / Stamina : 59.65% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1020
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.43 / defaultTarget(m/s) : 20.32 / spurtTarget(m/s) : 22.43 / currPosition : <1134.99, 0.50> / Stamina : 57.55% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.31 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 22.31 / currPosition : <1134.65, 0.45> / Stamina : 56.70% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 23.21 / currPosition : <1134.04, 0.50> / Stamina : 55.07% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 23.26 / currPosition : <1126.19, 0.45> / Stamina : 57.10% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 20.46 / spurtTarget(m/s) : 22.59 / currPosition : <1109.59, 0.45> / Stamina : 54.96% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.08 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.20 / currPosition : <1099.78, 0.50> / Stamina : 58.72% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.18 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 22.22 / currPosition : <1098.67, 0.50> / Stamina : 58.20% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.11 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.82 / currPosition : <1093.30, 0.50> / Stamina : 58.89% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1040
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.37 / spurtTarget(m/s) : 22.49 / currPosition : <1158.95, 0.50> / Stamina : 56.10% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.35 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.35 / currPosition : <1158.70, 0.45> / Stamina : 55.11% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 22.46 / defaultTarget(m/s) : 20.37 / spurtTarget(m/s) : 22.46 / currPosition : <1158.13, 0.50> / Stamina : 53.47% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.38 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.38 / currPosition : <1150.19, 0.45> / Stamina : 55.81% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 20.43 / spurtTarget(m/s) : 22.59 / currPosition : <1133.38, 0.45> / Stamina : 54.16% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.04 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 22.20 / currPosition : <1122.99, 0.50> / Stamina : 57.97% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.17 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 22.22 / currPosition : <1122.11, 0.50> / Stamina : 57.43% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.16 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.82 / currPosition : <1116.64, 0.50> / Stamina : 58.13% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 1060
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.43 / defaultTarget(m/s) : 20.32 / spurtTarget(m/s) : 22.43 / currPosition : <1183.10, 0.50> / Stamina : 54.60% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.25 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 22.25 / currPosition : <1182.97, 0.45> / Stamina : 53.48% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 22.43 / defaultTarget(m/s) : 20.34 / spurtTarget(m/s) : 22.43 / currPosition : <1182.37, 0.50> / Stamina : 51.83% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.40 / currPosition : <1174.21, 0.45> / Stamina : 54.32% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.53 / defaultTarget(m/s) : 20.54 / spurtTarget(m/s) : 22.53 / currPosition : <1157.22, 0.45> / Stamina : 52.67% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.48 / defaultTarget(m/s) : 19.89 / spurtTarget(m/s) : 21.48 / currPosition : <1146.23, 0.50> / Stamina : 56.75% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.39 / defaultTarget(m/s) : 19.81 / spurtTarget(m/s) : 21.39 / currPosition : <1145.54, 0.50> / Stamina : 56.22% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.14 / spurtTarget(m/s) : 21.74 / currPosition : <1139.97, 0.50> / Stamina : 57.15% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1080
+ 1 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.27 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.27 / currPosition : <1207.46, 0.45> / Stamina : 51.80% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :           포츈 투유 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.44 / currPosition : <1207.43, 0.50> / Stamina : 53.08% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 22.39 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.39 / currPosition : <1206.78, 0.50> / Stamina : 50.15% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.42 / defaultTarget(m/s) : 20.34 / spurtTarget(m/s) : 22.42 / currPosition : <1198.24, 0.45> / Stamina : 52.82% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.52 / spurtTarget(m/s) : 22.51 / currPosition : <1181.28, 0.45> / Stamina : 51.14% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.41 / defaultTarget(m/s) : 19.83 / spurtTarget(m/s) : 21.41 / currPosition : <1169.56, 0.50> / Stamina : 55.11% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.39 / defaultTarget(m/s) : 19.80 / spurtTarget(m/s) : 21.39 / currPosition : <1169.07, 0.50> / Stamina : 54.53% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.76 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.76 / currPosition : <1163.38, 0.50> / Stamina : 55.49% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1100
+ 1 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.33 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.33 / currPosition : <1232.06, 0.45> / Stamina : 50.10% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :           포츈 투유 - targetSpeed(m/s) : 22.43 / defaultTarget(m/s) : 20.32 / spurtTarget(m/s) : 22.43 / currPosition : <1231.95, 0.50> / Stamina : 51.51% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 20.32 / spurtTarget(m/s) : 22.41 / currPosition : <1231.33, 0.50> / Stamina : 48.44% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.41 / currPosition : <1222.30, 0.45> / Stamina : 51.31% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.50 / spurtTarget(m/s) : 22.49 / currPosition : <1205.54, 0.45> / Stamina : 49.57% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.47 / defaultTarget(m/s) : 19.88 / spurtTarget(m/s) : 21.47 / currPosition : <1193.00, 0.50> / Stamina : 53.45% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.47 / defaultTarget(m/s) : 19.88 / spurtTarget(m/s) : 21.47 / currPosition : <1192.69, 0.50> / Stamina : 52.83% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.73 / currPosition : <1186.91, 0.50> / Stamina : 53.80% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1120
+ 1 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.33 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.33 / currPosition : <1256.69, 0.45> / Stamina : 48.39% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :           포츈 투유 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.39 / spurtTarget(m/s) : 22.51 / currPosition : <1256.66, 0.50> / Stamina : 49.90% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 22.42 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.42 / currPosition : <1256.04, 0.50> / Stamina : 46.70% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.42 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.42 / currPosition : <1246.38, 0.45> / Stamina : 49.81% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.45 / defaultTarget(m/s) : 20.47 / spurtTarget(m/s) : 22.45 / currPosition : <1230.02, 0.45> / Stamina : 47.95% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 19.85 / spurtTarget(m/s) : 21.44 / currPosition : <1216.55, 0.50> / Stamina : 51.76% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 19.91 / spurtTarget(m/s) : 21.50 / currPosition : <1216.36, 0.50> / Stamina : 51.11% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.14 / spurtTarget(m/s) : 21.75 / currPosition : <1210.56, 0.50> / Stamina : 52.08% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1140
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.50 / defaultTarget(m/s) : 20.39 / spurtTarget(m/s) : 22.50 / currPosition : <1281.50, 0.50> / Stamina : 48.27% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.30 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.30 / currPosition : <1281.30, 0.45> / Stamina : 46.68% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 22.42 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.42 / currPosition : <1280.80, 0.50> / Stamina : 44.95% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.41 / currPosition : <1270.48, 0.45> / Stamina : 48.29% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.53 / defaultTarget(m/s) : 20.54 / spurtTarget(m/s) : 22.53 / currPosition : <1254.70, 0.45> / Stamina : 46.28% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 19.86 / spurtTarget(m/s) : 21.45 / currPosition : <1240.20, 0.50> / Stamina : 50.05% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 19.80 / spurtTarget(m/s) : 21.38 / currPosition : <1240.04, 0.50> / Stamina : 49.40% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.70 / currPosition : <1234.31, 0.50> / Stamina : 50.34% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1160
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.43 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.43 / currPosition : <1305.75, 0.50> / Stamina : 46.64% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.33 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.33 / currPosition : <1305.43, 0.45> / Stamina : 44.97% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.40 / currPosition : <1305.10, 0.50> / Stamina : 43.19% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.39 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.39 / currPosition : <1294.60, 0.45> / Stamina : 46.78% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.50 / spurtTarget(m/s) : 22.49 / currPosition : <1279.52, 0.45> / Stamina : 44.59% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 19.81 / spurtTarget(m/s) : 21.40 / currPosition : <1263.87, 0.50> / Stamina : 48.33% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.41 / defaultTarget(m/s) : 19.82 / spurtTarget(m/s) : 21.41 / currPosition : <1263.68, 0.50> / Stamina : 47.69% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 21.79 / currPosition : <1258.18, 0.50> / Stamina : 48.57% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1180
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.37 / spurtTarget(m/s) : 22.49 / currPosition : <1328.17, 0.50> / Stamina : 45.01% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.27 / defaultTarget(m/s) : 20.25 / spurtTarget(m/s) : 22.27 / currPosition : <1327.67, 0.45> / Stamina : 43.26% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 22.42 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.42 / currPosition : <1327.48, 0.50> / Stamina : 41.43% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.36 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.36 / currPosition : <1316.98, 0.45> / Stamina : 45.26% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.43 / defaultTarget(m/s) : 20.44 / spurtTarget(m/s) : 22.43 / currPosition : <1303.98, 0.45> / Stamina : 42.90% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.47 / defaultTarget(m/s) : 19.88 / spurtTarget(m/s) : 21.47 / currPosition : <1287.54, 0.50> / Stamina : 46.62% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 19.90 / spurtTarget(m/s) : 21.49 / currPosition : <1287.34, 0.50> / Stamina : 45.97% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.75 / currPosition : <1282.14, 0.50> / Stamina : 46.78% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1200
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.35 / spurtTarget(m/s) : 22.47 / currPosition : <1350.61, 0.50> / Stamina : 43.37% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.33 / defaultTarget(m/s) : 20.32 / spurtTarget(m/s) : 22.33 / currPosition : <1349.92, 0.45> / Stamina : 41.55% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         치쿠모 코토리 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.40 / currPosition : <1349.88, 0.50> / Stamina : 39.67% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.43 / defaultTarget(m/s) : 20.34 / spurtTarget(m/s) : 22.43 / currPosition : <1338.80, 0.45> / Stamina : 43.73% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.50 / spurtTarget(m/s) : 22.49 / currPosition : <1326.41, 0.45> / Stamina : 41.20% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.39 / defaultTarget(m/s) : 19.81 / spurtTarget(m/s) : 21.39 / currPosition : <1310.19, 0.50> / Stamina : 44.90% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.39 / defaultTarget(m/s) : 19.81 / spurtTarget(m/s) : 21.39 / currPosition : <1309.99, 0.50> / Stamina : 44.26% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.78 / defaultTarget(m/s) : 20.17 / spurtTarget(m/s) : 21.78 / currPosition : <1305.52, 0.50> / Stamina : 44.99% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1220
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.35 / spurtTarget(m/s) : 22.47 / currPosition : <1373.03, 0.50> / Stamina : 41.75% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.42 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.42 / currPosition : <1372.26, 0.50> / Stamina : 37.91% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.29 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.29 / currPosition : <1372.16, 0.45> / Stamina : 39.84% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.43 / defaultTarget(m/s) : 20.35 / spurtTarget(m/s) : 22.43 / currPosition : <1360.64, 0.45> / Stamina : 42.21% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.50 / spurtTarget(m/s) : 22.49 / currPosition : <1348.85, 0.45> / Stamina : 39.50% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.47 / defaultTarget(m/s) : 19.88 / spurtTarget(m/s) : 21.47 / currPosition : <1331.58, 0.50> / Stamina : 43.18% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 19.87 / spurtTarget(m/s) : 21.45 / currPosition : <1331.35, 0.50> / Stamina : 42.54% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.76 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.76 / currPosition : <1327.19, 0.50> / Stamina : 43.20% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1240
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.37 / spurtTarget(m/s) : 22.49 / currPosition : <1395.46, 0.50> / Stamina : 40.12% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.48 / defaultTarget(m/s) : 20.39 / spurtTarget(m/s) : 22.48 / currPosition : <1394.65, 0.50> / Stamina : 36.15% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.31 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.31 / currPosition : <1394.39, 0.45> / Stamina : 38.13% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.35 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.35 / currPosition : <1382.49, 0.45> / Stamina : 40.67% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.52 / spurtTarget(m/s) : 22.51 / currPosition : <1371.28, 0.45> / Stamina : 37.80% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 19.86 / spurtTarget(m/s) : 21.44 / currPosition : <1352.95, 0.50> / Stamina : 41.47% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 19.91 / spurtTarget(m/s) : 21.50 / currPosition : <1352.73, 0.50> / Stamina : 40.83% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.15 / spurtTarget(m/s) : 21.75 / currPosition : <1348.87, 0.50> / Stamina : 41.39% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1260
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.39 / spurtTarget(m/s) : 22.51 / currPosition : <1417.88, 0.50> / Stamina : 38.49% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.39 / spurtTarget(m/s) : 22.49 / currPosition : <1417.02, 0.50> / Stamina : 34.40% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.25 / defaultTarget(m/s) : 20.23 / spurtTarget(m/s) : 22.25 / currPosition : <1416.62, 0.45> / Stamina : 36.42% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.41 / currPosition : <1404.37, 0.45> / Stamina : 39.14% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.46 / defaultTarget(m/s) : 20.48 / spurtTarget(m/s) : 22.46 / currPosition : <1393.72, 0.45> / Stamina : 36.11% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.43 / defaultTarget(m/s) : 19.84 / spurtTarget(m/s) : 21.43 / currPosition : <1374.32, 0.50> / Stamina : 39.76% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.47 / defaultTarget(m/s) : 19.88 / spurtTarget(m/s) : 21.47 / currPosition : <1374.09, 0.50> / Stamina : 39.12% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.14 / spurtTarget(m/s) : 21.74 / currPosition : <1370.54, 0.50> / Stamina : 39.60% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1280
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.43 / defaultTarget(m/s) : 20.32 / spurtTarget(m/s) : 22.43 / currPosition : <1440.28, 0.50> / Stamina : 36.86% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.38 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 22.38 / currPosition : <1439.41, 0.50> / Stamina : 32.64% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.22 / defaultTarget(m/s) : 20.21 / spurtTarget(m/s) : 22.22 / currPosition : <1438.85, 0.45> / Stamina : 34.71% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.38 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.38 / currPosition : <1426.26, 0.45> / Stamina : 37.59% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.55 / defaultTarget(m/s) : 20.56 / spurtTarget(m/s) : 22.55 / currPosition : <1416.17, 0.45> / Stamina : 34.40% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 19.80 / spurtTarget(m/s) : 21.38 / currPosition : <1395.71, 0.50> / Stamina : 38.04% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 19.85 / spurtTarget(m/s) : 21.44 / currPosition : <1395.49, 0.50> / Stamina : 37.40% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.67 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.67 / currPosition : <1392.20, 0.50> / Stamina : 37.80% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1300
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.39 / spurtTarget(m/s) : 22.51 / currPosition : <1462.72, 0.50> / Stamina : 35.23% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.39 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.39 / currPosition : <1461.78, 0.50> / Stamina : 30.88% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.23 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.23 / currPosition : <1461.07, 0.45> / Stamina : 33.01% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.40 / currPosition : <1448.17, 0.45> / Stamina : 36.05% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.50 / defaultTarget(m/s) : 20.51 / spurtTarget(m/s) : 22.50 / currPosition : <1438.63, 0.45> / Stamina : 32.70% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 19.80 / spurtTarget(m/s) : 21.38 / currPosition : <1417.09, 0.50> / Stamina : 36.33% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.47 / defaultTarget(m/s) : 19.88 / spurtTarget(m/s) : 21.47 / currPosition : <1416.86, 0.50> / Stamina : 35.69% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.73 / currPosition : <1413.85, 0.50> / Stamina : 36.01% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1320
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.50 / defaultTarget(m/s) : 20.38 / spurtTarget(m/s) : 22.50 / currPosition : <1485.16, 0.50> / Stamina : 33.60% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.37 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.37 / currPosition : <1484.15, 0.50> / Stamina : 29.13% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.35 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.35 / currPosition : <1483.30, 0.45> / Stamina : 31.30% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.36 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.36 / currPosition : <1470.10, 0.45> / Stamina : 34.50% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.55 / defaultTarget(m/s) : 20.56 / spurtTarget(m/s) : 22.55 / currPosition : <1461.05, 0.45> / Stamina : 31.01% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 19.90 / spurtTarget(m/s) : 21.49 / currPosition : <1438.44, 0.50> / Stamina : 34.62% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 19.90 / spurtTarget(m/s) : 21.49 / currPosition : <1438.24, 0.50> / Stamina : 33.97% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.70 / currPosition : <1435.49, 0.50> / Stamina : 34.22% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1340
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.55 / defaultTarget(m/s) : 20.43 / spurtTarget(m/s) : 22.55 / currPosition : <1507.59, 0.50> / Stamina : 31.97% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.37 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.37 / currPosition : <1506.52, 0.50> / Stamina : 27.37% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.27 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 22.27 / currPosition : <1505.52, 0.45> / Stamina : 29.59% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.38 / spurtTarget(m/s) : 22.47 / currPosition : <1492.05, 0.45> / Stamina : 32.95% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.50 / spurtTarget(m/s) : 22.49 / currPosition : <1483.46, 0.45> / Stamina : 29.31% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.46 / defaultTarget(m/s) : 19.88 / spurtTarget(m/s) : 21.46 / currPosition : <1459.83, 0.50> / Stamina : 32.90% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.39 / defaultTarget(m/s) : 19.81 / spurtTarget(m/s) : 21.39 / currPosition : <1459.62, 0.50> / Stamina : 32.26% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.68 / defaultTarget(m/s) : 20.08 / spurtTarget(m/s) : 21.68 / currPosition : <1457.14, 0.50> / Stamina : 32.43% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1360
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.52 / defaultTarget(m/s) : 20.41 / spurtTarget(m/s) : 22.52 / currPosition : <1530.01, 0.50> / Stamina : 30.34% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.45 / defaultTarget(m/s) : 20.36 / spurtTarget(m/s) : 22.45 / currPosition : <1528.89, 0.50> / Stamina : 25.62% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.33 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.33 / currPosition : <1527.75, 0.45> / Stamina : 27.88% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.38 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.38 / currPosition : <1514.02, 0.45> / Stamina : 31.39% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.48 / defaultTarget(m/s) : 20.49 / spurtTarget(m/s) : 22.48 / currPosition : <1505.89, 0.45> / Stamina : 27.62% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 19.90 / spurtTarget(m/s) : 21.49 / currPosition : <1481.20, 0.50> / Stamina : 31.19% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 19.87 / spurtTarget(m/s) : 21.45 / currPosition : <1480.98, 0.50> / Stamina : 30.55% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.68 / defaultTarget(m/s) : 20.08 / spurtTarget(m/s) : 21.68 / currPosition : <1478.79, 0.50> / Stamina : 30.64% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1380
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.50 / defaultTarget(m/s) : 20.38 / spurtTarget(m/s) : 22.50 / currPosition : <1552.44, 0.50> / Stamina : 28.71% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.40 / spurtTarget(m/s) : 22.49 / currPosition : <1551.27, 0.50> / Stamina : 23.86% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.23 / defaultTarget(m/s) : 20.22 / spurtTarget(m/s) : 22.23 / currPosition : <1549.99, 0.45> / Stamina : 26.17% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.34 / defaultTarget(m/s) : 20.26 / spurtTarget(m/s) : 22.34 / currPosition : <1536.01, 0.45> / Stamina : 29.82% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.46 / spurtTarget(m/s) : 22.44 / currPosition : <1528.33, 0.45> / Stamina : 25.92% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.41 / defaultTarget(m/s) : 19.83 / spurtTarget(m/s) : 21.41 / currPosition : <1502.59, 0.50> / Stamina : 29.47% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.44 / defaultTarget(m/s) : 19.85 / spurtTarget(m/s) : 21.44 / currPosition : <1502.37, 0.50> / Stamina : 28.83% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.66 / defaultTarget(m/s) : 20.06 / spurtTarget(m/s) : 21.66 / currPosition : <1500.45, 0.50> / Stamina : 28.84% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1400
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.37 / spurtTarget(m/s) : 22.49 / currPosition : <1574.86, 0.50> / Stamina : 27.08% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.40 / currPosition : <1573.64, 0.50> / Stamina : 22.11% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.30 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 22.30 / currPosition : <1572.24, 0.45> / Stamina : 24.46% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.38 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.38 / currPosition : <1558.01, 0.45> / Stamina : 28.26% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.46 / spurtTarget(m/s) : 22.44 / currPosition : <1550.76, 0.45> / Stamina : 24.22% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.39 / defaultTarget(m/s) : 19.81 / spurtTarget(m/s) : 21.39 / currPosition : <1523.98, 0.50> / Stamina : 27.75% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 19.82 / spurtTarget(m/s) : 21.40 / currPosition : <1523.74, 0.50> / Stamina : 27.12% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.78 / defaultTarget(m/s) : 20.18 / spurtTarget(m/s) : 21.78 / currPosition : <1522.10, 0.50> / Stamina : 27.05% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1420
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.36 / spurtTarget(m/s) : 22.47 / currPosition : <1597.28, 0.50> / Stamina : 25.45% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.46 / defaultTarget(m/s) : 20.37 / spurtTarget(m/s) : 22.46 / currPosition : <1596.01, 0.50> / Stamina : 20.35% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.30 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.30 / currPosition : <1594.50, 0.45> / Stamina : 22.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.37 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 22.37 / currPosition : <1580.04, 0.45> / Stamina : 26.69% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.54 / defaultTarget(m/s) : 20.55 / spurtTarget(m/s) : 22.54 / currPosition : <1573.18, 0.45> / Stamina : 22.52% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.47 / defaultTarget(m/s) : 19.88 / spurtTarget(m/s) : 21.47 / currPosition : <1545.36, 0.50> / Stamina : 26.04% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.43 / defaultTarget(m/s) : 19.84 / spurtTarget(m/s) : 21.43 / currPosition : <1545.15, 0.50> / Stamina : 25.39% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.16 / spurtTarget(m/s) : 21.77 / currPosition : <1543.80, 0.50> / Stamina : 25.24% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1440
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.50 / defaultTarget(m/s) : 20.38 / spurtTarget(m/s) : 22.50 / currPosition : <1619.69, 0.50> / Stamina : 23.82% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.35 / spurtTarget(m/s) : 22.44 / currPosition : <1618.38, 0.50> / Stamina : 18.59% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.32 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.32 / currPosition : <1616.72, 0.45> / Stamina : 21.04% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.36 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.36 / currPosition : <1602.08, 0.45> / Stamina : 25.11% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.45 / defaultTarget(m/s) : 20.47 / spurtTarget(m/s) : 22.45 / currPosition : <1595.61, 0.45> / Stamina : 20.83% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.48 / defaultTarget(m/s) : 19.89 / spurtTarget(m/s) : 21.48 / currPosition : <1566.73, 0.50> / Stamina : 24.32% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 19.80 / spurtTarget(m/s) : 21.38 / currPosition : <1566.54, 0.50> / Stamina : 23.68% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.09 / spurtTarget(m/s) : 21.69 / currPosition : <1565.45, 0.50> / Stamina : 23.45% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1460
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.52 / defaultTarget(m/s) : 20.40 / spurtTarget(m/s) : 22.52 / currPosition : <1642.15, 0.50> / Stamina : 22.19% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.39 / spurtTarget(m/s) : 22.49 / currPosition : <1640.75, 0.50> / Stamina : 16.84% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.22 / defaultTarget(m/s) : 20.21 / spurtTarget(m/s) : 22.22 / currPosition : <1638.95, 0.45> / Stamina : 19.33% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.34 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.34 / currPosition : <1624.14, 0.45> / Stamina : 23.53% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.48 / defaultTarget(m/s) : 20.49 / spurtTarget(m/s) : 22.48 / currPosition : <1618.05, 0.45> / Stamina : 19.13% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.48 / defaultTarget(m/s) : 19.89 / spurtTarget(m/s) : 21.48 / currPosition : <1588.12, 0.50> / Stamina : 22.61% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.38 / defaultTarget(m/s) : 19.79 / spurtTarget(m/s) : 21.38 / currPosition : <1587.93, 0.50> / Stamina : 21.96% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.66 / defaultTarget(m/s) : 20.06 / spurtTarget(m/s) : 21.66 / currPosition : <1587.10, 0.50> / Stamina : 21.66% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1480
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.36 / spurtTarget(m/s) : 22.47 / currPosition : <1664.58, 0.50> / Stamina : 20.56% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.34 / spurtTarget(m/s) : 22.44 / currPosition : <1663.13, 0.50> / Stamina : 15.08% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.26 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.26 / currPosition : <1661.20, 0.45> / Stamina : 17.61% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.36 / spurtTarget(m/s) : 22.44 / currPosition : <1646.22, 0.45> / Stamina : 21.95% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.46 / spurtTarget(m/s) : 22.44 / currPosition : <1640.48, 0.45> / Stamina : 17.43% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 19.90 / spurtTarget(m/s) : 21.49 / currPosition : <1609.50, 0.50> / Stamina : 20.89% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 19.92 / spurtTarget(m/s) : 21.51 / currPosition : <1609.31, 0.50> / Stamina : 20.24% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.70 / currPosition : <1608.75, 0.50> / Stamina : 19.86% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1500
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.44 / currPosition : <1687.01, 0.50> / Stamina : 18.93% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.46 / defaultTarget(m/s) : 20.37 / spurtTarget(m/s) : 22.46 / currPosition : <1685.50, 0.50> / Stamina : 13.33% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.25 / defaultTarget(m/s) : 20.24 / spurtTarget(m/s) : 22.25 / currPosition : <1683.44, 0.45> / Stamina : 15.90% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.38 / defaultTarget(m/s) : 20.30 / spurtTarget(m/s) : 22.38 / currPosition : <1668.32, 0.45> / Stamina : 20.36% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.42 / defaultTarget(m/s) : 20.43 / spurtTarget(m/s) : 22.42 / currPosition : <1662.91, 0.45> / Stamina : 15.73% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.39 / defaultTarget(m/s) : 19.80 / spurtTarget(m/s) : 21.39 / currPosition : <1630.89, 0.50> / Stamina : 19.17% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 19.92 / spurtTarget(m/s) : 21.51 / currPosition : <1630.72, 0.50> / Stamina : 18.52% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.72 / defaultTarget(m/s) : 20.12 / spurtTarget(m/s) : 21.72 / currPosition : <1630.41, 0.50> / Stamina : 18.07% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1520
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.44 / currPosition : <1700.47, 0.50> / Stamina : 17.95% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.40 / currPosition : <1700.05, 0.50> / Stamina : 12.19% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.29 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.29 / currPosition : <1700.14, 0.45> / Stamina : 14.62% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.37 / defaultTarget(m/s) : 20.29 / spurtTarget(m/s) : 22.37 / currPosition : <1690.43, 0.45> / Stamina : 18.77% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.46 / spurtTarget(m/s) : 22.44 / currPosition : <1685.33, 0.45> / Stamina : 14.04% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          시나몬 룰렛 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 19.91 / spurtTarget(m/s) : 21.50 / currPosition : <1652.26, 0.50> / Stamina : 17.46% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :         리코리스 블랙 - targetSpeed(m/s) : 21.50 / defaultTarget(m/s) : 19.91 / spurtTarget(m/s) : 21.50 / currPosition : <1652.12, 0.50> / Stamina : 16.80% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          래피드 스텝 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.11 / spurtTarget(m/s) : 21.71 / currPosition : <1652.06, 0.50> / Stamina : 16.28% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1540
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.44 / currPosition : <1700.47, 0.50> / Stamina : 17.95% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.40 / currPosition : <1700.05, 0.50> / Stamina : 12.19% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.29 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.29 / currPosition : <1700.14, 0.45> / Stamina : 14.62% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.35 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.35 / currPosition : <1700.39, 0.45> / Stamina : 18.05% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.42 / defaultTarget(m/s) : 20.44 / spurtTarget(m/s) : 22.42 / currPosition : <1701.06, 0.45> / Stamina : 12.85% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.10 / spurtTarget(m/s) : 21.70 / currPosition : <1673.72, 0.50> / Stamina : 14.48% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :          시나몬 룰렛 - targetSpeed(m/s) : 21.45 / defaultTarget(m/s) : 19.86 / spurtTarget(m/s) : 21.45 / currPosition : <1673.64, 0.50> / Stamina : 15.75% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :         리코리스 블랙 - targetSpeed(m/s) : 21.40 / defaultTarget(m/s) : 19.82 / spurtTarget(m/s) : 21.40 / currPosition : <1673.52, 0.50> / Stamina : 15.08% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 1560
+ 1 :           포츈 투유 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.33 / spurtTarget(m/s) : 22.44 / currPosition : <1700.47, 0.50> / Stamina : 17.95% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         치쿠모 코토리 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.31 / spurtTarget(m/s) : 22.40 / currPosition : <1700.05, 0.50> / Stamina : 12.19% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :        마운틴스 섀플리 - targetSpeed(m/s) : 22.29 / defaultTarget(m/s) : 20.28 / spurtTarget(m/s) : 22.29 / currPosition : <1700.14, 0.45> / Stamina : 14.62% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :          박 섬광석화 - targetSpeed(m/s) : 22.35 / defaultTarget(m/s) : 20.27 / spurtTarget(m/s) : 22.35 / currPosition : <1700.39, 0.45> / Stamina : 18.05% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :       유피아 데저트로즈 - targetSpeed(m/s) : 22.42 / defaultTarget(m/s) : 20.44 / spurtTarget(m/s) : 22.42 / currPosition : <1701.06, 0.45> / Stamina : 12.85% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :          래피드 스텝 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.13 / spurtTarget(m/s) : 21.73 / currPosition : <1695.38, 0.50> / Stamina : 12.69% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :          시나몬 룰렛 - targetSpeed(m/s) : 21.43 / defaultTarget(m/s) : 19.84 / spurtTarget(m/s) : 21.43 / currPosition : <1695.03, 0.50> / Stamina : 14.03% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :         리코리스 블랙 - targetSpeed(m/s) : 21.49 / defaultTarget(m/s) : 19.90 / spurtTarget(m/s) : 21.49 / currPosition : <1694.90, 0.50> / Stamina : 13.37% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
