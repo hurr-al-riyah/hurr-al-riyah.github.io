@@ -578,7 +578,7 @@ function videoInit()
 
             globalVideoData.sort((a, b) => a.laneNo - b.laneNo);
 
-            videoSlider.max = maxVideoTurn;
+            videoSlider.max = maxVideoTurn - 1;
             videoSlider.value = 0;
             drawVideo(0);
         });
