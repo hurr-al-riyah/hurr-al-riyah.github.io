@@ -1,6 +1,7 @@
 let globalData = null;  // graph data
 let raceCategory = "";   // ex) 1007_실전레이스
 let raceDetail = "";    // ex) 더트-단거리.txt -> 더트 단거리
+let raceImage = "";     // ex) 단거리_1400.png
 
 const colors = [
     '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
@@ -8,36 +9,21 @@ const colors = [
     '#9edae5', '#c5b0d5', '#dbdb8d', '#g6abae', '#c49c94',
 ];
 
-const categories = {
-    "1014_실전레이스": [
-        {display: "더트 단거리 - 오푼시아 컵", file: "더트_단거리.txt"},
-        {display: "잔디 장거리 - 다우소니아 컵", file: "잔디_장거리.txt"},
-        {display: "잔디 중거리 - 헤반시아 컵", file: "잔디_중거리.txt"},
-        {display: "잔디 마일 - 올리고 컵", file: "잔디_마일.txt"},
-        {display: "더트 장거리 - 프테로 컵", file: "더트_장거리.txt"},
-        {display: "잔디 단거리 - 포고나 컵", file: "잔디_단거리.txt"},
-        {display: "더트 마일 - 테프로 컵", file: "더트_마일.txt"},
-        {display: "더트 중거리 - 킬린드로 컵", file: "더트_중거리.txt"}
-    ],
-    "1007_실전레이스": [
-        {display: "더트 단거리 - 불비넬라 컵", file: "더트_단거리.txt"},
-        {display: "더트 장거리 - 요렐리아 컵", file: "더트_장거리.txt"},
-        {display: "잔디 중거리 - 쿠쿠라타 컵", file: "잔디_중거리.txt"},
-        {display: "잔디 마일 - 나탄스 컵", file: "잔디_마일.txt"},
-        {display: "잔디 단거리 - 미니마 컵", file: "잔디_단거리.txt"},
-        {display: "더트 중거리 - 니포피아 컵", file: "더트_중거리.txt"},
-        {display: "더트 마일 - 하월시아 컵", file: "더트_마일.txt"},
-        {display: "잔디 장거리 - 몰레스타 컵", file: "잔디_장거리.txt"}
-    ],
-    "팀선발_모의레이스": [
-        {display: "더트 단거리", file: "더트_단거리.txt"},
-        {display: "더트 장거리", file: "더트_장거리.txt"},
-        {display: "더트 중거리", file: "더트_중거리.txt"},
-        {display: "잔디 마일", file: "잔디_마일.txt"},
-        {display: "잔디 장거리", file: "잔디_장거리.txt"},
-        {display: "잔디 중거리", file: "잔디_중거리.txt"}
-    ]
-};
+var categories = {};
+
+function loadCategories() {
+    fetch('categories.json')
+      .then(response => response.json())
+      .then(data => {
+        categories = data;
+        // console.log('Categories loaded:', categories);
+    })
+    .catch(error => {
+        console.error("Error loading the JSON file", error);
+    });
+}
+
+loadCategories();
 
 const umaOrder = [
     '후르 알-리야흐',
@@ -82,7 +68,8 @@ document.getElementById('categorySelect').addEventListener('change', function(e)
         categories[selectedCategory].forEach(item => {
             const option = document.createElement('option');
             option.value = `data/${selectedCategory}/${item.file}`;
-            option.textContent = item.display;
+            option.label = item.display
+            option.setAttribute('image', item.image);
             fileSelect.appendChild(option);
         });
     } else {
@@ -92,6 +79,7 @@ document.getElementById('categorySelect').addEventListener('change', function(e)
 
 document.getElementById('fileSelect').addEventListener('change', function(e) {
     const filePath = e.target.value;
+    raceImage = e.target.options[e.target.selectedIndex].getAttribute('image');     
     raceDetail = filePath.split('/').pop().replace('.txt', '').replace(/_/g, ' ');
 
     fetch(filePath)
@@ -410,7 +398,7 @@ function drawGraph(data) {
         let top;
     
         if (screenWidth > 1150) {
-            // select-base-uma div 우측에 툴팁을 표시
+            // select-base-uma div 우측에 툴팁을 표시 (사실 툴팁이어야 할 이유는 없으나... 디자인 변경이 귀찮다ㅜㅜ)
             const svgRect = d3.select("#svg").node().getBoundingClientRect();
             left = 850;
             top = svgRect.top + window.scrollY;
@@ -511,6 +499,7 @@ const videoSlider = document.getElementById("video-turn-slider");
 videoSlider.addEventListener('input', (e) => {
     currentTurn = parseInt(e.target.value, 10); 
     drawVideo(currentTurn);
+    drawTrack(currentTurn);
 });
 
 document.addEventListener('DOMContentLoaded', (event) => {
@@ -581,6 +570,7 @@ function videoInit()
             videoSlider.max = maxVideoTurn - 1;
             videoSlider.value = 0;
             drawVideo(0);
+            drawTrack(0);
         });
     })
     .catch(error => console.error('Error:', error));
@@ -622,6 +612,7 @@ function handleVideoDataSingleUma(data)
     return umaData;
 }
 
+// videoSlider.value는 이 함수에서만 변경됨
 function drawVideo(turn)
 {
     const svg = d3.select("#video-svg");
@@ -752,10 +743,234 @@ function drawVideo(turn)
     videoSlider.value = turn;
 }
 
+function drawTrack(turn) {
+    // 필요한 라이브러리를 불러옵니다.
+    const svg = d3.select("#track-svg")
+    svg.selectAll("*").remove();
+
+    const allPosX = globalVideoData.map(uma => uma.posX[turn]);
+    const posMin = Math.min(...allPosX);
+    const posMax = Math.max(...allPosX);
+
+    if (raceImage != "") {
+        svg.append('image')
+        .attr('xlink:href', 'image/' + raceImage)
+        .attr('width', 800)
+        .attr('height', 250);
+    }
+
+    switch (raceImage) {
+    case "단거리_1400.png":
+        if (posMin <= 100) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 150)
+            .attr('y', 100)
+            .attr('width', 100) 
+            .attr('height', 50)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 100 && posMax <= 300 || posMin > 100 && posMin <= 300) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 100)
+            .attr('y', 110)
+            .attr('width', 100) 
+            .attr('height', 200)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 300 && posMax <= 900 || posMin > 300 && posMin <= 900) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 180)
+            .attr('y', 200)
+            .attr('width', 450) 
+            .attr('height', 50)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 900 && posMax <= 1100 || posMin > 900 && posMin <= 1100) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 600)
+            .attr('y', 110)
+            .attr('width', 100) 
+            .attr('height', 200)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 1100) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 400)
+            .attr('y', 100)
+            .attr('width', 250) 
+            .attr('height', 50)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+    case "마일_1700.png":
+        if (posMin <= 100) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 150)
+            .attr('y', 100)
+            .attr('width', 100) 
+            .attr('height', 50)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 100 && posMax <= 300 || posMin > 100 && posMin <= 300) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 100)
+            .attr('y', 110)
+            .attr('width', 100) 
+            .attr('height', 200)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 300 && posMax <= 900 || posMin > 300 && posMin <= 900) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 180)
+            .attr('y', 200)
+            .attr('width', 450) 
+            .attr('height', 50)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 900 && posMax <= 1300 || posMin > 900 && posMin <= 1300) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 600)
+            .attr('y', 0)
+            .attr('width', 150) 
+            .attr('height', 250)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 1300) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 330)
+            .attr('y', 0)
+            .attr('width', 300) 
+            .attr('height', 50)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+    case "중거리_2400.png":
+        if (posMin <= 400) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 170)
+            .attr('y', 0)
+            .attr('width', 300) 
+            .attr('height', 50)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 400 && posMax <= 800 || posMin > 400 && posMin <= 800) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 50)
+            .attr('y', 0)
+            .attr('width', 150) 
+            .attr('height', 250)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 800 && posMax <= 1400 || posMin > 800 && posMin <= 1400) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 180)
+            .attr('y', 200)
+            .attr('width', 450) 
+            .attr('height', 50)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 1400 && posMax <= 1800 || posMin > 1400 && posMin <= 1800) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 600)
+            .attr('y', 0)
+            .attr('width', 150) 
+            .attr('height', 250)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 1800) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 180)
+            .attr('y', 0)
+            .attr('width', 450) 
+            .attr('height', 50)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+    case "장거리_3200.png":
+        if (posMin <= 400) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 170)
+            .attr('y', 100)
+            .attr('width', 300) 
+            .attr('height', 50)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 400 && posMax <= 600 || posMin > 400 && posMin <= 600) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 100)
+            .attr('y', 110)
+            .attr('width', 100) 
+            .attr('height', 200)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 600 && posMax <= 1200 || posMin > 600 && posMin <= 1200) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 180)
+            .attr('y', 200)
+            .attr('width', 450) 
+            .attr('height', 50)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 1200 && posMax <= 1600 || posMin > 1200 && posMin <= 1600) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 600)
+            .attr('y', 0)
+            .attr('width', 150) 
+            .attr('height', 250)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 1600 && posMax <= 2200 || posMin > 1600 && posMin <= 2200) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 180)
+            .attr('y', 0)
+            .attr('width', 450) 
+            .attr('height', 50)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 2200 && posMax <= 2600 || posMin > 2200 && posMin <= 2600) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 50)
+            .attr('y', 0)
+            .attr('width', 150) 
+            .attr('height', 250)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        if (posMax > 2600) {
+            const shadedArea = svg.append('rect')
+            .attr('x', 180)
+            .attr('y', 200)
+            .attr('width', 450) 
+            .attr('height', 50)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+    }
+
+}
+
 function videoStart(){
     if (animationInterval == null) {
         animationInterval  = setInterval(() => {
             drawVideo(currentTurn);
+            drawTrack(currentTurn);
             currentTurn += 1;
             if (currentTurn >= maxVideoTurn) {
                 clearInterval(animationInterval);
@@ -773,4 +988,5 @@ function videoStop() {
 function videoToFirst() {
     currentTurn = 0;
     drawVideo(0);
+    drawTrack(0);
 }

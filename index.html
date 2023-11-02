@@ -11,17 +11,17 @@
 <body>
 
     <header>
-        <h1 class="center-header"><a href="index.html" rel="noopener noreferrer" class="header-link">경주 결과 가시화 도구 v1.4.5</a></h1>
+        <h1 class="center-header"><a href="index.html" rel="noopener noreferrer" class="header-link">경주 결과 가시화 도구 v1.5.0</a></h1>
     </header>
 
-    <select id="categorySelect">
+    <select title="category" id="categorySelect">
         <option value="" disabled selected>경주 일자 선택</option>
         <option value="1014_실전레이스">1014 실전레이스 (GIII)</option>
         <option value="1007_실전레이스">1007 실전레이스 (GIII)</option>
         <option value="팀선발_모의레이스">팀선발 모의레이스</option>
     </select>
     
-    <select id="fileSelect" disabled>
+    <select title="file" id="fileSelect" disabled>
         <option value="" disabled selected>경주 종목 선택</option>
     </select>
 
@@ -62,18 +62,20 @@
         <input type="range" min="0" max="1000" value="0" id="video-turn-slider" style="width: 800px;" />
         <label for="video-speed-input">영상 재생 속도: 턴당 </label>
         <input type="number" id="video-speed-input" value="50" min="1" max="200"> ms (default: 50)
+        <br />
+        <svg id="track-svg" width="800" height="250"></svg>
     </div>
 
     <div style="padding-bottom: 60px;"></div>
     <footer>
         <div id="version-info" class="footer-left">
             <p class="footer-text">
-                <a href="version-history.html" target="_blank" rel="noopener noreferrer" class="footer-link" id="version">version 1.4.5</a>
+                <a href="version-history.html" target="_blank" rel="noopener noreferrer" class="footer-link" id="version">version 1.5.0</a>
             </p>
         </div>
     
         <div class="footer-center">
-            <p class="footer-text">제작: 리야흐 오일 인더스트리 | 총괄책임: 사아마 알-리야흐</p>
+            <p class="footer-text">제작: <img src="image/riyah_logo.png" alt="리야흐 오일 인더스트리 로고" style="vertical-align: text-top; width: 20px;"> 리야흐 오일 인더스트리 | 총괄책임: 사아마 알-리야흐</p>
         </div>
     
         <div class="footer-right">
@@ -85,6 +87,6 @@
         </div>
     </footer>
     
-    <script src="script.js?v=1.4.5"></script>
+    <script src="script.js?v=1.5.0"></script>
 </body>
 </html>
