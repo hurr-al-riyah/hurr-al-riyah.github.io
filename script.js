@@ -806,6 +806,7 @@ function drawTrack(turn) {
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        break;
     case "마일_1700.png":
         if (posMin <= 100) {
             const shadedArea = svg.append('rect')
@@ -852,6 +853,7 @@ function drawTrack(turn) {
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        break;
     case "중거리_2400.png":
         if (posMin <= 400) {
             const shadedArea = svg.append('rect')
@@ -898,6 +900,7 @@ function drawTrack(turn) {
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        break;
     case "장거리_3200.png":
         if (posMin <= 400) {
             const shadedArea = svg.append('rect')
@@ -962,6 +965,7 @@ function drawTrack(turn) {
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        break;
     }
 
 }
