@@ -761,207 +761,446 @@ function drawTrack(turn) {
 
     switch (raceImage) {
     case "단거리_1400.png":
+        // 첫 직선
         if (posMin <= 100) {
             const shadedArea = svg.append('rect')
-            .attr('x', 150)
-            .attr('y', 100)
-            .attr('width', 100) 
-            .attr('height', 50)
-            .attr('fill', 'grey')
-            .attr('opacity', 0.5);
-        }
-        if (posMax > 100 && posMax <= 300 || posMin > 100 && posMin <= 300) {
-            const shadedArea = svg.append('rect')
-            .attr('x', 100)
+            .attr('x', Math.max(180, 250 - posMax * 0.7))
             .attr('y', 110)
-            .attr('width', 100) 
-            .attr('height', 200)
+            .attr('width', Math.min(Math.min(posMax, 100) - posMin, 100) * 0.7) 
+            .attr('height', 30)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+
+        // 첫 곡선
+        if (posMax > 100 && posMax <= 300 || posMin > 100 && posMin <= 300) {
+            const centerX = 180;
+            const centerY = 180;
+            const radiusOut = 70;
+            const radiusIn = 40;
+
+            const startAngle = (Math.max(posMin, 100) - 100) / 100 * Math.PI / 2;
+            const endAngle = (Math.min(posMax, 300) - 100) / 100 * Math.PI / 2;
+
+            const startXInner = centerX - radiusIn * Math.sin(startAngle);
+            const startYInner = centerY - radiusIn * Math.cos(startAngle);
+            
+            const endXInner = centerX - radiusIn * Math.sin(endAngle);
+            const endYInner = centerY - radiusIn * Math.cos(endAngle);
+            
+            const startXOuter = centerX - radiusOut * Math.sin(startAngle);
+            const startYOuter = centerY - radiusOut * Math.cos(startAngle);
+            
+            const endXOuter = centerX - radiusOut * Math.sin(endAngle);
+            const endYOuter = centerY - radiusOut * Math.cos(endAngle);
+
+            const arcPath = `
+                M ${startXInner} ${startYInner}
+                A ${radiusIn} ${radiusIn} 0 0 0 ${endXInner} ${endYInner}
+                L ${endXOuter} ${endYOuter}
+                A ${radiusOut} ${radiusOut} 0 0 1 ${startXOuter} ${startYOuter}
+                Z `;
+
+            const shadedArea = svg.append('path')
+            .attr('d', arcPath)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        // 두 번째 직선
         if (posMax > 300 && posMax <= 900 || posMin > 300 && posMin <= 900) {
             const shadedArea = svg.append('rect')
-            .attr('x', 180)
-            .attr('y', 200)
-            .attr('width', 450) 
-            .attr('height', 50)
+            .attr('x', 180 + Math.max(posMin - 300, 0) * 0.7417)
+            .attr('y', 220)
+            .attr('width', Math.min(Math.min(posMax, 900) - Math.max(posMin, 300), 600) * 0.7417) 
+            .attr('height', 30)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        // 두 번째 곡선
         if (posMax > 900 && posMax <= 1100 || posMin > 900 && posMin <= 1100) {
-            const shadedArea = svg.append('rect')
-            .attr('x', 600)
-            .attr('y', 110)
-            .attr('width', 100) 
-            .attr('height', 200)
+            const centerX = 625;
+            const centerY = 180;
+            const radiusOut = 70;
+            const radiusIn = 40;
+
+            const startAngle = (Math.max(posMin, 900) + 900) / 100 * Math.PI / 2;
+            const endAngle = (Math.min(posMax, 1100) + 900) / 100 * Math.PI / 2;
+
+            const startXInner = centerX - radiusIn * Math.sin(startAngle);
+            const startYInner = centerY - radiusIn * Math.cos(startAngle);
+            
+            const endXInner = centerX - radiusIn * Math.sin(endAngle);
+            const endYInner = centerY - radiusIn * Math.cos(endAngle);
+            
+            const startXOuter = centerX - radiusOut * Math.sin(startAngle);
+            const startYOuter = centerY - radiusOut * Math.cos(startAngle);
+            
+            const endXOuter = centerX - radiusOut * Math.sin(endAngle);
+            const endYOuter = centerY - radiusOut * Math.cos(endAngle);
+
+            const arcPath = `
+                M ${startXInner} ${startYInner}
+                A ${radiusIn} ${radiusIn} 0 0 0 ${endXInner} ${endYInner}
+                L ${endXOuter} ${endYOuter}
+                A ${radiusOut} ${radiusOut} 0 0 1 ${startXOuter} ${startYOuter}
+                Z `;
+
+            const shadedArea = svg.append('path')
+            .attr('d', arcPath)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        // 최종 직선
         if (posMax > 1100) {
             const shadedArea = svg.append('rect')
-            .attr('x', 400)
-            .attr('y', 100)
-            .attr('width', 250) 
-            .attr('height', 50)
+            .attr('x', 625 - (posMax - 1100) * 0.75)
+            .attr('y', 110)
+            .attr('width', Math.min(posMax - Math.max(posMin, 1100), 300) * 0.75) 
+            .attr('height', 30)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
         break;
     case "마일_1700.png":
+        // 첫 직선
         if (posMin <= 100) {
             const shadedArea = svg.append('rect')
-            .attr('x', 150)
-            .attr('y', 100)
-            .attr('width', 100) 
-            .attr('height', 50)
-            .attr('fill', 'grey')
-            .attr('opacity', 0.5);
-        }
-        if (posMax > 100 && posMax <= 300 || posMin > 100 && posMin <= 300) {
-            const shadedArea = svg.append('rect')
-            .attr('x', 100)
+            .attr('x', Math.max(180, 250 - posMax * 0.7))
             .attr('y', 110)
-            .attr('width', 100) 
-            .attr('height', 200)
+            .attr('width', Math.min(Math.min(posMax, 100) - posMin, 100) * 0.7) 
+            .attr('height', 30)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+
+        // 첫 곡선
+        if (posMax > 100 && posMax <= 300 || posMin > 100 && posMin <= 300) {
+            const centerX = 180;
+            const centerY = 180;
+            const radiusOut = 70;
+            const radiusIn = 40;
+
+            const startAngle = (Math.max(posMin, 100) - 100) / 100 * Math.PI / 2;
+            const endAngle = (Math.min(posMax, 300) - 100) / 100 * Math.PI / 2;
+
+            const startXInner = centerX - radiusIn * Math.sin(startAngle);
+            const startYInner = centerY - radiusIn * Math.cos(startAngle);
+            
+            const endXInner = centerX - radiusIn * Math.sin(endAngle);
+            const endYInner = centerY - radiusIn * Math.cos(endAngle);
+            
+            const startXOuter = centerX - radiusOut * Math.sin(startAngle);
+            const startYOuter = centerY - radiusOut * Math.cos(startAngle);
+            
+            const endXOuter = centerX - radiusOut * Math.sin(endAngle);
+            const endYOuter = centerY - radiusOut * Math.cos(endAngle);
+
+            const arcPath = `
+                M ${startXInner} ${startYInner}
+                A ${radiusIn} ${radiusIn} 0 0 0 ${endXInner} ${endYInner}
+                L ${endXOuter} ${endYOuter}
+                A ${radiusOut} ${radiusOut} 0 0 1 ${startXOuter} ${startYOuter}
+                Z `;
+
+            const shadedArea = svg.append('path')
+            .attr('d', arcPath)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        // 두 번째 직선
         if (posMax > 300 && posMax <= 900 || posMin > 300 && posMin <= 900) {
             const shadedArea = svg.append('rect')
-            .attr('x', 180)
-            .attr('y', 200)
-            .attr('width', 450) 
-            .attr('height', 50)
+            .attr('x', 180 + Math.max(posMin - 300, 0) * 0.7417)
+            .attr('y', 220)
+            .attr('width', Math.min(Math.min(posMax, 900) - Math.max(posMin, 300), 600) * 0.7417) 
+            .attr('height', 30)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        // 두 번째 곡선
         if (posMax > 900 && posMax <= 1300 || posMin > 900 && posMin <= 1300) {
-            const shadedArea = svg.append('rect')
-            .attr('x', 600)
-            .attr('y', 0)
-            .attr('width', 150) 
-            .attr('height', 250)
+            const centerX = 625;
+            const centerY = 125;
+            const radiusOut = 125;
+            const radiusIn = 95;
+
+            const startAngle = (Math.max(posMin, 900) + 2700) / 200 * Math.PI / 2;
+            const endAngle = (Math.min(posMax, 1300) + 2700) / 200 * Math.PI / 2;
+
+            const startXInner = centerX - radiusIn * Math.sin(startAngle);
+            const startYInner = centerY - radiusIn * Math.cos(startAngle);
+            
+            const endXInner = centerX - radiusIn * Math.sin(endAngle);
+            const endYInner = centerY - radiusIn * Math.cos(endAngle);
+            
+            const startXOuter = centerX - radiusOut * Math.sin(startAngle);
+            const startYOuter = centerY - radiusOut * Math.cos(startAngle);
+            
+            const endXOuter = centerX - radiusOut * Math.sin(endAngle);
+            const endYOuter = centerY - radiusOut * Math.cos(endAngle);
+
+            const arcPath = `
+                M ${startXInner} ${startYInner}
+                A ${radiusIn} ${radiusIn} 0 0 0 ${endXInner} ${endYInner}
+                L ${endXOuter} ${endYOuter}
+                A ${radiusOut} ${radiusOut} 0 0 1 ${startXOuter} ${startYOuter}
+                Z `;
+
+            const shadedArea = svg.append('path')
+            .attr('d', arcPath)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
         if (posMax > 1300) {
             const shadedArea = svg.append('rect')
-            .attr('x', 330)
+            .attr('x', 625 - (posMax - 1300) * 0.75)
             .attr('y', 0)
-            .attr('width', 300) 
-            .attr('height', 50)
+            .attr('width', Math.min(posMax - Math.max(posMin, 1300), 400) * 0.75) 
+            .attr('height', 30)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
         break;
     case "중거리_2400.png":
+        // 첫 번째 직선
         if (posMin <= 400) {
             const shadedArea = svg.append('rect')
-            .attr('x', 170)
+            .attr('x', Math.max(180, 480 - posMax * 0.75))
             .attr('y', 0)
-            .attr('width', 300) 
-            .attr('height', 50)
+            .attr('width', Math.min(Math.min(posMax, 400) - posMin, 400) * 0.75) 
+            .attr('height', 30)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        // 첫 번째 곡선
         if (posMax > 400 && posMax <= 800 || posMin > 400 && posMin <= 800) {
-            const shadedArea = svg.append('rect')
-            .attr('x', 50)
-            .attr('y', 0)
-            .attr('width', 150) 
-            .attr('height', 250)
+            const centerX = 180;
+            const centerY = 125;
+            const radiusOut = 125;
+            const radiusIn = 95;
+
+            const startAngle = (Math.max(posMin, 400) + 400) / 200 * Math.PI / 2;
+            const endAngle = (Math.min(posMax, 800) + 400) / 200 * Math.PI / 2;
+
+            const startXInner = centerX - radiusIn * Math.sin(startAngle);
+            const startYInner = centerY - radiusIn * Math.cos(startAngle);
+            
+            const endXInner = centerX - radiusIn * Math.sin(endAngle);
+            const endYInner = centerY - radiusIn * Math.cos(endAngle);
+            
+            const startXOuter = centerX - radiusOut * Math.sin(startAngle);
+            const startYOuter = centerY - radiusOut * Math.cos(startAngle);
+            
+            const endXOuter = centerX - radiusOut * Math.sin(endAngle);
+            const endYOuter = centerY - radiusOut * Math.cos(endAngle);
+
+            const arcPath = `
+                M ${startXInner} ${startYInner}
+                A ${radiusIn} ${radiusIn} 0 0 0 ${endXInner} ${endYInner}
+                L ${endXOuter} ${endYOuter}
+                A ${radiusOut} ${radiusOut} 0 0 1 ${startXOuter} ${startYOuter}
+                Z `;
+
+            const shadedArea = svg.append('path')
+            .attr('d', arcPath)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        // 두 번째 직선
         if (posMax > 800 && posMax <= 1400 || posMin > 800 && posMin <= 1400) {
             const shadedArea = svg.append('rect')
-            .attr('x', 180)
-            .attr('y', 200)
-            .attr('width', 450) 
-            .attr('height', 50)
+            .attr('x', 180 + Math.max(posMin - 800, 0) * 0.7417)
+            .attr('y', 220)
+            .attr('width', Math.min(Math.min(posMax, 1400) - Math.max(posMin, 800), 600) * 0.7417) 
+            .attr('height', 30)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        // 두 번째 곡선
         if (posMax > 1400 && posMax <= 1800 || posMin > 1400 && posMin <= 1800) {
-            const shadedArea = svg.append('rect')
-            .attr('x', 600)
-            .attr('y', 0)
-            .attr('width', 150) 
-            .attr('height', 250)
+            const centerX = 625;
+            const centerY = 125;
+            const radiusOut = 125;
+            const radiusIn = 95;
+
+            const startAngle = (Math.max(posMin, 1400) + 1400) / 200 * Math.PI / 2;
+            const endAngle = (Math.min(posMax, 1800) + 1400) / 200 * Math.PI / 2;
+
+            const startXInner = centerX - radiusIn * Math.sin(startAngle);
+            const startYInner = centerY - radiusIn * Math.cos(startAngle);
+            
+            const endXInner = centerX - radiusIn * Math.sin(endAngle);
+            const endYInner = centerY - radiusIn * Math.cos(endAngle);
+            
+            const startXOuter = centerX - radiusOut * Math.sin(startAngle);
+            const startYOuter = centerY - radiusOut * Math.cos(startAngle);
+            
+            const endXOuter = centerX - radiusOut * Math.sin(endAngle);
+            const endYOuter = centerY - radiusOut * Math.cos(endAngle);
+
+            const arcPath = `
+                M ${startXInner} ${startYInner}
+                A ${radiusIn} ${radiusIn} 0 0 0 ${endXInner} ${endYInner}
+                L ${endXOuter} ${endYOuter}
+                A ${radiusOut} ${radiusOut} 0 0 1 ${startXOuter} ${startYOuter}
+                Z `;
+
+            const shadedArea = svg.append('path')
+            .attr('d', arcPath)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        // 최종 직선
         if (posMax > 1800) {
             const shadedArea = svg.append('rect')
-            .attr('x', 180)
+            .attr('x', 625 - (posMax - 1800) * 0.75)
             .attr('y', 0)
-            .attr('width', 450) 
-            .attr('height', 50)
+            .attr('width', Math.min(posMax - Math.max(posMin, 1800), 600) * 0.75) 
+            .attr('height', 30)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
         break;
     case "장거리_3200.png":
+        // 첫 번째 직선
         if (posMin <= 400) {
             const shadedArea = svg.append('rect')
-            .attr('x', 170)
-            .attr('y', 100)
-            .attr('width', 300) 
-            .attr('height', 50)
-            .attr('fill', 'grey')
-            .attr('opacity', 0.5);
-        }
-        if (posMax > 400 && posMax <= 600 || posMin > 400 && posMin <= 600) {
-            const shadedArea = svg.append('rect')
-            .attr('x', 100)
+            .attr('x', Math.max(180, 480 - posMax * 0.75))
             .attr('y', 110)
-            .attr('width', 100) 
-            .attr('height', 200)
+            .attr('width', Math.min(Math.min(posMax, 400) - posMin, 400) * 0.75) 
+            .attr('height', 30)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        // 첫 번째 곡선
+        if (posMax > 400 && posMax <= 600 || posMin > 400 && posMin <= 600) {
+            const centerX = 180;
+            const centerY = 180;
+            const radiusOut = 70;
+            const radiusIn = 40;
+
+            const startAngle = (Math.max(posMin, 400) - 400) / 100 * Math.PI / 2;
+            const endAngle = (Math.min(posMax, 600) - 400) / 100 * Math.PI / 2;
+
+            const startXInner = centerX - radiusIn * Math.sin(startAngle);
+            const startYInner = centerY - radiusIn * Math.cos(startAngle);
+            
+            const endXInner = centerX - radiusIn * Math.sin(endAngle);
+            const endYInner = centerY - radiusIn * Math.cos(endAngle);
+            
+            const startXOuter = centerX - radiusOut * Math.sin(startAngle);
+            const startYOuter = centerY - radiusOut * Math.cos(startAngle);
+            
+            const endXOuter = centerX - radiusOut * Math.sin(endAngle);
+            const endYOuter = centerY - radiusOut * Math.cos(endAngle);
+
+            const arcPath = `
+                M ${startXInner} ${startYInner}
+                A ${radiusIn} ${radiusIn} 0 0 0 ${endXInner} ${endYInner}
+                L ${endXOuter} ${endYOuter}
+                A ${radiusOut} ${radiusOut} 0 0 1 ${startXOuter} ${startYOuter}
+                Z `;
+
+            const shadedArea = svg.append('path')
+            .attr('d', arcPath)
+            .attr('fill', 'grey')
+            .attr('opacity', 0.5);
+        }
+        // 두 번째 직선
         if (posMax > 600 && posMax <= 1200 || posMin > 600 && posMin <= 1200) {
             const shadedArea = svg.append('rect')
-            .attr('x', 180)
-            .attr('y', 200)
-            .attr('width', 450) 
-            .attr('height', 50)
+            .attr('x', 180 + Math.max(posMin - 600, 0) * 0.7417)
+            .attr('y', 220)
+            .attr('width', Math.min(Math.min(posMax, 1200) - Math.max(posMin, 600), 600) * 0.7417) 
+            .attr('height', 30)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        // 두 번째 곡선
         if (posMax > 1200 && posMax <= 1600 || posMin > 1200 && posMin <= 1600) {
-            const shadedArea = svg.append('rect')
-            .attr('x', 600)
-            .attr('y', 0)
-            .attr('width', 150) 
-            .attr('height', 250)
+            const centerX = 625;
+            const centerY = 125;
+            const radiusOut = 125;
+            const radiusIn = 95;
+
+            const startAngle = (Math.max(posMin, 1200)) / 200 * Math.PI / 2;
+            const endAngle = (Math.min(posMax, 1600)) / 200 * Math.PI / 2;
+
+            const startXInner = centerX - radiusIn * Math.sin(startAngle);
+            const startYInner = centerY - radiusIn * Math.cos(startAngle);
+            
+            const endXInner = centerX - radiusIn * Math.sin(endAngle);
+            const endYInner = centerY - radiusIn * Math.cos(endAngle);
+            
+            const startXOuter = centerX - radiusOut * Math.sin(startAngle);
+            const startYOuter = centerY - radiusOut * Math.cos(startAngle);
+            
+            const endXOuter = centerX - radiusOut * Math.sin(endAngle);
+            const endYOuter = centerY - radiusOut * Math.cos(endAngle);
+
+            const arcPath = `
+                M ${startXInner} ${startYInner}
+                A ${radiusIn} ${radiusIn} 0 0 0 ${endXInner} ${endYInner}
+                L ${endXOuter} ${endYOuter}
+                A ${radiusOut} ${radiusOut} 0 0 1 ${startXOuter} ${startYOuter}
+                Z `;
+
+            const shadedArea = svg.append('path')
+            .attr('d', arcPath)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        // 세 번째 직선
         if (posMax > 1600 && posMax <= 2200 || posMin > 1600 && posMin <= 2200) {
             const shadedArea = svg.append('rect')
-            .attr('x', 180)
+            .attr('x', 625 - ((Math.min(posMax, 2200) - 1600) * 0.7417))
             .attr('y', 0)
-            .attr('width', 450) 
-            .attr('height', 50)
+            .attr('width', Math.min(Math.min(posMax, 2200) - Math.max(posMin, 1600), 600) * 0.7417) 
+            .attr('height', 30)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        // 세 번째 곡선
         if (posMax > 2200 && posMax <= 2600 || posMin > 2200 && posMin <= 2600) {
-            const shadedArea = svg.append('rect')
-            .attr('x', 50)
-            .attr('y', 0)
-            .attr('width', 150) 
-            .attr('height', 250)
+            const centerX = 180;
+            const centerY = 125;
+            const radiusOut = 125;
+            const radiusIn = 95;
+
+            const startAngle = (Math.max(posMin, 2200) + 200) / 200 * Math.PI / 2;
+            const endAngle = (Math.min(posMax, 2600) + 200) / 200 * Math.PI / 2;
+
+            const startXInner = centerX - radiusIn * Math.sin(startAngle);
+            const startYInner = centerY - radiusIn * Math.cos(startAngle);
+            
+            const endXInner = centerX - radiusIn * Math.sin(endAngle);
+            const endYInner = centerY - radiusIn * Math.cos(endAngle);
+            
+            const startXOuter = centerX - radiusOut * Math.sin(startAngle);
+            const startYOuter = centerY - radiusOut * Math.cos(startAngle);
+            
+            const endXOuter = centerX - radiusOut * Math.sin(endAngle);
+            const endYOuter = centerY - radiusOut * Math.cos(endAngle);
+
+            const arcPath = `
+                M ${startXInner} ${startYInner}
+                A ${radiusIn} ${radiusIn} 0 0 0 ${endXInner} ${endYInner}
+                L ${endXOuter} ${endYOuter}
+                A ${radiusOut} ${radiusOut} 0 0 1 ${startXOuter} ${startYOuter}
+                Z `;
+
+            const shadedArea = svg.append('path')
+            .attr('d', arcPath)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
+        // 최종 직선
         if (posMax > 2600) {
             const shadedArea = svg.append('rect')
-            .attr('x', 180)
-            .attr('y', 200)
-            .attr('width', 450) 
-            .attr('height', 50)
+            .attr('x', 180 + Math.max(posMin - 2600, 0) * 0.7417)
+            .attr('y', 220)
+            .attr('width', Math.min(posMax - Math.max(posMin, 2600), 600) * 0.7417) 
+            .attr('height', 30)
             .attr('fill', 'grey')
             .attr('opacity', 0.5);
         }
