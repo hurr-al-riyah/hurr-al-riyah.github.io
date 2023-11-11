@@ -1,0 +1,590 @@
+{
+    "1014_실전레이스": {
+        "후르 알-리야흐": {
+            "stat": {
+                "speed": 348,
+                "stamina": 116,
+                "power": 192,
+                "tough": 125,
+                "intel": 60
+            },
+            "running_style": {
+                "더트 단거리": "도주",
+                "잔디 단거리": "도주"
+            }
+        },
+        "포츈 투유": {
+            "stat": {
+                "speed": 382,
+                "stamina": 90,
+                "power": 162,
+                "tough": 124,
+                "intel": 80
+            },
+            "running_style": {
+                "더트 단거리": "도주",
+                "더트 마일": "도주"
+            }
+        },
+        "더 라스트 일루전": {
+            "stat": {
+                "speed": 379,
+                "stamina": 88,
+                "power": 120,
+                "tough": 100,
+                "intel": 149
+            },
+            "running_style": {
+                "잔디 단거리": "도주"
+            }
+        },
+        "박 섬광석화": {
+            "stat": {
+                "speed": 354,
+                "stamina": 125,
+                "power": 196,
+                "tough": 105,
+                "intel": 60
+            },
+            "running_style": {
+                "잔디 마일": "추입",
+                "더트 마일": "도주"
+            }
+        },
+        "마운틴스 섀플리": {
+            "stat": {
+                "speed": 305,
+                "stamina": 118,
+                "power": 215,
+                "tough": 84,
+                "intel": 100
+            },
+            "running_style": {
+                "더트 마일": "도주",
+                "더트 중거리": "도주"
+            }
+        },
+        "유피아 데저트로즈": {
+            "stat": {
+                "speed": 288,
+                "stamina": 143,
+                "power": 203,
+                "tough": 95,
+                "intel": 100
+            },
+            "running_style": {
+                "더트 마일": "선행",
+                "더트 중거리": "선입"
+            }
+        },
+        "치쿠모 코토리": {
+            "stat": {
+                "speed": 361,
+                "stamina": 102,
+                "power": 175,
+                "tough": 84,
+                "intel": 115
+            },
+            "running_style": {
+                "잔디 중거리": "도주",
+                "더트 마일": "도주"
+            }
+        },
+        "블랙 팁 마블": {
+            "stat": {
+                "speed": 275,
+                "stamina": 124,
+                "power": 226,
+                "tough": 98,
+                "intel": 105
+            },
+            "running_style": {
+                "잔디 마일": "선입",
+                "잔디 중거리": "추입"
+            }
+        },
+        "온 세마치": {
+            "stat": {
+                "speed": 358,
+                "stamina": 118,
+                "power": 234,
+                "tough": 94,
+                "intel": 25
+            },
+            "running_style": {
+                "잔디 마일": "도주",
+                "잔디 중거리": "추입"
+            }
+        },
+        "굿나잇 스이밍": {
+            "stat": {
+                "speed": 264,
+                "stamina": 141,
+                "power": 193,
+                "tough": 126,
+                "intel": 100
+            },
+            "running_style": {
+                "잔디 마일": "선입",
+                "잔디 중거리": "추입"
+            }
+        },
+        "이터니티 블랙홀": {
+            "stat": {
+                "speed": 277,
+                "stamina": 152,
+                "power": 191,
+                "tough": 93,
+                "intel": 101
+            },
+            "running_style": {
+                "더트 중거리": "추입",
+                "더트 장거리": "추입"
+            }
+        },
+        "페니 레인": {
+            "stat": {
+                "speed": 328,
+                "stamina": 141,
+                "power": 174,
+                "tough": 86,
+                "intel": 100
+            },
+            "running_style": {
+                "잔디 장거리": "도주",
+                "더트 장거리": "도주"
+            }
+        },
+        "트윈 페르소나": {
+            "stat": {
+                "speed": 299,
+                "stamina": 129,
+                "power": 194,
+                "tough": 115,
+                "intel": 90
+            },
+            "running_style": {
+                "잔디 중거리": "추입",
+                "잔디 장거리": "추입"
+            }
+        },
+        "미티어 더스트": {
+            "stat": {
+                "speed": 269,
+                "stamina": 208,
+                "power": 172,
+                "tough": 90,
+                "intel": 95
+            },
+            "running_style": {
+                "잔디 중거리": "추입",
+                "잔디 장거리": "추입"
+            }
+        },
+        "데네브 네오스": {
+            "stat": {
+                "speed": 290,
+                "stamina": 159,
+                "power": 181,
+                "tough": 100,
+                "intel": 100
+            },
+            "running_style": {
+                "잔디 중거리": "추입",
+                "잔디 장거리": "추입"
+            }
+        },
+        "페트리코어 선샤워": {
+            "stat": {
+                "speed": 300,
+                "stamina": 149,
+                "power": 196,
+                "tough": 105,
+                "intel": 80
+            },
+            "running_style": {
+                "잔디 중거리": "선입",
+                "잔디 장거리": "선입"
+            }
+        }
+    },
+    "1007_실전레이스": {
+        "후르 알-리야흐": {
+            "stat": {
+                "speed": 318,
+                "stamina": 116,
+                "power": 182,
+                "tough": 125,
+                "intel": 60
+            },
+            "running_style": {
+                "더트 단거리": "선입",
+                "더트 장거리": "도주"
+            }
+        },
+        "포츈 투유": {
+            "stat": {
+                "speed": 364,
+                "stamina": 80,
+                "power": 156,
+                "tough": 120,
+                "intel": 80
+            },
+            "running_style": {
+                "더트 단거리": "도주",
+                "더트 마일": "도주"
+            }
+        },
+        "더 라스트 일루전": {
+            "stat": {
+                "speed": 349,
+                "stamina": 88,
+                "power": 110,
+                "tough": 100,
+                "intel": 149
+            },
+            "running_style": {
+                "잔디 단거리": "도주"
+            }
+        },
+        "박 섬광석화": {
+            "stat": {
+                "speed": 324,
+                "stamina": 125,
+                "power": 186,
+                "tough": 105,
+                "intel": 60
+            },
+            "running_style": {
+                "잔디 단거리": "추입",
+                "잔디 마일": "도주"
+            }
+        },
+        "마운틴스 섀플리": {
+            "stat": {
+                "speed": 275,
+                "stamina": 118,
+                "power": 205,
+                "tough": 84,
+                "intel": 100
+            },
+            "running_style": {
+                "더트 마일": "선행",
+                "더트 중거리": "도주"
+            }
+        },
+        "유피아 데저트로즈": {
+            "stat": {
+                "speed": 258,
+                "stamina": 143,
+                "power": 193,
+                "tough": 95,
+                "intel": 100
+            },
+            "running_style": {
+                "더트 마일": "선입",
+                "더트 중거리": "선입"
+            }
+        },
+        "치쿠모 코토리": {
+            "stat": {
+                "speed": 343,
+                "stamina": 92,
+                "power": 169,
+                "tough": 80,
+                "intel": 115
+            },
+            "running_style": {
+                "더트 마일": "선행",
+                "잔디 마일": "도주"
+            }
+        },
+        "블랙 팁 마블": {
+            "stat": {
+                "speed": 245,
+                "stamina": 124,
+                "power": 216,
+                "tough": 98,
+                "intel": 105
+            },
+            "running_style": {
+                "잔디 마일": "추입",
+                "잔디 중거리": "추입"
+            }
+        },
+        "온 세마치": {
+            "stat": {
+                "speed": 340,
+                "stamina": 108,
+                "power": 228,
+                "tough": 90,
+                "intel": 25
+            }, 
+            "running_style": {
+                "잔디 마일": "선행",
+                "잔디 중거리": "선행"
+            }
+        },
+        "굿나잇 스이밍": {
+            "stat": {
+                "speed": 234,
+                "stamina": 141,
+                "power": 183,
+                "tough": 126,
+                "intel": 100
+            },
+            "running_style": {
+                "잔디 마일": "추입",
+                "잔디 중거리": "추입"
+            }
+        },
+        "이터니티 블랙홀": {
+            "stat": {
+                "speed": 247,
+                "stamina": 152,
+                "power": 181,
+                "tough": 93,
+                "intel": 101
+            },
+            "running_style": {
+                "더트 중거리": "선입",
+                "더트 장거리": "추입"
+            }
+        },
+        "페니 레인": {
+            "stat": {
+                "speed": 298,
+                "stamina": 141,
+                "power": 164,
+                "tough": 86,
+                "intel": 100
+            },
+            "running_style": {
+                "잔디 장거리": "도주",
+                "더트 장거리": "도주"
+            }
+        },
+        "트윈 페르소나": {
+            "stat": {
+                "speed": 281,
+                "stamina": 125,
+                "power": 178,
+                "tough": 115,
+                "intel": 90
+            },
+            "running_style": {
+                "잔디 중거리": "추입",
+                "잔디 장거리": "추입"
+            }
+        },
+        "미티어 더스트": {
+            "stat": {
+                "speed": 239,
+                "stamina": 208,
+                "power": 162,
+                "tough": 90,
+                "intel": 95
+            },
+            "running_style": {
+                "잔디 중거리": "추입",
+                "잔디 장거리": "추입"
+            }
+        },
+        "데네브 네오스": {
+            "stat": {
+                "speed": 260,
+                "stamina": 159,
+                "power": 171,
+                "tough": 100,
+                "intel": 100
+            },
+            "running_style": {
+                "잔디 중거리": "추입",
+                "잔디 장거리": "추입"
+            }
+        },
+        "페트리코어 선샤워": {
+            "stat": {
+                "speed": 270,
+                "stamina": 149,
+                "power": 186,
+                "tough": 105,
+                "intel": 80
+            },
+            "running_style": {
+                "잔디 중거리": "선입",
+                "잔디 장거리": "선입"
+            }
+        }
+    },
+    "팀선발_모의레이스": {
+        "후르 알-리야흐": {
+            "stat": {
+                "speed": 191,
+                "stamina": 110,
+                "power": 118,
+                "tough": 105,
+                "intel": 80
+            },
+            "running_style": {
+                "더트 단거리": "도주"
+            }
+        },
+        "포츈 투유": {
+            "stat": {
+                "speed": 200,
+                "stamina": 80,
+                "power": 100,
+                "tough": 120,
+                "intel": 80
+            },
+            "running_style": {
+                "더트 단거리": "도주"
+            }
+        },
+        "마운틴스 섀플리": {
+            "stat": {
+                "speed": 143,
+                "stamina": 112,
+                "power": 145,
+                "tough": 84,
+                "intel": 90
+            },
+            "running_style": {
+                "더트 중거리": "선행"
+            }
+        },
+        "치쿠모 코토리": {
+            "stat": {
+                "speed": 179,
+                "stamina": 92,
+                "power": 113,
+                "tough": 80,
+                "intel": 115
+            },
+            "running_style": {
+                "더트 중거리": "도주"
+            }
+        },
+        "유피아 데저트로즈": {
+            "stat": {
+                "speed": 166,
+                "stamina": 104,
+                "power": 126,
+                "tough": 85,
+                "intel": 100
+            },
+            "running_style": {
+                "더트 중거리": "선입"
+            }
+        },
+        "블랙 팁 마블": {
+            "stat": {
+                "speed": 132,
+                "stamina": 105,
+                "power": 142,
+                "tough": 85,
+                "intel": 100
+            },
+            "running_style": {
+                "잔디 마일": "추입"
+            }
+        },
+        "온 세마치": {
+            "stat": {
+                "speed": 187,
+                "stamina": 106,
+                "power": 171,
+                "tough": 90,
+                "intel": 20
+            },
+            "running_style": {
+                "잔디 마일": "선입"
+            }
+        },
+        "굿나잇 스이밍": {
+            "stat": {
+                "speed": 150,
+                "stamina": 99,
+                "power": 120,
+                "tough": 116,
+                "intel": 90
+            },
+            "running_style": {
+                "잔디 마일": "추입"
+            }
+        },
+        "미티어 더스트": {
+            "stat": {
+                "speed": 156,
+                "stamina": 151,
+                "power": 117,
+                "tough": 62,
+                "intel": 90
+            },
+            "running_style": {
+                "잔디 장거리": "추입"
+            }
+        },
+        "페니 레인": {
+            "stat": {
+                "speed": 164,
+                "stamina": 128,
+                "power": 98,
+                "tough": 84,
+                "intel": 100
+            },
+            "running_style": {
+                "잔디 장거리": "도주"
+            }
+        },
+        "페트리코어 선샤워": {
+            "stat": {
+                "speed": 150,
+                "stamina": 119,
+                "power": 130,
+                "tough": 96,
+                "intel": 80
+            },
+            "running_style": {
+                "잔디 장거리": "선입"
+            }
+        },
+        "데네브 네오스": {
+            "stat": {
+                "speed": 164,
+                "stamina": 115,
+                "power": 124,
+                "tough": 86,
+                "intel": 90
+            },
+            "running_style": {
+                "잔디 중거리": "추입"
+            }
+        },
+        "트윈 페르소나": {
+            "stat": {
+                "speed": 125,
+                "stamina": 116,
+                "power": 125,
+                "tough": 112,
+                "intel": 90
+            },
+            "running_style": {
+                "잔디 중거리": "추입"
+            }
+        },
+        "이터니티 블랙홀": {
+            "stat": {
+                "speed": 155,
+                "stamina": 60,
+                "power": 151,
+                "tough": 58,
+                "intel": 91
+            },
+            "running_style": {
+                "더트 장거리": "추입"
+            }
+        }
+    }
+}

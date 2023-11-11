@@ -142,6 +142,7 @@ function handleSelectedFile(filePath) {
             
             globalData.sort((a, b) => getUmaOrder(a.name) - getUmaOrder(b.name));
             
+            document.getElementById('race-video').style.display = 'none';
             populateBaseUmaSelect(globalData);
             drawLegend(globalData);
             drawStat(globalData);
@@ -264,6 +265,9 @@ async function drawStat(data) {
                 <th>근성</th>
                 <th>지능</th>
                 <th>각질</th>
+                <th>마장</th>
+                <th>거리</th>
+                <th>각질</th>
             </tr>
     `;
 
@@ -271,6 +275,10 @@ async function drawStat(data) {
         const umaName = uma.name;
         const stats = raceStats[umaName]?.stat;
         if (stats) {
+            let words = raceDetail.split(' ');
+            let road = words[0];
+            let length = words[1];
+
             tableHtml += `
                 <tr>
                     <td>${umaName}</td>
@@ -280,6 +288,9 @@ async function drawStat(data) {
                     <td>${stats.tough}</td>
                     <td>${stats.intel}</td>
                     <td>${raceStats[umaName]["running_style"][raceDetail]}</td>
+                    <td>${raceStats[umaName]["grade"][road]}</td>
+                    <td>${raceStats[umaName]["grade"][length]}</td>
+                    <td>${raceStats[umaName]["grade"][raceStats[umaName]["running_style"][raceDetail]]}</td>
                 </tr>
             `;
         }
