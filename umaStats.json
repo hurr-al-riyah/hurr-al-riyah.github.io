@@ -1708,11 +1708,11 @@
         },
         "트윈 페르소나": {
             "stat": {
-                "speed": 350,
-                "stamina": 180,
-                "power": 297,
-                "tough": 105,
-                "intel": 80
+                "speed": 397,
+                "stamina": 156,
+                "power": 271,
+                "tough": 121,
+                "intel": 90
             },
             "grade": {
                 "더트": "",
@@ -1801,11 +1801,11 @@
         },
         "페트리코어 선샤워": {
             "stat": {
-                "speed": 397,
-                "stamina": 156,
-                "power": 271,
-                "tough": 121,
-                "intel": 90
+                "speed": 350,
+                "stamina": 180,
+                "power": 297,
+                "tough": 105,
+                "intel": 80
             },
             "grade": {
                 "더트": "F",
