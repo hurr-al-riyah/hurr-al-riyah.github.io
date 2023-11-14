@@ -2,6 +2,7 @@ let globalData = null;  // graph data
 let raceCategory = "";   // ex) 1007_실전레이스
 let raceDetail = "";    // ex) 더트-단거리.txt -> 더트 단거리
 let raceImage = "";     // ex) 단거리_1400.png
+let raceCourse = [];    // ex) 100-200-300-400-200 -> [100, 300, 600, 1000, 1200]
 
 const colors = [
     '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
@@ -70,6 +71,7 @@ document.getElementById('categorySelect').addEventListener('change', function(e)
             option.value = `data/${selectedCategory}/${item.file}`;
             option.label = item.display
             option.setAttribute('image', item.image);
+            option.setAttribute('course', item.course);
             fileSelect.appendChild(option);
         });
     } else {
@@ -79,7 +81,17 @@ document.getElementById('categorySelect').addEventListener('change', function(e)
 
 document.getElementById('fileSelect').addEventListener('change', function(e) {
     const filePath = e.target.value;
-    raceImage = e.target.options[e.target.selectedIndex].getAttribute('image');     
+    raceImage = e.target.options[e.target.selectedIndex].getAttribute('image');
+
+    let raceCourseInfo = e.target.options[e.target.selectedIndex].getAttribute('course');
+    const courseInfo = document.getElementById('course-info');
+    courseInfo.innerHTML = '<b>직-곡 구간 번갈아서:</b> ' + raceCourseInfo;
+
+    raceCourse = raceCourseInfo.split('-').map(Number);
+
+    for (let i = 1; i < raceCourse.length; i++) {
+        raceCourse[i] += raceCourse[i - 1];
+    }
     raceDetail = filePath.split('/').pop().replace('.txt', '').replace(/_/g, ' ');
 
     fetch(filePath)
@@ -98,6 +110,7 @@ document.getElementById('fileSelect').addEventListener('change', function(e) {
 
 let showDistance = true;
 let showSpeed = true;
+let showCourse = true;
 
 function is_valid_data_line(line) {
     return line.startsWith("◎Turn") || line.trim().match(/^\d+\s:/);
@@ -162,6 +175,10 @@ function populateBaseUmaSelect(data) {
         baseUmaItem.textContent = item.name;
         baseUmaItem.style.color = colors[index];
 
+        if (index == 0) {
+            baseUmaItem.classList.add('selected');
+        }
+
         baseUmaItem.onclick = () => {
             document.querySelectorAll('#baseUmaContainer .base-item').forEach(item => {
                 item.classList.remove('selected'); 
@@ -205,6 +222,19 @@ document.getElementById('speed').addEventListener('click', () => {
     drawGraph(globalData);
     const speedBtn = document.getElementById('speed');
     if(showSpeed) {
+        speedBtn.classList.remove('category-off');
+        speedBtn.classList.add('category-on');
+    } else {
+        speedBtn.classList.remove('category-on');
+        speedBtn.classList.add('category-off');
+    }
+});
+
+document.getElementById('course').addEventListener('click', () => {
+    showCourse = !showCourse;
+    drawGraph(globalData);
+    const speedBtn = document.getElementById('course');
+    if(showCourse) {
         speedBtn.classList.remove('category-off');
         speedBtn.classList.add('category-on');
     } else {
@@ -313,6 +343,7 @@ function drawGraph(data) {
 
     const turns = data[0].turns;
 
+
     const margin = {top: 20, right: 30, bottom: 40, left: 50};
     const width = 800 - margin.left - margin.right;
     const height = 400 - margin.top - margin.bottom;
@@ -343,6 +374,37 @@ function drawGraph(data) {
         .range([0, width]);
     const yScale = d3.scaleLinear().domain([minY, maxY]).range([height, 0]);
     
+    // draw course (직/곡)
+    let shadedRegions = [];
+    for (let i = 0; i < raceCourse.length - 1; i += 2) {
+        let startValue = raceCourse[i];
+        let endValue = raceCourse[i + 1];
+    
+        let startIndex = baseUma.distance.findIndex(d => d >= startValue);
+        let endIndex = baseUma.distance.findIndex(d => d > endValue);
+    
+        if (startIndex !== -1 && endIndex !== -1) {
+            shadedRegions.push({ start: startIndex * 20, end: endIndex * 20 });
+        }
+    }
+
+    svg.selectAll(".shaded-region").remove();  // 기존 shaded region 삭제
+
+    if (showCourse && raceCourse.length > 1) {
+        svg.selectAll(".shaded-region")
+            .data(shadedRegions)
+            .enter()
+            .append("rect")
+            .attr("class", "shaded-region")
+            .attr("x", d => xScale(d.start))
+            .attr("y", 0)
+            .attr("width", d => xScale(d.end) - xScale(d.start))
+            .attr("height", height)
+            .attr("fill", "grey")
+            .attr("opacity", 0.3);
+    }
+    // draw course (직/곡) end
+
     // 속도 y축
     const y2Max = d3.max(data, uma => d3.max(uma.speed));
     const y2Min = d3.min(data, uma => d3.min(uma.speed));
@@ -354,19 +416,19 @@ function drawGraph(data) {
         .y(d => yScale(d));
 
     svg.selectAll("path")
-    .data(data.map(uma => uma.distance.map((d, i) => d - baseUma.distance[i])))
-    .join(
-        enter => enter.append("path")
-            .attr("d", line)
-            .attr("fill", "none")
-            .attr("stroke", (d, i) => colors[i])
-            .attr("stroke-opacity", (d, i) => showDistance? (data[i].active ? 1 : 0) : 0),
-        update => update
-            .transition()
-            .duration(300)
-            .attr("d", line)
-            .attr("stroke-opacity", (d, i) => showDistance? (data[i].active ? 1 : 0) : 0),
-        exit => exit.remove()
+        .data(data.map(uma => uma.distance.map((d, i) => d - baseUma.distance[i])))
+        .join(
+            enter => enter.append("path")
+                .attr("d", line)
+                .attr("fill", "none")
+                .attr("stroke", (d, i) => colors[i])
+                .attr("stroke-opacity", (d, i) => showDistance? (data[i].active ? 1 : 0) : 0),
+            update => update
+                .transition()
+                .duration(300)
+                .attr("d", line)
+                .attr("stroke-opacity", (d, i) => showDistance? (data[i].active ? 1 : 0) : 0),
+            exit => exit.remove()
     );
 
     const speedLine = d3.line()
@@ -374,21 +436,21 @@ function drawGraph(data) {
         .y(d => y2Scale(d))
 
     svg.selectAll(".speed-path")
-    .data(data.map(uma => uma.speed))
-    .join(
-        enter => enter.append("path")
-            .attr("class", "speed-path")
-            .attr("d", speedLine)
-            .attr("fill", "none")
-            .attr("stroke", (d, i) => colors[i])
-            .attr("stroke-dasharray", ("3, 3"))
-            .attr("stroke-opacity", (d, i) => showSpeed? (data[i].active ? 1 : 0) : 0),
-        update => update
-            .transition()
-            .duration(300)
-            .attr("d", speedLine)
-            .attr("stroke-opacity", (d, i) => showSpeed ? (data[i].active ? 1 : 0) : 0),
-        exit => exit.remove()
+        .data(data.map(uma => uma.speed))
+        .join(
+            enter => enter.append("path")
+                .attr("class", "speed-path")
+                .attr("d", speedLine)
+                .attr("fill", "none")
+                .attr("stroke", (d, i) => colors[i])
+                .attr("stroke-dasharray", ("3, 3"))
+                .attr("stroke-opacity", (d, i) => showSpeed? (data[i].active ? 1 : 0) : 0),
+            update => update
+                .transition()
+                .duration(300)
+                .attr("d", speedLine)
+                .attr("stroke-opacity", (d, i) => showSpeed ? (data[i].active ? 1 : 0) : 0),
+            exit => exit.remove()
     );
 
     // 토글
@@ -513,6 +575,8 @@ videoSlider.addEventListener('input', (e) => {
     drawTrack(currentTurn);
 });
 
+let shadedRegionsVideo = [];
+
 document.addEventListener('DOMContentLoaded', (event) => {
     const videoSpeedInput = document.getElementById('video-speed-input');
 
@@ -575,6 +639,12 @@ function videoInit()
         });
         Promise.all(promises).then(() => {
             document.getElementById('race-video').style.display = 'block';
+
+            shadedRegionsVideo = [];
+            for (let i = 0; i < raceCourse.length; i += 2) {
+                shadedRegionsVideo.push({start: raceCourse[i], end: raceCourse[i + 1]});
+            }
+            shadedRegionsVideo[shadedRegionsVideo.length-1].end = shadedRegionsVideo[shadedRegionsVideo.length-1].start;
 
             globalVideoData.sort((a, b) => a.laneNo - b.laneNo);
 
@@ -655,6 +725,16 @@ function drawVideo(turn)
         .domain([Math.min(...allPosY), Math.max(...allPosY)])
         .range([80, 20]);  
     
+    shadedRegionsVideo.forEach(region => {
+        svg.append("rect")
+            .attr("x", xScale(region.start))
+            .attr("y", 0)
+            .attr("width", xScale(region.end) - xScale(region.start))
+            .attr("height", svg.attr("height"))
+            .attr("fill", "grey")
+            .attr("opacity", 0.3);
+    });
+
     function onMouseOver(event, d) {
         videoTooltip.transition()
             .duration(0)
@@ -749,6 +829,8 @@ function drawVideo(turn)
     svg.append("g")
         .attr("class", "y axis")
         .call(yAxis);
+
+
     
     document.getElementById('current-turn').innerText = `Turn: ${turn}`;
     videoSlider.value = turn;
