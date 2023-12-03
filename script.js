@@ -626,12 +626,14 @@ function videoInit()
                     const posX = labels.map(label => umaVideoData[label].posX);
                     const posY = labels.map(label => umaVideoData[label].posY);
                     const stamina = labels.map(label => umaVideoData[label].stamina);
+                    const positionKeep = labels.map(label => umaVideoData[label].positionKeep);
 
                     globalVideoData.push({
                         name: umaName,
                         posX,
                         posY,
                         stamina,
+                        positionKeep,
                         laneNo: umaVideoData.laneNo
                     });
                 })
@@ -668,11 +670,13 @@ function handleVideoDataSingleUma(data)
     umaData[0].posX = 0;
     umaData[0].posY = parseFloat(lines[1].split(',')[5]);
     umaData[0].stamina = 100;
+    umaData[0].positionKeep = "Ready";
     for (let i = 1; i < lines.length; i++) {
         const parts = lines[i].split(',');
         const posX = parseFloat(parts[4]);
         const posY = parseFloat(parts[5]);
         const stamina = parseFloat(parts[6]);
+        const positionKeep = parts[8];
 
         if (i === 1) {
             laneNo = posY;
@@ -687,6 +691,7 @@ function handleVideoDataSingleUma(data)
         umaData[i].posX = posX;
         umaData[i].posY = posY;
         umaData[i].stamina = stamina;
+        umaData[i].positionKeep = positionKeep;
     };
     umaData.laneNo = laneNo;
 
@@ -720,10 +725,14 @@ function drawVideo(turn)
         .domain([Math.min(...allPosX), Math.max(...allPosX)])
         .range([rangeXMin, 800-rangeXMin]);
 
+    const minY = Math.min(...allPosY);
+    const maxY = Math.max(...allPosY);
+    const rangeYMin = (maxY - minY) * 6.5 > 15 ? (maxY - minY) * 6.5 : 15;
+    
     const yScale = d3.scaleLinear()
         // .domain([Math.min(...allPosY), globalVideoData.length])
-        .domain([Math.min(...allPosY), Math.max(...allPosY)])
-        .range([80, 20]);  
+        .domain([minY, maxY])
+        .range([80, 80 - rangeYMin]);  
     
     shadedRegionsVideo.forEach(region => {
         svg.append("rect")
@@ -742,7 +751,8 @@ function drawVideo(turn)
         videoTooltip.html(d.laneNo + ": " + d.name + "<br/>"  
                 + "PosX: " + d.posX[turn].toFixed(2) + " m<br/>"
                 + "PosY: " + d.posY[turn].toFixed(2) + "<br/>"
-                + "Stamina: " + d.stamina[turn].toFixed(2) + "%")
+                + "Stamina: " + d.stamina[turn].toFixed(2) + "%<br/>"
+                + "positionKeep: " + d.positionKeep[turn])
             .style("left", (event.pageX) + "px")
             .style("top", (event.pageY - 28) + "px");
     }
@@ -751,16 +761,38 @@ function drawVideo(turn)
             .duration(0)
             .style("opacity", 0);
     }
-        
-    const circles = svg.selectAll("circle")
+    
+    const circleBackgrounds = svg.selectAll(".circleBackground")
         .data(globalVideoData)
         .join("circle")
+        .attr("class", "circleBackground")
+        .attr("cx", d => xScale(d.posX[turn]))
+        .attr("cy", d => yScale(d.posY[turn]))
+        .attr("r", 12)
+        .attr("fill", d => {
+            switch (d.positionKeep[turn]) {
+                case 'SpeedUp':
+                    return 'lightblue';
+                case 'Overtaking':
+                    return 'lightgreen';
+                case 'paceUp':
+                    return 'lightcoral';
+                default:
+                    return 'none';
+            }
+        });
+
+    const circles = svg.selectAll(".circle")
+        .data(globalVideoData)
+        .join("circle")
+        .attr("class", "circle")
         .attr("cx", d => xScale(d.posX[turn]))
         .attr("cy", d => yScale(d.posY[turn]))
         .attr("r", 8)
         .attr("fill", d => colors[uma_index[d.name]])
         .on("mouseover", onMouseOver)
         .on("mouseout", onMouseOut);
+    
         
 
     const texts = svg.selectAll("text")
