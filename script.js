@@ -2,6 +2,7 @@ let globalData = null;  // graph data
 let raceCategory = "";   // ex) 1007_실전레이스
 let raceDetail = "";    // ex) 더트-단거리.txt -> 더트 단거리
 let raceImage = "";     // ex) 단거리_1400.png
+let raceWeather = "";   // ex) 양호
 let raceCourse = [];    // ex) 100-200-300-400-200 -> [100, 300, 600, 1000, 1200]
 
 const colors = [
@@ -72,6 +73,7 @@ document.getElementById('categorySelect').addEventListener('change', function(e)
             option.label = item.display
             option.setAttribute('image', item.image);
             option.setAttribute('course', item.course);
+            option.setAttribute('weather', item.weather);
             fileSelect.appendChild(option);
         });
     } else {
@@ -79,9 +81,24 @@ document.getElementById('categorySelect').addEventListener('change', function(e)
     }
 });
 
+function getWeatherEmoji(weather) {
+    var weatherEmojis = {
+        "양호": "☀️",
+        "다습": "💧",
+        "포화": "🌧️",
+        "불량": "⚠️",
+    };
+
+    return weatherEmojis[weather] || "❓";
+}
+
 document.getElementById('fileSelect').addEventListener('change', function(e) {
     const filePath = e.target.value;
     raceImage = e.target.options[e.target.selectedIndex].getAttribute('image');
+
+    raceWeather = e.target.options[e.target.selectedIndex].getAttribute('weather');
+    let weatherInfo = document.getElementById('weatherInfo');
+    weatherInfo.innerHTML = "날씨: " + getWeatherEmoji(raceWeather) + raceWeather;
 
     let raceCourseInfo = e.target.options[e.target.selectedIndex].getAttribute('course');
     const courseInfo = document.getElementById('course-info');
