@@ -1,4 +1,4 @@
-let globalData = null;  // graph data   
+let globalData = null;  // graph data
 let raceCategory = "";   // ex) 1007_실전레이스
 let raceDetail = "";    // ex) 더트-단거리.txt -> 더트 단거리
 let raceImage = "";     // ex) 단거리_1400.png
