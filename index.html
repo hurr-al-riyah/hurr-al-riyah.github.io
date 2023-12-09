@@ -24,19 +24,22 @@
     <meta name="msapplication-TileImage" content="image/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="styles.css?v=1.1">
+    <link rel="stylesheet" href="styles.css?v=1.2">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
 
     <header>
-        <h1 class="center-header"><a href="index.html" rel="noopener noreferrer" class="header-link">경주 결과 가시화 도구 v1.8.1</a></h1>
+        <h1 class="center-header">
+            <a href="index.html" rel="noopener noreferrer" class="header-link">경주 결과 가시화 도구 v1.8.2</a>
+        </h1>
     </header>
 
     <div>
         <select title="category" id="categorySelect">
             <option value="" disabled selected>경주 일자 선택</option>
+            <option value="클래식_1209">1209 클래식 실전레이스 (GI)</option>
             <option value="클래식_1111">1111 클래식 실전레이스 (GII)</option>
             <option value="주니어_1014">1014 주니어 실전레이스 (GIII)</option>
             <option value="주니어_1007">1007 주니어 실전레이스 (GIII)</option>
@@ -98,12 +101,13 @@
     <footer>
         <div id="version-info" class="footer-left">
             <p class="footer-text">
-                <a href="version-history.html" target="_blank" rel="noopener noreferrer" class="footer-link" id="version">version 1.8.1</a>
+                <a href="version-history.html" target="_blank" rel="noopener noreferrer" class="footer-link" id="version">version 1.8.2</a>
             </p>
         </div>
     
         <div class="footer-center">
-            <p class="footer-text">제작: <img src="image/riyah_logo.png" alt="리야흐 오일 인더스트리 로고" style="vertical-align: text-top; width: 20px;"> 리야흐 오일 인더스트리 | 총괄책임: 사아마 알-리야흐</p>
+            <p class="footer-text">제작: <img src="image/riyah_logo.png" alt="리야흐 오일 인더스트리 로고" style="vertical-align: text-top; width: 20px;"> 리야흐 오일 인더스트리 </p>
+            <p class="footer-text"> 총괄책임: 사아마 알-리야흐</p>
         </div>
     
         <div class="footer-right">
@@ -115,6 +119,6 @@
         </div>
     </footer>
     
-    <script src="script.js?v=1.8.1"></script>
+    <script src="script.js?v=1.8.2"></script>
 </body>
 </html>
