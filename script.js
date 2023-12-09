@@ -1,3 +1,5 @@
+// version: 1.8.2
+
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 1007_실전레이스
 let raceDetail = "";    // ex) 더트-단거리.txt -> 더트 단거리
