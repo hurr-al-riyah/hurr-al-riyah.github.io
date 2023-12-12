@@ -1,4 +1,4 @@
-// version: 1.8.3
+// version: 1.8.4
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 1007_실전레이스
@@ -700,7 +700,7 @@ function handleVideoDataSingleUma(data)
         if (i === 1) {
             laneNo = posY;
         }else{
-            if (umaData[i-1].posX == posX) {
+            if (umaData[i-1].posX == posX && posX != 0) {
                 if (maxVideoTurn > i) {
                     maxVideoTurn = i;
                 }
