@@ -87,6 +87,24 @@ footer {
 }
 /* footer end */
 
+.stamina-container {
+    display: flex;
+    align-items: start;
+}
+#stamina-svg, #stamina-table {
+    width: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .stamina-container {
+        flex-direction: column;
+    }
+    #stamina-svg, #stamina-table {
+        width: 100%;
+    }
+}
+
+
 button.once {
     margin: 5px;
     padding: 10px 20px;
