@@ -1,4 +1,4 @@
-// version: 1.8.4
+// version: 1.9.0
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 1007_실전레이스
@@ -204,6 +204,8 @@ function populateBaseUmaSelect(data) {
             });
             baseUmaItem.classList.add('selected');
             drawGraph(globalData);
+            drawStaminaGraph();
+            updateStaminaTable(currentTurn);
         };
 
         baseUmaContainer.appendChild(baseUmaItem);
@@ -252,6 +254,7 @@ document.getElementById('speed').addEventListener('click', () => {
 document.getElementById('course').addEventListener('click', () => {
     showCourse = !showCourse;
     drawGraph(globalData);
+    drawStaminaGraph();
     const speedBtn = document.getElementById('course');
     if(showCourse) {
         speedBtn.classList.remove('category-off');
@@ -298,6 +301,7 @@ function toggleData(name) {
     const target = globalData.find(d => d.name === name);
     target.active = !target.active;
     drawGraph(globalData);
+    drawStaminaGraph();
 }
 
 async function drawStat(data) {
@@ -591,6 +595,7 @@ const videoSlider = document.getElementById("video-turn-slider");
 videoSlider.addEventListener('input', (e) => {
     currentTurn = parseInt(e.target.value, 10); 
     drawVideo(currentTurn);
+    updateStaminaTable(currentTurn);
     drawTrack(currentTurn);
 });
 
@@ -672,6 +677,7 @@ function videoInit()
             videoSlider.max = maxVideoTurn - 1;
             videoSlider.value = 0;
             drawVideo(0);
+            drawStaminaGraph();
             drawTrack(0);
         });
     })
@@ -885,6 +891,178 @@ function drawVideo(turn)
     
     document.getElementById('current-turn').innerText = `Turn: ${turn}`;
     videoSlider.value = turn;
+}
+
+function updateStaminaTable(turn) {
+    
+    // stamina table
+    let staminaTable = d3.select("#stamina-table");
+
+    const baseUmaSelect = document.querySelector('#baseUmaContainer .base-item.selected');
+    const baseUmaName = baseUmaSelect.innerText;
+    const uma_index = {};
+    globalData.forEach((uma, index) => {
+        uma_index[uma.name] = index;
+    });
+
+    const values = globalVideoData
+        .filter(umaVideo => {
+            const umaGlobal = globalData.find(umaGlobal => umaGlobal.name === umaVideo.name);
+            return umaGlobal && umaGlobal.active; // globalData에서 이름이 일치하고, active 상태인 경우만 필터링
+        })
+        .map(uma => {
+            const stamina = uma.stamina[turn];
+            const diff = turn != 0 ? uma.stamina[turn] - uma.stamina[turn-1] : 0;
+            return {
+                name: uma.name,
+                stamina,
+                diff
+            };
+        })
+        .sort((a, b) => b.posX - a.posX);
+
+    const tableRows = values.map(uma => {
+        let umaName = uma.name;
+        if (uma.name === baseUmaName) {
+            umaName = `<strong>${umaName}</strong>`;
+        }
+        return `<tr style="${uma.isBase ? 'background-color: rgba(0,0,0,0.1);' : ''}">
+                    <td><span style="color: ${colors[uma_index[uma.name]]}">${umaName}</span></td>
+                    <td>${uma.stamina.toFixed(2)}</td>
+                    <td>${uma.diff.toFixed(2)}</td>
+                </tr>`;
+    }).join('');
+
+    staminaTable.html(`<table border="1">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Stamina</th>
+                                <th>Diff</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${tableRows}
+                        </tbody>
+                    </table>`);
+}
+
+function drawStaminaGraph() {
+    const baseUmaSelect = document.querySelector('#baseUmaContainer .base-item.selected');
+    const baseUmaName = baseUmaSelect.innerText;
+    const baseUma = globalVideoData.find(uma => uma.name === baseUmaName);
+
+    const turns = Array.from({length: maxVideoTurn}, (v, k) => k);
+
+
+    const margin = {top: 20, right: 30, bottom: 40, left: 50};
+    const width = 800 - margin.left - margin.right;
+    const height = 400 - margin.top - margin.bottom;
+
+    const uma_index = {};
+    globalData.forEach((uma, index) => {
+        uma_index[uma.name] = index;
+    });
+    
+    // svg 선택
+    let svg = d3.select("#stamina-svg").select("svg");
+    if (svg.empty()) {
+        svg = d3.select("#stamina-svg")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", `translate(${margin.left},${margin.top})`);
+    } else {
+        svg = svg.select("g");
+    }
+    
+    const minY = 0;
+    const maxY = 100;
+
+    const xScale = d3.scaleLinear()
+        .domain([d3.min(turns), d3.max(turns)])  // 실제 턴 값으로 도메인 설정
+        .range([0, width]);
+    const yScale = d3.scaleLinear().domain([minY, maxY]).range([height, 0]);
+    
+    // draw course (직/곡)
+    let shadedRegions = [];
+    for (let i = 0; i < raceCourse.length - 1; i += 2) {
+        let startValue = raceCourse[i];
+        let endValue = raceCourse[i + 1];
+    
+        let startIndex = baseUma.posX.findIndex(d => d >= startValue);
+        let endIndex = baseUma.posX.findIndex(d => d > endValue);
+    
+        if (startIndex !== -1 && endIndex !== -1) {
+            shadedRegions.push({ start: startIndex, end: endIndex});
+        }
+    }
+
+    svg.selectAll(".shaded-region").remove();  // 기존 shaded region 삭제
+
+    if (showCourse && raceCourse.length > 1) {
+        svg.selectAll(".shaded-region")
+            .data(shadedRegions)
+            .enter()
+            .append("rect")
+            .attr("class", "shaded-region")
+            .attr("x", d => xScale(d.start))
+            .attr("y", 0)
+            .attr("width", d => xScale(d.end) - xScale(d.start))
+            .attr("height", height)
+            .attr("fill", "grey")
+            .attr("opacity", 0.3);
+    }
+    // draw course (직/곡) end
+
+    const line = d3.line()
+        .x((d, i) => xScale(turns[i])) 
+        .y(d => yScale(d));
+
+        svg.selectAll(".stamina-path")
+        .data(globalVideoData
+            .filter(umaVideo => {
+                const umaGlobal = globalData.find(umaGlobal => umaGlobal.name === umaVideo.name);
+                return umaGlobal && umaGlobal.active;
+            })
+            .map(uma => ({
+                name: uma.name,
+                stamina: uma.stamina.slice(0, maxVideoTurn)
+            })))
+        .join(
+            enter => enter.append("path")
+                .attr("class", "stamina-path")
+                .attr("d", d => line(d.stamina))
+                .attr("fill", "none")
+                .attr("stroke", d => colors[uma_index[d.name]]), // 여기서 이름에 따른 색상을 가져옵니다.
+            update => update
+                .attr("d", d => line(d.stamina))
+                .attr("stroke", d => colors[uma_index[d.name]]),
+            exit => exit.remove()
+        );
+    
+    
+
+
+    updateStaminaTable(currentTurn);
+
+    // x축, y축, y보조축
+        
+    svg.selectAll("g.axis").remove();  // 기존 축 삭제 (없으면 새로 불러올때 축 겹침)
+        
+    const tickValues = turns.filter((_, i, arr) => i % Math.ceil(arr.length / 20) === 0);
+    // X축 추가
+    svg.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0,360)")
+        .call(d3.axisBottom(xScale).tickValues(tickValues));
+
+    // Y축 추가
+    svg.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0,0)")
+        .call(d3.axisLeft(yScale));
 }
 
 function drawTrack(turn) {
@@ -1357,6 +1535,7 @@ function videoStart(){
     if (animationInterval == null) {
         animationInterval  = setInterval(() => {
             drawVideo(currentTurn);
+            updateStaminaTable(currentTurn);
             drawTrack(currentTurn);
             currentTurn += 1;
             if (currentTurn >= maxVideoTurn) {
@@ -1375,5 +1554,6 @@ function videoStop() {
 function videoToFirst() {
     currentTurn = 0;
     drawVideo(0);
+    updateStaminaTable(0);
     drawTrack(0);
 }
