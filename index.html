@@ -24,20 +24,11 @@
     <meta name="msapplication-TileImage" content="image/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="styles.css?v=1.5">
+    <link rel="stylesheet" href="styles.css?v=1.6">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-
-    <header>
-        <h1 class="center-header">
-            <a href="index.html" rel="noopener noreferrer" class="header-link">경주 결과 가시화 도구 v1.9.0</a>
-        </h1>
-    </header>
-
-    
-    <div style="padding-bottom: 60px;"></div>
     
     <div class="race-select">
         <select title="category" id="categorySelect">
@@ -56,7 +47,12 @@
         <span id="weatherInfo"></span>
     </div>
 
-    <div id="svg"></div>
+    <div class="data-container">
+        <!-- main graph -->
+        <div id="svg"></div>
+        <!-- data on the cursor -->
+        <div id="svg-table" style="max-width: 300px;"></div> <!-- 이전에는 tooltip이었음 -->
+    </div>
 
     <div id="legend-controls" style="display: none;">
         <button type="button" class="once" id="selectAll">전체 선택</button>
@@ -97,10 +93,11 @@
         <label for="video-speed-input">영상 재생 속도: 턴당 </label>
         <input type="number" id="video-speed-input" value="50" min="1" max="200"> ms (default: 50)
         <br />
-        <!-- Stamina Graph -->
-        <div class="stamina-container">
+        <!-- Stamina Graph and table -->
+        <b>체력 그래프</b>
+        <div class="data-container">
             <svg id="stamina-svg" width="800" height="400"></svg>
-            <div id="stamina-table" style="max-width: 400px;"></div>
+            <div id="stamina-table" style="max-width: 300px;"></div>
         </div>
         <br />
         <svg id="track-svg" width="800" height="250"></svg>
@@ -108,29 +105,20 @@
 
     </div>
 
-    <div style="padding-bottom: 60px;"></div>
-
-    <footer>
-        <div id="version-info" class="footer-left">
-            <p class="footer-text">
-                <a href="version-history.html" target="_blank" rel="noopener noreferrer" class="footer-link" id="version">version 1.9.0</a>
-            </p>
-        </div>
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.body.insertAdjacentHTML('afterbegin', data);
+            });
     
-        <div class="footer-center">
-            <p class="footer-text">제작: <img src="image/riyah_logo.png" alt="리야흐 오일 인더스트리 로고" style="vertical-align: text-top; width: 20px;"> 리야흐 오일 인더스트리 </p>
-            <p class="footer-text">총괄책임: 사마아 알-리야흐</p>
-        </div>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.body.insertAdjacentHTML('beforeend', data);
+            });
+    </script>
     
-        <div class="footer-right">
-            <p class="footer-text">
-                <a href="https://github.com/hurr-al-riyah/hurr-al-riyah.github.io" target="_blank" rel="noopener noreferrer" class="footer-link">
-                    Source code
-                </a>
-            </p>
-        </div>
-    </footer>
-    
-    <script src="script.js?v=1.9.0"></script>
+    <script src="script.js?v=1.9.1"></script>
 </body>
 </html>

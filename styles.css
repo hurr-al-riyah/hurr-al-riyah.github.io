@@ -1,22 +1,25 @@
 /* header */
 header {
-    display: flex;
-    align-items: center;
     justify-content: center;
     background-color: #333;
-    color: white;
+    text-align: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 }
 
-.center-header {
-    text-align: center;
+.header-left {
+    position: absolute;
+    transform: translateY(-50%);
+    left: 10px;
+    top: 20px;
+}
+
+.header-center {
     color: white;
-    font-size: 24px;
-    margin-bottom: 20px;
-    flex: 1; /* Flex 아이템 확장 */
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .header-link {
@@ -26,17 +29,11 @@ header {
 /* header end */
 
 /* footer */
-.footer-link:hover {
-    color: white;
-    text-decoration: none;
-}
-
 footer {
-    background-color: #333;
     justify-content: center;
+    background-color: #333;
     color: white;
     text-align: center;
-    padding: 5px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -52,7 +49,7 @@ footer {
     top: 50%; 
     transform: translateY(-50%);
     padding: 10px;
-    left: 10px;
+    left: 20px;
 }
 
 .footer-right {
@@ -60,7 +57,7 @@ footer {
     top: 50%; 
     transform: translateY(-50%);
     padding: 10px;
-    right: 40px;
+    right: 20px;
 }
 
 .footer-link {
@@ -69,6 +66,7 @@ footer {
 }
 
 .footer-link:hover {
+    color: white;
     text-decoration: underline;
 }
 
@@ -87,7 +85,7 @@ footer {
 }
 /* footer end */
 
-.stamina-container {
+.data-container {
     display: flex;
     align-items: start;
 }
@@ -96,10 +94,10 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-    .stamina-container {
+    .data-container {
         flex-direction: column;
     }
-    #stamina-svg, #stamina-table {
+    #stamina-table {
         width: 100%;
     }
 }
@@ -179,16 +177,13 @@ select {
     margin: 10px;
 }
 
-.tooltip {
-    position: absolute;
+
+#svg-table {
     text-align: left;
-    width: auto;
+    width: 300px;
     height: auto;
-    padding: 10px;
-    background: #eee;
     border: 0px;
     border-radius: 8px;
-    pointer-events: none;
 }
 
 table {
@@ -199,4 +194,16 @@ th, td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: left;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background: #eee;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
 }

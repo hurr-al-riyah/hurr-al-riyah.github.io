@@ -1,4 +1,4 @@
-// version: 1.9.0
+// version: 1.9.1
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 1007_실전레이스
@@ -477,40 +477,16 @@ function drawGraph(data) {
     );
 
     // 토글
-    let tooltip = d3.select("body").select(".tooltip");
-    if (tooltip.empty()) {
-        tooltip = d3.select("body").append("div")
-            .attr("class", "tooltip")
-            .style("opacity", 0);
-    }
+
+    let dataTable = d3.select("#svg-table");
 
     d3.select("#svg").select("svg").on("mousemove", (event) => {
-        const screenWidth = window.innerWidth;
         const [x, y] = d3.pointer(event);
         const xValue = xScale.invert(x - margin.left);
         const turnIndex = d3.bisect(turns, xValue); 
         const turn = turns[turnIndex]; 
-        let left;
-        let top;
     
-        if (screenWidth > 1150) {
-            // select-base-uma div 우측에 툴팁을 표시 (사실 툴팁이어야 할 이유는 없으나... 디자인 변경이 귀찮다ㅜㅜ)
-            const svgRect = d3.select("#svg").node().getBoundingClientRect();
-            left = 850;
-            top = svgRect.top + window.scrollY;
-        } 
-        else if (screenWidth > 820) {
-            const selectBaseUmaRect = document.getElementById('select-base-uma').getBoundingClientRect();
-            left = 500;
-            top = selectBaseUmaRect.top + window.scrollY;
-        }else{
-            const selectUmaStatsRect = document.getElementById('uma-stats').getBoundingClientRect();
-            left = selectUmaStatsRect.left;
-            top = selectUmaStatsRect.bottom + 20 + window.scrollY;
-        }
-
         if (turnIndex < 0 || turnIndex >= turns.length) {
-            tooltip.style("opacity", 0);
             return;
         }
     
@@ -540,8 +516,8 @@ function drawGraph(data) {
                     </tr>`;
         }).join('');
     
-        tooltip.html(`<div>Turn: ${turn}</div>
-                      <table>
+        dataTable.html(`<div>Turn: ${turn}</div>
+                        <table border="1">
                           <thead>
                               <tr>
                                   <th>Name</th>
@@ -552,10 +528,7 @@ function drawGraph(data) {
                           <tbody>
                               ${tableRows}
                           </tbody>
-                      </table>`)
-                .style("left", left + "px")
-                .style("top", top + "px")
-                .style("opacity", 1);
+                      </table>`);
     });
     
 
