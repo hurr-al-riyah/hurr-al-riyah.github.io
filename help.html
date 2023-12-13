@@ -27,12 +27,101 @@
     <link rel="stylesheet" href="styles.css?v=1.6">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <style>
+        .table-of-contents {
+            border: 1px solid #000;
+            padding: 5px;
+            margin: 5px 0;
+            width: 250px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .table-of-contents h3 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .table-of-contents ul {
+            list-style: none;
+            padding-left: 10px;
+        }
+
+        .table-of-contents ul li {
+            margin-bottom: 5px;
+        }
+
+        .table-of-contents ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .instruction-list {
+          list-style: none;
+          padding: 0;
+        }
+        .instruction-list li {
+          margin: 10px 0;
+          padding: 0;
+        }
+        img {
+          width: 100%; /* 이미지 크기 조절이 필요하면 변경하세요 */
+          max-width: 800px; /* 이미지 최대 크기 제한 */
+        }
+        .step-number {
+          font-weight: bold;
+          color: red;
+        }
+    </style>
+
 </head>
 
 <body>
 
     <main>
-        <h1> 준비중입니다. </h1>
+        <h1> 현재 작성 중입니다. </h1>
+        <div class="table-of-contents">
+            <h3>목차</h3>
+            <ul>
+                <li><a href="#section1">1. 경주 선택 메뉴</a></li>
+                <li><a href="#section2">2. 레이스 분석 그래프</a></li>
+                <ul>
+                    <li><a href="#section2-1">2-1. 메인 그래프</a></li>
+                    <li><a href="#section2-2">2-2. 그래프 다루기</a></li>
+                    <li><a href="#section2-3">2-3. 출전 우마무스메 정보</a></li>
+                </ul>
+                <li><a href="#section3">3. 레이스 영상</a></li>
+                <ul>
+                    <li><a href="#section3-1">3-1. 레이스 영상</a></li>
+                    <li><a href="#section3-2">3-2. 체력 그래프</a></li>
+                    <li><a href="#section3-3">3-3. 레이스 코스</a></li>
+                </ul>
+            </ul>
+        </div>
+
+        <h1 id="section1">1. 경주 선택 메뉴</h1>
+        <img src="image/help/race_select.png" alt="경주 선택 안내 이미지">
+        <ol class="instruction-list">
+            <li>
+                <span class="step-number">1.</span> <b>경주 일자 선택</b>을 클릭한 뒤, 경주가 이루어진 날짜를 선택합니다.
+            </li>
+            <li>
+                <span class="step-number">2.</span> 이후 <b>경주 종목 선택</b> 란이 활성화됩니다. 이를 클릭합니다.
+            </li>
+            <li>
+                <span class="step-number">3.</span> 분석을 원하는 경주 종목을 클릭해 선택합니다.
+            </li>
+        </ol>
+
+        <h1 id="section2">레이스 분석 그래프</h1>
+        <h2 id="section2-1">메인 그래프</h2>
+        <h2 id="section2-2">그래프 다루기</h2>
+        <h2 id="section2-3">출전 우마무스메 정보</h2>
+
+        <h1 id="section3">레이스 영상</h1>
+        <h2 id="section3-1">레이스 영상</h2>
+        <h2 id="section3-2">체력 그래프</h2>
+        <h2 id="section3-3">레이스 코스</h2>
     </main>
 
     <script>
