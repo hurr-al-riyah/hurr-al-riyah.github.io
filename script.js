@@ -1,4 +1,4 @@
-// version: 1.9.1
+// version: 1.10.0
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 1007_실전레이스
@@ -620,6 +620,7 @@ function videoInit()
             
                     const labels = Object.keys(umaVideoData);
 
+                    const targetSpeed = labels.map(label => umaVideoData[label].targetSpeed);
                     const posX = labels.map(label => umaVideoData[label].posX);
                     const posY = labels.map(label => umaVideoData[label].posY);
                     const stamina = labels.map(label => umaVideoData[label].stamina);
@@ -627,6 +628,7 @@ function videoInit()
 
                     globalVideoData.push({
                         name: umaName,
+                        targetSpeed,
                         posX,
                         posY,
                         stamina,
@@ -652,6 +654,8 @@ function videoInit()
             drawVideo(0);
             drawStaminaGraph();
             drawTrack(0);
+
+            raceAnalysisTargetSpeedSection();
         });
     })
     .catch(error => console.error('Error:', error));
@@ -665,12 +669,14 @@ function handleVideoDataSingleUma(data)
 
     // 첫 번째 line은 skip. 두 번째 line부터 시작 (두 번째 line이 turn 1이므로)
     umaData[0] = {};
+    umaData[0].targetSpeed = parseFloat(lines[1].split(',')[1]);
     umaData[0].posX = 0;
     umaData[0].posY = parseFloat(lines[1].split(',')[5]);
     umaData[0].stamina = 100;
     umaData[0].positionKeep = "Ready";
     for (let i = 1; i < lines.length; i++) {
         const parts = lines[i].split(',');
+        const targetSpeed = parseFloat(parts[1]);
         const posX = parseFloat(parts[4]);
         const posY = parseFloat(parts[5]);
         const stamina = parseFloat(parts[6]);
@@ -686,6 +692,7 @@ function handleVideoDataSingleUma(data)
             }
         }
         umaData[i] = {};
+        umaData[i].targetSpeed = targetSpeed;
         umaData[i].posX = posX;
         umaData[i].posY = posY;
         umaData[i].stamina = stamina;
@@ -1008,7 +1015,7 @@ function drawStaminaGraph() {
                 .attr("class", "stamina-path")
                 .attr("d", d => line(d.stamina))
                 .attr("fill", "none")
-                .attr("stroke", d => colors[uma_index[d.name]]), // 여기서 이름에 따른 색상을 가져옵니다.
+                .attr("stroke", d => colors[uma_index[d.name]]),
             update => update
                 .attr("d", d => line(d.stamina))
                 .attr("stroke", d => colors[uma_index[d.name]]),
@@ -1052,6 +1059,9 @@ function drawTrack(turn) {
         .attr('xlink:href', 'image/' + raceImage)
         .attr('width', 800)
         .attr('height', 250);
+        document.getElementById('track-svg').style.display = 'block';
+    }else{
+        document.getElementById('track-svg').style.display = 'none';
     }
 
     switch (raceImage) {
@@ -1529,4 +1539,77 @@ function videoToFirst() {
     drawVideo(0);
     updateStaminaTable(0);
     drawTrack(0);
+}
+
+// race analysis
+function raceAnalysisTargetSpeedSection() {
+    let averageSpeeds = globalVideoData.map(() => []);
+
+    globalVideoData.forEach((uma, index) => {
+        raceCourse.forEach((end, courseIndex) => {
+            let start = courseIndex === 0 ? 0 : raceCourse[courseIndex - 1];
+            let speedsInSection = [];
+
+            uma.posX.forEach((x, i) => {
+                if (x >= start && x <= end) {
+                    speedsInSection.push(uma.targetSpeed[i]);
+                }
+            });
+
+            let averageSpeed;
+
+            if (speedsInSection.length > 0) {
+                averageSpeed = speedsInSection.reduce((a, b) => a + b, 0) / speedsInSection.length;
+            }else{
+                averageSpeed = 0;
+            }
+
+            averageSpeeds[index].push(averageSpeed);
+        });
+    });
+
+    // 우마무스메 이름에 색 넣기
+    const uma_index = {};
+    globalData.forEach((uma, index) => {
+        uma_index[uma.name] = index;
+    });
+
+    // table 출력
+    const targetDiv = document.getElementById('analysis-targetspeed-section');
+    targetDiv.innerHTML = '';
+
+    let table = document.createElement('table');
+
+    let thead = table.createTHead();
+    let headerRow = thead.insertRow();
+
+    let maxNameLength = Math.max(...globalVideoData.map(uma => uma.name.length));
+
+    let nameHeader = document.createElement('th');
+    nameHeader.textContent = '우마무스메 이름';
+    nameHeader.style.minWidth = `${maxNameLength * 2 - 1}ch`;
+    headerRow.appendChild(nameHeader);
+
+    raceCourse.forEach((distance, index) => {
+        let header = document.createElement('th');
+        header.textContent = `${index % 2 === 0 ? '직선' : '곡선'}${Math.floor(index / 2) + 1} (${distance}m)`;
+        headerRow.appendChild(header);
+    });
+
+    globalVideoData.forEach((uma, index) => {
+        let row = table.insertRow();
+
+        let name = row.insertCell();
+        name.innerHTML = `<span style="color: ${colors[uma_index[uma.name]]}">${uma.name}</span>`;
+
+        averageSpeeds[index].forEach(speed => {
+            let cell = row.insertCell();
+            cell.textContent = speed.toFixed(3);
+        });
+    });
+
+    targetDiv.appendChild(table);
+
+    // graph 출력
+
 }

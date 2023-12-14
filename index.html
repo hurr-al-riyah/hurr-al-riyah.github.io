@@ -82,7 +82,8 @@
     <div id="uma-stats" style="max-width: 600px;"></div>
 
     <div id="race-video" style="display: none;">
-        <b>레이스 영상</b>
+        <h1>레이스 영상</h1>
+        <b>메인 카메라</b>
         <br />
         <svg id="video-svg" width="800" height="100"></svg>
         <button onclick="videoStart()">Start</button>
@@ -100,8 +101,14 @@
             <div id="stamina-table" style="max-width: 300px;"></div>
         </div>
         <br />
-        <svg id="track-svg" width="800" height="250"></svg>
-        
+        <svg id="track-svg" width="800" height="250" style="display:none;"></svg>
+
+        <h1>레이스 분석</h1>
+        <div id="race-analysis">
+            <b>구간별 목표 속도 (targetSpeed) (단위: m/s)</b>
+            <br />
+            <div id="analysis-targetspeed-section" style="max-width: 800px"></div>
+        </div>
 
     </div>
 
@@ -119,6 +126,6 @@
             });
     </script>
     
-    <script src="script.js?v=1.9.1"></script>
+    <script src="script.js?v=1.10.0"></script>
 </body>
 </html>
