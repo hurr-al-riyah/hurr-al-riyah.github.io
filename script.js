@@ -1,4 +1,4 @@
-// version: 1.10.0
+// version: 1.10.1
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 1007_실전레이스
@@ -633,7 +633,8 @@ function videoInit()
                         posY,
                         stamina,
                         positionKeep,
-                        laneNo: umaVideoData.laneNo
+                        laneNo: umaVideoData.laneNo,
+                        spurtTurn: umaVideoData.spurtTurn
                     });
                 })
                 .catch(error => console.error('Error:', error));
@@ -666,6 +667,7 @@ function handleVideoDataSingleUma(data)
     const lines = data.split('\n');
     const umaData = {};
     let laneNo = 0;
+    let spurtTurn = 0;
 
     // 첫 번째 line은 skip. 두 번째 line부터 시작 (두 번째 line이 turn 1이므로)
     umaData[0] = {};
@@ -674,6 +676,7 @@ function handleVideoDataSingleUma(data)
     umaData[0].posY = parseFloat(lines[1].split(',')[5]);
     umaData[0].stamina = 100;
     umaData[0].positionKeep = "Ready";
+
     for (let i = 1; i < lines.length; i++) {
         const parts = lines[i].split(',');
         const targetSpeed = parseFloat(parts[1]);
@@ -681,7 +684,7 @@ function handleVideoDataSingleUma(data)
         const posY = parseFloat(parts[5]);
         const stamina = parseFloat(parts[6]);
         const positionKeep = parts[8];
-
+        
         if (i === 1) {
             laneNo = posY;
         }else{
@@ -697,8 +700,13 @@ function handleVideoDataSingleUma(data)
         umaData[i].posY = posY;
         umaData[i].stamina = stamina;
         umaData[i].positionKeep = positionKeep;
+
+        if (spurtTurn === 0 && parts[10].indexOf("T") !== -1) {
+            spurtTurn = i - 1;
+        }
     };
     umaData.laneNo = laneNo;
+    umaData.spurtTurn = spurtTurn;
 
     return umaData;
 }
@@ -1546,8 +1554,18 @@ function raceAnalysisTargetSpeedSection() {
     let averageSpeeds = globalVideoData.map(() => []);
 
     globalVideoData.forEach((uma, index) => {
-        raceCourse.forEach((end, courseIndex) => {
-            let start = courseIndex === 0 ? 0 : raceCourse[courseIndex - 1];
+        let adjustedRaceCourse = [...raceCourse];
+
+        if (uma.spurtTurn) {
+            let spurtPosX = uma.posX[uma.spurtTurn];
+
+            adjustedRaceCourse = adjustedRaceCourse.filter(course => course < spurtPosX);
+            adjustedRaceCourse.push(spurtPosX);
+            adjustedRaceCourse = adjustedRaceCourse.concat(raceCourse.filter(course => course > spurtPosX));
+        }
+
+        adjustedRaceCourse.forEach((end, courseIndex) => {
+            let start = courseIndex === 0 ? 0 : adjustedRaceCourse[courseIndex - 1];
             let speedsInSection = [];
 
             uma.posX.forEach((x, i) => {
@@ -1590,7 +1608,14 @@ function raceAnalysisTargetSpeedSection() {
     nameHeader.style.minWidth = `${maxNameLength * 2 - 1}ch`;
     headerRow.appendChild(nameHeader);
 
+    let spurtPoint = globalVideoData[0].posX[globalVideoData[0].spurtTurn];
     raceCourse.forEach((distance, index) => {
+        if (distance > spurtPoint && spurtPoint !== 0) {
+            let header = document.createElement('th');
+            header.textContent = `Spurt Point`;
+            headerRow.appendChild(header);
+            spurtPoint = 0;
+        }
         let header = document.createElement('th');
         header.textContent = `${index % 2 === 0 ? '직선' : '곡선'}${Math.floor(index / 2) + 1} (${distance}m)`;
         headerRow.appendChild(header);
