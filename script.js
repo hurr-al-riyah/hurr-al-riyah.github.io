@@ -1,4 +1,4 @@
-// version: 1.10.1
+// version: 1.10.2
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 1007_실전레이스
@@ -302,6 +302,7 @@ function toggleData(name) {
     target.active = !target.active;
     drawGraph(globalData);
     drawStaminaGraph();
+    raceAnalysisTargetSpeedSection();
 }
 
 async function drawStat(data) {
@@ -933,6 +934,37 @@ function updateStaminaTable(turn) {
                             ${tableRows}
                         </tbody>
                     </table>`);
+    
+    // graph에 x축 수직선 추가
+    // table과 무관하지만, 어차피 매 턴마다 변경된다는 건 같으므로...
+    const svg = d3.select('#stamina-svg');
+    const turns = Array.from({length: maxVideoTurn}, (v, k) => k);
+
+    const margin = {top: 20, right: 30, bottom: 40, left: 50};
+    const width = 800 - margin.left - margin.right;
+
+    const xScale = d3.scaleLinear()
+        .domain([d3.min(turns), d3.max(turns)])
+        .range([margin.left, width + margin.left]);
+    const xPos = xScale(turn);
+    const existingLine = svg.select(".turn-line");
+
+    if (existingLine.empty()) {
+        // 수직선이 존재하지 않으면 새로 추가
+        svg.append("line")
+            .attr("class", "turn-line") // 클래스 부여
+            .attr("x1", xPos)
+            .attr("y1", 0)
+            .attr("x2", xPos)
+            .attr("y2", 600) // svgHeight는 SVG의 높이
+            .attr("stroke", "red") // 선의 색상 지정
+            .attr("stroke-width", 2); // 선의 두께 지정
+    } else {
+        // 기존 수직선의 위치를 업데이트
+        existingLine
+            .attr("x1", xPos)
+            .attr("x2", xPos);
+    }
 }
 
 function drawStaminaGraph() {
@@ -1008,35 +1040,31 @@ function drawStaminaGraph() {
         .x((d, i) => xScale(turns[i])) 
         .y(d => yScale(d));
 
-        svg.selectAll(".stamina-path")
-        .data(globalVideoData
-            .filter(umaVideo => {
-                const umaGlobal = globalData.find(umaGlobal => umaGlobal.name === umaVideo.name);
-                return umaGlobal && umaGlobal.active;
-            })
-            .map(uma => ({
-                name: uma.name,
-                stamina: uma.stamina.slice(0, maxVideoTurn)
-            })))
-        .join(
-            enter => enter.append("path")
-                .attr("class", "stamina-path")
-                .attr("d", d => line(d.stamina))
-                .attr("fill", "none")
-                .attr("stroke", d => colors[uma_index[d.name]]),
-            update => update
-                .attr("d", d => line(d.stamina))
-                .attr("stroke", d => colors[uma_index[d.name]]),
-            exit => exit.remove()
-        );
+    svg.selectAll(".stamina-path")
+    .data(globalVideoData
+        .filter(umaVideo => {
+            const umaGlobal = globalData.find(umaGlobal => umaGlobal.name === umaVideo.name);
+            return umaGlobal && umaGlobal.active;
+        })
+        .map(uma => ({
+            name: uma.name,
+            stamina: uma.stamina.slice(0, maxVideoTurn)
+        })))
+    .join(
+        enter => enter.append("path")
+            .attr("class", "stamina-path")
+            .attr("d", d => line(d.stamina))
+            .attr("fill", "none")
+            .attr("stroke", d => colors[uma_index[d.name]]),
+        update => update
+            .attr("d", d => line(d.stamina))
+            .attr("stroke", d => colors[uma_index[d.name]]),
+        exit => exit.remove()
+    );
     
-    
-
-
     updateStaminaTable(currentTurn);
 
-    // x축, y축, y보조축
-        
+    // x축, y축
     svg.selectAll("g.axis").remove();  // 기존 축 삭제 (없으면 새로 불러올때 축 겹침)
         
     const tickValues = turns.filter((_, i, arr) => i % Math.ceil(arr.length / 20) === 0);
@@ -1592,6 +1620,12 @@ function raceAnalysisTargetSpeedSection() {
         uma_index[uma.name] = index;
     });
 
+    // 순서 좀 바꾸기
+    const umaNames = globalVideoData.map(item => item.name);
+    const mappingArray = globalData.map(item => umaNames.indexOf(item.name) + 1);
+
+    averageSpeeds = mappingArray.map(index => averageSpeeds[index - 1]);
+
     // table 출력
     const targetDiv = document.getElementById('analysis-targetspeed-section');
     targetDiv.innerHTML = '';
@@ -1601,12 +1635,12 @@ function raceAnalysisTargetSpeedSection() {
     let thead = table.createTHead();
     let headerRow = thead.insertRow();
 
-    let maxNameLength = Math.max(...globalVideoData.map(uma => uma.name.length));
-
     let nameHeader = document.createElement('th');
     nameHeader.textContent = '우마무스메 이름';
-    nameHeader.style.minWidth = `${maxNameLength * 2 - 1}ch`;
+    nameHeader.style.minWidth = `175px`;
     headerRow.appendChild(nameHeader);
+
+    let sectionNames = []; // 나중에 그래프 x축에 사용될 것
 
     let spurtPoint = globalVideoData[0].posX[globalVideoData[0].spurtTurn];
     raceCourse.forEach((distance, index) => {
@@ -1615,13 +1649,20 @@ function raceAnalysisTargetSpeedSection() {
             header.textContent = `Spurt Point`;
             headerRow.appendChild(header);
             spurtPoint = 0;
+            sectionNames.push("Spurt Point")
         }
         let header = document.createElement('th');
         header.textContent = `${index % 2 === 0 ? '직선' : '곡선'}${Math.floor(index / 2) + 1} (${distance}m)`;
         headerRow.appendChild(header);
+        sectionNames.push(`${index % 2 === 0 ? '직선' : '곡선'}${Math.floor(index / 2) + 1} (${distance}m)`)
     });
 
-    globalVideoData.forEach((uma, index) => {
+    globalData
+    .filter(umaVideo => {
+        const umaGlobal = globalData.find(umaGlobal => umaGlobal.name === umaVideo.name);
+        return umaGlobal && umaGlobal.active;
+    })
+    .forEach((uma, index) => {
         let row = table.insertRow();
 
         let name = row.insertCell();
@@ -1635,6 +1676,92 @@ function raceAnalysisTargetSpeedSection() {
 
     targetDiv.appendChild(table);
 
-    // graph 출력
+    // graph 출력 (꺾은선 그래프)
+    const margin = {top: 20, right: 30, bottom: 40, left: 50};
+    const width = 800 - margin.left - margin.right;
+    const height = 400 - margin.top - margin.bottom;
+
+    // svg 선택
+    let svg = d3.select("#analysis-targetspeed-section").select("svg");
+    if (svg.empty()) {
+        svg = d3.select("#analysis-targetspeed-section")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", `translate(${margin.left},${margin.top})`);
+    } else {
+        svg = svg.select("g");
+    }
+    const xScale = d3.scaleLinear()
+        .domain([0, raceCourse.length])
+        .range([0, width]);
+    const yScale = d3.scaleLinear()
+        .domain([d3.min(averageSpeeds, d => d3.min(d)), d3.max(averageSpeeds, d => d3.max(d))])
+        .range([height, 0]);
+    const line = d3.line()
+        .x((d, i) => xScale(i))
+        .y(d => yScale(d));
+    
+    svg.selectAll(".speed-section")
+        .data(globalVideoData
+            .filter(umaVideo => {
+                const umaGlobal = globalData.find(umaGlobal => umaGlobal.name === umaVideo.name);
+                return umaGlobal && umaGlobal.active;
+            })
+            .map(uma => uma.name))
+        .join(
+            enter => enter.append("path")
+                .attr("class", "speed-section")
+                .attr("d", d => line(averageSpeeds[uma_index[d]]))
+                .attr("fill", "none")
+                .attr("stroke", d => colors[uma_index[d]])),
+            update => update
+                .attr("d", d => line(averageSpeeds[uma_index[d]]))
+                .attr("stroke", d => colors[uma_index[d]],
+            exit => exit.remove()
+        );
+    
+    globalVideoData
+        .filter(umaVideo => {
+            const umaGlobal = globalData.find(umaGlobal => umaGlobal.name === umaVideo.name);
+            return umaGlobal && umaGlobal.active;
+        })
+        .forEach(uma => {
+            const umaSpeeds = averageSpeeds[uma_index[uma.name]];
+    
+            svg.selectAll(".point-" + uma.name)
+                .data(umaSpeeds)
+                .join(
+                    enter => enter.append("circle")
+                        .attr("class", "point-" + uma.name)
+                        .attr("cx", (d, i) => xScale(i))
+                        .attr("cy", d => yScale(d))
+                        .attr("r", 3) // 원의 반지름
+                        .attr("fill", colors[uma_index[uma.name]]),
+                    update => update
+                        .attr("cx", (d, i) => xScale(i))
+                        .attr("cy", d => yScale(d)),
+                    exit => exit.remove()
+                );
+        });
+    
+
+    const tickValues = averageSpeeds[0].map((_, i) => i);
+
+    // X축 추가
+    svg.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0,360)")
+        .call(d3.axisBottom(xScale)
+            .tickValues(d3.range(sectionNames.length))
+            .tickFormat((d, i) => sectionNames[i])
+        );
+
+    // Y축 추가
+    svg.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0,0)")
+        .call(d3.axisLeft(yScale));
 
 }

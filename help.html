@@ -29,6 +29,11 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
 
     <style>
+        :target {
+            padding-top: 60px;
+            margin-top: -60px;
+        }
+
         .table-of-contents {
             border: 1px solid #000;
             padding: 5px;
@@ -83,12 +88,13 @@
         <div class="table-of-contents">
             <h3>목차</h3>
             <ul>
+                <li><a href="#section0">0. 개요</a></li>
                 <li><a href="#section1">1. 경주 선택 메뉴</a></li>
-                <li><a href="#section2">2. 레이스 분석 그래프</a></li>
+                <li><a href="#section2">2. 레이스 정보</a></li>
                 <ul>
                     <li><a href="#section2-1">2-1. 메인 그래프</a></li>
                     <li><a href="#section2-2">2-2. 그래프 다루기</a></li>
-                    <li><a href="#section2-3">2-3. 출전 우마무스메 정보</a></li>
+                    <li><a href="#section2-3">2-3. 우마무스메 정보</a></li>
                 </ul>
                 <li><a href="#section3">3. 레이스 영상</a></li>
                 <ul>
@@ -96,32 +102,91 @@
                     <li><a href="#section3-2">3-2. 체력 그래프</a></li>
                     <li><a href="#section3-3">3-3. 레이스 코스</a></li>
                 </ul>
+                <li><a href="#section4">4. 레이스 분석</a></li>
             </ul>
         </div>
 
-        <h1 id="section1">1. 경주 선택 메뉴</h1>
-        <img src="image/help/race_select.png" alt="경주 선택 안내 이미지">
-        <ol class="instruction-list">
-            <li>
-                <span class="step-number">1.</span> <b>경주 일자 선택</b>을 클릭한 뒤, 경주가 이루어진 날짜를 선택합니다.
-            </li>
-            <li>
-                <span class="step-number">2.</span> 이후 <b>경주 종목 선택</b> 란이 활성화됩니다. 이를 클릭합니다.
-            </li>
-            <li>
-                <span class="step-number">3.</span> 분석을 원하는 경주 종목을 클릭해 선택합니다.
-            </li>
-        </ol>
+        <h1 id="section0">0. 개요</h1>
+        <div>
+            <p> 반갑습니다! <i>경주 결과 가시화 도구</i>에 오신 것을 환영합니다.</p>
+            <p> 본 웹사이트는 호르트 아카데미의 트레이너 및 우마무스메를 위한 데이터 분석을 지원하기 위해 개발되었습니다.</p>
+            <p> 이 페이지에서 설명하는 사항 외에도 추가로 궁금하거나 필요하신 사항이 있으시다면, 호르트 아카데미 22기생 <a href="mailto:hurr.al.riyah@gmail.com">후르 알-리야흐</a>를 통하실 경우 가장 빠르게 대응이 가능합니다.</p>
+        </div>
 
-        <h1 id="section2">레이스 분석 그래프</h1>
-        <h2 id="section2-1">메인 그래프</h2>
-        <h2 id="section2-2">그래프 다루기</h2>
-        <h2 id="section2-3">출전 우마무스메 정보</h2>
+        <h1 id="section1">1. 경주 선택 메뉴</h1>
+        <div>
+            <p> 홈 페이지에 접속하실 경우, 가장 먼저 두 개의 버튼이 여러분을 맞이합니다.</p>
+            <p> 이 버튼을 클릭하여 원하는 경기를 선택함으로써, 해당 경기에 대한 상세한 정보 조회와 분석이 가능합니다.</p>
+            <img src="image/help/race_select.png" alt="경주 선택 안내 이미지">
+            <ol class="instruction-list">
+                <li>
+                    <span class="step-number">1.</span> <b>경주 일자 선택</b>을 클릭한 뒤, 경주가 이루어진 날짜를 선택합니다.
+                </li>
+                <li>
+                    <span class="step-number">2.</span> 이후 <b>경주 종목 선택</b> 란이 활성화됩니다. 이를 클릭합니다.
+                </li>
+                <li>
+                    <span class="step-number">3.</span> 분석을 원하는 경주 종목을 클릭해 선택합니다.
+                </li>
+            </ol>
+        </div>
+
+        <h1 id="section2">2. 레이스 정보</h1>
+        <div>
+            <p> 보고 싶은 경기를 설정하게 되면, 먼저 아래와 같은 레이스 정보가 나타납니다.</p>
+            <p> 우리는 이 단락에서, 레이스 정보를 3개의 구역으로 나누어 살펴볼 것입니다: <b>메인 그래프</b>, <b>그래프 다루기</b>, <b>우마무스메 정보</b>.</p>
+            <img src="image/help/race_info.png" alt="레이스 정보 이미지">
+        </div>
+        <h2 id="section2-1">2-1. 메인 그래프</h2>
+        <div>
+            <p> 얼핏 보면 조금 복잡해 보이기도 하지만, 그래도 찬찬히 뜯어보도록 합시다.</p>
+            <p> 메인 그래프는 크게 세 개의 구역(1, 2~7, 8)으로 구분지을 수 있으며, 아래 그림에서 표기한 것과 같이 여덟 가지의 세부 항목이 있습니다.</p>
+            <img src="image/help/main_graph.png" alt="메인 그래프 이미지">
+            <ol class="instruction-list">
+                <li>
+                    <span class="step-number">1.</span> 해당 경기의 날씨 정보입니다. 날씨는 ☀️양호, 💧다습, 🌧️포화, ⚠️불량으로 나뉩니다.
+                </li>
+                <li>
+                    <span class="step-number">2.</span> 그래프에서 실선으로 그려진 부분은 <i>거리의 기준이 되는 우마무스메</i>로부터 해당 우마무스메까지의 거리를 나타냅니다. 정확한 수치는 좌측 y축(5번)을 따릅니다.
+                    <p><i>거리의 기준이 되는 우마무스메</i>는 자신과의 거리가 언제나 0이므로, x축과 평행한 일직선으로 나타나게 됩니다.</p>
+                    <p> 위에 나타난 그래프를 기준으로 설명을 진행하겠습니다. 현재 거리의 기준이 되는 우마무스메는 <span style="color:blue">이터니티 블랙홀</span>인 상태입니다.</p>
+                    <p> <span style="color:orange">주황색 실선</span>은 <span style="color:blue">이터니티 블랙홀</span>과 <span style="color:orange">페니 레인</span> 사이의 거리를 의미합니다.</p>
+                    <p> 예를 들어, 약 500턴 부근에서, <span style="color:orange">주황색 실선</span>이 <span style="color:blue">파란색 실선</span>보다 위에 있으므로, 해당 턴에 <span style="color:orange">페니 레인</span>이 <span style="color:blue">이터니티 블랙홀</span>보다 앞서고 있음을 의미합니다.</p>
+                    <p> 또한, <span style="color:orange">페니 레인</span>은 <span style="color:blue">이터니티 블랙홀</span>보다 약 60미터 정도 앞서고 있는 상황입니다.</p>
+                </li>
+                <li>
+                    <span class="step-number">3.</span> 그래프에서 점선으로 그려진 부분은 각 우마무스메의 해당 턴에서의 속도를 나타냅니다. 정확한 수치는 우측 y축(6번)을 따릅니다
+                    <p> 예를 들어, 위 그래프에서 <span style="color:blue">이터니티 블랙홀</span>의 최종 속도는 약 77km/h로 확인됩니다.</p>
+                </li>
+                <li>
+                    <span class="step-number">4.</span> 해당 경기에서 <i>거리의 기준이 되는 우마무스메</i>의 직선, 곡선 구간을 의미합니다. 짙게 칠해진 부분은 곡선 구간, 칠해지지 않은 부분은 직선 구간입니다.
+                    <p><i>거리의 기준이 되는 우마무스메</i>를 변경할 경우, 직선/곡선 구간도 해당 우마무스메의 기준으로 변경됩니다.</p>
+                </li>
+                <li>
+                    <span class="step-number">5.</span> 좌측에 위치한 y축은 <i>거리의 기준이 되는 우마무스메</i>와 다른 우마무스메 사이의 거리를 의미합니다. 단위는 m입니다.
+                </li>
+                <li>
+                    <span class="step-number">6.</span> 우측에 위치한 y축은 각 우마무스메의 속도를 의미합니다. 단위는 km/h입니다.
+                </li>
+                <li>
+                    <span class="step-number">7.</span> 하단에 위치한 x축은 턴(turn)을 의미합니다. 20턴이 1초에 해당합니다. <b style="color:red">거리를 의미하는 것이 아님에 유의해주세요.</b>
+                </li>
+                <li>
+                    <span class="step-number">8.</span> 그래프와 함께, 특정 턴에 대한 상세한 정보가 표로 제공됩니다. 그래프에 커서를 가져다 댐으로써 원하는 턴으로 설정이 가능합니다.
+                    <p> 우마무스메 이름의 색은 그래프에 나타난 선의 색과 동일합니다.</p>
+                    <p> <b>Name</b>은 우마무스메의 이름, <b>Speed</b>는 해당 턴에서의 우마무스메의 속도, 그리고 <b>Position</b>은 해당 턴에서의 우마무스메의 위치를 나타냅니다.</p>
+                </li>
+            </ol>
+        </div>
+        <h2 id="section2-2">2-2. 그래프 다루기</h2>
+        <h2 id="section2-3">우마무스메 정보</h2>
 
         <h1 id="section3">레이스 영상</h1>
         <h2 id="section3-1">레이스 영상</h2>
         <h2 id="section3-2">체력 그래프</h2>
         <h2 id="section3-3">레이스 코스</h2>
+
+        <h1 id="section4">레이스 분석</h1>
     </main>
 
     <script>
