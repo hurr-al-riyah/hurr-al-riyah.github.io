@@ -1,4 +1,4 @@
-// version: 1.10.3
+// version: 1.10.4
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 1007_실전레이스
@@ -305,6 +305,29 @@ function toggleData(name) {
     raceAnalysisTargetSpeedSection();
 }
 
+function drawStatBar(statColor, statValue, maxValue) {
+    const barWidth = (statValue / maxValue) * 100;
+
+    return `background: linear-gradient(to right, ${statColor} ${barWidth}%, transparent 0%);`;
+}
+
+function drawGradeStyle(grade) {
+    switch (grade) {
+        case "S":
+            return `background-color: #434343; color: #f6b26b`;
+        case "A":
+            return `color: #e06666`;
+        case "B":
+            return `color: #e69138`;
+        case "C":
+            return `color: #bf9000`;
+        case "D":
+            return `color: #274e13`;
+        default:
+            return `color: #000000`;
+    }
+}
+
 async function drawStat(data) {
     const umaStats = await loadUmaStats();
     const raceStats = umaStats[raceCategory];
@@ -313,17 +336,37 @@ async function drawStat(data) {
         <table border="1">
             <tr>
                 <th>우마무스메 이름</th>
-                <th>속도</th>
-                <th>스태</th>
-                <th>파워</th>
-                <th>근성</th>
-                <th>지능</th>
+                <th style="background-color: #3fbeef">속도</th>
+                <th style="background-color: #fd6e5d">스태</th>
+                <th style="background-color: #fdad0f">파워</th>
+                <th style="background-color: #fe85ad">근성</th>
+                <th style="background-color: #1dd19f">지능</th>
                 <th>각질</th>
-                <th>마장</th>
-                <th>거리</th>
-                <th>각질</th>
+                <th style="background-color: #d9d9d9">마장</th>
+                <th style="background-color: #d9d9d9">거리</th>
+                <th style="background-color: #d9d9d9">각질</th>
             </tr>
     `;
+
+    const uma_index = {};
+    data.forEach((uma, index) => {
+        uma_index[uma.name] = index;
+    });
+
+    // 각 stat별 max값 찾기
+    let maxSpeed = 1, maxStamina = 1, maxPower = 1, maxTough = 1, maxIntel = 1;
+
+    data.forEach(uma => {
+        const stats = raceStats[uma.name]?.stat;
+        if (stats) {
+            if (stats.speed > maxSpeed) maxSpeed = stats.speed;
+            if (stats.stamina > maxStamina) maxStamina = stats.stamina;
+            if (stats.power > maxPower) maxPower = stats.power;
+            if (stats.tough > maxTough) maxTough = stats.tough;
+            if (stats.intel > maxIntel) maxIntel = stats.intel;
+        }
+    })
+
 
     data.forEach(uma => {
         const umaName = uma.name;
@@ -333,18 +376,35 @@ async function drawStat(data) {
             let road = words[0];
             let length = words[1];
 
+            let backgroundColor = "#FFFFFF";
+            
+            switch (raceStats[umaName]["running_style"][raceDetail]) {
+                case "도주":
+                    backgroundColor = "#cfe2f3"
+                    break;
+                case "선행":
+                    backgroundColor = "#d9ead3"
+                    break;
+                case "선입":
+                    backgroundColor = "#fff2cc"
+                    break;
+                case "추입":
+                    backgroundColor = "#fce5cd"
+                    break;
+            }
+
             tableHtml += `
                 <tr>
-                    <td>${umaName}</td>
-                    <td>${stats.speed}</td>
-                    <td>${stats.stamina}</td>
-                    <td>${stats.power}</td>
-                    <td>${stats.tough}</td>
-                    <td>${stats.intel}</td>
-                    <td>${raceStats[umaName]["running_style"][raceDetail]}</td>
-                    <td>${raceStats[umaName]["grade"][road]}</td>
-                    <td>${raceStats[umaName]["grade"][length]}</td>
-                    <td>${raceStats[umaName]["grade"][raceStats[umaName]["running_style"][raceDetail]]}</td>
+                    <td style="color:${colors[uma_index[umaName]]}">${umaName}</td>
+                    <td style="${drawStatBar("#cfe2f3", stats.speed, maxSpeed)}">${stats.speed}</td>
+                    <td style="${drawStatBar("#f4cccc", stats.stamina, maxStamina)}">${stats.stamina}</td>
+                    <td style="${drawStatBar("#fce5cd", stats.power, maxPower)}">${stats.power}</td>
+                    <td style="${drawStatBar("#ead1dc", stats.tough, maxTough)}">${stats.tough}</td>
+                    <td style="${drawStatBar("#d9ead3", stats.intel, maxIntel)}">${stats.intel}</td>
+                    <td style="background-color:${backgroundColor}">${raceStats[umaName]["running_style"][raceDetail]}</td>
+                    <td style="${drawGradeStyle(raceStats[umaName]["grade"][road])}">${raceStats[umaName]["grade"][road]}</td>
+                    <td style="${drawGradeStyle(raceStats[umaName]["grade"][length])}">${raceStats[umaName]["grade"][length]}</td>
+                    <td style="${drawGradeStyle(raceStats[umaName]["grade"][raceStats[umaName]["running_style"][raceDetail]])}">${raceStats[umaName]["grade"][raceStats[umaName]["running_style"][raceDetail]]}</td>
                 </tr>
             `;
         }
