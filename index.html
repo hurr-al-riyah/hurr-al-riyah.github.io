@@ -92,8 +92,8 @@
         <button onclick="videoToFirst()">Move to Turn 0</button>
         <div id="current-turn">Turn: 0</div>
         <input type="range" min="0" max="1000" value="0" id="video-turn-slider" style="width: 800px;" />
-        <label for="video-speed-input">영상 재생 속도: 턴당 </label>
-        <input type="number" id="video-speed-input" value="50" min="1" max="200"> ms (default: 50)
+        <label for="video-speed-input">영상 재생 속도: 초당 </label>
+        <input type="number" id="video-speed-input" value="20" min="1" max="250"> 턴 (default: 20)
         <br />
         <!-- Stamina Graph and table -->
         <b>체력 그래프</b>
@@ -129,6 +129,6 @@
             });
     </script>
     
-    <script src="script.js?v=1.10.4"></script>
+    <script src="script.js?v=1.11.0"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-// version: 1.10.4
+// version: 1.11.0
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 1007_실전레이스
@@ -10,7 +10,7 @@ let raceCourse = [];    // ex) 100-200-300-400-200 -> [100, 300, 600, 1000, 1200
 const colors = [
     '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
     '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf',
-    '#9edae5', '#c5b0d5', '#dbdb8d', '#g6abae', '#c49c94',
+    '#9edae5', '#c5b0d5', '#dbdb8d', '#f5e8d2', '#000000',
 ];
 
 var categories = {};
@@ -623,7 +623,7 @@ let globalVideoData = [];
 let maxVideoTurn = 100000;
 let currentTurn = 0;
 let animationInterval = null;
-let videoSpeed = 50;
+let videoSpeed = 20;
 
 const videoSlider = document.getElementById("video-turn-slider");
 videoSlider.addEventListener('input', (e) => {
@@ -639,9 +639,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const videoSpeedInput = document.getElementById('video-speed-input');
 
     videoSpeedInput.addEventListener('input', (e) => {
-        const value = parseInt(e.target.value, 10);
+        const value = parseInt(1000 / parseInt(e.target.value, 10));
 
-        if (value >= 1 && value <= 200) {
+        if (value >= 1 && value <= 250) {
             videoSpeed = value;
             if (animationInterval != null) {
                 videoStop();
