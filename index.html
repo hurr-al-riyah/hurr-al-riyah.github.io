@@ -116,13 +116,13 @@
     </div>
 
     <script>
-        fetch('header.html')
+        fetch('header.html?v=1.11.0')
             .then(response => response.text())
             .then(data => {
                 document.body.insertAdjacentHTML('afterbegin', data);
             });
     
-        fetch('footer.html')
+        fetch('footer.html?v=1.11.0')
             .then(response => response.text())
             .then(data => {
                 document.body.insertAdjacentHTML('beforeend', data);
