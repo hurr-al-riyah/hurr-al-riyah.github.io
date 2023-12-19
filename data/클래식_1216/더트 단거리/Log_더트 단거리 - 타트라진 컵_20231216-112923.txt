@@ -1,0 +1,450 @@
+◎Turn 20
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 22.24 / defaultTarget(m/s) : 21.39 / spurtTarget(m/s) : 23.06 / currPosition : <12.59, 2.00> / Stamina : 99.54% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 22.23 / defaultTarget(m/s) : 21.38 / spurtTarget(m/s) : 23.02 / currPosition : <12.59, 3.00> / Stamina : 99.54% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        후르 알-리야흐 - targetSpeed(m/s) : 21.72 / defaultTarget(m/s) : 21.72 / spurtTarget(m/s) : 24.28 / currPosition : <12.54, 1.00> / Stamina : 99.28% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.80 / defaultTarget(m/s) : 20.80 / spurtTarget(m/s) : 22.48 / currPosition : <12.46, 4.00> / Stamina : 99.28% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :        홀리데이 미라클 - targetSpeed(m/s) : 20.06 / defaultTarget(m/s) : 20.06 / spurtTarget(m/s) : 21.59 / currPosition : <12.42, 6.20> / Stamina : 99.28% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 6 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.11 / defaultTarget(m/s) : 20.82 / spurtTarget(m/s) : 22.55 / currPosition : <12.41, 4.05> / Stamina : 99.28% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 7 :         위키드 웨스트 - targetSpeed(m/s) : 19.97 / defaultTarget(m/s) : 19.97 / spurtTarget(m/s) : 21.67 / currPosition : <12.27, 6.00> / Stamina : 99.34% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 19.90 / defaultTarget(m/s) : 19.90 / spurtTarget(m/s) : 21.46 / currPosition : <12.27, 8.00> / Stamina : 99.34% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+
+◎Turn 40
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 22.13 / defaultTarget(m/s) : 21.27 / spurtTarget(m/s) : 23.06 / currPosition : <34.91, 2.00> / Stamina : 98.19% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 22.18 / defaultTarget(m/s) : 21.33 / spurtTarget(m/s) : 23.02 / currPosition : <34.91, 3.00> / Stamina : 98.19% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        후르 알-리야흐 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 21.71 / spurtTarget(m/s) : 24.28 / currPosition : <34.24, 1.00> / Stamina : 97.27% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.62 / defaultTarget(m/s) : 20.87 / spurtTarget(m/s) : 22.55 / currPosition : <33.90, 3.05> / Stamina : 97.27% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.51 / defaultTarget(m/s) : 20.80 / spurtTarget(m/s) : 22.48 / currPosition : <33.86, 3.00> / Stamina : 97.30% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 6 :        홀리데이 미라클 - targetSpeed(m/s) : 20.05 / defaultTarget(m/s) : 20.05 / spurtTarget(m/s) : 21.59 / currPosition : <33.36, 6.20> / Stamina : 97.48% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 7 :         위키드 웨스트 - targetSpeed(m/s) : 20.46 / defaultTarget(m/s) : 19.98 / spurtTarget(m/s) : 21.67 / currPosition : <32.45, 5.10> / Stamina : 97.75% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 19.82 / defaultTarget(m/s) : 19.82 / spurtTarget(m/s) : 21.46 / currPosition : <32.16, 8.00> / Stamina : 97.84% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+
+◎Turn 60
+ 1 :         리코리스 블랙 - targetSpeed(m/s) : 22.17 / defaultTarget(m/s) : 21.31 / spurtTarget(m/s) : 23.02 / currPosition : <57.02, 3.00> / Stamina : 96.87% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.21 / defaultTarget(m/s) : 21.35 / spurtTarget(m/s) : 23.06 / currPosition : <57.01, 2.00> / Stamina : 96.88% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        후르 알-리야흐 - targetSpeed(m/s) : 22.61 / defaultTarget(m/s) : 21.74 / spurtTarget(m/s) : 24.28 / currPosition : <56.03, 1.00> / Stamina : 94.43% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 22.01 / defaultTarget(m/s) : 20.80 / spurtTarget(m/s) : 22.48 / currPosition : <55.16, 2.00> / Stamina : 95.36% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.80 / spurtTarget(m/s) : 22.55 / currPosition : <55.11, 2.05> / Stamina : 95.36% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 6 :        홀리데이 미라클 - targetSpeed(m/s) : 19.99 / defaultTarget(m/s) : 19.99 / spurtTarget(m/s) : 21.59 / currPosition : <53.37, 6.20> / Stamina : 95.94% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 7 :         위키드 웨스트 - targetSpeed(m/s) : 20.83 / defaultTarget(m/s) : 19.99 / spurtTarget(m/s) : 21.67 / currPosition : <52.69, 4.10> / Stamina : 96.15% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 19.94 / defaultTarget(m/s) : 19.94 / spurtTarget(m/s) : 21.46 / currPosition : <51.97, 8.00> / Stamina : 96.36% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+
+◎Turn 80
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 22.22 / defaultTarget(m/s) : 21.37 / spurtTarget(m/s) : 23.06 / currPosition : <79.13, 2.00> / Stamina : 95.56% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 22.18 / defaultTarget(m/s) : 21.33 / spurtTarget(m/s) : 23.02 / currPosition : <79.13, 3.00> / Stamina : 95.56% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        후르 알-리야흐 - targetSpeed(m/s) : 22.57 / defaultTarget(m/s) : 21.70 / spurtTarget(m/s) : 24.28 / currPosition : <78.06, 1.00> / Stamina : 91.04% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 22.73 / defaultTarget(m/s) : 20.93 / spurtTarget(m/s) : 22.48 / currPosition : <76.45, 1.00> / Stamina : 93.42% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.54 / defaultTarget(m/s) : 20.92 / spurtTarget(m/s) : 22.55 / currPosition : <76.30, 1.05> / Stamina : 93.45% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 6 :        홀리데이 미라클 - targetSpeed(m/s) : 19.96 / defaultTarget(m/s) : 19.96 / spurtTarget(m/s) : 21.59 / currPosition : <73.34, 6.20> / Stamina : 94.42% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 7 :         위키드 웨스트 - targetSpeed(m/s) : 21.52 / defaultTarget(m/s) : 19.97 / spurtTarget(m/s) : 21.67 / currPosition : <72.97, 3.10> / Stamina : 94.52% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 19.87 / defaultTarget(m/s) : 19.87 / spurtTarget(m/s) : 21.46 / currPosition : <71.77, 8.00> / Stamina : 94.88% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+
+◎Turn 100
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 22.15 / defaultTarget(m/s) : 21.30 / spurtTarget(m/s) : 23.06 / currPosition : <101.24, 2.00> / Stamina : 94.25% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 22.14 / defaultTarget(m/s) : 21.29 / spurtTarget(m/s) : 23.02 / currPosition : <101.22, 3.00> / Stamina : 94.25% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        후르 알-리야흐 - targetSpeed(m/s) : 22.66 / defaultTarget(m/s) : 21.79 / spurtTarget(m/s) : 24.28 / currPosition : <100.34, 1.00> / Stamina : 87.52% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 21.96 / defaultTarget(m/s) : 20.91 / spurtTarget(m/s) : 22.48 / currPosition : <97.73, 0.45> / Stamina : 91.84% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.88 / defaultTarget(m/s) : 20.84 / spurtTarget(m/s) : 22.55 / currPosition : <97.47, 0.50> / Stamina : 91.89% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 20.02 / defaultTarget(m/s) : 20.02 / spurtTarget(m/s) : 21.67 / currPosition : <93.34, 2.20> / Stamina : 92.88% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 21.19 / defaultTarget(m/s) : 19.99 / spurtTarget(m/s) : 21.59 / currPosition : <93.29, 6.10> / Stamina : 92.90% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 19.84 / defaultTarget(m/s) : 19.84 / spurtTarget(m/s) : 21.46 / currPosition : <91.57, 8.00> / Stamina : 93.40% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+
+◎Turn 120
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 22.14 / defaultTarget(m/s) : 21.29 / spurtTarget(m/s) : 23.06 / currPosition : <123.34, 2.00> / Stamina : 92.94% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 22.17 / defaultTarget(m/s) : 21.32 / spurtTarget(m/s) : 23.02 / currPosition : <123.33, 3.00> / Stamina : 92.94% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        후르 알-리야흐 - targetSpeed(m/s) : 22.56 / defaultTarget(m/s) : 21.69 / spurtTarget(m/s) : 24.28 / currPosition : <122.86, 1.00> / Stamina : 83.88% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 21.98 / defaultTarget(m/s) : 20.93 / spurtTarget(m/s) : 22.48 / currPosition : <119.11, 0.45> / Stamina : 90.66% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.84 / defaultTarget(m/s) : 20.80 / spurtTarget(m/s) : 22.55 / currPosition : <118.71, 0.50> / Stamina : 90.74% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 20.07 / defaultTarget(m/s) : 20.07 / spurtTarget(m/s) : 21.67 / currPosition : <113.36, 2.20> / Stamina : 91.34% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 20.28 / defaultTarget(m/s) : 20.08 / spurtTarget(m/s) : 21.59 / currPosition : <113.27, 5.10> / Stamina : 91.36% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 19.82 / defaultTarget(m/s) : 19.82 / spurtTarget(m/s) : 21.46 / currPosition : <111.37, 8.00> / Stamina : 91.92% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+
+◎Turn 140
+ 1 :          시나몬 룰렛 - targetSpeed(m/s) : 22.13 / defaultTarget(m/s) : 21.28 / spurtTarget(m/s) : 23.06 / currPosition : <145.47, 2.00> / Stamina : 89.65% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 22.12 / defaultTarget(m/s) : 21.26 / spurtTarget(m/s) : 23.02 / currPosition : <145.45, 3.00> / Stamina : 89.65% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 3 :        후르 알-리야흐 - targetSpeed(m/s) : 22.55 / defaultTarget(m/s) : 21.68 / spurtTarget(m/s) : 24.28 / currPosition : <145.42, 1.00> / Stamina : 80.21% / Phase : First / PositionKeep : SpeedUp / ForceInMove : non / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 21.96 / defaultTarget(m/s) : 20.92 / spurtTarget(m/s) : 22.48 / currPosition : <140.59, 0.45> / Stamina : 89.46% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.96 / defaultTarget(m/s) : 20.91 / spurtTarget(m/s) : 22.55 / currPosition : <140.07, 0.50> / Stamina : 89.57% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :        홀리데이 미라클 - targetSpeed(m/s) : 19.99 / defaultTarget(m/s) : 19.99 / spurtTarget(m/s) : 21.59 / currPosition : <133.33, 4.40> / Stamina : 89.81% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 7 :         위키드 웨스트 - targetSpeed(m/s) : 20.77 / defaultTarget(m/s) : 19.99 / spurtTarget(m/s) : 21.67 / currPosition : <133.30, 1.90> / Stamina : 89.82% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 19.94 / defaultTarget(m/s) : 19.94 / spurtTarget(m/s) : 21.46 / currPosition : <131.18, 8.00> / Stamina : 90.44% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+
+◎Turn 160
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 23.59 / defaultTarget(m/s) : 21.67 / spurtTarget(m/s) : 24.28 / currPosition : <167.98, 0.95> / Stamina : 76.54% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.27 / defaultTarget(m/s) : 20.93 / spurtTarget(m/s) : 23.06 / currPosition : <167.60, 1.95> / Stamina : 86.14% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 23.03 / defaultTarget(m/s) : 20.96 / spurtTarget(m/s) : 23.02 / currPosition : <167.56, 2.95> / Stamina : 86.16% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+ 4 :          래피드 스텝 - targetSpeed(m/s) : 20.82 / defaultTarget(m/s) : 20.82 / spurtTarget(m/s) : 22.48 / currPosition : <161.67, 0.45> / Stamina : 87.67% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 5 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.97 / defaultTarget(m/s) : 20.93 / spurtTarget(m/s) : 22.55 / currPosition : <161.52, 0.50> / Stamina : 88.38% / Phase : First / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 19.99 / defaultTarget(m/s) : 19.99 / spurtTarget(m/s) : 21.67 / currPosition : <153.32, 1.00> / Stamina : 88.28% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 20.68 / defaultTarget(m/s) : 20.02 / spurtTarget(m/s) : 21.59 / currPosition : <153.32, 4.30> / Stamina : 88.27% / Phase : First / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 19.91 / defaultTarget(m/s) : 19.91 / spurtTarget(m/s) : 21.46 / currPosition : <150.97, 8.00> / Stamina : 88.96% / Phase : First / PositionKeep : non / ForceInMove : non / isSpurt : False
+
+◎Turn 180
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.60 / defaultTarget(m/s) : 21.73 / spurtTarget(m/s) : 24.28 / currPosition : <190.51, 0.50> / Stamina : 74.27% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.28 / defaultTarget(m/s) : 20.91 / spurtTarget(m/s) : 23.02 / currPosition : <189.62, 1.95> / Stamina : 82.67% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 22.73 / defaultTarget(m/s) : 20.89 / spurtTarget(m/s) : 23.06 / currPosition : <189.50, 0.95> / Stamina : 82.73% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 22.55 / currPosition : <183.07, 0.50> / Stamina : 85.65% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.61 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 22.48 / currPosition : <182.51, 0.45> / Stamina : 85.07% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.30 / defaultTarget(m/s) : 21.23 / spurtTarget(m/s) : 21.67 / currPosition : <173.28, 0.50> / Stamina : 86.88% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.78 / defaultTarget(m/s) : 21.32 / spurtTarget(m/s) : 21.59 / currPosition : <173.26, 3.65> / Stamina : 86.75% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 21.62 / defaultTarget(m/s) : 21.27 / spurtTarget(m/s) : 21.46 / currPosition : <170.78, 7.80> / Stamina : 87.48% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 200
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.58 / defaultTarget(m/s) : 21.71 / spurtTarget(m/s) : 24.28 / currPosition : <213.01, 0.50> / Stamina : 72.91% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 23.13 / defaultTarget(m/s) : 20.86 / spurtTarget(m/s) : 23.02 / currPosition : <211.41, 0.95> / Stamina : 79.32% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.96 / defaultTarget(m/s) : 20.91 / spurtTarget(m/s) : 23.06 / currPosition : <211.23, 0.45> / Stamina : 80.96% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.85 / defaultTarget(m/s) : 20.81 / spurtTarget(m/s) : 22.55 / currPosition : <204.73, 0.50> / Stamina : 82.38% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.67 / defaultTarget(m/s) : 20.84 / spurtTarget(m/s) : 22.48 / currPosition : <203.45, 0.45> / Stamina : 82.15% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.34 / defaultTarget(m/s) : 21.28 / spurtTarget(m/s) : 21.67 / currPosition : <193.33, 0.50> / Stamina : 85.95% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 23.22 / defaultTarget(m/s) : 21.26 / spurtTarget(m/s) : 21.59 / currPosition : <193.26, 2.65> / Stamina : 85.21% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.81 / defaultTarget(m/s) : 21.36 / spurtTarget(m/s) : 21.46 / currPosition : <190.66, 6.80> / Stamina : 85.97% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 220
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.53 / defaultTarget(m/s) : 21.66 / spurtTarget(m/s) : 24.28 / currPosition : <235.51, 0.50> / Stamina : 71.55% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.86 / spurtTarget(m/s) : 23.06 / currPosition : <233.06, 0.45> / Stamina : 79.70% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.93 / spurtTarget(m/s) : 23.02 / currPosition : <233.03, 0.45> / Stamina : 76.07% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.83 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 22.55 / currPosition : <226.49, 0.50> / Stamina : 79.04% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 22.48 / currPosition : <224.49, 0.45> / Stamina : 79.18% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 21.34 / spurtTarget(m/s) : 21.67 / currPosition : <213.50, 0.50> / Stamina : 85.00% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 21.95 / defaultTarget(m/s) : 21.32 / spurtTarget(m/s) : 21.59 / currPosition : <213.36, 1.65> / Stamina : 83.64% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 23.44 / defaultTarget(m/s) : 21.34 / spurtTarget(m/s) : 21.46 / currPosition : <210.64, 5.80> / Stamina : 84.44% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 240
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.56 / defaultTarget(m/s) : 21.69 / spurtTarget(m/s) : 24.28 / currPosition : <258.02, 0.50> / Stamina : 70.18% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.97 / spurtTarget(m/s) : 23.06 / currPosition : <254.79, 0.45> / Stamina : 78.46% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.96 / spurtTarget(m/s) : 23.02 / currPosition : <254.70, 0.45> / Stamina : 72.81% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 22.55 / currPosition : <248.27, 0.50> / Stamina : 75.70% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.56 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 22.48 / currPosition : <245.64, 0.45> / Stamina : 76.16% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 21.34 / spurtTarget(m/s) : 21.67 / currPosition : <233.76, 0.50> / Stamina : 84.03% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.55 / defaultTarget(m/s) : 21.26 / spurtTarget(m/s) : 21.59 / currPosition : <233.56, 0.65> / Stamina : 82.05% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.92 / defaultTarget(m/s) : 21.30 / spurtTarget(m/s) : 21.46 / currPosition : <230.72, 4.80> / Stamina : 82.87% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 260
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.58 / defaultTarget(m/s) : 21.71 / spurtTarget(m/s) : 24.28 / currPosition : <280.53, 0.50> / Stamina : 68.82% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.89 / spurtTarget(m/s) : 23.06 / currPosition : <276.48, 0.45> / Stamina : 77.23% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.88 / spurtTarget(m/s) : 23.02 / currPosition : <276.38, 0.45> / Stamina : 69.53% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 22.55 / currPosition : <270.05, 0.50> / Stamina : 72.35% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.59 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 22.48 / currPosition : <266.89, 0.45> / Stamina : 73.09% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.13 / defaultTarget(m/s) : 21.28 / spurtTarget(m/s) : 21.67 / currPosition : <254.12, 0.50> / Stamina : 82.72% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.33 / defaultTarget(m/s) : 21.26 / spurtTarget(m/s) : 21.59 / currPosition : <253.89, 0.50> / Stamina : 80.97% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.94 / defaultTarget(m/s) : 21.28 / spurtTarget(m/s) : 21.46 / currPosition : <250.91, 3.80> / Stamina : 81.28% / Phase : Middle / PositionKeep : non / ForceInMove : InsideOvertaking / isSpurt : False
+
+◎Turn 280
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.52 / defaultTarget(m/s) : 21.65 / spurtTarget(m/s) : 24.28 / currPosition : <303.30, 0.50> / Stamina : 67.45% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.96 / spurtTarget(m/s) : 23.06 / currPosition : <298.16, 0.45> / Stamina : 76.01% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.86 / spurtTarget(m/s) : 23.02 / currPosition : <298.06, 0.45> / Stamina : 66.26% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.55 / currPosition : <291.84, 0.50> / Stamina : 69.00% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.58 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.48 / currPosition : <288.24, 0.45> / Stamina : 69.97% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.11 / defaultTarget(m/s) : 21.26 / spurtTarget(m/s) : 21.67 / currPosition : <274.59, 0.50> / Stamina : 80.06% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.34 / defaultTarget(m/s) : 21.28 / spurtTarget(m/s) : 21.59 / currPosition : <274.32, 0.50> / Stamina : 79.98% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 21.37 / spurtTarget(m/s) : 21.46 / currPosition : <271.20, 2.80> / Stamina : 78.68% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+
+◎Turn 300
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.52 / defaultTarget(m/s) : 21.66 / spurtTarget(m/s) : 24.28 / currPosition : <328.20, 0.50> / Stamina : 66.08% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.68 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 23.06 / currPosition : <321.94, 0.45> / Stamina : 74.78% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.91 / spurtTarget(m/s) : 23.02 / currPosition : <321.83, 0.45> / Stamina : 62.99% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 22.55 / currPosition : <315.01, 0.50> / Stamina : 67.23% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.78 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 22.48 / currPosition : <310.74, 0.45> / Stamina : 68.28% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.11 / defaultTarget(m/s) : 21.26 / spurtTarget(m/s) : 21.67 / currPosition : <295.16, 0.50> / Stamina : 77.34% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.32 / defaultTarget(m/s) : 21.26 / spurtTarget(m/s) : 21.59 / currPosition : <294.86, 0.50> / Stamina : 78.97% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.97 / defaultTarget(m/s) : 21.35 / spurtTarget(m/s) : 21.46 / currPosition : <291.59, 1.80> / Stamina : 76.04% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+
+◎Turn 320
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.56 / defaultTarget(m/s) : 21.69 / spurtTarget(m/s) : 24.28 / currPosition : <353.13, 0.50> / Stamina : 64.72% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.91 / spurtTarget(m/s) : 23.06 / currPosition : <345.96, 0.45> / Stamina : 73.55% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.88 / spurtTarget(m/s) : 23.02 / currPosition : <345.85, 0.45> / Stamina : 59.71% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 22.55 / currPosition : <339.14, 0.50> / Stamina : 65.97% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.48 / currPosition : <334.61, 0.45> / Stamina : 67.07% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.08 / defaultTarget(m/s) : 21.23 / spurtTarget(m/s) : 21.67 / currPosition : <317.50, 0.50> / Stamina : 74.58% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.42 / defaultTarget(m/s) : 21.35 / spurtTarget(m/s) : 21.59 / currPosition : <317.16, 0.50> / Stamina : 77.94% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 21.29 / spurtTarget(m/s) : 21.46 / currPosition : <313.24, 0.80> / Stamina : 73.35% / Phase : Middle / PositionKeep : non / ForceInMove : InsideMove / isSpurt : False
+
+◎Turn 340
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.57 / defaultTarget(m/s) : 21.71 / spurtTarget(m/s) : 24.28 / currPosition : <378.06, 0.50> / Stamina : 63.35% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.97 / spurtTarget(m/s) : 23.06 / currPosition : <369.97, 0.45> / Stamina : 72.32% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.87 / spurtTarget(m/s) : 23.02 / currPosition : <369.87, 0.45> / Stamina : 56.43% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.89 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 22.55 / currPosition : <363.28, 0.50> / Stamina : 64.71% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.89 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 22.48 / currPosition : <358.60, 0.45> / Stamina : 65.84% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.20 / defaultTarget(m/s) : 21.34 / spurtTarget(m/s) : 21.67 / currPosition : <340.50, 0.50> / Stamina : 71.76% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.36 / defaultTarget(m/s) : 21.30 / spurtTarget(m/s) : 21.59 / currPosition : <340.12, 0.50> / Stamina : 76.89% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.20 / defaultTarget(m/s) : 21.35 / spurtTarget(m/s) : 21.46 / currPosition : <336.06, 0.50> / Stamina : 70.61% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 360
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.57 / defaultTarget(m/s) : 21.70 / spurtTarget(m/s) : 24.28 / currPosition : <402.96, 0.50> / Stamina : 61.99% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.75 / defaultTarget(m/s) : 20.92 / spurtTarget(m/s) : 23.06 / currPosition : <393.96, 0.45> / Stamina : 71.09% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.76 / defaultTarget(m/s) : 20.92 / spurtTarget(m/s) : 23.02 / currPosition : <393.90, 0.45> / Stamina : 53.14% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.90 / defaultTarget(m/s) : 20.86 / spurtTarget(m/s) : 22.55 / currPosition : <387.41, 0.50> / Stamina : 63.45% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.91 / defaultTarget(m/s) : 20.87 / spurtTarget(m/s) : 22.48 / currPosition : <382.68, 0.45> / Stamina : 64.59% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.12 / defaultTarget(m/s) : 21.27 / spurtTarget(m/s) : 21.67 / currPosition : <363.62, 0.50> / Stamina : 68.90% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.29 / defaultTarget(m/s) : 21.23 / spurtTarget(m/s) : 21.59 / currPosition : <363.20, 0.50> / Stamina : 75.82% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.17 / defaultTarget(m/s) : 21.31 / spurtTarget(m/s) : 21.46 / currPosition : <359.00, 0.50> / Stamina : 67.82% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 380
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.61 / defaultTarget(m/s) : 21.74 / spurtTarget(m/s) : 24.28 / currPosition : <427.87, 0.50> / Stamina : 60.62% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.73 / defaultTarget(m/s) : 20.89 / spurtTarget(m/s) : 23.02 / currPosition : <417.98, 0.45> / Stamina : 51.70% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.89 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 23.06 / currPosition : <417.97, 0.45> / Stamina : 69.87% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.85 / defaultTarget(m/s) : 20.81 / spurtTarget(m/s) : 22.55 / currPosition : <411.51, 0.50> / Stamina : 62.20% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.91 / defaultTarget(m/s) : 20.86 / spurtTarget(m/s) : 22.48 / currPosition : <406.82, 0.45> / Stamina : 63.34% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.20 / defaultTarget(m/s) : 21.35 / spurtTarget(m/s) : 21.67 / currPosition : <386.84, 0.50> / Stamina : 65.99% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.29 / defaultTarget(m/s) : 21.23 / spurtTarget(m/s) : 21.59 / currPosition : <386.39, 0.50> / Stamina : 74.74% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.17 / defaultTarget(m/s) : 21.32 / spurtTarget(m/s) : 21.46 / currPosition : <382.06, 0.50> / Stamina : 64.98% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+
+◎Turn 400
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.50 / defaultTarget(m/s) : 21.64 / spurtTarget(m/s) : 24.28 / currPosition : <452.79, 0.50> / Stamina : 59.26% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.87 / spurtTarget(m/s) : 23.06 / currPosition : <442.02, 0.45> / Stamina : 68.63% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.93 / defaultTarget(m/s) : 20.89 / spurtTarget(m/s) : 23.02 / currPosition : <442.01, 0.45> / Stamina : 50.46% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 22.55 / currPosition : <435.62, 0.50> / Stamina : 60.95% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.82 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 22.48 / currPosition : <430.96, 0.45> / Stamina : 62.08% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.20 / defaultTarget(m/s) : 21.34 / spurtTarget(m/s) : 21.67 / currPosition : <410.19, 0.50> / Stamina : 63.03% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.39 / defaultTarget(m/s) : 21.32 / spurtTarget(m/s) : 21.59 / currPosition : <409.69, 0.50> / Stamina : 73.63% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 21.35 / spurtTarget(m/s) : 21.46 / currPosition : <405.23, 0.50> / Stamina : 63.90% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 420
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.58 / defaultTarget(m/s) : 21.71 / spurtTarget(m/s) : 24.28 / currPosition : <477.73, 0.50> / Stamina : 57.89% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.90 / spurtTarget(m/s) : 23.02 / currPosition : <466.07, 0.45> / Stamina : 49.23% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.90 / defaultTarget(m/s) : 20.86 / spurtTarget(m/s) : 23.06 / currPosition : <466.05, 0.45> / Stamina : 67.40% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 22.55 / currPosition : <459.73, 0.50> / Stamina : 59.69% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.83 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 22.48 / currPosition : <455.09, 0.45> / Stamina : 60.82% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.19 / defaultTarget(m/s) : 21.33 / spurtTarget(m/s) : 21.67 / currPosition : <433.64, 0.50> / Stamina : 60.02% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.37 / defaultTarget(m/s) : 21.30 / spurtTarget(m/s) : 21.59 / currPosition : <433.11, 0.50> / Stamina : 72.51% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 21.34 / spurtTarget(m/s) : 21.46 / currPosition : <428.52, 0.50> / Stamina : 62.79% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 440
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.55 / defaultTarget(m/s) : 21.69 / spurtTarget(m/s) : 24.28 / currPosition : <502.65, 0.50> / Stamina : 56.52% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.97 / defaultTarget(m/s) : 20.92 / spurtTarget(m/s) : 23.06 / currPosition : <490.09, 0.45> / Stamina : 66.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.78 / defaultTarget(m/s) : 20.94 / spurtTarget(m/s) : 23.02 / currPosition : <490.09, 0.45> / Stamina : 48.00% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.83 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 22.55 / currPosition : <483.85, 0.50> / Stamina : 58.44% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 22.48 / currPosition : <479.20, 0.45> / Stamina : 59.57% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.34 / defaultTarget(m/s) : 21.28 / spurtTarget(m/s) : 21.67 / currPosition : <457.21, 0.50> / Stamina : 57.34% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.36 / defaultTarget(m/s) : 21.30 / spurtTarget(m/s) : 21.59 / currPosition : <456.64, 0.50> / Stamina : 71.37% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.35 / defaultTarget(m/s) : 21.28 / spurtTarget(m/s) : 21.46 / currPosition : <451.92, 0.50> / Stamina : 61.67% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 460
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.57 / defaultTarget(m/s) : 21.70 / spurtTarget(m/s) : 24.28 / currPosition : <527.56, 0.50> / Stamina : 55.16% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.69 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 23.06 / currPosition : <514.11, 0.45> / Stamina : 64.94% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.01 / defaultTarget(m/s) : 20.96 / spurtTarget(m/s) : 23.02 / currPosition : <514.10, 0.45> / Stamina : 46.77% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.55 / currPosition : <507.95, 0.50> / Stamina : 57.19% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.84 / defaultTarget(m/s) : 20.80 / spurtTarget(m/s) : 22.48 / currPosition : <503.34, 0.45> / Stamina : 58.32% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.34 / defaultTarget(m/s) : 21.27 / spurtTarget(m/s) : 21.67 / currPosition : <480.90, 0.50> / Stamina : 56.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.29 / defaultTarget(m/s) : 21.23 / spurtTarget(m/s) : 21.59 / currPosition : <480.28, 0.50> / Stamina : 70.20% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.33 / defaultTarget(m/s) : 21.26 / spurtTarget(m/s) : 21.46 / currPosition : <475.43, 0.50> / Stamina : 60.53% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 480
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.52 / defaultTarget(m/s) : 21.65 / spurtTarget(m/s) : 24.28 / currPosition : <552.51, 0.50> / Stamina : 53.79% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 21.74 / defaultTarget(m/s) : 20.90 / spurtTarget(m/s) : 23.06 / currPosition : <538.14, 0.45> / Stamina : 63.71% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 21.98 / defaultTarget(m/s) : 20.94 / spurtTarget(m/s) : 23.02 / currPosition : <538.13, 0.45> / Stamina : 45.54% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 22.55 / currPosition : <532.07, 0.50> / Stamina : 55.93% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 22.48 / currPosition : <527.45, 0.45> / Stamina : 57.06% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.37 / defaultTarget(m/s) : 21.30 / spurtTarget(m/s) : 21.67 / currPosition : <504.70, 0.50> / Stamina : 54.98% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.32 / defaultTarget(m/s) : 21.26 / spurtTarget(m/s) : 21.59 / currPosition : <504.04, 0.50> / Stamina : 69.02% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 21.33 / spurtTarget(m/s) : 21.46 / currPosition : <499.06, 0.50> / Stamina : 59.37% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 500
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.50 / defaultTarget(m/s) : 21.64 / spurtTarget(m/s) : 24.28 / currPosition : <577.42, 0.50> / Stamina : 52.42% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.80 / defaultTarget(m/s) : 20.96 / spurtTarget(m/s) : 23.02 / currPosition : <562.19, 0.45> / Stamina : 44.30% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.93 / defaultTarget(m/s) : 20.89 / spurtTarget(m/s) : 23.06 / currPosition : <562.17, 0.45> / Stamina : 62.48% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.88 / defaultTarget(m/s) : 20.84 / spurtTarget(m/s) : 22.55 / currPosition : <556.16, 0.50> / Stamina : 54.68% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.81 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 22.48 / currPosition : <551.57, 0.45> / Stamina : 55.81% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.35 / defaultTarget(m/s) : 21.29 / spurtTarget(m/s) : 21.67 / currPosition : <528.61, 0.50> / Stamina : 53.78% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.28 / defaultTarget(m/s) : 21.22 / spurtTarget(m/s) : 21.59 / currPosition : <527.91, 0.50> / Stamina : 67.82% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.35 / defaultTarget(m/s) : 21.28 / spurtTarget(m/s) : 21.46 / currPosition : <522.80, 0.50> / Stamina : 58.20% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 520
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.50 / defaultTarget(m/s) : 21.64 / spurtTarget(m/s) : 24.28 / currPosition : <602.35, 0.50> / Stamina : 51.06% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.71 / defaultTarget(m/s) : 20.87 / spurtTarget(m/s) : 23.02 / currPosition : <586.24, 0.45> / Stamina : 43.07% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.92 / defaultTarget(m/s) : 20.88 / spurtTarget(m/s) : 23.06 / currPosition : <586.23, 0.45> / Stamina : 61.24% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.55 / currPosition : <580.28, 0.50> / Stamina : 53.43% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.86 / defaultTarget(m/s) : 20.82 / spurtTarget(m/s) : 22.48 / currPosition : <575.69, 0.45> / Stamina : 54.55% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.28 / defaultTarget(m/s) : 21.22 / spurtTarget(m/s) : 21.67 / currPosition : <552.63, 0.50> / Stamina : 52.55% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.42 / defaultTarget(m/s) : 21.35 / spurtTarget(m/s) : 21.59 / currPosition : <551.90, 0.50> / Stamina : 66.60% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 21.34 / spurtTarget(m/s) : 21.46 / currPosition : <546.66, 0.50> / Stamina : 57.00% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 540
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.57 / defaultTarget(m/s) : 21.70 / spurtTarget(m/s) : 24.28 / currPosition : <627.28, 0.50> / Stamina : 49.69% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.79 / defaultTarget(m/s) : 20.95 / spurtTarget(m/s) : 23.02 / currPosition : <610.28, 0.45> / Stamina : 41.83% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.96 / defaultTarget(m/s) : 20.91 / spurtTarget(m/s) : 23.06 / currPosition : <610.27, 0.45> / Stamina : 60.00% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.89 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 22.55 / currPosition : <604.41, 0.50> / Stamina : 52.17% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.83 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 22.48 / currPosition : <599.82, 0.45> / Stamina : 53.30% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 21.34 / spurtTarget(m/s) : 21.67 / currPosition : <576.77, 0.50> / Stamina : 51.30% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.39 / defaultTarget(m/s) : 21.32 / spurtTarget(m/s) : 21.59 / currPosition : <576.00, 0.50> / Stamina : 65.36% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.33 / defaultTarget(m/s) : 21.26 / spurtTarget(m/s) : 21.46 / currPosition : <570.63, 0.50> / Stamina : 55.78% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 560
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 22.57 / defaultTarget(m/s) : 21.70 / spurtTarget(m/s) : 24.28 / currPosition : <652.20, 0.50> / Stamina : 48.32% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.94 / spurtTarget(m/s) : 23.02 / currPosition : <634.35, 0.45> / Stamina : 40.59% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.94 / defaultTarget(m/s) : 20.90 / spurtTarget(m/s) : 23.06 / currPosition : <634.34, 0.45> / Stamina : 58.77% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.91 / defaultTarget(m/s) : 20.86 / spurtTarget(m/s) : 22.55 / currPosition : <628.52, 0.50> / Stamina : 50.91% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.77 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 22.48 / currPosition : <623.93, 0.45> / Stamina : 52.05% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.31 / defaultTarget(m/s) : 21.24 / spurtTarget(m/s) : 21.67 / currPosition : <601.03, 0.50> / Stamina : 50.03% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.35 / defaultTarget(m/s) : 21.29 / spurtTarget(m/s) : 21.59 / currPosition : <600.22, 0.50> / Stamina : 64.10% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.33 / defaultTarget(m/s) : 21.27 / spurtTarget(m/s) : 21.46 / currPosition : <594.71, 0.50> / Stamina : 54.54% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 580
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.32 / defaultTarget(m/s) : 21.74 / spurtTarget(m/s) : 24.32 / currPosition : <677.12, 0.50> / Stamina : 46.57% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :         리코리스 블랙 - targetSpeed(m/s) : 21.70 / defaultTarget(m/s) : 20.87 / spurtTarget(m/s) : 23.02 / currPosition : <658.37, 0.45> / Stamina : 39.36% / Phase : Middle / PositionKeep : paceUp / ForceInMove : non / isSpurt : False
+ 3 :          시나몬 룰렛 - targetSpeed(m/s) : 21.93 / defaultTarget(m/s) : 20.89 / spurtTarget(m/s) : 23.06 / currPosition : <658.36, 0.45> / Stamina : 57.54% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 21.85 / defaultTarget(m/s) : 20.81 / spurtTarget(m/s) : 22.55 / currPosition : <652.64, 0.50> / Stamina : 49.66% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 21.87 / defaultTarget(m/s) : 20.83 / spurtTarget(m/s) : 22.48 / currPosition : <648.06, 0.45> / Stamina : 50.79% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 21.34 / spurtTarget(m/s) : 21.67 / currPosition : <625.40, 0.50> / Stamina : 48.75% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 21.33 / spurtTarget(m/s) : 21.59 / currPosition : <624.55, 0.50> / Stamina : 62.82% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.35 / defaultTarget(m/s) : 21.28 / spurtTarget(m/s) : 21.46 / currPosition : <618.91, 0.50> / Stamina : 53.29% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 600
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.26 / defaultTarget(m/s) : 21.69 / spurtTarget(m/s) : 24.26 / currPosition : <702.13, 0.50> / Stamina : 44.19% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.11 / defaultTarget(m/s) : 20.48 / spurtTarget(m/s) : 22.11 / currPosition : <682.43, 0.45> / Stamina : 55.37% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.12 / defaultTarget(m/s) : 20.49 / spurtTarget(m/s) : 22.12 / currPosition : <682.42, 0.45> / Stamina : 37.20% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 22.49 / currPosition : <676.77, 0.50> / Stamina : 47.82% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 22.41 / currPosition : <672.18, 0.45> / Stamina : 49.18% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.35 / defaultTarget(m/s) : 21.28 / spurtTarget(m/s) : 21.67 / currPosition : <649.88, 0.50> / Stamina : 47.44% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.29 / defaultTarget(m/s) : 21.23 / spurtTarget(m/s) : 21.59 / currPosition : <648.99, 0.50> / Stamina : 61.52% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.46 / defaultTarget(m/s) : 21.39 / spurtTarget(m/s) : 21.46 / currPosition : <643.22, 0.50> / Stamina : 52.01% / Phase : Middle / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+
+◎Turn 620
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.27 / defaultTarget(m/s) : 21.70 / spurtTarget(m/s) : 24.27 / currPosition : <725.09, 0.50> / Stamina : 41.71% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.10 / defaultTarget(m/s) : 20.48 / spurtTarget(m/s) : 22.10 / currPosition : <706.01, 0.45> / Stamina : 52.66% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.18 / defaultTarget(m/s) : 20.55 / spurtTarget(m/s) : 22.18 / currPosition : <706.00, 0.45> / Stamina : 34.49% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 22.40 / currPosition : <700.99, 0.50> / Stamina : 45.08% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.86 / spurtTarget(m/s) : 22.51 / currPosition : <696.36, 0.45> / Stamina : 46.45% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.91 / defaultTarget(m/s) : 21.25 / spurtTarget(m/s) : 22.91 / currPosition : <674.47, 0.50> / Stamina : 45.65% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.87 / defaultTarget(m/s) : 21.20 / spurtTarget(m/s) : 22.87 / currPosition : <673.54, 0.50> / Stamina : 59.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.98 / defaultTarget(m/s) : 21.31 / spurtTarget(m/s) : 22.98 / currPosition : <667.64, 0.50> / Stamina : 50.63% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 640
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.24 / defaultTarget(m/s) : 21.67 / spurtTarget(m/s) : 24.24 / currPosition : <748.29, 0.50> / Stamina : 39.14% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.13 / defaultTarget(m/s) : 20.50 / spurtTarget(m/s) : 22.13 / currPosition : <727.93, 0.45> / Stamina : 49.91% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.16 / defaultTarget(m/s) : 20.54 / spurtTarget(m/s) : 22.16 / currPosition : <727.93, 0.45> / Stamina : 31.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.37 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 22.37 / currPosition : <722.96, 0.50> / Stamina : 42.29% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 22.41 / currPosition : <718.77, 0.45> / Stamina : 43.68% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.93 / defaultTarget(m/s) : 21.26 / spurtTarget(m/s) : 22.93 / currPosition : <699.18, 0.50> / Stamina : 42.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.81 / defaultTarget(m/s) : 21.15 / spurtTarget(m/s) : 22.81 / currPosition : <698.21, 0.50> / Stamina : 56.85% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 23.00 / defaultTarget(m/s) : 21.33 / spurtTarget(m/s) : 23.00 / currPosition : <692.18, 0.50> / Stamina : 47.79% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 660
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.20 / defaultTarget(m/s) : 21.64 / spurtTarget(m/s) : 24.20 / currPosition : <771.74, 0.50> / Stamina : 36.49% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.15 / defaultTarget(m/s) : 20.52 / spurtTarget(m/s) : 22.15 / currPosition : <749.96, 0.45> / Stamina : 47.12% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.15 / defaultTarget(m/s) : 20.52 / spurtTarget(m/s) : 22.15 / currPosition : <749.96, 0.45> / Stamina : 28.95% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 22.49 / currPosition : <745.04, 0.50> / Stamina : 39.46% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.51 / defaultTarget(m/s) : 20.87 / spurtTarget(m/s) : 22.51 / currPosition : <740.81, 0.45> / Stamina : 40.87% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.82 / defaultTarget(m/s) : 21.16 / spurtTarget(m/s) : 22.82 / currPosition : <721.72, 0.50> / Stamina : 39.79% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.84 / defaultTarget(m/s) : 21.18 / spurtTarget(m/s) : 22.84 / currPosition : <720.84, 0.50> / Stamina : 53.91% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.94 / defaultTarget(m/s) : 21.28 / spurtTarget(m/s) : 22.94 / currPosition : <715.28, 0.50> / Stamina : 44.91% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 680
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.32 / defaultTarget(m/s) : 21.75 / spurtTarget(m/s) : 24.32 / currPosition : <795.44, 0.50> / Stamina : 33.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.17 / defaultTarget(m/s) : 20.54 / spurtTarget(m/s) : 22.17 / currPosition : <772.07, 0.45> / Stamina : 44.29% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.23 / defaultTarget(m/s) : 20.60 / spurtTarget(m/s) : 22.23 / currPosition : <772.05, 0.45> / Stamina : 26.13% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.44 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 22.44 / currPosition : <767.23, 0.50> / Stamina : 36.59% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.42 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 22.42 / currPosition : <762.96, 0.45> / Stamina : 38.01% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.80 / defaultTarget(m/s) : 21.14 / spurtTarget(m/s) : 22.80 / currPosition : <744.25, 0.50> / Stamina : 36.79% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.82 / defaultTarget(m/s) : 21.16 / spurtTarget(m/s) : 22.82 / currPosition : <743.33, 0.50> / Stamina : 50.93% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.93 / defaultTarget(m/s) : 21.26 / spurtTarget(m/s) : 22.93 / currPosition : <737.65, 0.50> / Stamina : 41.98% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 700
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.22 / defaultTarget(m/s) : 21.65 / spurtTarget(m/s) : 24.22 / currPosition : <819.39, 0.50> / Stamina : 30.89% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.11 / defaultTarget(m/s) : 20.49 / spurtTarget(m/s) : 22.11 / currPosition : <794.15, 0.45> / Stamina : 41.48% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.18 / defaultTarget(m/s) : 20.55 / spurtTarget(m/s) : 22.18 / currPosition : <794.14, 0.45> / Stamina : 23.31% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.46 / defaultTarget(m/s) : 20.82 / spurtTarget(m/s) : 22.46 / currPosition : <789.51, 0.50> / Stamina : 33.67% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.43 / defaultTarget(m/s) : 20.79 / spurtTarget(m/s) : 22.43 / currPosition : <785.20, 0.45> / Stamina : 35.11% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.84 / defaultTarget(m/s) : 21.17 / spurtTarget(m/s) : 22.84 / currPosition : <766.88, 0.50> / Stamina : 33.75% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.87 / defaultTarget(m/s) : 21.21 / spurtTarget(m/s) : 22.87 / currPosition : <765.93, 0.50> / Stamina : 47.90% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 23.06 / defaultTarget(m/s) : 21.39 / spurtTarget(m/s) : 23.06 / currPosition : <760.13, 0.50> / Stamina : 39.00% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 720
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.21 / defaultTarget(m/s) : 21.64 / spurtTarget(m/s) : 24.21 / currPosition : <843.58, 0.50> / Stamina : 27.96% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.12 / defaultTarget(m/s) : 20.49 / spurtTarget(m/s) : 22.12 / currPosition : <816.24, 0.45> / Stamina : 38.66% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.19 / defaultTarget(m/s) : 20.56 / spurtTarget(m/s) : 22.19 / currPosition : <816.23, 0.45> / Stamina : 20.49% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.39 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.39 / currPosition : <811.89, 0.50> / Stamina : 30.71% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 22.49 / currPosition : <807.55, 0.45> / Stamina : 32.16% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.88 / defaultTarget(m/s) : 21.22 / spurtTarget(m/s) : 22.88 / currPosition : <789.61, 0.50> / Stamina : 30.66% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.81 / defaultTarget(m/s) : 21.15 / spurtTarget(m/s) : 22.81 / currPosition : <788.62, 0.50> / Stamina : 44.83% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.95 / defaultTarget(m/s) : 21.28 / spurtTarget(m/s) : 22.95 / currPosition : <782.70, 0.50> / Stamina : 35.98% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 740
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.19 / defaultTarget(m/s) : 21.62 / spurtTarget(m/s) : 24.19 / currPosition : <867.81, 0.50> / Stamina : 25.01% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.18 / defaultTarget(m/s) : 20.55 / spurtTarget(m/s) : 22.18 / currPosition : <838.34, 0.45> / Stamina : 35.83% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.13 / defaultTarget(m/s) : 20.50 / spurtTarget(m/s) : 22.13 / currPosition : <838.30, 0.45> / Stamina : 17.68% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.82 / spurtTarget(m/s) : 22.47 / currPosition : <834.28, 0.50> / Stamina : 27.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 22.40 / currPosition : <829.92, 0.45> / Stamina : 29.20% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.83 / defaultTarget(m/s) : 21.17 / spurtTarget(m/s) : 22.83 / currPosition : <812.41, 0.50> / Stamina : 27.54% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.89 / defaultTarget(m/s) : 21.23 / spurtTarget(m/s) : 22.89 / currPosition : <811.40, 0.50> / Stamina : 41.72% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 23.06 / defaultTarget(m/s) : 21.39 / spurtTarget(m/s) : 23.06 / currPosition : <805.38, 0.50> / Stamina : 32.91% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 760
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.31 / defaultTarget(m/s) : 21.74 / spurtTarget(m/s) : 24.31 / currPosition : <892.04, 0.50> / Stamina : 22.06% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.21 / defaultTarget(m/s) : 20.57 / spurtTarget(m/s) : 22.21 / currPosition : <860.43, 0.45> / Stamina : 33.01% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.23 / defaultTarget(m/s) : 20.59 / spurtTarget(m/s) : 22.23 / currPosition : <860.40, 0.45> / Stamina : 14.86% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.39 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.39 / currPosition : <856.65, 0.50> / Stamina : 24.78% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.85 / spurtTarget(m/s) : 22.49 / currPosition : <852.29, 0.45> / Stamina : 26.25% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.84 / defaultTarget(m/s) : 21.18 / spurtTarget(m/s) : 22.84 / currPosition : <835.21, 0.50> / Stamina : 24.42% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.88 / defaultTarget(m/s) : 21.21 / spurtTarget(m/s) : 22.88 / currPosition : <834.20, 0.50> / Stamina : 38.60% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.98 / defaultTarget(m/s) : 21.31 / spurtTarget(m/s) : 22.98 / currPosition : <828.17, 0.50> / Stamina : 29.80% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 780
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.27 / defaultTarget(m/s) : 21.70 / spurtTarget(m/s) : 24.27 / currPosition : <916.26, 0.50> / Stamina : 19.11% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.17 / defaultTarget(m/s) : 20.54 / spurtTarget(m/s) : 22.17 / currPosition : <882.53, 0.45> / Stamina : 30.19% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.12 / defaultTarget(m/s) : 20.49 / spurtTarget(m/s) : 22.12 / currPosition : <882.50, 0.45> / Stamina : 12.03% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.45 / defaultTarget(m/s) : 20.81 / spurtTarget(m/s) : 22.45 / currPosition : <879.04, 0.50> / Stamina : 21.82% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.50 / defaultTarget(m/s) : 20.86 / spurtTarget(m/s) : 22.50 / currPosition : <874.66, 0.45> / Stamina : 23.29% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.80 / defaultTarget(m/s) : 21.15 / spurtTarget(m/s) : 22.80 / currPosition : <857.99, 0.50> / Stamina : 21.31% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.87 / defaultTarget(m/s) : 21.20 / spurtTarget(m/s) : 22.87 / currPosition : <857.00, 0.50> / Stamina : 35.48% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 23.05 / defaultTarget(m/s) : 21.38 / spurtTarget(m/s) : 23.05 / currPosition : <851.05, 0.50> / Stamina : 26.64% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 800
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.29 / defaultTarget(m/s) : 21.72 / spurtTarget(m/s) : 24.29 / currPosition : <940.45, 0.50> / Stamina : 16.18% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.22 / defaultTarget(m/s) : 20.59 / spurtTarget(m/s) : 22.22 / currPosition : <904.62, 0.45> / Stamina : 27.37% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.23 / defaultTarget(m/s) : 20.59 / spurtTarget(m/s) : 22.23 / currPosition : <904.57, 0.45> / Stamina : 9.22% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.39 / defaultTarget(m/s) : 20.75 / spurtTarget(m/s) : 22.39 / currPosition : <901.43, 0.50> / Stamina : 18.85% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.48 / defaultTarget(m/s) : 20.83 / spurtTarget(m/s) : 22.48 / currPosition : <897.03, 0.45> / Stamina : 20.33% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.81 / defaultTarget(m/s) : 21.15 / spurtTarget(m/s) : 22.81 / currPosition : <880.78, 0.50> / Stamina : 18.19% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.82 / defaultTarget(m/s) : 21.16 / spurtTarget(m/s) : 22.82 / currPosition : <879.80, 0.50> / Stamina : 32.36% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 23.03 / defaultTarget(m/s) : 21.36 / spurtTarget(m/s) : 23.03 / currPosition : <873.98, 0.50> / Stamina : 23.46% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 820
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.25 / defaultTarget(m/s) : 21.68 / spurtTarget(m/s) : 24.25 / currPosition : <964.64, 0.50> / Stamina : 13.24% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.19 / defaultTarget(m/s) : 20.56 / spurtTarget(m/s) : 22.19 / currPosition : <926.70, 0.45> / Stamina : 24.55% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.11 / defaultTarget(m/s) : 20.49 / spurtTarget(m/s) : 22.11 / currPosition : <926.67, 0.45> / Stamina : 6.40% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.42 / defaultTarget(m/s) : 20.78 / spurtTarget(m/s) : 22.42 / currPosition : <923.79, 0.50> / Stamina : 15.90% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.37 / defaultTarget(m/s) : 20.73 / spurtTarget(m/s) : 22.37 / currPosition : <919.41, 0.45> / Stamina : 17.37% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.86 / defaultTarget(m/s) : 21.20 / spurtTarget(m/s) : 22.86 / currPosition : <903.57, 0.50> / Stamina : 15.08% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.79 / defaultTarget(m/s) : 21.13 / spurtTarget(m/s) : 22.79 / currPosition : <902.62, 0.50> / Stamina : 29.23% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 23.02 / defaultTarget(m/s) : 21.35 / spurtTarget(m/s) : 23.02 / currPosition : <896.90, 0.50> / Stamina : 20.28% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 840
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.24 / defaultTarget(m/s) : 21.67 / spurtTarget(m/s) : 24.24 / currPosition : <988.86, 0.50> / Stamina : 10.30% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.13 / defaultTarget(m/s) : 20.51 / spurtTarget(m/s) : 22.13 / currPosition : <948.79, 0.45> / Stamina : 21.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.18 / defaultTarget(m/s) : 20.55 / spurtTarget(m/s) : 22.18 / currPosition : <948.74, 0.45> / Stamina : 3.59% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 22.40 / currPosition : <946.15, 0.50> / Stamina : 12.95% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 22.40 / currPosition : <941.77, 0.45> / Stamina : 14.42% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.93 / defaultTarget(m/s) : 21.26 / spurtTarget(m/s) : 22.93 / currPosition : <926.37, 0.50> / Stamina : 11.96% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.83 / defaultTarget(m/s) : 21.17 / spurtTarget(m/s) : 22.83 / currPosition : <925.41, 0.50> / Stamina : 26.12% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.93 / defaultTarget(m/s) : 21.27 / spurtTarget(m/s) : 22.93 / currPosition : <919.83, 0.50> / Stamina : 17.10% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 860
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.32 / defaultTarget(m/s) : 21.75 / spurtTarget(m/s) : 24.32 / currPosition : <1000.98, 0.50> / Stamina : 8.82% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.14 / defaultTarget(m/s) : 20.52 / spurtTarget(m/s) : 22.14 / currPosition : <970.88, 0.45> / Stamina : 18.91% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 22.16 / defaultTarget(m/s) : 20.54 / spurtTarget(m/s) : 22.16 / currPosition : <970.81, 0.45> / Stamina : 0.77% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.49 / defaultTarget(m/s) : 20.84 / spurtTarget(m/s) : 22.49 / currPosition : <968.52, 0.50> / Stamina : 9.99% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.83 / spurtTarget(m/s) : 22.47 / currPosition : <964.13, 0.45> / Stamina : 11.46% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.93 / defaultTarget(m/s) : 21.27 / spurtTarget(m/s) : 22.93 / currPosition : <949.19, 0.50> / Stamina : 8.83% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.80 / defaultTarget(m/s) : 21.14 / spurtTarget(m/s) : 22.80 / currPosition : <948.20, 0.50> / Stamina : 23.00% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.97 / defaultTarget(m/s) : 21.31 / spurtTarget(m/s) : 22.97 / currPosition : <942.76, 0.50> / Stamina : 13.92% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 880
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.32 / defaultTarget(m/s) : 21.75 / spurtTarget(m/s) : 24.32 / currPosition : <1000.98, 0.50> / Stamina : 8.82% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.15 / defaultTarget(m/s) : 20.52 / spurtTarget(m/s) : 22.15 / currPosition : <992.98, 0.45> / Stamina : 16.09% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 17.95 / defaultTarget(m/s) : 20.54 / spurtTarget(m/s) : 22.19 / currPosition : <992.58, 0.45> / Stamina : -0.07% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.41 / defaultTarget(m/s) : 20.77 / spurtTarget(m/s) : 22.41 / currPosition : <990.88, 0.50> / Stamina : 7.04% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.47 / defaultTarget(m/s) : 20.83 / spurtTarget(m/s) : 22.47 / currPosition : <986.50, 0.45> / Stamina : 8.51% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.87 / defaultTarget(m/s) : 21.21 / spurtTarget(m/s) : 22.87 / currPosition : <971.98, 0.50> / Stamina : 5.71% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.92 / defaultTarget(m/s) : 21.26 / spurtTarget(m/s) : 22.92 / currPosition : <970.99, 0.50> / Stamina : 19.88% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 23.04 / defaultTarget(m/s) : 21.37 / spurtTarget(m/s) : 23.04 / currPosition : <965.69, 0.50> / Stamina : 10.74% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+
+◎Turn 900
+ 1 :        후르 알-리야흐 - targetSpeed(m/s) : 24.32 / defaultTarget(m/s) : 21.75 / spurtTarget(m/s) : 24.32 / currPosition : <1000.98, 0.50> / Stamina : 8.82% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 2 :          시나몬 룰렛 - targetSpeed(m/s) : 22.10 / defaultTarget(m/s) : 20.48 / spurtTarget(m/s) : 22.10 / currPosition : <1000.72, 0.45> / Stamina : 15.10% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 3 :         리코리스 블랙 - targetSpeed(m/s) : 17.95 / defaultTarget(m/s) : 20.49 / spurtTarget(m/s) : 22.19 / currPosition : <1000.97, 0.45> / Stamina : -0.07% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : False
+ 4 :        넘버 리프라이즈 - targetSpeed(m/s) : 22.38 / defaultTarget(m/s) : 20.74 / spurtTarget(m/s) : 22.38 / currPosition : <1000.95, 0.50> / Stamina : 5.70% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 5 :          래피드 스텝 - targetSpeed(m/s) : 22.40 / defaultTarget(m/s) : 20.76 / spurtTarget(m/s) : 22.40 / currPosition : <1001.04, 0.45> / Stamina : 6.58% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 6 :         위키드 웨스트 - targetSpeed(m/s) : 22.80 / defaultTarget(m/s) : 21.14 / spurtTarget(m/s) : 22.80 / currPosition : <994.76, 0.50> / Stamina : 2.60% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 7 :        홀리데이 미라클 - targetSpeed(m/s) : 22.87 / defaultTarget(m/s) : 21.21 / spurtTarget(m/s) : 22.87 / currPosition : <993.79, 0.50> / Stamina : 16.76% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+ 8 :          화이트 불렛 - targetSpeed(m/s) : 22.98 / defaultTarget(m/s) : 21.31 / spurtTarget(m/s) : 22.98 / currPosition : <988.61, 0.50> / Stamina : 7.57% / Phase : Last / PositionKeep : Overtaking / ForceInMove : non / isSpurt : True
+

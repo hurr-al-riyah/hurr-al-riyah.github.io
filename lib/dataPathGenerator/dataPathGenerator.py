@@ -15,7 +15,7 @@ def generate_json_structure(base_directory):
     
     return json_structure
 
-base_directory = 'hurr-al-riyah.github.io/data/클래식_1209'
+base_directory = 'hurr-al-riyah.github.io/data/클래식_1216'
 
 json_data = generate_json_structure(base_directory)
 

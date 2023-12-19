@@ -1,4 +1,4 @@
-// version: 1.11.0
+// version: 1.11.1
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 1007_실전레이스

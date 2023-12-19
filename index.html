@@ -80,7 +80,7 @@
 
     <br />
 
-    <div id="uma-stats" style="max-width: 600px;"></div>
+    <div id="uma-stats" style="width: 600px;"></div>
 
     <div id="race-video" style="display: none;">
         <h1>레이스 영상</h1>
@@ -116,19 +116,19 @@
     </div>
 
     <script>
-        fetch('header.html?v=1.11.0')
+        fetch('header.html?v=1.11.1')
             .then(response => response.text())
             .then(data => {
                 document.body.insertAdjacentHTML('afterbegin', data);
             });
     
-        fetch('footer.html?v=1.11.0')
+        fetch('footer.html?v=1.11.1')
             .then(response => response.text())
             .then(data => {
                 document.body.insertAdjacentHTML('beforeend', data);
             });
     </script>
     
-    <script src="script.js?v=1.11.0"></script>
+    <script src="script.js?v=1.11.1"></script>
 </body>
 </html>

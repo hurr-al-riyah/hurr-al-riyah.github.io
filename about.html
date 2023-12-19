@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umamusume race result</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="image/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="image/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="image/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="image/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="image/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="image/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="image/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="image/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="image/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="image/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon/favicon-16x16.png">
+    
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="image/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="styles.css?v=1.6">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <style>
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .tab button {
+            background-color: inherit;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+            flex: 1;
+            text-align: center;
+        }
+
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .intro-upper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+        #intro-message, #intro-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+
+        #intro-image img {
+            max-width: 100%;
+            max-height: 500px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'intro')" id="default-open">인사말</button>
+            <button class="tablinks" onclick="openTab(event, 'development')">개발진</button>
+            <button class="tablinks" onclick="openTab(event, 'vision')">비전과 가치</button>
+        </div>
+
+        <div id="intro" class="tab-content" style="word-break: keep-all; word-wrap: break-word">
+            <div class="intro-upper">
+                <div id="intro-message" style="font-size: 24px;">
+                    <p> 모두에게 자유롭게 제공되는</p>
+                    <p> 객관적이고 정확한 레이스 분석 서비스를 통해</p>
+                    <p> 우마무스메 성적 향상에 기여하겠습니다.</p>
+                </div>
+                <div id="intro-image">
+                    <img src="image/samaa.png" alt="사마아 알-리야흐">
+                </div>
+            </div>
+            <div id="intro-description">
+                <p> <b>경주 결과 가시화 도구</b>를 이용해 주셔서 감사합니다.</p>
+                <p> 리야흐 오일 인더스트리에서는 최첨단 기술을 활용하여 레이스 데이터를 분석하고,</p>
+                <p> 사용자에게 직관적이고 상세한 정보를 제공하기 위해 최선을 다하고 있습니다.</p>
+                <p> 정밀하게 분석된 각 순간을 통해, 참가자들의 성과와 경주의 역동성을 보여주고자 합니다.</p>
+                <p> 이 도구를 통해 레이스의 재미와 흥미가 더욱 깊이 있게 전달되기를 바랍니다.</p>
+            </div>
+            <div id="signature" style="font-size:24px; text-align: right;">
+                <p>
+                    <span style="display: inline-block; white-space: nowrap;"><img src="image/riyah_logo.png" alt="리야흐 오일 인더스트리 로고" style="vertical-align: text-top; height: 32px;"> 리야흐 오일 인더스트리</span>
+                    <span style="display: inline-block; white-space: nowrap;">사내이사</span>
+                    <span style="display: inline-block; white-space: nowrap;"><b>사마아 알-리야흐</b></span>
+                </p>
+            </div>
+        </div>
+        <div id="development" class="tab-content" style="word-break: keep-all; word-wrap: break-word">
+            <p> <b>총괄 책임</b>: 리야흐 오일 인더스트리 사내이사, <i>사마아 알-리야흐</i></p>
+            <p> <b>기능 제안</b>: 호르트 아카데미 22기 모노크롬 파이썬, <i>트레이너 및 우마무스메 일동</i></p>
+            <p> <b>자료 제공</b>: 호르트 아카데미</p>
+            <p> <b>구현</b>: 리야흐 오일 인더스트리 우마무스메 응원 동호회, <i>[바람의 자유]</i></p>
+                <ul>
+                    <li>재무부 구매회계팀, <i>기간틱 트리케라</i></li>
+                    <li>인사부 미래인재팀, <i>그레이 포큐파인</i></li>
+                    <li>연구개발부 빅데이터팀, <i>달구벌 으랏차</i></li>
+                    <li>마케팅부 고객만족팀, <i>어나니머스 이모션</i></li>
+                    <li>생산유지보수부 오염방지전략팀, <i>아메드 알-바쉬르</i></li>
+                </ul>
+            <p> <b>자문</b>: 우마무스메 전문 분석가, <i>피카피카 포에버</i>, <i>피카피카 스텔라</i></p>
+            <p> <b>후원</b>: 리야흐 오일 인더스트리</p>
+        </div>
+        
+        <div id="vision" class="tab-content" style="word-break: keep-all; word-wrap: break-word">
+            <h1><b>지속 가능한 미래를 향한 여정</b></h1>
+            <h2>혁신과 성장의 이정표</h2>
+            <p> 리야흐 오일 인더스트리는 단순한 석유 채굴 기업을 넘어, 지속 가능한 에너지 솔루션의 글로벌 선구자가 되기 위한 여정을 나아가고 있습니다.</p>
+            <p> 우리는 석유 의존도를 줄이고, 재생 가능한 에너지원을 통합하는 방향으로 사업 모델을 전환하고 있습니다.</p>
+            <p> 현재 리야흐 오일 인더스트리에서는 모든 시추기에 EOR 기술을 적용하여 탄소를 포집 및 저장하며, 이를 통해 넷제로 원유를 생산하고 있습니다.</p>
+            <p> 또한, 아라비아 사막의 태양광 및 태양열 전지판 설치 사업에도 참여하여 연구 및 개발을 지원하고 있습니다.</p>
+            <p> 이러한 전환은 전통적인 석유 기반 에너지 산업의 한계를 넘어설 뿐만 아니라, 전 세계적인 환경 보호와 지속 가능한 발전에 기여하는 우리의 약속입니다.</p>
+
+            <h2>직원 중심의 기업 문화</h2>
+            <p> 리야흐 오일 인더스트리의 가장 큰 자산은 <b>사람</b>입니다.</p>
+            <p> 우리는 직원이 행복하고 만족할 때 가장 효과적인 업무 성과가 나올 수 있다고 믿습니다.</p>
+            <p> 이를 위해, 우리는 직원들의 삶의 질과 만족도를 높이기 위한 다양한 프로그램들을 운영하고 있습니다.</p>
+            <p> 이에는 높은 급여와 유연한 근무 시간, 자유로운 동호회 활동과 지원, 그리고 직원들의 가족을 위한 이벤트와 다양한 혜택이 포함됩니다.</p>
+            <p> 또한, 직원들의 창의적인 아이디어와 의견을 언제나 존중하며, 이를 회사의 전략적 방향 설정에 적극적으로 반영합니다.</p>
+            <p> 우리는 직원들이 자신의 역량을 최대한 발휘할 수 있도록 지원하며, 이를 통해 회사 전체의 성장과 혁신을 촉진합니다.</p>
+
+            <h2>사회적 책임과 지역사회 기여</h2>
+            <p> 리야흐 오일 인더스트리는 사회적 책임을 중요하게 여깁니다.</p>
+            <p> 우리는 전 세계적인 환경 보호와 지속 가능한 발전을 위해 노력하고 있으며, 이를 위해 국제적인 환경 보호 프로젝트와 에너지 연구에 투자하고 있습니다.</p>
+            <p> 우리의 목표는 단순히 이윤 창출을 넘어, 지구 환경을 보호하고 미래 세대를 위한 지속 가능한 세계를 만드는 데 기여하는 것입니다.</p>
+            <p> 또한, 리야흐 오일 인더스트리는 은퇴한 우마무스메에 대한 새로운 경력 기회를 제공하며, 그들의 전문성과 경험을 우리 기업의 다양한 부문에서 활용합니다.</p>
+            <p> 우리는 이들을 다양한 부서에서 채용하고 있으며, 특히 마케팅과 공공 관계 부문에서 그들의 커뮤니케이션 능력과 팀워크를 높이 평가하고 있습니다.</p>
+            <p> 이들에게 직업 훈련과 개인적인 발전을 위한 교육 프로그램을 함께 제공하여, 그들이 새로운 역할에 적응하고 성공할 수 있도록 지원합니다.</p>
+        </div>
+    </main>
+
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.body.insertAdjacentHTML('afterbegin', data);
+            });
+    
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.body.insertAdjacentHTML('beforeend', data);
+            });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('h1').forEach(function(header) {
+                header.addEventListener('click', function() {
+                    // Toggle the display of the next section element
+                    var section = this.nextElementSibling;
+                    
+                    while (section && section.tagName !== 'H1') {
+                        section.style.display = section.style.display === 'block' ? 'none' : 'block';
+                        section = section.nextElementSibling;
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script src="script_about.js?v=1.0"></script>
+
+</body>
+</html>
