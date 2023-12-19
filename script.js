@@ -1,4 +1,4 @@
-// version: 1.11.1
+// version: 1.11.2
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 1007_실전레이스
@@ -95,6 +95,9 @@ function getWeatherEmoji(weather) {
 }
 
 document.getElementById('fileSelect').addEventListener('change', function(e) {
+    const explainImage = document.getElementById('explain_image');
+    explainImage.style.display = 'none';
+
     const filePath = e.target.value;
     raceImage = e.target.options[e.target.selectedIndex].getAttribute('image');
 
