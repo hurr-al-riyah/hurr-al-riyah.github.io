@@ -1,7 +1,7 @@
-// version: 1.11.2
+// version: 1.11.3
 
 let globalData = null;  // graph data 
-let raceCategory = "";   // ex) 1007_실전레이스
+let raceCategory = "";   // ex) 주니어_1007
 let raceDetail = "";    // ex) 더트-단거리.txt -> 더트 단거리
 let raceImage = "";     // ex) 단거리_1400.png
 let raceWeather = "";   // ex) 양호
@@ -378,6 +378,10 @@ async function drawStat(data) {
             let words = raceDetail.split(' ');
             let road = words[0];
             let length = words[1];
+
+            if (length === "마일" && raceCategory === "클래식_1216") {
+                length = "단거리"
+            }
 
             let backgroundColor = "#FFFFFF";
             
