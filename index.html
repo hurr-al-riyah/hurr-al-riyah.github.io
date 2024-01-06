@@ -33,6 +33,7 @@
     <div class="race-select">
         <select title="category" id="categorySelect">
             <option value="" disabled selected>경주 일자 선택</option>
+            <option value="시니어_0106">0106 시니어 추가경기 (GII)</option>
             <option value="클래식_1216">1216 클래식 실전레이스 (GII)</option>
             <option value="클래식_1209">1209 클래식 실전레이스 (GI)</option>
             <option value="클래식_1111">1111 클래식 실전레이스 (GII)</option>
@@ -105,8 +106,15 @@
         <svg id="track-svg" width="800" height="250" style="display:none;"></svg>
 
         <h1>레이스 분석</h1>
+        <div id="late-start-analysis">
+            <h2>늦은 출발 우마무스메</h2>
+            <div id="analysis-0">
+                
+            </div>
+        </div>
+        <br />
         <div id="race-analysis">
-            <b>구간별 목표 속도 (targetSpeed) (단위: m/s)</b>
+            <h2>구간별 목표 속도 (targetSpeed) (단위: m/s)</h2>
             <br />
             <div id="analysis-1">
                 <div id="analysis-targetspeed-section" style="max-width: 800px"></div>

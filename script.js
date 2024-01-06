@@ -145,6 +145,9 @@ function handleSelectedFile(filePath) {
             const lines = contents.split('\n').filter(is_valid_data_line);
             const umaData = {};
             let turns = [];
+            let late = {};
+            let feverStart = {};
+            let feverEnd = {};
 
             lines.forEach(line => {
                 if (line.startsWith("◎Turn")) {
@@ -152,10 +155,31 @@ function handleSelectedFile(filePath) {
                     return;
                 }
 
-                const parts = line.split('/');
-                const name = line.split(':')[1].split(':')[0].trim();
-                const distance = parseFloat(line.split(':')[2].split('/')[0].trim().slice(0, -1));
-                const speed = parseFloat(line.split(':')[3].trim().slice(0, -4));
+                const parts = line.split(':');
+                const namePart = parts[1];
+                const name = namePart.split('(')[0].trim();
+                if (turns.length == 1) {
+                    if (namePart.split('(').length == 1) { // non-late uma check
+                        late[name] = false;
+                    }else if (namePart.split('(').length == 2){    // late uma check
+                        late[name] = true;
+                    }else{                                                      // might be error
+                        late[name] = false;
+                    }
+                }else{
+                    if (namePart.split('(').length == 2 && namePart.split('(')[1].trim() == "흥분)") { // fever check
+                        if (feverStart[name] === undefined) {
+                            feverStart[name] = turns.length;
+                        }
+                    }else{
+                        if (feverStart[name] !== undefined && feverEnd[name] === undefined) {
+                            feverEnd[name] = turns.length;
+                        }
+                    }
+                }
+
+                const distance = parseFloat(parts[2].split('/')[0].trim().slice(0, -1));
+                const speed = parseFloat(parts[3].trim().slice(0, -4));
 
                 if (!(name in umaData)) {
                     umaData[name] = {distance: [], speed: []};
@@ -172,7 +196,10 @@ function handleSelectedFile(filePath) {
                 distance: umaData[label].distance,
                 speed: umaData[label].speed,
                 turns: turns,
-                active: true
+                active: true,
+                late: late[label],
+                feverStart: feverStart[label] === undefined? 0 : feverStart[label],
+                feverEnd: feverEnd[label] === undefined? 0 : feverEnd[label]
             }));
             
             globalData.sort((a, b) => getUmaOrder(a.name) - getUmaOrder(b.name));
@@ -288,7 +315,7 @@ function drawLegend(data) {
     data.forEach((item, index) => {
         const legendItem = document.createElement('div');
         legendItem.classList.add('legend-item');
-        legendItem.textContent = item.name;
+        legendItem.textContent = item.name + (item.late == true ? "❗" : "");
         legendItem.style.color = colors[index];
 
         legendItem.onclick = () => {
@@ -402,7 +429,7 @@ async function drawStat(data) {
 
             tableHtml += `
                 <tr>
-                    <td style="color:${colors[uma_index[umaName]]}">${umaName}</td>
+                    <td style="color:${colors[uma_index[umaName]]}">${umaName + (globalData[uma_index[umaName]].late == true ? "❗" : "")}</td>
                     <td style="${drawStatBar("#cfe2f3", stats.speed, maxSpeed)}">${stats.speed}</td>
                     <td style="${drawStatBar("#f4cccc", stats.stamina, maxStamina)}">${stats.stamina}</td>
                     <td style="${drawStatBar("#fce5cd", stats.power, maxPower)}">${stats.power}</td>
@@ -501,7 +528,6 @@ function drawGraph(data) {
     const y2Min = d3.min(data, uma => d3.min(uma.speed));
     const y2Scale = d3.scaleLinear().domain([y2Min, y2Max]).range([height, 0]);
 
-
     const line = d3.line()
         .x((d, i) => xScale(turns[i])) 
         .y(d => yScale(d));
@@ -544,8 +570,7 @@ function drawGraph(data) {
             exit => exit.remove()
     );
 
-    // 토글
-
+    // 토글(이었던 것). 이제는 table임
     let dataTable = d3.select("#svg-table");
 
     d3.select("#svg").select("svg").on("mousemove", (event) => {
@@ -599,10 +624,20 @@ function drawGraph(data) {
                       </table>`);
     });
     
+    // 흥분 상태 표시
+    svg.selectAll(".fever-bar")
+        .data(data)
+        .join("rect")
+        .attr("class", "fever-bar")
+        .attr("x", d => xScale(d.feverStart * 20))
+        .attr("y", (d, i) => 340 + i)
+        .attr("width", d => d.feverEnd != 0 ? xScale((d.feverEnd - d.feverStart) * 20) : 0)
+        .attr("height", 8)
+        .attr("fill", (d, i) => colors[i])
+        .attr("fill-opacity", (d, i) => data[i].active ? 0.5 : 0)
 
 
     // x축, y축, y보조축
-        
     svg.selectAll("g.axis").remove();  // 기존 축 삭제 (없으면 새로 불러올때 축 겹침)
         
     const tickValues = turns.filter((_, i, arr) => i % Math.ceil(arr.length / 20) === 0);
@@ -693,6 +728,7 @@ function videoInit()
                     const posY = labels.map(label => umaVideoData[label].posY);
                     const stamina = labels.map(label => umaVideoData[label].stamina);
                     const positionKeep = labels.map(label => umaVideoData[label].positionKeep);
+                    const specialStatus = labels.map(label => umaVideoData[label].specialStatus);
 
                     globalVideoData.push({
                         name: umaName,
@@ -701,6 +737,7 @@ function videoInit()
                         posY,
                         stamina,
                         positionKeep,
+                        specialStatus,
                         laneNo: umaVideoData.laneNo,
                         spurtTurn: umaVideoData.spurtTurn
                     });
@@ -724,6 +761,7 @@ function videoInit()
             drawStaminaGraph();
             drawTrack(0);
 
+            raceAnalysisLate();
             raceAnalysisTargetSpeedSection();
         });
     })
@@ -752,6 +790,7 @@ function handleVideoDataSingleUma(data)
         const posY = parseFloat(parts[5]);
         const stamina = parseFloat(parts[6]);
         const positionKeep = parts[8];
+        const specialStatus = parts[11];
         
         if (i === 1) {
             laneNo = posY;
@@ -768,6 +807,7 @@ function handleVideoDataSingleUma(data)
         umaData[i].posY = posY;
         umaData[i].stamina = stamina;
         umaData[i].positionKeep = positionKeep;
+        umaData[i].specialStatus = specialStatus;
 
         if (spurtTurn === 0 && parts[10].indexOf("T") !== -1) {
             spurtTurn = i - 1;
@@ -833,7 +873,8 @@ function drawVideo(turn)
                 + "PosX: " + d.posX[turn].toFixed(2) + " m<br/>"
                 + "PosY: " + d.posY[turn].toFixed(2) + "<br/>"
                 + "Stamina: " + d.stamina[turn].toFixed(2) + "%<br/>"
-                + "positionKeep: " + d.positionKeep[turn])
+                + "positionKeep: " + d.positionKeep[turn] + "<br/>"
+                + "specialStatus: " + d.specialStatus[turn])
             .style("left", (event.pageX) + "px")
             .style("top", (event.pageY - 28) + "px");
     }
@@ -888,6 +929,23 @@ function drawVideo(turn)
         .text(d => d.laneNo)
         .on("mouseover", onMouseOver)
         .on("mouseout", onMouseOut);
+
+    // background of the background (to show specialStatus)    
+    const staminaBarBackgroundBackground = svg.selectAll("rect.bar-background-background")
+        .data(globalVideoData)
+        .join("rect")
+        .attr("class", "bar-background-background")
+        .attr("x", d => xScale(d.posX[turn]) - 26)
+        .attr("y", d => yScale(d.posY[turn]) + 8)
+        .attr("width", 50)
+        .attr("height", 6)
+        .attr("fill", d => {
+            switch (d.specialStatus[turn]) {
+                case 'Fever':
+                    return 'pink';
+                default:
+                    return 'none';
+            }})
 
     const staminaBarBackground = svg.selectAll("rect.bar-background")
         .data(globalVideoData)
@@ -969,10 +1027,12 @@ function updateStaminaTable(turn) {
         .map(uma => {
             const stamina = uma.stamina[turn];
             const diff = turn != 0 ? uma.stamina[turn] - uma.stamina[turn-1] : 0;
+            const status = uma.specialStatus[turn];
             return {
                 name: uma.name,
                 stamina,
-                diff
+                diff,
+                status
             };
         })
         .sort((a, b) => b.posX - a.posX);
@@ -983,7 +1043,7 @@ function updateStaminaTable(turn) {
             umaName = `<strong>${umaName}</strong>`;
         }
         return `<tr style="${uma.isBase ? 'background-color: rgba(0,0,0,0.1);' : ''}">
-                    <td><span style="color: ${colors[uma_index[uma.name]]}">${umaName}</span></td>
+                    <td style="background-color: ${uma.status == "Fever" ? "pink" : "none"}"><span style="color: ${colors[uma_index[uma.name]]}">${umaName}</span></td>
                     <td>${uma.stamina.toFixed(2)}</td>
                     <td>${uma.diff.toFixed(2)}</td>
                 </tr>`;
@@ -1644,7 +1704,24 @@ function videoToFirst() {
     drawTrack(0);
 }
 
-// race analysis
+// race analysis - late
+function raceAnalysisLate() {
+    const targetDiv = document.getElementById('analysis-0');
+    targetDiv.innerHTML = "";
+
+    globalVideoData.forEach((uma, index) => {
+        if (uma.posX[2] == 0) {
+            targetDiv.innerHTML += "<b>" + uma.name + "</b>: 2 turns (0.1 sec) late <br />";
+        }else if (uma.posX[1] == 0) {
+            targetDiv.innerHTML += "<b>" + uma.name + "</b>: 1 turn (0.05 sec) late <br />";
+        }
+    })
+
+    if (targetDiv.innerHTML == "") {
+        targetDiv.innerHTML += "없음 <br />";
+    }
+}
+// race analysis - targetSpeed
 function raceAnalysisTargetSpeedSection() {
     let averageSpeeds = globalVideoData.map(() => []);
 

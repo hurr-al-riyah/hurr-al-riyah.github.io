@@ -134,7 +134,7 @@ button.category {
 }
 
 #select-uma {
-    max-width: 500px;
+    max-width: 400px;
     display: flex;
     justify-content: space-between;
 }
@@ -148,7 +148,7 @@ button.category {
     padding: 5px;
     border: 1px solid #ccc;
     cursor: pointer;
-    width: 150px;
+    width: 160px;
 }
 
 .base-item.selected, .legend-item.selected {
