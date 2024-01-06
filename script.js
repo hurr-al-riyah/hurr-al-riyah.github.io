@@ -1,4 +1,4 @@
-// version: 1.11.3
+const version="1.12.0"
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 주니어_1007
@@ -16,7 +16,7 @@ const colors = [
 var categories = {};
 
 function loadCategories() {
-    fetch('categories.json')
+    fetch('categories.json?v=' + version)
       .then(response => response.json())
       .then(data => {
         categories = data;
@@ -54,7 +54,7 @@ function getUmaOrder(name) {
 }
 
 async function loadUmaStats() {
-    const response = await fetch('umaStats.json');
+    const response = await fetch('umaStats.json?v=' + version);
     const data = await response.json();
     return data;
 }
@@ -702,7 +702,7 @@ const videoTooltip = d3.select("body").append("div")
 
 function videoInit()
 {
-    fetch('raceDataPath.json')
+    fetch('raceDataPath.json?v=' + version)
     .then(response => response.json())
     .then(data => {
         // 값 초기화
