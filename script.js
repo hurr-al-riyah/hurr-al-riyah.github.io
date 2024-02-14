@@ -1,4 +1,4 @@
-const version="1.13.0"
+const version="1.13.1"
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 주니어_1007
@@ -760,7 +760,8 @@ function videoInit()
                         positionKeep,
                         specialStatus,
                         laneNo: umaVideoData.laneNo,
-                        spurtTurn: umaVideoData.spurtTurn
+                        spurtTurn: umaVideoData.spurtTurn,
+                        skillTurn: umaVideoData.skillTurn
                     });
                 })
                 .catch(error => console.error('Error:', error));
@@ -795,6 +796,7 @@ function handleVideoDataSingleUma(data)
     const umaData = {};
     let laneNo = 0;
     let spurtTurn = 0;
+    let skillTurn = 0;  // skill start point
 
     // 첫 번째 line은 skip. 두 번째 line부터 시작 (두 번째 line이 turn 1이므로)
     umaData[0] = {};
@@ -833,9 +835,13 @@ function handleVideoDataSingleUma(data)
         if (spurtTurn === 0 && parts[10].indexOf("T") !== -1) {
             spurtTurn = i - 1;
         }
+        if (parts.length > 12 && skillTurn === 0 && parts[12].indexOf("T") !== -1) {
+            skillTurn = i - 1;
+        }
     };
     umaData.laneNo = laneNo;
     umaData.spurtTurn = spurtTurn;
+    umaData.skillTurn = skillTurn;
 
     return umaData;
 }
@@ -965,6 +971,7 @@ function drawVideo(turn)
                 case 'Fever':
                     return 'pink';
                 default:
+                    if (d.skillTurn != 0 && (d.skillTurn + 100 > turn && d.skillTurn <= turn)) return colors[uma_index[d.name]];
                     return 'none';
             }})
 

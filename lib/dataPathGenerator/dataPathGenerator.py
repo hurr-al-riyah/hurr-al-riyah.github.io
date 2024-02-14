@@ -17,7 +17,7 @@ def generate_json_structure(base_directory):
 
 print(os.getcwd())
 
-base_directory = '../../data/시니어_0210'
+base_directory = 'hurr-al-riyah.github.io/data/시니어_0210'
 
 json_data = generate_json_structure(base_directory)
 
