@@ -1,4 +1,14 @@
 {
+    "시니어_0210": [
+        {"display": "더트 중거리 - 중정 기념", "file": "더트_중거리.txt", "image": "", "course": "300-400-600-400-300", "weather": "다습"},
+        {"display": "잔디 단거리 - 예추신문배", "file": "잔디_단거리.txt", "image": "", "course": "400-300-300", "weather": "양호"},
+        {"display": "잔디 중거리 - 쿠사비상", "file": "잔디_중거리.txt", "image": "", "course": "300-400-600-400-300", "weather": "양호"},
+        {"display": "잔디 장거리 - 조노틀라 컵", "file": "잔디_장거리.txt", "image": "", "course": "600-400-600-400-600-400-600", "weather": "포화"},
+        {"display": "더트 단거리 - 쿤츠하이덴 C", "file": "더트_단거리.txt", "image": "", "course": "600-200-400", "weather": "다습"},
+        {"display": "잔디 마일 - 백연 기념", "file": "잔디_마일.txt", "image": "", "course": "100-300-400-500-300", "weather": "다습"},
+        {"display": "더트 마일 - 카쿠센상", "file": "더트_마일.txt", "image": "", "course": "550-500-550", "weather": "불량"},
+        {"display": "더트 장거리 - 린카이통신배", "file": "더트_장거리.txt", "image": "", "course": "250-200-500-400-500-400-250", "weather": "양호"}
+    ],
     "시니어_0113": [
         {"display": "잔디 단거리 - 상팔동배", "file": "잔디_단거리.txt", "image": "", "course": "300-800-300", "weather": "포화"},
         {"display": "잔디 장거리 - 천청상", "file": "잔디_장거리.txt", "image": "", "course": "200-400-500-800-500-400-200", "weather": "다습"},

@@ -1,4 +1,4 @@
-const version="1.12.2"
+const version="1.13.0"
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 주니어_1007
@@ -148,6 +148,7 @@ function handleSelectedFile(filePath) {
             let late = {};
             let feverStart = {};
             let feverEnd = {};
+            let skillStart = {};
 
             lines.forEach(line => {
                 if (line.startsWith("◎Turn")) {
@@ -167,14 +168,22 @@ function handleSelectedFile(filePath) {
                         late[name] = false;
                     }
                 }else{
-                    if (namePart.split('(').length == 2 && namePart.split('(')[1].trim() == "흥분)") { // fever check
+                    if (namePart.split('(').length == 2 && namePart.split('(')[1].trim().split(')')[0] == "흥분") { // fever check
                         if (feverStart[name] === undefined) {
                             feverStart[name] = turns.length;
                         }
-                    }else{
+                    }else{  // 처음으로 흥분이 아니게 된 순간
                         if (feverStart[name] !== undefined && feverEnd[name] === undefined) {
                             feverEnd[name] = turns.length;
                         }
+                    }
+
+                    // 스킬
+                    if (namePart.split('(').length == 2 && namePart.split('(')[1].trim().split(')')[0] == "스킬" && skillStart[name] === undefined) { // skill check
+                        skillStart[name] = turns.length;
+                    }
+                    if (namePart.split('(').length == 3 && skillStart[name] === undefined) {
+                        skillStart[name] = turns.length;
                     }
                 }
 
@@ -199,7 +208,8 @@ function handleSelectedFile(filePath) {
                 active: true,
                 late: late[label],
                 feverStart: feverStart[label] === undefined? 0 : feverStart[label],
-                feverEnd: feverEnd[label] === undefined? 0 : feverEnd[label]
+                feverEnd: feverEnd[label] === undefined? 0 : feverEnd[label],
+                skillStart: skillStart[label] === undefined? 0 : skillStart[label]
             }));
             
             globalData.sort((a, b) => getUmaOrder(a.name) - getUmaOrder(b.name));
@@ -636,6 +646,17 @@ function drawGraph(data) {
         .attr("fill", (d, i) => colors[i])
         .attr("fill-opacity", (d, i) => data[i].active ? 0.5 : 0)
 
+    // 스킬 발동 순간 표시
+    svg.selectAll(".skill-marker")
+        .data(data)
+        .join("text")
+        .attr("class", "skill-marker")
+        .attr("x", d => xScale(d.skillStart * 20))
+        .attr("y", (d, i) => 340 + i)
+        .attr("dy", "0.35em")
+        .text(d => d.skillStart !== 0 ? "✓" : "")
+        .attr("fill", (d, i) => colors[i])
+        .attr("fill-opacity", (d, i) => data[i].active ? 1 : 0)
 
     // x축, y축, y보조축
     svg.selectAll("g.axis").remove();  // 기존 축 삭제 (없으면 새로 불러올때 축 겹침)

@@ -33,6 +33,7 @@
     <div class="race-select">
         <select title="category" id="categorySelect">
             <option value="" disabled selected>경주 일자 선택</option>
+            <option value="시니어_0210">0210 시니어 실전레이스 (GI)</option>
             <option value="시니어_0113">0113 시니어 실전레이스 (GI)</option>
             <option value="시니어_0106">0106 시니어 추가경기 (GII)</option>
             <option value="클래식_1216">1216 클래식 실전레이스 (GII)</option>
@@ -128,19 +129,19 @@
     </div>
 
     <script>
-        fetch('header.html?v=1.12.2')
+        fetch('header.html?v=1.13.0')
             .then(response => response.text())
             .then(data => {
                 document.body.insertAdjacentHTML('afterbegin', data);
             });
     
-        fetch('footer.html?v=1.12.2')
+        fetch('footer.html?v=1.13.0')
             .then(response => response.text())
             .then(data => {
                 document.body.insertAdjacentHTML('beforeend', data);
             });
     </script>
     
-    <script src="script.js?v=1.12.2"></script>
+    <script src="script.js?v=1.13.0"></script>
 </body>
 </html>
