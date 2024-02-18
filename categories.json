@@ -1,4 +1,14 @@
 {
+    "시니어_0217": [
+        {"display": "더트 중거리 - 스티비오 컵", "file": "더트_중거리.txt", "image": "", "course": "500-500-600-300-300", "weather": "양호"},
+        {"display": "잔디 장거리 - 금강상", "file": "잔디_장거리.txt", "image": "", "course": "1000-600-1000-400-400", "weather": "불량"},
+        {"display": "잔디 중거리 - 붕려 기념", "file": "잔디_중거리.txt", "image": "", "course": "200-200-600-600-400", "weather": "다습"},
+        {"display": "더트 장거리 - 액스 트로피", "file": "더트_장거리.txt", "image": "", "course": "200-400-500-400-500-400-400", "weather": "양호"},
+        {"display": "더트 단거리 - 댄버 스테이크스", "file": "더트_단거리.txt", "image": "", "course": "400-600-200", "weather": "포화"},
+        {"display": "잔디 단거리 - 금록상", "file": "잔디_단거리.txt", "image": "", "course": "400-600-200", "weather": "양호"},
+        {"display": "잔디 마일 - 베니토 오크스", "file": "잔디_마일.txt", "image": "", "course": "550-700-350", "weather": "다습"},
+        {"display": "더트 마일 - 베이리네 컵", "file": "더트_마일.txt", "image": "", "course": "600-600-400", "weather": "포화"}
+    ],
     "시니어_0210": [
         {"display": "더트 중거리 - 중정 기념", "file": "더트_중거리.txt", "image": "", "course": "300-400-600-400-300", "weather": "다습"},
         {"display": "잔디 단거리 - 예추신문배", "file": "잔디_단거리.txt", "image": "", "course": "400-300-300", "weather": "양호"},

@@ -33,6 +33,7 @@
     <div class="race-select">
         <select title="category" id="categorySelect">
             <option value="" disabled selected>경주 일자 선택</option>
+            <option value="시니어_0217">0217 시니어 실전레이스 (GI)</option>
             <option value="시니어_0210">0210 시니어 실전레이스 (GI)</option>
             <option value="시니어_0113">0113 시니어 실전레이스 (GI)</option>
             <option value="시니어_0106">0106 시니어 추가경기 (GII)</option>
@@ -83,7 +84,7 @@
 
     <br />
 
-    <div id="uma-stats" style="width: 600px;"></div>
+    <div id="uma-stats" style="width: 620px;"></div>
 
     <div id="race-video" style="display: none;">
         <h1>레이스 영상</h1>
@@ -129,19 +130,19 @@
     </div>
 
     <script>
-        fetch('header.html?v=1.13.1')
+        fetch('header.html?v=1.13.2')
             .then(response => response.text())
             .then(data => {
                 document.body.insertAdjacentHTML('afterbegin', data);
             });
     
-        fetch('footer.html?v=1.13.1')
+        fetch('footer.html?v=1.13.2')
             .then(response => response.text())
             .then(data => {
                 document.body.insertAdjacentHTML('beforeend', data);
             });
     </script>
     
-    <script src="script.js?v=1.13.1"></script>
+    <script src="script.js?v=1.13.2"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-const version="1.13.1"
+const version="1.13.2"
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 주니어_1007
@@ -1809,7 +1809,7 @@ function raceAnalysisTargetSpeedSection() {
 
     let nameHeader = document.createElement('th');
     nameHeader.textContent = '우마무스메 이름';
-    nameHeader.style.minWidth = `175px`;
+    nameHeader.style.minWidth = `185px`;
     headerRow.appendChild(nameHeader);
 
     let sectionNames = []; // 나중에 그래프 x축에 사용될 것
