@@ -1,4 +1,4 @@
-const version="1.13.5"
+const version="1.13.6"
 
 let globalData = null;  // graph data 
 let raceCategory = "";   // ex) 주니어_1007
