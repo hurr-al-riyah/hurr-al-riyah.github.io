@@ -1,7 +1,7 @@
 import csv
 import json
 
-csv_file_path = 'hurr-al-riyah.github.io/lib/csv2json/data/stat_0217.csv'
+csv_file_path = 'hurr-al-riyah.github.io/lib/csv2json/data/stat_0224.csv'
 json_file_path = 'hurr-al-riyah.github.io/lib/csv2json/data/umaStats.json'
 
 new_data = {}
